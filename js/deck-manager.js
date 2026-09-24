@@ -15,7 +15,7 @@ const DeckManager = {
   async loadPolyphones() {
     if (this.polyphoneMap) return this.polyphoneMap;
     try {
-      const res = await fetch('./data/polyphones.json?v=40');
+      const res = await fetch('./data/polyphones.json?v=41');
       if (res.ok) {
         this.polyphoneMap = await res.json();
       }
@@ -31,7 +31,7 @@ const DeckManager = {
   async loadLevelIndex() {
     if (this.levelIndex) return this.levelIndex;
     try {
-      const res = await fetch('./data/hsk_level_index.json?v=40');
+      const res = await fetch('./data/hsk_level_index.json?v=41');
       if (res.ok) {
         this.levelIndex = await res.json();
       }
@@ -165,7 +165,7 @@ const DeckManager = {
 
     try {
       const filePrefix = version === '2.0' ? 'hsk2_' : 'hsk3_';
-      const response = await fetch(`./data/${filePrefix}${levelNum}.json?v=40`);
+      const response = await fetch(`./data/${filePrefix}${levelNum}.json?v=41`);
       if (!response.ok) {
         throw new Error(`Failed to load HSK ${version} Level/Band ${levelNum}`);
       }

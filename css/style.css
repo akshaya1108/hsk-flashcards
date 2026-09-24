@@ -1586,7 +1586,7 @@ html, body {
   justify-content: center;
   position: relative;
   width: 100%;
-  max-width: 360px;
+  max-width: 380px;
   margin: auto;
   box-sizing: border-box;
   animation: deckFadeIn 0.2s cubic-bezier(0.16, 1, 0.3, 1);
@@ -1615,7 +1615,7 @@ html, body {
   padding: 24px 6px;
   min-height: 80px;
   min-width: 32px;
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(255, 255, 255, 0.88);
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -1662,8 +1662,8 @@ html, body {
 .modal-card-stage {
   position: relative;
   width: 100%;
-  max-width: 360px;
-  height: 500px;
+  max-width: 380px;
+  height: 510px;
   max-height: 82vh;
   max-height: 82dvh;
   display: flex;
@@ -1679,7 +1679,7 @@ html, body {
   animation: none;
   width: 100%;
   height: 100%;
-  max-width: 360px;
+  max-width: 380px;
   max-height: 82vh;
   max-height: 82dvh;
   overflow: hidden;
@@ -1704,24 +1704,24 @@ html, body {
 
 @media (max-width: 440px) {
   #word-detail-modal {
-    padding: 12px 14px;
+    padding: 12px 6px;
   }
   .modal-deck-container {
-    width: calc(100% - 64px);
-    max-width: 350px;
+    width: calc(100% - 46px);
+    max-width: 360px;
   }
   .modal-card-stage {
     max-width: 100%;
   }
   .modal-nav-chevron.nav-chevron-prev {
-    left: -34px;
+    left: -24px;
   }
   .modal-nav-chevron.nav-chevron-next {
-    right: -34px;
+    right: -24px;
   }
   .modal-nav-chevron svg {
-    width: 22px;
-    height: 22px;
+    width: 20px;
+    height: 20px;
   }
 }
 
@@ -1840,13 +1840,14 @@ html, body {
 .detail-level-badge {
   font-size: 11px;
   font-weight: 700;
-  padding: 2.5px 7px;
-  border-radius: var(--radius-full);
+  padding: 2px 6px;
+  border-radius: 4px;
   line-height: 1.2;
   white-space: nowrap;
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  letter-spacing: 0.1px;
 }
 
 .detail-level-badge.level-badge-hsk3 {

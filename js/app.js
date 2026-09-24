@@ -957,16 +957,16 @@ const App = {
       if (hskInfo) {
         if (hskInfo.hsk3 && hskInfo.hsk2 && hskInfo.hsk3 !== hskInfo.hsk2) {
           levelBadgesHTML = `
-            <span class="detail-level-badge level-badge-hsk3" title="HSK 3.0 Band ${hskInfo.hsk3}">3.0 ${hskInfo.hsk3}级</span>
-            <span class="detail-level-badge level-badge-hsk2" title="HSK 2.0 Level ${hskInfo.hsk2}">2.0 ${hskInfo.hsk2}级</span>
+            <span class="detail-level-badge level-badge-hsk3" title="HSK 3.0 Band ${hskInfo.hsk3}">3.0-${hskInfo.hsk3}级</span>
+            <span class="detail-level-badge level-badge-hsk2" title="HSK 2.0 Level ${hskInfo.hsk2}">2.0-${hskInfo.hsk2}级</span>
           `;
         } else if (hskInfo.hsk3) {
-          levelBadgesHTML = `<span class="detail-level-badge level-badge-hsk3" title="HSK 3.0 Band ${hskInfo.hsk3}">3.0 ${hskInfo.hsk3}级</span>`;
+          levelBadgesHTML = `<span class="detail-level-badge level-badge-hsk3" title="HSK 3.0 Band ${hskInfo.hsk3}">3.0-${hskInfo.hsk3}级</span>`;
         } else if (hskInfo.hsk2) {
-          levelBadgesHTML = `<span class="detail-level-badge level-badge-hsk2" title="HSK 2.0 Level ${hskInfo.hsk2}">2.0 ${hskInfo.hsk2}级</span>`;
+          levelBadgesHTML = `<span class="detail-level-badge level-badge-hsk2" title="HSK 2.0 Level ${hskInfo.hsk2}">2.0-${hskInfo.hsk2}级</span>`;
         }
       } else if (w.level) {
-        levelBadgesHTML = `<span class="detail-level-badge level-badge-hsk3" title="HSK Level ${w.level}">3.0 ${w.level}级</span>`;
+        levelBadgesHTML = `<span class="detail-level-badge level-badge-hsk3" title="HSK Level ${w.level}">3.0-${w.level}级</span>`;
       }
 
       return `
