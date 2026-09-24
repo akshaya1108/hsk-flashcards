@@ -1629,17 +1629,17 @@ html, body {
 }
 
 .modal-nav-chevron.nav-chevron-prev {
-  left: -32px;
+  left: -44px;
 }
 
 .modal-nav-chevron.nav-chevron-next {
-  right: -32px;
+  right: -44px;
 }
 
 .modal-nav-chevron svg {
   display: block;
-  width: 22px;
-  height: 22px;
+  width: 24px;
+  height: 24px;
   filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.45));
 }
 
@@ -1702,26 +1702,26 @@ html, body {
   cursor: grabbing;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 440px) {
   #word-detail-modal {
     padding: 12px 14px;
   }
   .modal-deck-container {
-    width: calc(100% - 24px);
-    max-width: 360px;
+    width: calc(100% - 64px);
+    max-width: 350px;
   }
   .modal-card-stage {
     max-width: 100%;
   }
   .modal-nav-chevron.nav-chevron-prev {
-    left: -20px;
+    left: -34px;
   }
   .modal-nav-chevron.nav-chevron-next {
-    right: -20px;
+    right: -34px;
   }
   .modal-nav-chevron svg {
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
   }
 }
 
@@ -1818,8 +1818,9 @@ html, body {
 .card-header-meta {
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 5px;
   flex-shrink: 0;
+  flex-wrap: nowrap;
 }
 
 .detail-index-pill {
@@ -1827,21 +1828,37 @@ html, body {
   font-weight: 700;
   color: var(--sage);
   background: var(--sage-light);
-  padding: 3px 8px;
+  padding: 2.5px 7px;
   border-radius: var(--radius-full);
   line-height: 1.2;
   white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .detail-level-badge {
   font-size: 11px;
   font-weight: 700;
-  color: var(--slate);
-  background: var(--slate-light);
-  padding: 3px 8px;
+  padding: 2.5px 7px;
   border-radius: var(--radius-full);
   line-height: 1.2;
   white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.detail-level-badge.level-badge-hsk3 {
+  background: rgba(78, 122, 88, 0.12);
+  color: #2D6A4F;
+  border: 1px solid rgba(78, 122, 88, 0.22);
+}
+
+.detail-level-badge.level-badge-hsk2 {
+  background: rgba(74, 107, 130, 0.12);
+  color: #3E647D;
+  border: 1px solid rgba(74, 107, 130, 0.22);
 }
 
 .card-header-actions {
@@ -1960,6 +1977,11 @@ html, body {
   gap: 4px;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
+}
+
+.study-header .custom-deck-popover {
+  top: 44px;
+  right: 0;
 }
 
 .custom-deck-popover.visible {

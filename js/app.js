@@ -541,7 +541,7 @@ const App = {
             <button class="btn-card-action btn-speak" data-hanzi="${w.hanzi}" title="Listen" aria-label="Listen">
               ${Icons.speaker(16, '#4E7A58')}
             </button>
-            <button class="btn-card-action btn-remember ${isRem ? 'active' : ''}" data-hanzi="${w.hanzi}" title="Remember" aria-label="Remember">
+            <button class="btn-card-action btn-remember ${isRem ? 'active' : ''}" data-hanzi="${w.hanzi}" title="Bookmark" aria-label="Bookmark">
               ${remIcon}
             </button>
           </div>
@@ -951,20 +951,35 @@ const App = {
     const buildCardHtml = (w, versions, activeIdx) => {
       const isRem = DeckManager.isRemembered(w.hanzi);
 
-      // Clean, small, uniform HSK level pill
-      const wordLevel = w.level || (DeckManager.getWordHskLevels && (DeckManager.getWordHskLevels(w.hanzi)?.hsk3 || DeckManager.getWordHskLevels(w.hanzi)?.hsk2)) || 1;
+      // Compact, uniform curriculum level badges (e.g. 3.0 4级 and 2.0 6级)
+      const hskInfo = DeckManager.getWordHskLevels(w.hanzi);
+      let levelBadgesHTML = '';
+      if (hskInfo) {
+        if (hskInfo.hsk3 && hskInfo.hsk2 && hskInfo.hsk3 !== hskInfo.hsk2) {
+          levelBadgesHTML = `
+            <span class="detail-level-badge level-badge-hsk3" title="HSK 3.0 Band ${hskInfo.hsk3}">3.0 ${hskInfo.hsk3}级</span>
+            <span class="detail-level-badge level-badge-hsk2" title="HSK 2.0 Level ${hskInfo.hsk2}">2.0 ${hskInfo.hsk2}级</span>
+          `;
+        } else if (hskInfo.hsk3) {
+          levelBadgesHTML = `<span class="detail-level-badge level-badge-hsk3" title="HSK 3.0 Band ${hskInfo.hsk3}">3.0 ${hskInfo.hsk3}级</span>`;
+        } else if (hskInfo.hsk2) {
+          levelBadgesHTML = `<span class="detail-level-badge level-badge-hsk2" title="HSK 2.0 Level ${hskInfo.hsk2}">2.0 ${hskInfo.hsk2}级</span>`;
+        }
+      } else if (w.level) {
+        levelBadgesHTML = `<span class="detail-level-badge level-badge-hsk3" title="HSK Level ${w.level}">3.0 ${w.level}级</span>`;
+      }
 
       return `
         <div class="card-header-bar">
           <div class="card-header-meta">
             <span class="detail-index-pill">#${w.deckIndex || w.id}</span>
-            <span class="detail-level-badge">HSK ${wordLevel}</span>
+            ${levelBadgesHTML}
           </div>
           <div class="card-header-actions">
             <button class="btn-icon btn-card-add-custom" id="btn-card-add-custom" title="Add to Custom Deck">
               ${Icons.plus(18)}
             </button>
-            <button class="btn-icon btn-modal-remember ${isRem ? 'active' : ''}" title="Remember">
+            <button class="btn-icon btn-modal-remember ${isRem ? 'active' : ''}" title="Bookmark">
               ${isRem ? Icons.bookmarkFilled(19, '#E07A5F') : Icons.bookmark(19, '#A39E93')}
             </button>
             <button class="btn-icon btn-modal-close" title="Close">${Icons.close(19)}</button>
@@ -1734,9 +1749,15 @@ const App = {
           <span class="study-deck-title">${FlashcardEngine.config.deckLabel}</span>
           <span class="study-batch-tag">${isReviewRound ? 'Retry Round' : `Batch #${batchNumber}`} · ${index} / ${total}</span>
         </div>
-        <button class="btn-icon btn-study-remember ${isRem ? 'active' : ''}" title="Remember">
-          ${isRem ? Icons.bookmarkFilled(20, '#E07A5F') : Icons.bookmark(20, '#A39E93')}
-        </button>
+        <div class="study-header-actions" style="position: relative; display: flex; align-items: center; gap: 4px;">
+          <button class="btn-icon btn-card-add-custom" id="btn-fc-add-custom" title="Add to Custom Deck">
+            ${Icons.plus(19)}
+          </button>
+          <button class="btn-icon btn-study-remember ${isRem ? 'active' : ''}" title="Bookmark">
+            ${isRem ? Icons.bookmarkFilled(20, '#E07A5F') : Icons.bookmark(20, '#A39E93')}
+          </button>
+          <div class="custom-deck-popover" id="fc-deck-popover"></div>
+        </div>
       </div>
 
       <div class="study-progress-bar">
@@ -1917,6 +1938,29 @@ const App = {
     container.querySelector('#btn-study-exit').onclick = () => {
       this.openStudyExitConfirmModal();
     };
+
+    // Custom Deck popover in flashcard mode
+    const fcAddCustomBtn = container.querySelector('#btn-fc-add-custom');
+    const fcPopover = container.querySelector('#fc-deck-popover');
+    if (fcAddCustomBtn && fcPopover) {
+      fcAddCustomBtn.onclick = (e) => {
+        e.stopPropagation();
+        const isVisible = fcPopover.classList.contains('visible');
+        if (isVisible) {
+          fcPopover.classList.remove('visible');
+        } else {
+          this.renderCardCustomDeckPopover(activeCard, fcPopover);
+          fcPopover.classList.add('visible');
+        }
+      };
+      const closePopoverHandler = (e) => {
+        if (!fcPopover.contains(e.target) && e.target !== fcAddCustomBtn && !fcAddCustomBtn.contains(e.target)) {
+          fcPopover.classList.remove('visible');
+          document.removeEventListener('click', closePopoverHandler);
+        }
+      };
+      document.addEventListener('click', closePopoverHandler);
+    }
 
     container.querySelector('.btn-study-remember').onclick = () => {
       const nowRem = DeckManager.toggleRemember(activeCard);
@@ -2168,12 +2212,12 @@ const App = {
     const customDecks = DeckManager.getCustomDecks();
 
     let html = `
-      <!-- Remember Deck Card -->
+      <!-- Bookmarked Deck Card -->
       <div class="deck-summary-card" data-deck-id="remember">
         <div class="deck-card-top">
           <div class="deck-icon-badge remember-badge">${Icons.bookmarkFilled(22, '#E07A5F')}</div>
           <div class="deck-details">
-            <h3 class="deck-name">Remember Deck</h3>
+            <h3 class="deck-name">Bookmarked</h3>
             <span class="deck-meta">${rememberWords.length} words saved</span>
           </div>
         </div>

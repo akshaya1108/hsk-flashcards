@@ -15,7 +15,7 @@ const DeckManager = {
   async loadPolyphones() {
     if (this.polyphoneMap) return this.polyphoneMap;
     try {
-      const res = await fetch('./data/polyphones.json?v=39');
+      const res = await fetch('./data/polyphones.json?v=40');
       if (res.ok) {
         this.polyphoneMap = await res.json();
       }
@@ -31,7 +31,7 @@ const DeckManager = {
   async loadLevelIndex() {
     if (this.levelIndex) return this.levelIndex;
     try {
-      const res = await fetch('./data/hsk_level_index.json?v=39');
+      const res = await fetch('./data/hsk_level_index.json?v=40');
       if (res.ok) {
         this.levelIndex = await res.json();
       }
@@ -124,7 +124,7 @@ const DeckManager = {
   // Predefined standard deck definitions
   DECK_DEFINITIONS: [
     // --- Master Vocabulary (All Words) ---
-    { id: 'all_words', label: 'All Words (Master List)', version: '3.0', levels: [1, 2, 3, 4, 5, 6], group: 'Master Vocabulary', isMaster: true },
+    { id: 'all_words', label: 'All Words', version: '3.0', levels: [1, 2, 3, 4, 5, 6], group: 'Master Vocabulary', isMaster: true },
 
     // --- HSK 3.0 (New Standard) ---
     { id: 'hsk3_1', label: 'HSK 3.0 - Band 1', version: '3.0', levels: [1], group: 'HSK 3.0 (New Standard)' },
@@ -153,7 +153,7 @@ const DeckManager = {
     { id: 'hsk2_6_cum', label: 'HSK 2.0 - Level 6 (including Levels 1-6)', version: '2.0', levels: [1, 2, 3, 4, 5, 6], group: 'HSK 2.0 (Classic)' },
 
     // --- Saved / Custom ---
-    { id: 'remember', label: 'Remember Deck', isRemember: true, group: 'Custom & Saved' }
+    { id: 'remember', label: 'Bookmarked', isRemember: true, group: 'Custom & Saved' }
   ],
 
   // Load a single HSK JSON file
@@ -165,7 +165,7 @@ const DeckManager = {
 
     try {
       const filePrefix = version === '2.0' ? 'hsk2_' : 'hsk3_';
-      const response = await fetch(`./data/${filePrefix}${levelNum}.json?v=39`);
+      const response = await fetch(`./data/${filePrefix}${levelNum}.json?v=40`);
       if (!response.ok) {
         throw new Error(`Failed to load HSK ${version} Level/Band ${levelNum}`);
       }
