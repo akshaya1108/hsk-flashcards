@@ -511,6 +511,8 @@ def clean_word_meanings_from_forms(forms, hanzi):
         for f in target_forms:
             meanings.extend([clean_text(m) for m in f.get('m', [])])
 
+    return pinyin, '; '.join(meanings)
+
 LEVEL_APPROPRIATE_SENTENCE_OVERRIDES = {
     ('中', 'zhōng'): {
         'zh': '我们中间有三个人是老师。',
@@ -808,6 +810,10 @@ def main():
     hsk3_bands, anki_all_notes = load_anki_decks()
     sents_json_list, sents_json_token_map = load_sentences_json()
     tatoeba_clean = load_tatoeba()
+    hsk2_curated = {}
+    if os.path.exists('data/hsk2_curated_sentences.json'):
+        with open('data/hsk2_curated_sentences.json', 'r', encoding='utf-8') as f:
+            hsk2_curated = json.load(f)
 
     # Index Anki notes by (hanzi, pinyin_sort) and by hanzi
     anki_by_hz_py = {}
@@ -888,7 +894,9 @@ def main():
             pinyin = pinyin or form_pinyin
             meaning = form_meaning
 
-            if hz in sents_json_token_map:
+            if hz in hsk2_curated:
+                example = hsk2_curated[hz]
+            elif hz in sents_json_token_map:
                 example = sents_json_token_map[hz]
             elif len(hz) >= 4:
                 for s in sents_json_list:

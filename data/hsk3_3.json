@@ -11,8 +11,7 @@
       "py": "Nàge háizi yǒudiǎnr ǎi.",
       "en": "That child is a little short."
     },
-    "id": 1,
-    "pos": "Adjective"
+    "id": 1
   },
   {
     "hanzi": "爱人",
@@ -26,8 +25,7 @@
       "py": "Tā shì wǒ de àirén.",
       "en": "She is my spouse."
     },
-    "id": 2,
-    "pos": "Noun"
+    "id": 2
   },
   {
     "hanzi": "安静",
@@ -41,8 +39,7 @@
       "py": "Qǐng ānjìng yìdiǎnr.",
       "en": "Please be a little quieter."
     },
-    "id": 3,
-    "pos": "Adjective"
+    "id": 3
   },
   {
     "hanzi": "安全",
@@ -56,8 +53,7 @@
       "py": "Wǎnshang yí gè rén chūqù bù ānquán.",
       "en": "It is not safe to go out alone at night."
     },
-    "id": 4,
-    "pos": "Adjective"
+    "id": 4
   },
   {
     "hanzi": "阿姨",
@@ -71,8 +67,7 @@
       "py": "Wǒ āyí zhù zài Běijīng.",
       "en": "My aunt lives in Beijing."
     },
-    "id": 5,
-    "pos": "Noun"
+    "id": 5
   },
   {
     "hanzi": "把",
@@ -86,8 +81,7 @@
       "py": "Qǐng bǎ mén dǎkāi.",
       "en": "Please open the door."
     },
-    "id": 6,
-    "pos": "Measure Word, Preposition"
+    "id": 6
   },
   {
     "hanzi": "办",
@@ -101,8 +95,7 @@
       "py": "Wǒ xiàwǔ yào bàn diǎnr shì.",
       "en": "I have some things to handle this afternoon."
     },
-    "id": 7,
-    "pos": "Verb"
+    "id": 7
   },
   {
     "hanzi": "搬",
@@ -116,8 +109,7 @@
       "py": "Wǒmen míngtiān bān zhuōzi.",
       "en": "We will move the table tomorrow."
     },
-    "id": 8,
-    "pos": "Verb"
+    "id": 8
   },
   {
     "hanzi": "办法",
@@ -131,8 +123,7 @@
       "py": "Zhège bànfǎ hěn hǎo.",
       "en": "This method is very good."
     },
-    "id": 9,
-    "pos": "Noun"
+    "id": 9
   },
   {
     "hanzi": "办公室",
@@ -146,8 +137,7 @@
       "py": "Wǒ bàba zài bàngōngshì gōngzuò.",
       "en": "My dad works in an office."
     },
-    "id": 10,
-    "pos": "Noun"
+    "id": 10
   },
   {
     "hanzi": "帮助",
@@ -161,8 +151,7 @@
       "py": "Xièxie nǐ de bāngzhù.",
       "en": "Thank you for your help."
     },
-    "id": 11,
-    "pos": "Verb"
+    "id": 11
   },
   {
     "hanzi": "班级",
@@ -176,8 +165,7 @@
       "py": "Wǒmen bānjí yǒu sānshí gè rén.",
       "en": "Our class has thirty people."
     },
-    "id": 12,
-    "pos": "Noun"
+    "id": 12
   },
   {
     "hanzi": "搬家",
@@ -191,8 +179,7 @@
       "py": "Wǒ xià gè yuè yào bānjiā.",
       "en": "I will move house next month."
     },
-    "id": 13,
-    "pos": "Verb"
+    "id": 13
   },
   {
     "hanzi": "半天",
@@ -206,8 +193,7 @@
       "py": "Wǒ děng le nǐ bàntiān.",
       "en": "I waited for you for a long time."
     },
-    "id": 14,
-    "pos": "Numeral, Measure Word"
+    "id": 14
   },
   {
     "hanzi": "饱",
@@ -221,8 +207,7 @@
       "py": "Wǒ yǐjīng chībǎo le.",
       "en": "I am already full."
     },
-    "id": 15,
-    "pos": "Adjective"
+    "id": 15
   },
   {
     "hanzi": "报纸",
@@ -236,8 +221,7 @@
       "py": "Wǒ měitiān kàn bàozhǐ.",
       "en": "I read newspapers every day."
     },
-    "id": 16,
-    "pos": "Noun"
+    "id": 16
   },
   {
     "hanzi": "北",
@@ -251,8 +235,7 @@
       "py": "Běijīng zài Zhōngguó běifāng.",
       "en": "Beijing is in northern China."
     },
-    "id": 17,
-    "pos": "Noun"
+    "id": 17
   },
   {
     "hanzi": "被",
@@ -266,8 +249,7 @@
       "py": "Wǒ de shū bèi mèimei názǒu le.",
       "en": "My book was taken away by my younger sister."
     },
-    "id": 18,
-    "pos": "Preposition"
+    "id": 18
   },
   {
     "hanzi": "北方",
@@ -281,8 +263,7 @@
       "py": "Zhōngguó běifāng dōngtiān hěn lěng.",
       "en": "Winter in northern China is very cold."
     },
-    "id": 19,
-    "pos": "Noun"
+    "id": 19
   },
   {
     "hanzi": "变",
@@ -296,8 +277,7 @@
       "py": "Tiānqì biàn lěng le.",
       "en": "The weather became cold."
     },
-    "id": 20,
-    "pos": "Verb"
+    "id": 20
   },
   {
     "hanzi": "遍",
@@ -311,8 +291,7 @@
       "py": "Zhège zì wǒ xiě le hěn duō biàn.",
       "en": "I wrote this character many times."
     },
-    "id": 21,
-    "pos": "Measure Word"
+    "id": 21
   },
   {
     "hanzi": "变成",
@@ -326,8 +305,7 @@
       "py": "Shuǐ biànchéng bīng le.",
       "en": "The water turned into ice."
     },
-    "id": 22,
-    "pos": "Verb"
+    "id": 22
   },
   {
     "hanzi": "变化",
@@ -341,8 +319,7 @@
       "py": "Zhèlǐ biànhuà hěn dà.",
       "en": "There have been big changes here."
     },
-    "id": 23,
-    "pos": "Verb, Noun"
+    "id": 23
   },
   {
     "hanzi": "表演",
@@ -356,8 +333,7 @@
       "py": "Tāmen zhèngzài biǎoyǎn jiémù.",
       "en": "They are performing a show."
     },
-    "id": 24,
-    "pos": "Verb"
+    "id": 24
   },
   {
     "hanzi": "别的",
@@ -371,8 +347,7 @@
       "py": "Wǒ xiǎng mǎi bié de yánsè.",
       "en": "I want to buy another color."
     },
-    "id": 25,
-    "pos": "Pronoun"
+    "id": 25
   },
   {
     "hanzi": "别人",
@@ -386,8 +361,7 @@
       "py": "Bú yào gàosu biérén.",
       "en": "Don’t tell other people."
     },
-    "id": 26,
-    "pos": "Pronoun"
+    "id": 26
   },
   {
     "hanzi": "笔记",
@@ -401,8 +375,7 @@
       "py": "Qǐng jì yíxià bǐjì.",
       "en": "Please take some notes."
     },
-    "id": 27,
-    "pos": "Noun"
+    "id": 27
   },
   {
     "hanzi": "比较",
@@ -416,8 +389,7 @@
       "py": "Zhège wèntí bǐjiào nán.",
       "en": "This question is relatively difficult."
     },
-    "id": 28,
-    "pos": "Adverb, Verb, Noun"
+    "id": 28
   },
   {
     "hanzi": "笔记本",
@@ -431,8 +403,7 @@
       "py": "Wǒ mǎi le yí gè xīn bǐjìběn.",
       "en": "I bought a new notebook."
     },
-    "id": 29,
-    "pos": "Noun"
+    "id": 29
   },
   {
     "hanzi": "冰",
@@ -446,8 +417,7 @@
       "py": "Shuǐ lǐ yǒu hěn duō bīng.",
       "en": "There is a lot of ice in the water."
     },
-    "id": 30,
-    "pos": "Noun, Verb"
+    "id": 30
   },
   {
     "hanzi": "冰激凌",
@@ -461,8 +431,7 @@
       "py": "Xiàtiān wǒ xǐhuan chī bīngjīlíng.",
       "en": "In summer I like eating ice cream."
     },
-    "id": 31,
-    "pos": "Noun"
+    "id": 31
   },
   {
     "hanzi": "病人",
@@ -476,8 +445,7 @@
       "py": "Nàge bìngrén xūyào xiūxi.",
       "en": "That patient needs rest."
     },
-    "id": 32,
-    "pos": "Noun"
+    "id": 32
   },
   {
     "hanzi": "宾馆",
@@ -491,8 +459,7 @@
       "py": "Wǒmen zhù zài bīnguǎn.",
       "en": "We stay at a hotel."
     },
-    "id": 33,
-    "pos": "Noun"
+    "id": 33
   },
   {
     "hanzi": "冰箱",
@@ -506,8 +473,7 @@
       "py": "Bīngxiāng lǐ yǒu shuǐguǒ.",
       "en": "There is fruit in the refrigerator."
     },
-    "id": 34,
-    "pos": "Noun"
+    "id": 34
   },
   {
     "hanzi": "比如",
@@ -521,8 +487,7 @@
       "py": "Bǐrú shuō, wǒ xǐhuan Zhōngguó cài.",
       "en": "For example, I like Chinese food."
     },
-    "id": 35,
-    "pos": "Verb"
+    "id": 35
   },
   {
     "hanzi": "比赛",
@@ -536,8 +501,7 @@
       "py": "Jīntiān yǒu lánqiú bǐsài.",
       "en": "There is a basketball match today."
     },
-    "id": 36,
-    "pos": "Verb, Noun"
+    "id": 36
   },
   {
     "hanzi": "必须",
@@ -551,8 +515,7 @@
       "py": "Nǐ bìxū rènzhēn xuéxí.",
       "en": "You must study seriously."
     },
-    "id": 37,
-    "pos": "Adverb"
+    "id": 37
   },
   {
     "hanzi": "不但",
@@ -566,8 +529,7 @@
       "py": "Tā bùdàn huì shuō Zhōngwén, hái huì shuō Yīngyǔ.",
       "en": "He can not only speak Chinese, but also English."
     },
-    "id": 38,
-    "pos": "Conjunction"
+    "id": 38
   },
   {
     "hanzi": "不见",
@@ -581,8 +543,7 @@
       "py": "Wǒ de shǒujī bújiàn le.",
       "en": "My phone is missing."
     },
-    "id": 39,
-    "pos": "Verb"
+    "id": 39
   },
   {
     "hanzi": "不久",
@@ -596,8 +557,7 @@
       "py": "Wǒ bùjiǔ yǐhòu yào qù Zhōngguó.",
       "en": "I will go to China soon."
     },
-    "id": 40,
-    "pos": "Adjective"
+    "id": 40
   },
   {
     "hanzi": "不同",
@@ -611,8 +571,7 @@
       "py": "Tāmen yǒu bùtóng de àihào.",
       "en": "They have different hobbies."
     },
-    "id": 41,
-    "pos": "Adjective, Noun"
+    "id": 41
   },
   {
     "hanzi": "不行",
@@ -626,8 +585,7 @@
       "py": "Zhèyàng zuò bù xíng.",
       "en": "Doing this is not okay."
     },
-    "id": 42,
-    "pos": "Adjective"
+    "id": 42
   },
   {
     "hanzi": "不用",
@@ -641,8 +599,7 @@
       "py": "Zhège búyòng qián.",
       "en": "This does not cost money."
     },
-    "id": 43,
-    "pos": "Adverb"
+    "id": 43
   },
   {
     "hanzi": "才",
@@ -656,8 +613,7 @@
       "py": "Tā zuótiān cái huílái.",
       "en": "He only came back yesterday."
     },
-    "id": 44,
-    "pos": "Noun"
+    "id": 44
   },
   {
     "hanzi": "菜单",
@@ -671,8 +627,7 @@
       "py": "Qǐng gěi wǒ kànkan càidān.",
       "en": "Please let me look at the menu."
     },
-    "id": 45,
-    "pos": "Noun"
+    "id": 45
   },
   {
     "hanzi": "参加",
@@ -686,8 +641,7 @@
       "py": "Wǒ xiǎng cānjiā bǐsài.",
       "en": "I want to join the competition."
     },
-    "id": 46,
-    "pos": "Verb"
+    "id": 46
   },
   {
     "hanzi": "草",
@@ -701,8 +655,7 @@
       "py": "Gōngyuán lǐ yǒu hěn duō cǎo.",
       "en": "There is a lot of grass in the park."
     },
-    "id": 47,
-    "pos": "Noun"
+    "id": 47
   },
   {
     "hanzi": "草地",
@@ -716,8 +669,7 @@
       "py": "Cǎodì shàng yǒu hěn duō háizi.",
       "en": "There are many children on the grass."
     },
-    "id": 48,
-    "pos": "Noun"
+    "id": 48
   },
   {
     "hanzi": "层",
@@ -731,8 +683,7 @@
       "py": "Wǒmen zhù zài sān céng.",
       "en": "We live on the third floor."
     },
-    "id": 49,
-    "pos": "Measure Word"
+    "id": 49
   },
   {
     "hanzi": "差",
@@ -746,8 +697,7 @@
       "py": "Tā de Zhōngwén shuō de yǒudiǎnr chà.",
       "en": "His Chinese is a little poor."
     },
-    "id": 50,
-    "pos": "Adjective, Verb"
+    "id": 50
   },
   {
     "hanzi": "查",
@@ -761,8 +711,7 @@
       "py": "Wǒ chá le yíxià dìtú.",
       "en": "I checked the map."
     },
-    "id": 51,
-    "pos": "Verb"
+    "id": 51
   },
   {
     "hanzi": "差不多",
@@ -776,8 +725,7 @@
       "py": "Zhè liǎng gè chàbuduō yíyàng.",
       "en": "These two are almost the same."
     },
-    "id": 52,
-    "pos": "Adjective, Adverb"
+    "id": 52
   },
   {
     "hanzi": "尝",
@@ -791,8 +739,7 @@
       "py": "Nǐ cháng chang zhège cài.",
       "en": "Try tasting this dish."
     },
-    "id": 53,
-    "pos": "Verb"
+    "id": 53
   },
   {
     "hanzi": "常",
@@ -806,8 +753,7 @@
       "py": "Tā cháng lái zhèlǐ.",
       "en": "He often comes here."
     },
-    "id": 54,
-    "pos": "Adverb"
+    "id": 54
   },
   {
     "hanzi": "常常",
@@ -821,8 +767,7 @@
       "py": "Wǒ chángcháng qù túshūguǎn.",
       "en": "I often go to the library."
     },
-    "id": 55,
-    "pos": "Adverb"
+    "id": 55
   },
   {
     "hanzi": "常见",
@@ -836,8 +781,7 @@
       "py": "Gǎnmào shì cháng jiàn de bìng.",
       "en": "Colds are a common illness."
     },
-    "id": 56,
-    "pos": "Adjective, Verb"
+    "id": 56
   },
   {
     "hanzi": "常用",
@@ -851,8 +795,7 @@
       "py": "Zhè shì cháng yòng de cí.",
       "en": "This is a commonly used word."
     },
-    "id": 57,
-    "pos": "Adjective"
+    "id": 57
   },
   {
     "hanzi": "成绩",
@@ -866,8 +809,7 @@
       "py": "Tā de chéngjì hěn hǎo.",
       "en": "Her grades are very good."
     },
-    "id": 58,
-    "pos": "Noun"
+    "id": 58
   },
   {
     "hanzi": "城市",
@@ -881,8 +823,7 @@
       "py": "Běijīng shì yí gè dà chéngshì.",
       "en": "Beijing is a big city."
     },
-    "id": 59,
-    "pos": "Noun"
+    "id": 59
   },
   {
     "hanzi": "衬衫",
@@ -896,8 +837,7 @@
       "py": "Tā chuān le yí jiàn bái chènshān.",
       "en": "He wore a white shirt."
     },
-    "id": 60,
-    "pos": "Noun"
+    "id": 60
   },
   {
     "hanzi": "迟到",
@@ -911,8 +851,7 @@
       "py": "Tā jīntiān chídào le.",
       "en": "He was late today."
     },
-    "id": 61,
-    "pos": "Verb"
+    "id": 61
   },
   {
     "hanzi": "船",
@@ -926,8 +865,7 @@
       "py": "Wǒmen zuò chuán qù dǎo shàng.",
       "en": "We took a boat to the island."
     },
-    "id": 62,
-    "pos": "Noun"
+    "id": 62
   },
   {
     "hanzi": "出发",
@@ -941,8 +879,7 @@
       "py": "Wǒmen bā diǎn chūfā.",
       "en": "We set out at eight o'clock."
     },
-    "id": 63,
-    "pos": "Verb"
+    "id": 63
   },
   {
     "hanzi": "除了",
@@ -956,8 +893,7 @@
       "py": "Chúle tā, dàjiā dōu lái le.",
       "en": "Everyone came except him."
     },
-    "id": 64,
-    "pos": "Preposition"
+    "id": 64
   },
   {
     "hanzi": "春天",
@@ -971,8 +907,7 @@
       "py": "Chūntiān huā kāi le.",
       "en": "Flowers bloom in spring."
     },
-    "id": 65,
-    "pos": "Noun"
+    "id": 65
   },
   {
     "hanzi": "出生",
@@ -986,8 +921,7 @@
       "py": "Tā chūshēng zài Shànghǎi.",
       "en": "She was born in Shanghai."
     },
-    "id": 66,
-    "pos": "Verb, Noun"
+    "id": 66
   },
   {
     "hanzi": "出院",
@@ -1001,8 +935,7 @@
       "py": "Yéye jīntiān chūyuàn le.",
       "en": "Grandpa was discharged from hospital today."
     },
-    "id": 67,
-    "pos": "Verb"
+    "id": 67
   },
   {
     "hanzi": "初中",
@@ -1016,8 +949,7 @@
       "py": "Tā zài shàng chūzhōng.",
       "en": "He is in junior high school."
     },
-    "id": 68,
-    "pos": "Noun"
+    "id": 68
   },
   {
     "hanzi": "词典",
@@ -1031,8 +963,7 @@
       "py": "Wǒ chá le cídiǎn.",
       "en": "I looked it up in the dictionary."
     },
-    "id": 69,
-    "pos": "Noun"
+    "id": 69
   },
   {
     "hanzi": "聪明",
@@ -1046,8 +977,7 @@
       "py": "Zhège háizi hěn cōngmíng.",
       "en": "This child is very clever."
     },
-    "id": 70,
-    "pos": "Adjective"
+    "id": 70
   },
   {
     "hanzi": "大概",
@@ -1061,8 +991,7 @@
       "py": "Tā dàgài liù diǎn dào.",
       "en": "He will probably arrive at six."
     },
-    "id": 71,
-    "pos": "Adverb, Noun"
+    "id": 71
   },
   {
     "hanzi": "带",
@@ -1076,8 +1005,7 @@
       "py": "Qǐng dài shàng nǐ de hùzhào.",
       "en": "Please bring your passport."
     },
-    "id": 72,
-    "pos": "Verb, Noun"
+    "id": 72
   },
   {
     "hanzi": "蛋糕",
@@ -1091,8 +1019,7 @@
       "py": "Zhège dàngāo hěn tián.",
       "en": "This cake is very sweet."
     },
-    "id": 73,
-    "pos": "Noun"
+    "id": 73
   },
   {
     "hanzi": "当然",
@@ -1106,8 +1033,7 @@
       "py": "Dāngrán, wǒ yuànyì bāng nǐ.",
       "en": "Of course, I am willing to help you."
     },
-    "id": 74,
-    "pos": "Adverb"
+    "id": 74
   },
   {
     "hanzi": "担心",
@@ -1121,8 +1047,7 @@
       "py": "Māma hěn dānxīn wǒ.",
       "en": "Mom worries about me a lot."
     },
-    "id": 75,
-    "pos": "Verb, Noun"
+    "id": 75
   },
   {
     "hanzi": "到处",
@@ -1136,8 +1061,7 @@
       "py": "Tā dàochù zhǎo shǒujī.",
       "en": "He looked everywhere for his phone."
     },
-    "id": 76,
-    "pos": "Adverb"
+    "id": 76
   },
   {
     "hanzi": "大人",
@@ -1151,8 +1075,7 @@
       "py": "Dàren bù néng jìnqù.",
       "en": "Adults cannot enter."
     },
-    "id": 77,
-    "pos": "Noun"
+    "id": 77
   },
   {
     "hanzi": "打扫",
@@ -1166,8 +1089,7 @@
       "py": "Wǒ dǎsǎo le fángjiān.",
       "en": "I cleaned the room."
     },
-    "id": 78,
-    "pos": "Verb"
+    "id": 78
   },
   {
     "hanzi": "打算",
@@ -1181,8 +1103,7 @@
       "py": "Nǐ dǎsuàn qù nǎr?",
       "en": "Where do you plan to go?"
     },
-    "id": 79,
-    "pos": "Verb, Noun"
+    "id": 79
   },
   {
     "hanzi": "大小",
@@ -1196,8 +1117,7 @@
       "py": "Zhè jiàn yīfu dàxiǎo héshì.",
       "en": "This piece of clothing is the right size."
     },
-    "id": 80,
-    "pos": "Noun"
+    "id": 80
   },
   {
     "hanzi": "大熊猫",
@@ -1211,8 +1131,7 @@
       "py": "Dàxióngmāo shì Zhōngguó de guóbǎo.",
       "en": "The giant panda is China's national treasure."
     },
-    "id": 81,
-    "pos": "Noun"
+    "id": 81
   },
   {
     "hanzi": "大衣",
@@ -1226,14 +1145,13 @@
       "py": "Wàimiàn lěng, chuān shàng dàyī ba.",
       "en": "It's cold outside, put on your coat."
     },
-    "id": 82,
-    "pos": "Noun"
+    "id": 82
   },
   {
     "hanzi": "得",
     "pinyin": "dé",
     "pinyin_sort": "de",
-    "meaning": "to get, to obtain, to acquire, to win",
+    "meaning": "to get, to obtain",
     "version": "3.0",
     "level": 3,
     "example": {
@@ -1241,8 +1159,7 @@
       "py": "Tā zài zhè cì hànyǔ bǐsài zhōng dé le dì-yī míng.",
       "en": "He won first place in this Chinese competition."
     },
-    "id": 83,
-    "pos": "Verb"
+    "id": 83
   },
   {
     "hanzi": "得到",
@@ -1256,8 +1173,7 @@
       "py": "Wǒ dédào le yí gè jīhuì.",
       "en": "I got an opportunity."
     },
-    "id": 84,
-    "pos": "Verb"
+    "id": 84
   },
   {
     "hanzi": "得分",
@@ -1271,8 +1187,7 @@
       "py": "Tā xiǎng défēn, dànshì zuìhòu de défēn bù gāo.",
       "en": "He wanted to score, but his final score wasn't high."
     },
-    "id": 85,
-    "pos": "Verb, Noun"
+    "id": 85
   },
   {
     "hanzi": "的话",
@@ -1286,14 +1201,13 @@
       "py": "Rúguǒ nǐ yǒu shíjiān dehuà, lái zhǎo wǒ.",
       "en": "If you have time, come find me."
     },
-    "id": 86,
-    "pos": "Particle"
+    "id": 86
   },
   {
     "hanzi": "得",
     "pinyin": "děi",
     "pinyin_sort": "dei",
-    "meaning": "must, have to, need to",
+    "meaning": "must, need",
     "version": "3.0",
     "level": 3,
     "example": {
@@ -1301,8 +1215,7 @@
       "py": "Shíjiān bù zǎo le, wǒ děi huí jiā le.",
       "en": "It is getting late; I must go home."
     },
-    "id": 87,
-    "pos": "Verb"
+    "id": 87
   },
   {
     "hanzi": "灯",
@@ -1316,14 +1229,13 @@
       "py": "Qǐng bǎ dēng dǎkāi.",
       "en": "Please turn on the light."
     },
-    "id": 88,
-    "pos": "Noun"
+    "id": 88
   },
   {
     "hanzi": "地",
     "pinyin": "dì",
     "pinyin_sort": "di",
-    "meaning": "ground, floor, earth, land; place",
+    "meaning": "ground, earth, land",
     "version": "3.0",
     "level": 3,
     "example": {
@@ -1331,8 +1243,7 @@
       "py": "Dì shàng yǒu hěnduō shuǐ, zǒulù qǐng xiǎoxīn.",
       "en": "There is a lot of water on the ground; please be careful walking."
     },
-    "id": 89,
-    "pos": "Noun"
+    "id": 89
   },
   {
     "hanzi": "电",
@@ -1346,8 +1257,7 @@
       "py": "Jiā lǐ méiyǒu diàn le.",
       "en": "The electricity at home went out."
     },
-    "id": 90,
-    "pos": "Noun, Verb"
+    "id": 90
   },
   {
     "hanzi": "电梯",
@@ -1361,8 +1271,7 @@
       "py": "Wǒmen zuò diàntī shàng lóu.",
       "en": "We took the elevator upstairs."
     },
-    "id": 91,
-    "pos": "Noun"
+    "id": 91
   },
   {
     "hanzi": "电子书",
@@ -1376,8 +1285,7 @@
       "py": "Wǒ zài shǒujī shàng kàn diànzǐshū.",
       "en": "I read e-books on my phone."
     },
-    "id": 92,
-    "pos": "Noun"
+    "id": 92
   },
   {
     "hanzi": "地点",
@@ -1391,14 +1299,13 @@
       "py": "Huìyì dìdiǎn zài sān lóu.",
       "en": "The meeting location is on the third floor."
     },
-    "id": 93,
-    "pos": "Noun"
+    "id": 93
   },
   {
     "hanzi": "地方",
     "pinyin": "dìfang",
     "pinyin_sort": "difang",
-    "meaning": "place, space, room",
+    "meaning": "place",
     "version": "3.0",
     "level": 3,
     "example": {
@@ -1406,8 +1313,7 @@
       "py": "Zhège dìfang hěn piàoliang, wǒ xiǎng zài qù yí cì.",
       "en": "This place is very beautiful; I want to go again."
     },
-    "id": 94,
-    "pos": "Noun"
+    "id": 94
   },
   {
     "hanzi": "地图",
@@ -1421,8 +1327,7 @@
       "py": "Wǒ xūyào yì zhāng dìtú.",
       "en": "I need a map."
     },
-    "id": 95,
-    "pos": "Noun"
+    "id": 95
   },
   {
     "hanzi": "丢",
@@ -1436,8 +1341,7 @@
       "py": "Wǒ bǎ qiánbāo diū le.",
       "en": "I lost my wallet."
     },
-    "id": 96,
-    "pos": "Verb"
+    "id": 96
   },
   {
     "hanzi": "东",
@@ -1451,8 +1355,7 @@
       "py": "Tàiyáng cóng dōng biān chūlái.",
       "en": "The sun rises from the east."
     },
-    "id": 97,
-    "pos": "Noun"
+    "id": 97
   },
   {
     "hanzi": "东北",
@@ -1466,8 +1369,7 @@
       "py": "Hā'ěrbīn zài dōngběi.",
       "en": "Harbin is in the northeast."
     },
-    "id": 98,
-    "pos": "Noun"
+    "id": 98
   },
   {
     "hanzi": "懂得",
@@ -1481,8 +1383,7 @@
       "py": "Tā dǒngde rúhé zuò.",
       "en": "He knows how to do it."
     },
-    "id": 99,
-    "pos": "Verb"
+    "id": 99
   },
   {
     "hanzi": "东方",
@@ -1496,8 +1397,7 @@
       "py": "Tā láizì dōngfāng guójiā.",
       "en": "He comes from an eastern country."
     },
-    "id": 100,
-    "pos": "Noun"
+    "id": 100
   },
   {
     "hanzi": "东南",
@@ -1511,8 +1411,7 @@
       "py": "Shànghǎi zài Zhōngguó dōngnán bù.",
       "en": "Shanghai is in the southeast of China."
     },
-    "id": 101,
-    "pos": "Noun"
+    "id": 101
   },
   {
     "hanzi": "冬天",
@@ -1526,8 +1425,7 @@
       "py": "Dōngtiān Běijīng hěn lěng.",
       "en": "Beijing is very cold in winter."
     },
-    "id": 102,
-    "pos": "Noun"
+    "id": 102
   },
   {
     "hanzi": "动物",
@@ -1541,8 +1439,7 @@
       "py": "Dòngwùyuán lǐ yǒu hěn duō dòngwù.",
       "en": "There are many animals in the zoo."
     },
-    "id": 103,
-    "pos": "Noun"
+    "id": 103
   },
   {
     "hanzi": "动物园",
@@ -1556,8 +1453,7 @@
       "py": "Zhōumò wǒmen qù dòngwùyuán.",
       "en": "We go to the zoo on weekends."
     },
-    "id": 104,
-    "pos": "Noun"
+    "id": 104
   },
   {
     "hanzi": "段",
@@ -1571,8 +1467,7 @@
       "py": "Qǐng dú dì yī duàn.",
       "en": "Please read the first paragraph."
     },
-    "id": 105,
-    "pos": "Measure Word"
+    "id": 105
   },
   {
     "hanzi": "短",
@@ -1586,8 +1481,7 @@
       "py": "Zhè tiáo qúnzi tài duǎn le.",
       "en": "This skirt is too short."
     },
-    "id": 106,
-    "pos": "Adjective"
+    "id": 106
   },
   {
     "hanzi": "短裤",
@@ -1601,8 +1495,7 @@
       "py": "Xiàtiān wǒ cháng chuān duǎnkù.",
       "en": "I often wear shorts in summer."
     },
-    "id": 107,
-    "pos": "Noun"
+    "id": 107
   },
   {
     "hanzi": "锻炼",
@@ -1616,8 +1509,7 @@
       "py": "Měitiān duànliàn duì shēntǐ hǎo.",
       "en": "Exercising every day is good for your health."
     },
-    "id": 108,
-    "pos": "Verb"
+    "id": 108
   },
   {
     "hanzi": "对话",
@@ -1631,8 +1523,7 @@
       "py": "Wǒmen lái zuò yí gè duìhuà.",
       "en": "Let's have a dialogue."
     },
-    "id": 109,
-    "pos": "Verb"
+    "id": 109
   },
   {
     "hanzi": "饿",
@@ -1646,8 +1537,7 @@
       "py": "Wǒ è le, xiǎng chī dōngxi.",
       "en": "I'm hungry and want to eat something."
     },
-    "id": 110,
-    "pos": "Adjective"
+    "id": 110
   },
   {
     "hanzi": "耳朵",
@@ -1661,8 +1551,7 @@
       "py": "Tā de ěrduo hěn xiǎo.",
       "en": "Her ears are very small."
     },
-    "id": 111,
-    "pos": "Noun"
+    "id": 111
   },
   {
     "hanzi": "耳机",
@@ -1676,8 +1565,7 @@
       "py": "Wǒ yòng ěrjī tīng yīnyuè.",
       "en": "I listen to music with earphones."
     },
-    "id": 112,
-    "pos": "Noun"
+    "id": 112
   },
   {
     "hanzi": "而且",
@@ -1691,8 +1579,7 @@
       "py": "Tā cōngmíng, érqiě nǔlì.",
       "en": "He is smart and also hardworking."
     },
-    "id": 113,
-    "pos": "Conjunction"
+    "id": 113
   },
   {
     "hanzi": "发",
@@ -1706,8 +1593,7 @@
       "py": "Wǒ gěi nǐ fā yì fēng yóujiàn.",
       "en": "I'll send you an email."
     },
-    "id": 114,
-    "pos": "Verb"
+    "id": 114
   },
   {
     "hanzi": "放",
@@ -1721,8 +1607,7 @@
       "py": "Qǐng bǎ shū fàng zài zhuōzi shàng.",
       "en": "Please put the book on the table."
     },
-    "id": 115,
-    "pos": "Verb"
+    "id": 115
   },
   {
     "hanzi": "方便",
@@ -1736,8 +1621,7 @@
       "py": "Zuò dìtiě hěn fāngbiàn.",
       "en": "Taking the subway is very convenient."
     },
-    "id": 116,
-    "pos": "Verb, Adjective, Noun"
+    "id": 116
   },
   {
     "hanzi": "方便面",
@@ -1751,8 +1635,7 @@
       "py": "Wǒ jīntiān chī le fāngbiànmiàn.",
       "en": "I ate instant noodles today."
     },
-    "id": 117,
-    "pos": "Noun"
+    "id": 117
   },
   {
     "hanzi": "方法",
@@ -1766,8 +1649,7 @@
       "py": "Zhège fāngfǎ hěn yǒuyòng.",
       "en": "This method is very useful."
     },
-    "id": 118,
-    "pos": "Noun"
+    "id": 118
   },
   {
     "hanzi": "放假",
@@ -1781,8 +1663,7 @@
       "py": "Xià zhōu wǒmen fàngjià.",
       "en": "We have a holiday next week."
     },
-    "id": 119,
-    "pos": "Verb"
+    "id": 119
   },
   {
     "hanzi": "方向",
@@ -1796,8 +1677,7 @@
       "py": "Nǐ zǒu cuò fāngxiàng le.",
       "en": "You went in the wrong direction."
     },
-    "id": 120,
-    "pos": "Noun"
+    "id": 120
   },
   {
     "hanzi": "放心",
@@ -1811,8 +1691,7 @@
       "py": "Fàngxīn, wǒ huì bāng nǐ de.",
       "en": "Don't worry, I will help you."
     },
-    "id": 121,
-    "pos": "Verb, Noun"
+    "id": 121
   },
   {
     "hanzi": "放学",
@@ -1826,8 +1705,7 @@
       "py": "Fàngxué hòu wǒ qù dǎ qiú.",
       "en": "I play ball after school."
     },
-    "id": 122,
-    "pos": "Verb"
+    "id": 122
   },
   {
     "hanzi": "房子",
@@ -1841,8 +1719,7 @@
       "py": "Tāmen jiā de fángzi hěn dà.",
       "en": "Their house is very big."
     },
-    "id": 123,
-    "pos": "Noun"
+    "id": 123
   },
   {
     "hanzi": "发烧",
@@ -1856,8 +1733,7 @@
       "py": "Háizi fāshāo le.",
       "en": "The child has a fever."
     },
-    "id": 124,
-    "pos": "Verb"
+    "id": 124
   },
   {
     "hanzi": "发生",
@@ -1871,8 +1747,7 @@
       "py": "Zuótiān fāshēng le shénme?",
       "en": "What happened yesterday?"
     },
-    "id": 125,
-    "pos": "Verb, Noun"
+    "id": 125
   },
   {
     "hanzi": "发现",
@@ -1886,8 +1761,7 @@
       "py": "Tā fāxiàn le yí gè wèntí.",
       "en": "He discovered a problem."
     },
-    "id": 126,
-    "pos": "Verb"
+    "id": 126
   },
   {
     "hanzi": "发展",
@@ -1901,8 +1775,7 @@
       "py": "Zhège chéngshì fāzhǎn hěn kuài.",
       "en": "This city is developing very fast."
     },
-    "id": 127,
-    "pos": "Verb"
+    "id": 127
   },
   {
     "hanzi": "封",
@@ -1916,8 +1789,7 @@
       "py": "Wǒ shōudào le yì fēng xìn.",
       "en": "I received a letter."
     },
-    "id": 128,
-    "pos": "Measure Word, Verb"
+    "id": 128
   },
   {
     "hanzi": "风",
@@ -1931,8 +1803,7 @@
       "py": "Jīntiān fēng hěn dà.",
       "en": "It is very windy today."
     },
-    "id": 129,
-    "pos": "Noun"
+    "id": 129
   },
   {
     "hanzi": "分开",
@@ -1946,8 +1817,7 @@
       "py": "Tāmen liǎng gè fēnkāi le.",
       "en": "The two of them separated."
     },
-    "id": 130,
-    "pos": "Verb"
+    "id": 130
   },
   {
     "hanzi": "附近",
@@ -1961,8 +1831,7 @@
       "py": "Wǒ jiā fùjìn yǒu gōngyuán.",
       "en": "There is a park near my home."
     },
-    "id": 131,
-    "pos": "Noun"
+    "id": 131
   },
   {
     "hanzi": "夫妻",
@@ -1976,8 +1845,7 @@
       "py": "Tāmen shì yí duì xìngfú de fūqī.",
       "en": "They are a happy couple."
     },
-    "id": 132,
-    "pos": "Noun"
+    "id": 132
   },
   {
     "hanzi": "服务",
@@ -1991,8 +1859,7 @@
       "py": "Zhè jiā cāntīng de fúwù hěn hǎo.",
       "en": "The service at this restaurant is very good."
     },
-    "id": 133,
-    "pos": "Verb"
+    "id": 133
   },
   {
     "hanzi": "复习",
@@ -2006,8 +1873,7 @@
       "py": "Kǎoshì qián yào fùxí.",
       "en": "You need to review before the exam."
     },
-    "id": 134,
-    "pos": "Verb"
+    "id": 134
   },
   {
     "hanzi": "该",
@@ -2021,23 +1887,21 @@
       "py": "Nǐ gāi shuìjiào le.",
       "en": "You should go to sleep."
     },
-    "id": 135,
-    "pos": "Verb"
+    "id": 135
   },
   {
     "hanzi": "干",
     "pinyin": "gàn",
     "pinyin_sort": "gan",
-    "meaning": "to do, to work, to manage",
+    "meaning": "to do, to work",
     "version": "3.0",
     "level": 3,
     "example": {
-      "zh": "周末你在家里干什么呢？",
-      "py": "Zhōumò nǐ zài jiālǐ gàn shénme ne?",
-      "en": "What are you doing at home over the weekend?"
+      "zh": "你在干什么？",
+      "py": "Nǐ zài gàn shénme?",
+      "en": "What are you doing?"
     },
-    "id": 136,
-    "pos": "Verb"
+    "id": 136
   },
   {
     "hanzi": "感到",
@@ -2051,8 +1915,7 @@
       "py": "Wǒ gǎndào hěn gāoxìng.",
       "en": "I feel very happy."
     },
-    "id": 137,
-    "pos": "Verb"
+    "id": 137
   },
   {
     "hanzi": "刚",
@@ -2066,8 +1929,7 @@
       "py": "Tā gāng huílái.",
       "en": "He just came back."
     },
-    "id": 138,
-    "pos": "Adverb"
+    "id": 138
   },
   {
     "hanzi": "刚才",
@@ -2081,8 +1943,7 @@
       "py": "Gāngcái tā zài zhèlǐ.",
       "en": "He was here just now."
     },
-    "id": 139,
-    "pos": "Noun"
+    "id": 139
   },
   {
     "hanzi": "刚刚",
@@ -2096,8 +1957,7 @@
       "py": "Tā gānggāng chūmén le.",
       "en": "He just went out a moment ago."
     },
-    "id": 140,
-    "pos": "Adverb"
+    "id": 140
   },
   {
     "hanzi": "干净",
@@ -2111,8 +1971,7 @@
       "py": "Zhège fángjiān hěn gānjìng.",
       "en": "This room is very clean."
     },
-    "id": 141,
-    "pos": "Adjective, Adverb"
+    "id": 141
   },
   {
     "hanzi": "感冒",
@@ -2126,8 +1985,7 @@
       "py": "Wǒ gǎnmào le, tóu hěn tòng.",
       "en": "I have a cold and a bad headache."
     },
-    "id": 142,
-    "pos": "Noun, Verb"
+    "id": 142
   },
   {
     "hanzi": "感兴趣",
@@ -2141,8 +1999,7 @@
       "py": "Wǒ duì yīnyuè gǎn xìngqù.",
       "en": "I am interested in music."
     },
-    "id": 143,
-    "pos": "Adjective"
+    "id": 143
   },
   {
     "hanzi": "高铁",
@@ -2156,8 +2013,7 @@
       "py": "Wǒ zuò gāotiě qù Shànghǎi.",
       "en": "I take the high-speed rail to Shanghai."
     },
-    "id": 144,
-    "pos": "Noun"
+    "id": 144
   },
   {
     "hanzi": "更",
@@ -2171,8 +2027,7 @@
       "py": "Jīntiān bǐ zuótiān gèng lěng.",
       "en": "Today is colder than yesterday."
     },
-    "id": 145,
-    "pos": "Adverb"
+    "id": 145
   },
   {
     "hanzi": "根据",
@@ -2186,8 +2041,7 @@
       "py": "Gēnjù tiānqì yùbào, míngtiān xià yǔ.",
       "en": "According to the weather forecast, it will rain tomorrow."
     },
-    "id": 146,
-    "pos": "Verb, Preposition, Noun"
+    "id": 146
   },
   {
     "hanzi": "公斤",
@@ -2201,8 +2055,7 @@
       "py": "Zhège xīguā yǒu wǔ gōngjīn.",
       "en": "This watermelon weighs five kilograms."
     },
-    "id": 147,
-    "pos": "Measure Word"
+    "id": 147
   },
   {
     "hanzi": "公园",
@@ -2216,8 +2069,7 @@
       "py": "Wǒ měitiān zài gōngyuán sànbù.",
       "en": "I walk in the park every day."
     },
-    "id": 148,
-    "pos": "Noun"
+    "id": 148
   },
   {
     "hanzi": "工作日",
@@ -2231,8 +2083,7 @@
       "py": "Gōngzuòrì wǒ hěn máng.",
       "en": "I am very busy on workdays."
     },
-    "id": 149,
-    "pos": "Noun"
+    "id": 149
   },
   {
     "hanzi": "刮",
@@ -2246,8 +2097,7 @@
       "py": "Jīntiān guā dà fēng.",
       "en": "There is a strong wind blowing today."
     },
-    "id": 150,
-    "pos": "Verb"
+    "id": 150
   },
   {
     "hanzi": "关",
@@ -2261,8 +2111,7 @@
       "py": "Qǐng guān mén.",
       "en": "Please close the door."
     },
-    "id": 151,
-    "pos": "Verb, Noun"
+    "id": 151
   },
   {
     "hanzi": "关机",
@@ -2276,8 +2125,7 @@
       "py": "Shàngkè qǐng guānjī.",
       "en": "Please turn off your devices during class."
     },
-    "id": 152,
-    "pos": "Verb"
+    "id": 152
   },
   {
     "hanzi": "关系",
@@ -2291,8 +2139,7 @@
       "py": "Tāmen de guānxì hěn hǎo.",
       "en": "Their relationship is very good."
     },
-    "id": 153,
-    "pos": "Noun, Verb"
+    "id": 153
   },
   {
     "hanzi": "关心",
@@ -2306,8 +2153,7 @@
       "py": "Tā hěn guānxīn jiārén.",
       "en": "He cares very much about his family."
     },
-    "id": 154,
-    "pos": "Verb, Noun"
+    "id": 154
   },
   {
     "hanzi": "关于",
@@ -2321,8 +2167,7 @@
       "py": "Zhè běn shū shì guānyú lìshǐ de.",
       "en": "This book is about history."
     },
-    "id": 155,
-    "pos": "Preposition"
+    "id": 155
   },
   {
     "hanzi": "关注",
@@ -2336,8 +2181,7 @@
       "py": "Hěn duō rén guānzhù zhège wèntí.",
       "en": "Many people pay attention to this issue."
     },
-    "id": 156,
-    "pos": "Verb"
+    "id": 156
   },
   {
     "hanzi": "国家",
@@ -2351,8 +2195,7 @@
       "py": "Zhōngguó shì yí gè dà guójiā.",
       "en": "China is a large country."
     },
-    "id": 157,
-    "pos": "Noun"
+    "id": 157
   },
   {
     "hanzi": "过节",
@@ -2366,8 +2209,7 @@
       "py": "Wǒmen yìqǐ guòjié ba.",
       "en": "Let's celebrate the festival together."
     },
-    "id": 158,
-    "pos": "Verb"
+    "id": 158
   },
   {
     "hanzi": "过去",
@@ -2381,8 +2223,7 @@
       "py": "Guòqù zhèlǐ shì nóngcūn.",
       "en": "In the past, this place was a village."
     },
-    "id": 159,
-    "pos": "Noun"
+    "id": 159
   },
   {
     "hanzi": "故事",
@@ -2396,8 +2237,7 @@
       "py": "Māma gěi wǒ jiǎng gùshi.",
       "en": "Mom tells me stories."
     },
-    "id": 160,
-    "pos": "Noun"
+    "id": 160
   },
   {
     "hanzi": "海",
@@ -2411,8 +2251,7 @@
       "py": "Wǒ xǐhuan zài hǎi biān sànbù.",
       "en": "I like to walk by the sea."
     },
-    "id": 161,
-    "pos": "Noun"
+    "id": 161
   },
   {
     "hanzi": "害怕",
@@ -2426,8 +2265,7 @@
       "py": "Tā hàipà hēi'àn.",
       "en": "He is afraid of the dark."
     },
-    "id": 162,
-    "pos": "Verb"
+    "id": 162
   },
   {
     "hanzi": "好多",
@@ -2441,8 +2279,7 @@
       "py": "Zhèlǐ yǒu hǎoduō rén.",
       "en": "There are so many people here."
     },
-    "id": 163,
-    "pos": "Numeral"
+    "id": 163
   },
   {
     "hanzi": "好久",
@@ -2456,8 +2293,7 @@
       "py": "Hǎojiǔ bú jiàn le.",
       "en": "Long time no see."
     },
-    "id": 164,
-    "pos": "Adjective"
+    "id": 164
   },
   {
     "hanzi": "号码",
@@ -2471,8 +2307,7 @@
       "py": "Qǐng gàosu wǒ nǐ de diànhuà hàomǎ.",
       "en": "Please tell me your phone number."
     },
-    "id": 165,
-    "pos": "Noun"
+    "id": 165
   },
   {
     "hanzi": "好像",
@@ -2486,8 +2321,7 @@
       "py": "Tā hǎoxiàng bù gāoxìng.",
       "en": "She seems unhappy."
     },
-    "id": 166,
-    "pos": "Verb, Adverb"
+    "id": 166
   },
   {
     "hanzi": "河",
@@ -2501,8 +2335,7 @@
       "py": "Zhè tiáo hé hěn cháng.",
       "en": "This river is very long."
     },
-    "id": 167,
-    "pos": "Noun"
+    "id": 167
   },
   {
     "hanzi": "黑板",
@@ -2516,8 +2349,7 @@
       "py": "Lǎoshī zài hēibǎn shàng xiě zì.",
       "en": "The teacher writes on the blackboard."
     },
-    "id": 168,
-    "pos": "Noun"
+    "id": 168
   },
   {
     "hanzi": "合适",
@@ -2531,8 +2363,7 @@
       "py": "Zhè shuāng xié hěn héshì.",
       "en": "These shoes fit very well."
     },
-    "id": 169,
-    "pos": "Adjective"
+    "id": 169
   },
   {
     "hanzi": "红绿灯",
@@ -2546,8 +2377,7 @@
       "py": "Guò mǎlù yào kàn hóng-lǜdēng.",
       "en": "You must look at the traffic lights when crossing the road."
     },
-    "id": 170,
-    "pos": "Noun"
+    "id": 170
   },
   {
     "hanzi": "后来",
@@ -2561,8 +2391,7 @@
       "py": "Hòulái tā huí jiā le.",
       "en": "Afterwards he went home."
     },
-    "id": 171,
-    "pos": "Noun"
+    "id": 171
   },
   {
     "hanzi": "后年",
@@ -2576,8 +2405,7 @@
       "py": "Hòunián wǒ yào bìyè le.",
       "en": "I will graduate the year after next."
     },
-    "id": 172,
-    "pos": "Noun"
+    "id": 172
   },
   {
     "hanzi": "后天",
@@ -2591,8 +2419,7 @@
       "py": "Hòutiān wǒmen qù lǚxíng.",
       "en": "We are going on a trip the day after tomorrow."
     },
-    "id": 173,
-    "pos": "Noun"
+    "id": 173
   },
   {
     "hanzi": "画家",
@@ -2606,8 +2433,7 @@
       "py": "Tā shì yí wèi yǒumíng de huàjiā.",
       "en": "He is a famous painter."
     },
-    "id": 174,
-    "pos": "Noun"
+    "id": 174
   },
   {
     "hanzi": "换",
@@ -2621,14 +2447,13 @@
       "py": "Wǒ xiǎng huàn yí jiàn yīfu.",
       "en": "I want to change my clothes."
     },
-    "id": 175,
-    "pos": "Verb"
+    "id": 175
   },
   {
     "hanzi": "还",
     "pinyin": "huán",
     "pinyin_sort": "huan",
-    "meaning": "to return, to give back, to repay",
+    "meaning": "to return, to give back",
     "version": "3.0",
     "level": 3,
     "example": {
@@ -2636,8 +2461,7 @@
       "py": "Wǒ cóng túshūguǎn jiè le yì běn shū, míngtiān yào qù huán shū.",
       "en": "I borrowed a book from the library and need to return it tomorrow."
     },
-    "id": 176,
-    "pos": "Verb"
+    "id": 176
   },
   {
     "hanzi": "黄色",
@@ -2651,8 +2475,7 @@
       "py": "Tā xǐhuan huángsè.",
       "en": "She likes yellow."
     },
-    "id": 177,
-    "pos": "Noun"
+    "id": 177
   },
   {
     "hanzi": "环境",
@@ -2666,8 +2489,7 @@
       "py": "Zhèlǐ de huánjìng hěn hǎo.",
       "en": "The environment here is very good."
     },
-    "id": 178,
-    "pos": "Noun"
+    "id": 178
   },
   {
     "hanzi": "欢迎",
@@ -2681,8 +2503,7 @@
       "py": "Huānyíng lái dào Běijīng!",
       "en": "Welcome to Beijing!"
     },
-    "id": 179,
-    "pos": "Verb"
+    "id": 179
   },
   {
     "hanzi": "花园",
@@ -2696,8 +2517,7 @@
       "py": "Tā jiā yǒu yí gè huāyuán.",
       "en": "His home has a garden."
     },
-    "id": 180,
-    "pos": "Noun"
+    "id": 180
   },
   {
     "hanzi": "会",
@@ -2711,8 +2531,7 @@
       "py": "Míngtiān wǒmen kāihuì.",
       "en": "We have a meeting tomorrow."
     },
-    "id": 181,
-    "pos": "Noun"
+    "id": 181
   },
   {
     "hanzi": "回答",
@@ -2726,8 +2545,7 @@
       "py": "Qǐng huídá wǒ de wèntí.",
       "en": "Please answer my question."
     },
-    "id": 182,
-    "pos": "Verb"
+    "id": 182
   },
   {
     "hanzi": "会议",
@@ -2741,8 +2559,7 @@
       "py": "Huìyì zài jiǔ diǎn kāishǐ.",
       "en": "The meeting starts at nine o'clock."
     },
-    "id": 183,
-    "pos": "Noun"
+    "id": 183
   },
   {
     "hanzi": "或",
@@ -2756,8 +2573,7 @@
       "py": "Nǐ hē chá huò kāfēi?",
       "en": "Will you have tea or coffee?"
     },
-    "id": 184,
-    "pos": "Conjunction, Adverb"
+    "id": 184
   },
   {
     "hanzi": "或者",
@@ -2771,8 +2587,7 @@
       "py": "Nǐ kěyǐ zuò gōnggòng qìchē huòzhě dìtiě.",
       "en": "You can take the bus or the subway."
     },
-    "id": 185,
-    "pos": "Conjunction"
+    "id": 185
   },
   {
     "hanzi": "护照",
@@ -2786,8 +2601,7 @@
       "py": "Chū guó yào dài hùzhào.",
       "en": "You need to bring your passport when going abroad."
     },
-    "id": 186,
-    "pos": "Noun"
+    "id": 186
   },
   {
     "hanzi": "季",
@@ -2801,8 +2615,7 @@
       "py": "Qiū jì tiānqì hěn hǎo.",
       "en": "The weather is very nice in autumn."
     },
-    "id": 187,
-    "pos": "Noun"
+    "id": 187
   },
   {
     "hanzi": "急",
@@ -2816,8 +2629,7 @@
       "py": "Bié jí, mànman lái.",
       "en": "Don't rush, take it easy."
     },
-    "id": 188,
-    "pos": "Adjective, Verb"
+    "id": 188
   },
   {
     "hanzi": "极",
@@ -2831,8 +2643,7 @@
       "py": "Tā jíqí cōngmíng.",
       "en": "She is extremely smart."
     },
-    "id": 189,
-    "pos": "Adverb"
+    "id": 189
   },
   {
     "hanzi": "记",
@@ -2846,8 +2657,7 @@
       "py": "Qǐng jìzhù wǒ de míngzì.",
       "en": "Please remember my name."
     },
-    "id": 190,
-    "pos": "Verb"
+    "id": 190
   },
   {
     "hanzi": "鸡",
@@ -2861,8 +2671,7 @@
       "py": "Wǒ bù chī jī.",
       "en": "I don't eat chicken."
     },
-    "id": 191,
-    "pos": "Noun"
+    "id": 191
   },
   {
     "hanzi": "加",
@@ -2876,8 +2685,7 @@
       "py": "Qǐng gěi wǒ jiā yì wǎn fàn.",
       "en": "Please give me another bowl of rice."
     },
-    "id": 192,
-    "pos": "Verb"
+    "id": 192
   },
   {
     "hanzi": "检查",
@@ -2891,8 +2699,7 @@
       "py": "Yīshēng gěi wǒ jiǎnchá shēntǐ.",
       "en": "The doctor checked my body."
     },
-    "id": 193,
-    "pos": "Verb"
+    "id": 193
   },
   {
     "hanzi": "坚持",
@@ -2906,8 +2713,7 @@
       "py": "Nǐ yào jiānchí liànxí.",
       "en": "You must keep practicing."
     },
-    "id": 194,
-    "pos": "Verb"
+    "id": 194
   },
   {
     "hanzi": "简单",
@@ -2921,8 +2727,7 @@
       "py": "Zhè dào tí hěn jiǎndān.",
       "en": "This problem is very simple."
     },
-    "id": 195,
-    "pos": "Adjective"
+    "id": 195
   },
   {
     "hanzi": "讲",
@@ -2936,8 +2741,7 @@
       "py": "Lǎoshī zài jiǎng kè.",
       "en": "The teacher is giving a lecture."
     },
-    "id": 196,
-    "pos": "Verb"
+    "id": 196
   },
   {
     "hanzi": "健康",
@@ -2951,8 +2755,7 @@
       "py": "Jiànkāng zuì zhòngyào.",
       "en": "Health is the most important."
     },
-    "id": 197,
-    "pos": "Adjective"
+    "id": 197
   },
   {
     "hanzi": "见面",
@@ -2966,8 +2769,7 @@
       "py": "Wǒmen míngtiān jiànmiàn.",
       "en": "We will meet tomorrow."
     },
-    "id": 198,
-    "pos": "Verb"
+    "id": 198
   },
   {
     "hanzi": "检票",
@@ -2981,8 +2783,7 @@
       "py": "Shàng chē qián yào jiǎnpiào.",
       "en": "You need to have your ticket checked before boarding."
     },
-    "id": 199,
-    "pos": "Verb"
+    "id": 199
   },
   {
     "hanzi": "脚",
@@ -2996,8 +2797,7 @@
       "py": "Wǒ de jiǎo hěn téng.",
       "en": "My foot hurts a lot."
     },
-    "id": 200,
-    "pos": "Noun"
+    "id": 200
   },
   {
     "hanzi": "角",
@@ -3011,8 +2811,7 @@
       "py": "Yì kuài qián děngyú shí jiǎo.",
       "en": "One yuan equals ten jiao."
     },
-    "id": 201,
-    "pos": "Noun, Measure Word"
+    "id": 201
   },
   {
     "hanzi": "假期",
@@ -3026,8 +2825,7 @@
       "py": "Shǔjià shì wǒ zuì xǐhuan de jiàqī.",
       "en": "Summer vacation is my favorite holiday."
     },
-    "id": 202,
-    "pos": "Noun"
+    "id": 202
   },
   {
     "hanzi": "借",
@@ -3041,8 +2839,7 @@
       "py": "Wǒ jiè le yì běn shū.",
       "en": "I borrowed a book."
     },
-    "id": 203,
-    "pos": "Verb"
+    "id": 203
   },
   {
     "hanzi": "接",
@@ -3056,8 +2853,7 @@
       "py": "Wǒ qù jīchǎng jiē nǐ.",
       "en": "I will pick you up at the airport."
     },
-    "id": 204,
-    "pos": "Verb"
+    "id": 204
   },
   {
     "hanzi": "节",
@@ -3071,8 +2867,7 @@
       "py": "Jīntiān shàng sān jié kè.",
       "en": "We have three lessons today."
     },
-    "id": 205,
-    "pos": "Measure Word, Noun, Verb"
+    "id": 205
   },
   {
     "hanzi": "街",
@@ -3086,8 +2881,7 @@
       "py": "Zhè tiáo jiē hěn rènào.",
       "en": "This street is very lively."
     },
-    "id": 206,
-    "pos": "Noun"
+    "id": 206
   },
   {
     "hanzi": "结婚",
@@ -3101,8 +2895,7 @@
       "py": "Tāmen qùnián jiéhūn le.",
       "en": "They got married last year."
     },
-    "id": 207,
-    "pos": "Verb"
+    "id": 207
   },
   {
     "hanzi": "解决",
@@ -3116,8 +2909,7 @@
       "py": "Wǒmen jiějué le zhège wèntí.",
       "en": "We solved this problem."
     },
-    "id": 208,
-    "pos": "Verb"
+    "id": 208
   },
   {
     "hanzi": "姐妹",
@@ -3131,8 +2923,7 @@
       "py": "Tāmen shì jiěmèi.",
       "en": "They are sisters."
     },
-    "id": 209,
-    "pos": "Noun"
+    "id": 209
   },
   {
     "hanzi": "节目",
@@ -3146,8 +2937,7 @@
       "py": "Zhège jiémù hěn hǎokàn.",
       "en": "This program is very good."
     },
-    "id": 210,
-    "pos": "Noun"
+    "id": 210
   },
   {
     "hanzi": "节日",
@@ -3161,8 +2951,7 @@
       "py": "Chūnjié shì Zhōngguó de zhòngyào jiérì.",
       "en": "Spring Festival is an important Chinese holiday."
     },
-    "id": 211,
-    "pos": "Noun"
+    "id": 211
   },
   {
     "hanzi": "结束",
@@ -3176,8 +2965,7 @@
       "py": "Diànyǐng jiéshù le.",
       "en": "The movie ended."
     },
-    "id": 212,
-    "pos": "Verb"
+    "id": 212
   },
   {
     "hanzi": "几乎",
@@ -3191,8 +2979,7 @@
       "py": "Tā jīhū měitiān duànliàn.",
       "en": "He exercises almost every day."
     },
-    "id": 213,
-    "pos": "Adverb"
+    "id": 213
   },
   {
     "hanzi": "机会",
@@ -3206,8 +2993,7 @@
       "py": "Zhè shì yí gè hǎo jīhuì.",
       "en": "This is a good opportunity."
     },
-    "id": 214,
-    "pos": "Noun"
+    "id": 214
   },
   {
     "hanzi": "季节",
@@ -3221,8 +3007,7 @@
       "py": "Nǐ zuì xǐhuan nǎ gè jìjié?",
       "en": "Which season do you like most?"
     },
-    "id": 215,
-    "pos": "Noun"
+    "id": 215
   },
   {
     "hanzi": "斤",
@@ -3236,8 +3021,7 @@
       "py": "Zhè tiáo yú yǒu liǎng jīn.",
       "en": "This fish weighs two catties."
     },
-    "id": 216,
-    "pos": "Measure Word"
+    "id": 216
   },
   {
     "hanzi": "经过",
@@ -3251,8 +3035,7 @@
       "py": "Tā jīngguò le túshūguǎn.",
       "en": "He passed by the library."
     },
-    "id": 217,
-    "pos": "Verb, Noun"
+    "id": 217
   },
   {
     "hanzi": "经理",
@@ -3266,8 +3049,7 @@
       "py": "Tā shì wǒmen de jīnglǐ.",
       "en": "He is our manager."
     },
-    "id": 218,
-    "pos": "Noun"
+    "id": 218
   },
   {
     "hanzi": "久",
@@ -3281,8 +3063,7 @@
       "py": "Wǒ děng le hěn jiǔ.",
       "en": "I waited for a long time."
     },
-    "id": 219,
-    "pos": "Adjective"
+    "id": 219
   },
   {
     "hanzi": "旧",
@@ -3296,8 +3077,7 @@
       "py": "Zhè shì yì běn jiù shū.",
       "en": "This is an old book."
     },
-    "id": 220,
-    "pos": "Adjective"
+    "id": 220
   },
   {
     "hanzi": "酒",
@@ -3311,8 +3091,7 @@
       "py": "Tā bù hē jiǔ.",
       "en": "He doesn't drink alcohol."
     },
-    "id": 221,
-    "pos": "Noun"
+    "id": 221
   },
   {
     "hanzi": "句",
@@ -3326,8 +3105,7 @@
       "py": "Qǐng dú dì yī jù.",
       "en": "Please read the first sentence."
     },
-    "id": 222,
-    "pos": "Measure Word"
+    "id": 222
   },
   {
     "hanzi": "决定",
@@ -3341,8 +3119,7 @@
       "py": "Wǒ juédìng qù Běijīng.",
       "en": "I decided to go to Beijing."
     },
-    "id": 223,
-    "pos": "Verb, Noun"
+    "id": 223
   },
   {
     "hanzi": "句子",
@@ -3356,8 +3133,7 @@
       "py": "Zhège jùzi tài cháng le.",
       "en": "This sentence is too long."
     },
-    "id": 224,
-    "pos": "Noun"
+    "id": 224
   },
   {
     "hanzi": "卡",
@@ -3371,8 +3147,7 @@
       "py": "Wǒ yòng yínhángkǎ fù qián.",
       "en": "I pay with my bank card."
     },
-    "id": 225,
-    "pos": "Noun"
+    "id": 225
   },
   {
     "hanzi": "开花",
@@ -3386,8 +3161,7 @@
       "py": "Chūntiān dào le, hěnduō huā dōu kāihuā le.",
       "en": "Spring has arrived, and many flowers have bloomed."
     },
-    "id": 226,
-    "pos": "Verb"
+    "id": 226
   },
   {
     "hanzi": "开会",
@@ -3401,8 +3175,7 @@
       "py": "Wǒmen xiàwǔ kāihuì.",
       "en": "We have a meeting in the afternoon."
     },
-    "id": 227,
-    "pos": "Verb"
+    "id": 227
   },
   {
     "hanzi": "开机",
@@ -3416,8 +3189,7 @@
       "py": "Qǐng kāijī zài shì yí cì.",
       "en": "Please turn on the device and try again."
     },
-    "id": 228,
-    "pos": "Verb"
+    "id": 228
   },
   {
     "hanzi": "开心",
@@ -3431,8 +3203,7 @@
       "py": "Jīntiān wǒ hěn kāixīn.",
       "en": "I am very happy today."
     },
-    "id": 229,
-    "pos": "Adjective, Verb, Noun"
+    "id": 229
   },
   {
     "hanzi": "看来",
@@ -3446,8 +3217,7 @@
       "py": "Kànlái jīntiān yào xià yǔ.",
       "en": "It looks like it will rain today."
     },
-    "id": 230,
-    "pos": "Verb"
+    "id": 230
   },
   {
     "hanzi": "刻",
@@ -3461,8 +3231,7 @@
       "py": "Xiànzài shì sān diǎn yí kè.",
       "en": "It is now a quarter past three."
     },
-    "id": 231,
-    "pos": "Measure Word, Verb"
+    "id": 231
   },
   {
     "hanzi": "可",
@@ -3476,8 +3245,7 @@
       "py": "Tā kě cōngmíng le.",
       "en": "He is really smart."
     },
-    "id": 232,
-    "pos": "Conjunction, Adverb"
+    "id": 232
   },
   {
     "hanzi": "渴",
@@ -3491,8 +3259,7 @@
       "py": "Wǒ hěn kě, xiǎng hē shuǐ.",
       "en": "I am very thirsty and want to drink water."
     },
-    "id": 233,
-    "pos": "Adjective"
+    "id": 233
   },
   {
     "hanzi": "可爱",
@@ -3506,8 +3273,7 @@
       "py": "Zhè zhī māo hěn kě'ài.",
       "en": "This cat is very cute."
     },
-    "id": 234,
-    "pos": "Adjective"
+    "id": 234
   },
   {
     "hanzi": "课本",
@@ -3521,8 +3287,7 @@
       "py": "Qǐng dǎkāi kèběn dì wǔ yè.",
       "en": "Please open your textbook to page five."
     },
-    "id": 235,
-    "pos": "Noun"
+    "id": 235
   },
   {
     "hanzi": "客人",
@@ -3536,8 +3301,7 @@
       "py": "Jiā lǐ lái le kèrén.",
       "en": "A guest came to our home."
     },
-    "id": 236,
-    "pos": "Noun"
+    "id": 236
   },
   {
     "hanzi": "可是",
@@ -3551,8 +3315,7 @@
       "py": "Wǒ xiǎng qù, kěshì méiyǒu shíjiān.",
       "en": "I want to go, but I have no time."
     },
-    "id": 237,
-    "pos": "Conjunction"
+    "id": 237
   },
   {
     "hanzi": "课文",
@@ -3566,8 +3329,7 @@
       "py": "Qǐng dú yíxià kèwén.",
       "en": "Please read the text."
     },
-    "id": 238,
-    "pos": "Noun"
+    "id": 238
   },
   {
     "hanzi": "空调",
@@ -3581,8 +3343,7 @@
       "py": "Xiàtiān yào kāi kōngtiáo.",
       "en": "You need to turn on the air conditioner in summer."
     },
-    "id": 239,
-    "pos": "Noun"
+    "id": 239
   },
   {
     "hanzi": "哭",
@@ -3596,8 +3357,7 @@
       "py": "Háizi zài kū.",
       "en": "The child is crying."
     },
-    "id": 240,
-    "pos": "Verb"
+    "id": 240
   },
   {
     "hanzi": "筷子",
@@ -3611,8 +3371,7 @@
       "py": "Wǒ yòng kuàizi chī fàn.",
       "en": "I eat with chopsticks."
     },
-    "id": 241,
-    "pos": "Noun"
+    "id": 241
   },
   {
     "hanzi": "矿泉水",
@@ -3626,8 +3385,7 @@
       "py": "Qǐng gěi wǒ yì píng kuàngquánshuǐ.",
       "en": "Please give me a bottle of mineral water."
     },
-    "id": 242,
-    "pos": "Noun"
+    "id": 242
   },
   {
     "hanzi": "来自",
@@ -3641,8 +3399,7 @@
       "py": "Tā láizì Fǎguó.",
       "en": "He comes from France."
     },
-    "id": 243,
-    "pos": "Verb"
+    "id": 243
   },
   {
     "hanzi": "蓝",
@@ -3656,8 +3413,7 @@
       "py": "Tiānkōng shì lán sè de.",
       "en": "The sky is blue."
     },
-    "id": 244,
-    "pos": "Adjective"
+    "id": 244
   },
   {
     "hanzi": "老",
@@ -3671,8 +3427,7 @@
       "py": "Tā shì lǎo péngyou le.",
       "en": "He is an old friend."
     },
-    "id": 245,
-    "pos": "Adjective, Adverb"
+    "id": 245
   },
   {
     "hanzi": "老人",
@@ -3686,8 +3441,7 @@
       "py": "Wǒmen yào zūnzhòng lǎorén.",
       "en": "We should respect the elderly."
     },
-    "id": 246,
-    "pos": "Noun"
+    "id": 246
   },
   {
     "hanzi": "练",
@@ -3701,8 +3455,7 @@
       "py": "Wǒ měitiān liàn xiě zì.",
       "en": "I practice writing characters every day."
     },
-    "id": 247,
-    "pos": "Verb"
+    "id": 247
   },
   {
     "hanzi": "脸",
@@ -3716,8 +3469,7 @@
       "py": "Tā de liǎn hěn hóng.",
       "en": "Her face is very red."
     },
-    "id": 248,
-    "pos": "Noun"
+    "id": 248
   },
   {
     "hanzi": "辆",
@@ -3731,8 +3483,7 @@
       "py": "Wǒ yǒu yí liàng zìxíngchē.",
       "en": "I have one bicycle."
     },
-    "id": 249,
-    "pos": "Measure Word"
+    "id": 249
   },
   {
     "hanzi": "凉快",
@@ -3746,8 +3497,7 @@
       "py": "Qiūtiān tiānqì liángkuai.",
       "en": "The weather is cool in autumn."
     },
-    "id": 250,
-    "pos": "Adjective"
+    "id": 250
   },
   {
     "hanzi": "练习",
@@ -3761,8 +3511,7 @@
       "py": "Wǒmen zuò liànxí tí.",
       "en": "We do practice exercises."
     },
-    "id": 251,
-    "pos": "Verb, Noun"
+    "id": 251
   },
   {
     "hanzi": "聊",
@@ -3776,8 +3525,7 @@
       "py": "Wǒmen liáo le hěn jiǔ.",
       "en": "We chatted for a long time."
     },
-    "id": 252,
-    "pos": "Verb"
+    "id": 252
   },
   {
     "hanzi": "了解",
@@ -3791,8 +3539,7 @@
       "py": "Wǒ liǎojiě tā de qíngkuàng.",
       "en": "I understand his situation."
     },
-    "id": 253,
-    "pos": "Verb"
+    "id": 253
   },
   {
     "hanzi": "聊天儿",
@@ -3806,8 +3553,7 @@
       "py": "Wǒmen zài wǎng shàng liáotiānr.",
       "en": "We chatted online."
     },
-    "id": 254,
-    "pos": "Verb"
+    "id": 254
   },
   {
     "hanzi": "离开",
@@ -3821,8 +3567,7 @@
       "py": "Tā míngtiān líkāi Běijīng.",
       "en": "He is leaving Beijing tomorrow."
     },
-    "id": 255,
-    "pos": "Verb"
+    "id": 255
   },
   {
     "hanzi": "邻居",
@@ -3836,8 +3581,7 @@
       "py": "Wǒmen de línjū hěn yǒuhǎo.",
       "en": "Our neighbors are very friendly."
     },
-    "id": 256,
-    "pos": "Noun"
+    "id": 256
   },
   {
     "hanzi": "历史",
@@ -3851,8 +3595,7 @@
       "py": "Wǒ xǐhuan xué lìshǐ.",
       "en": "I like studying history."
     },
-    "id": 257,
-    "pos": "Noun"
+    "id": 257
   },
   {
     "hanzi": "留学",
@@ -3866,8 +3609,7 @@
       "py": "Tā qù Yīngguó liúxué le.",
       "en": "She went to study abroad in the UK."
     },
-    "id": 258,
-    "pos": "Verb"
+    "id": 258
   },
   {
     "hanzi": "留学生",
@@ -3881,8 +3623,7 @@
       "py": "Tā shì yì míng liúxuéshēng.",
       "en": "He is an overseas student."
     },
-    "id": 259,
-    "pos": "Noun"
+    "id": 259
   },
   {
     "hanzi": "礼物",
@@ -3896,8 +3637,7 @@
       "py": "Wǒ gěi nǐ mǎi le lǐwù.",
       "en": "I bought you a gift."
     },
-    "id": 260,
-    "pos": "Noun"
+    "id": 260
   },
   {
     "hanzi": "楼梯",
@@ -3911,8 +3651,7 @@
       "py": "Qǐng zǒu lóutī, bú yào zuò diàntī.",
       "en": "Please use the stairs, not the elevator."
     },
-    "id": 261,
-    "pos": "Noun"
+    "id": 261
   },
   {
     "hanzi": "路边",
@@ -3926,8 +3665,7 @@
       "py": "Tā zài lùbiān děng wǒ.",
       "en": "He is waiting for me by the roadside."
     },
-    "id": 262,
-    "pos": "Noun"
+    "id": 262
   },
   {
     "hanzi": "路口",
@@ -3941,8 +3679,7 @@
       "py": "Zài lùkǒu zuǒ zhuǎn.",
       "en": "Turn left at the intersection."
     },
-    "id": 263,
-    "pos": "Noun"
+    "id": 263
   },
   {
     "hanzi": "马",
@@ -3956,8 +3693,7 @@
       "py": "Zhè pǐ mǎ pǎo de hěn kuài.",
       "en": "This horse runs very fast."
     },
-    "id": 264,
-    "pos": "Noun"
+    "id": 264
   },
   {
     "hanzi": "马路",
@@ -3971,8 +3707,7 @@
       "py": "Guò mǎlù yào xiǎoxīn.",
       "en": "Be careful when crossing the road."
     },
-    "id": 265,
-    "pos": "Noun"
+    "id": 265
   },
   {
     "hanzi": "满意",
@@ -3986,8 +3721,7 @@
       "py": "Tā duì jiéguǒ hěn mǎnyì.",
       "en": "He is very satisfied with the result."
     },
-    "id": 266,
-    "pos": "Verb"
+    "id": 266
   },
   {
     "hanzi": "毛",
@@ -4001,8 +3735,7 @@
       "py": "Zhè jiàn dōngxi mài wǔ máo qián.",
       "en": "This item costs fifty cents."
     },
-    "id": 267,
-    "pos": "Noun, Measure Word"
+    "id": 267
   },
   {
     "hanzi": "马上",
@@ -4016,8 +3749,7 @@
       "py": "Wǒ mǎshàng jiù lái.",
       "en": "I'll be there right away."
     },
-    "id": 268,
-    "pos": "Adverb"
+    "id": 268
   },
   {
     "hanzi": "米",
@@ -4031,8 +3763,7 @@
       "py": "Cāochǎng yǒu yì bǎi mǐ cháng.",
       "en": "The playground is one hundred meters long."
     },
-    "id": 269,
-    "pos": "Noun, Measure Word"
+    "id": 269
   },
   {
     "hanzi": "面前",
@@ -4046,8 +3777,7 @@
       "py": "Zài dàjiā miànqián shuōhuà.",
       "en": "Speak in front of everyone."
     },
-    "id": 270,
-    "pos": "Noun"
+    "id": 270
   },
   {
     "hanzi": "明白",
@@ -4061,8 +3791,7 @@
       "py": "Wǒ míngbai nǐ de yìsi le.",
       "en": "I understand what you mean."
     },
-    "id": 271,
-    "pos": "Verb, Adjective, Noun"
+    "id": 271
   },
   {
     "hanzi": "名单",
@@ -4076,8 +3805,7 @@
       "py": "Qǐng kàn yíxià míngdān.",
       "en": "Please look at the name list."
     },
-    "id": 272,
-    "pos": "Noun"
+    "id": 272
   },
   {
     "hanzi": "名人",
@@ -4091,8 +3819,7 @@
       "py": "Tā shì yí wèi míngrén.",
       "en": "He is a famous person."
     },
-    "id": 273,
-    "pos": "Noun"
+    "id": 273
   },
   {
     "hanzi": "南",
@@ -4106,8 +3833,7 @@
       "py": "Tā de jiā zài nánfāng.",
       "en": "His home is in the south."
     },
-    "id": 274,
-    "pos": "Noun"
+    "id": 274
   },
   {
     "hanzi": "难",
@@ -4121,8 +3847,7 @@
       "py": "Zhè dào tí hěn nán.",
       "en": "This problem is very difficult."
     },
-    "id": 275,
-    "pos": "Adjective, Verb"
+    "id": 275
   },
   {
     "hanzi": "南方",
@@ -4136,8 +3861,7 @@
       "py": "Nánfāng dōngtiān bù lěng.",
       "en": "Winters are not cold in the south."
     },
-    "id": 276,
-    "pos": "Noun"
+    "id": 276
   },
   {
     "hanzi": "难过",
@@ -4151,8 +3875,7 @@
       "py": "Tā nánguò de kū le.",
       "en": "She cried sadly."
     },
-    "id": 277,
-    "pos": "Adjective"
+    "id": 277
   },
   {
     "hanzi": "难看",
@@ -4166,8 +3889,7 @@
       "py": "Zhè jiàn yīfu hěn nánkàn.",
       "en": "This piece of clothing is very ugly."
     },
-    "id": 278,
-    "pos": "Adjective"
+    "id": 278
   },
   {
     "hanzi": "男人",
@@ -4181,8 +3903,7 @@
       "py": "Nàge nánrén shì wǒ bàba.",
       "en": "That man is my father."
     },
-    "id": 279,
-    "pos": "Noun"
+    "id": 279
   },
   {
     "hanzi": "男生",
@@ -4196,8 +3917,7 @@
       "py": "Bān lǐ yǒu èrshí gè nánshēng.",
       "en": "There are twenty boys in the class."
     },
-    "id": 280,
-    "pos": "Noun"
+    "id": 280
   },
   {
     "hanzi": "难题",
@@ -4211,8 +3931,7 @@
       "py": "Zhè shì yì dào nántí.",
       "en": "This is a difficult problem."
     },
-    "id": 281,
-    "pos": "Noun"
+    "id": 281
   },
   {
     "hanzi": "难听",
@@ -4226,8 +3945,7 @@
       "py": "Zhè shǒu gē hěn nántīng.",
       "en": "This song is very unpleasant to hear."
     },
-    "id": 282,
-    "pos": "Adjective"
+    "id": 282
   },
   {
     "hanzi": "年级",
@@ -4241,8 +3959,7 @@
       "py": "Tā zài jǐ niánjí?",
       "en": "What grade is he in?"
     },
-    "id": 283,
-    "pos": "Noun"
+    "id": 283
   },
   {
     "hanzi": "年轻",
@@ -4256,8 +3973,7 @@
       "py": "Tā kàn qǐlái hěn niánqīng.",
       "en": "She looks very young."
     },
-    "id": 284,
-    "pos": "Adjective"
+    "id": 284
   },
   {
     "hanzi": "牛",
@@ -4271,8 +3987,7 @@
       "py": "Nóngchǎng lǐ yǒu hěn duō niú.",
       "en": "There are many cows on the farm."
     },
-    "id": 285,
-    "pos": "Noun"
+    "id": 285
   },
   {
     "hanzi": "努力",
@@ -4286,8 +4001,7 @@
       "py": "Nǐ yào nǔlì xuéxí.",
       "en": "You must study hard."
     },
-    "id": 286,
-    "pos": "Adjective, Adverb, Noun"
+    "id": 286
   },
   {
     "hanzi": "女人",
@@ -4301,8 +4015,7 @@
       "py": "Nàge nǚrén shì wǒ māma.",
       "en": "That woman is my mother."
     },
-    "id": 287,
-    "pos": "Noun"
+    "id": 287
   },
   {
     "hanzi": "女生",
@@ -4316,8 +4029,7 @@
       "py": "Bān lǐ yǒu shíwǔ gè nǚshēng.",
       "en": "There are fifteen girls in the class."
     },
-    "id": 288,
-    "pos": "Noun"
+    "id": 288
   },
   {
     "hanzi": "怕",
@@ -4331,8 +4043,7 @@
       "py": "Tā pà kǎoshì.",
       "en": "He is afraid of exams."
     },
-    "id": 289,
-    "pos": "Verb, Adverb"
+    "id": 289
   },
   {
     "hanzi": "爬",
@@ -4346,8 +4057,7 @@
       "py": "Tāmen pá shàng le shān dǐng.",
       "en": "They climbed to the top of the mountain."
     },
-    "id": 290,
-    "pos": "Verb"
+    "id": 290
   },
   {
     "hanzi": "拍照",
@@ -4361,8 +4071,7 @@
       "py": "Wǒmen zài gōngyuán pāizhào.",
       "en": "We took photos in the park."
     },
-    "id": 291,
-    "pos": "Verb"
+    "id": 291
   },
   {
     "hanzi": "胖",
@@ -4376,8 +4085,7 @@
       "py": "Tā zuìjìn pàng le.",
       "en": "He has gained weight recently."
     },
-    "id": 292,
-    "pos": "Adjective"
+    "id": 292
   },
   {
     "hanzi": "盘子",
@@ -4391,8 +4099,7 @@
       "py": "Pánzi lǐ yǒu shuǐguǒ.",
       "en": "There is fruit on the plate."
     },
-    "id": 293,
-    "pos": "Noun"
+    "id": 293
   },
   {
     "hanzi": "啤酒",
@@ -4406,8 +4113,7 @@
       "py": "Tā xǐhuan hē píjiǔ.",
       "en": "He likes to drink beer."
     },
-    "id": 294,
-    "pos": "Noun"
+    "id": 294
   },
   {
     "hanzi": "平时",
@@ -4421,8 +4127,7 @@
       "py": "Píngshí wǒ liù diǎn qǐchuáng.",
       "en": "I usually get up at six."
     },
-    "id": 295,
-    "pos": "Noun"
+    "id": 295
   },
   {
     "hanzi": "瓶子",
@@ -4436,8 +4141,7 @@
       "py": "Qǐng bǎ píngzi fàng hǎo.",
       "en": "Please put the bottle away properly."
     },
-    "id": 296,
-    "pos": "Noun"
+    "id": 296
   },
   {
     "hanzi": "起",
@@ -4451,8 +4155,7 @@
       "py": "Qǐng dàjiā zhàn qǐlái.",
       "en": "Everyone please stand up."
     },
-    "id": 297,
-    "pos": "Verb, Measure Word"
+    "id": 297
   },
   {
     "hanzi": "骑",
@@ -4466,8 +4169,7 @@
       "py": "Tā qí zìxíngchē shàngxué.",
       "en": "He rides a bicycle to school."
     },
-    "id": 298,
-    "pos": "Verb"
+    "id": 298
   },
   {
     "hanzi": "铅笔",
@@ -4481,8 +4183,7 @@
       "py": "Wǒ yòng qiānbǐ xiě zì.",
       "en": "I write with a pencil."
     },
-    "id": 299,
-    "pos": "Noun"
+    "id": 299
   },
   {
     "hanzi": "前年",
@@ -4496,8 +4197,7 @@
       "py": "Qiánnián wǒ qù le Rìběn.",
       "en": "I went to Japan the year before last."
     },
-    "id": 300,
-    "pos": "Noun"
+    "id": 300
   },
   {
     "hanzi": "前天",
@@ -4511,8 +4211,7 @@
       "py": "Qiántiān wǒmen qù kàn diànyǐng le.",
       "en": "We went to see a movie the day before yesterday."
     },
-    "id": 301,
-    "pos": "Noun"
+    "id": 301
   },
   {
     "hanzi": "汽车",
@@ -4526,8 +4225,7 @@
       "py": "Tā yǒu yí liàng qìchē.",
       "en": "He has a car."
     },
-    "id": 302,
-    "pos": "Noun"
+    "id": 302
   },
   {
     "hanzi": "起飞",
@@ -4541,8 +4239,7 @@
       "py": "Fēijī bā diǎn qǐfēi.",
       "en": "The plane takes off at eight."
     },
-    "id": 303,
-    "pos": "Verb"
+    "id": 303
   },
   {
     "hanzi": "奇怪",
@@ -4556,8 +4253,7 @@
       "py": "Zhè jiàn shì hěn qíguài.",
       "en": "This matter is very strange."
     },
-    "id": 304,
-    "pos": "Adjective"
+    "id": 304
   },
   {
     "hanzi": "清楚",
@@ -4571,8 +4267,7 @@
       "py": "Qǐng shuō qīngchu yìdiǎnr.",
       "en": "Please speak a little more clearly."
     },
-    "id": 305,
-    "pos": "Adjective, Verb"
+    "id": 305
   },
   {
     "hanzi": "请假",
@@ -4586,8 +4281,7 @@
       "py": "Tā qǐngjià le sān tiān.",
       "en": "He asked for three days off."
     },
-    "id": 306,
-    "pos": "Verb"
+    "id": 306
   },
   {
     "hanzi": "请客",
@@ -4601,8 +4295,7 @@
       "py": "Jīntiān wǒ qǐngkè.",
       "en": "Today I am treating everyone."
     },
-    "id": 307,
-    "pos": "Verb"
+    "id": 307
   },
   {
     "hanzi": "其实",
@@ -4616,8 +4309,7 @@
       "py": "Qíshí tā hěn cōngmíng.",
       "en": "Actually, he is very smart."
     },
-    "id": 308,
-    "pos": "Adverb"
+    "id": 308
   },
   {
     "hanzi": "其他",
@@ -4631,8 +4323,7 @@
       "py": "Qítā tóngxué dōu lái le.",
       "en": "The other classmates all came."
     },
-    "id": 309,
-    "pos": "Pronoun"
+    "id": 309
   },
   {
     "hanzi": "球场",
@@ -4646,8 +4337,7 @@
       "py": "Tāmen zài qiúchǎng dǎ qiú.",
       "en": "They play ball at the sports court."
     },
-    "id": 310,
-    "pos": "Noun"
+    "id": 310
   },
   {
     "hanzi": "秋天",
@@ -4661,8 +4351,7 @@
       "py": "Qiūtiān yèzi biàn huáng le.",
       "en": "Leaves turn yellow in autumn."
     },
-    "id": 311,
-    "pos": "Noun"
+    "id": 311
   },
   {
     "hanzi": "裙子",
@@ -4676,8 +4365,7 @@
       "py": "Tā chuān le yì tiáo hóng qúnzi.",
       "en": "She wore a red skirt."
     },
-    "id": 312,
-    "pos": "Noun"
+    "id": 312
   },
   {
     "hanzi": "然后",
@@ -4691,8 +4379,7 @@
       "py": "Xiān chī fàn, ránhòu zuò zuòyè.",
       "en": "Eat first, then do your homework."
     },
-    "id": 313,
-    "pos": "Conjunction"
+    "id": 313
   },
   {
     "hanzi": "认得",
@@ -4706,8 +4393,7 @@
       "py": "Nǐ rènde tā ma?",
       "en": "Do you recognize him?"
     },
-    "id": 314,
-    "pos": "Verb"
+    "id": 314
   },
   {
     "hanzi": "认为",
@@ -4721,8 +4407,7 @@
       "py": "Wǒ rènwéi zhège fāngfǎ hǎo.",
       "en": "I think this method is good."
     },
-    "id": 315,
-    "pos": "Verb"
+    "id": 315
   },
   {
     "hanzi": "认真",
@@ -4736,8 +4421,7 @@
       "py": "Tā xuéxí hěn rènzhēn.",
       "en": "She studies very seriously."
     },
-    "id": 316,
-    "pos": "Adjective"
+    "id": 316
   },
   {
     "hanzi": "热情",
@@ -4751,8 +4435,7 @@
       "py": "Tā fēicháng rèqíng.",
       "en": "He is very enthusiastic."
     },
-    "id": 317,
-    "pos": "Adjective"
+    "id": 317
   },
   {
     "hanzi": "容易",
@@ -4766,8 +4449,7 @@
       "py": "Zhè dào tí hěn róngyì.",
       "en": "This problem is very easy."
     },
-    "id": 318,
-    "pos": "Adjective"
+    "id": 318
   },
   {
     "hanzi": "如果",
@@ -4781,8 +4463,7 @@
       "py": "Rúguǒ nǐ lái, gàosu wǒ.",
       "en": "If you come, tell me."
     },
-    "id": 319,
-    "pos": "Conjunction"
+    "id": 319
   },
   {
     "hanzi": "伞",
@@ -4796,8 +4477,7 @@
       "py": "Xià yǔ le, dài shàng sǎn ba.",
       "en": "It's raining, bring an umbrella."
     },
-    "id": 320,
-    "pos": "Noun"
+    "id": 320
   },
   {
     "hanzi": "扫",
@@ -4811,8 +4491,7 @@
       "py": "Wǒ lái sǎo dì.",
       "en": "I will sweep the floor."
     },
-    "id": 321,
-    "pos": "Verb"
+    "id": 321
   },
   {
     "hanzi": "沙发",
@@ -4826,8 +4505,7 @@
       "py": "Tā zuò zài shāfā shàng kàn diànshì.",
       "en": "He sits on the sofa watching TV."
     },
-    "id": 322,
-    "pos": "Noun"
+    "id": 322
   },
   {
     "hanzi": "山",
@@ -4841,8 +4519,7 @@
       "py": "Wǒmen pá shān qù le.",
       "en": "We went mountain climbing."
     },
-    "id": 323,
-    "pos": "Noun"
+    "id": 323
   },
   {
     "hanzi": "上衣",
@@ -4856,8 +4533,7 @@
       "py": "Tā chuān le yí jiàn lánsè shàngyī.",
       "en": "He wore a blue jacket."
     },
-    "id": 324,
-    "pos": "Noun"
+    "id": 324
   },
   {
     "hanzi": "勺子",
@@ -4871,8 +4547,7 @@
       "py": "Qǐng gěi wǒ yí gè sháozi.",
       "en": "Please give me a spoon."
     },
-    "id": 325,
-    "pos": "Noun"
+    "id": 325
   },
   {
     "hanzi": "身边",
@@ -4886,8 +4561,7 @@
       "py": "Tā yìzhí zài wǒ shēnbiān.",
       "en": "She has always been by my side."
     },
-    "id": 326,
-    "pos": "Noun"
+    "id": 326
   },
   {
     "hanzi": "声",
@@ -4901,8 +4575,7 @@
       "py": "Tā shuō le yì shēng zàijiàn.",
       "en": "He said goodbye once."
     },
-    "id": 327,
-    "pos": "Noun, Measure Word"
+    "id": 327
   },
   {
     "hanzi": "身高",
@@ -4916,8 +4589,7 @@
       "py": "Tā de shēngāo shì yī mǐ bā.",
       "en": "His height is 1.8 meters."
     },
-    "id": 328,
-    "pos": "Noun"
+    "id": 328
   },
   {
     "hanzi": "生活",
@@ -4931,8 +4603,7 @@
       "py": "Wǒ xǐhuan xiànzài de shēnghuó.",
       "en": "I like my current life."
     },
-    "id": 329,
-    "pos": "Verb, Noun"
+    "id": 329
   },
   {
     "hanzi": "生气",
@@ -4946,8 +4617,7 @@
       "py": "Tā yīnwèi zhè jiàn shì shēngqì le.",
       "en": "He got angry because of this matter."
     },
-    "id": 330,
-    "pos": "Adjective, Noun, Verb"
+    "id": 330
   },
   {
     "hanzi": "声音",
@@ -4961,8 +4631,7 @@
       "py": "Tā de shēngyīn hěn hǎotīng.",
       "en": "Her voice is very pleasant."
     },
-    "id": 331,
-    "pos": "Noun"
+    "id": 331
   },
   {
     "hanzi": "室",
@@ -4976,8 +4645,7 @@
       "py": "Zhè shì yuèdú shì.",
       "en": "This is the reading room."
     },
-    "id": 332,
-    "pos": "Noun"
+    "id": 332
   },
   {
     "hanzi": "市",
@@ -4991,8 +4659,7 @@
       "py": "Wǒ zài shì zhōngxīn gōngzuò.",
       "en": "I work in the city center."
     },
-    "id": 333,
-    "pos": "Noun"
+    "id": 333
   },
   {
     "hanzi": "试",
@@ -5006,8 +4673,7 @@
       "py": "Nǐ shì yi shì zhè jiàn yīfu.",
       "en": "Try on this piece of clothing."
     },
-    "id": 334,
-    "pos": "Verb"
+    "id": 334
   },
   {
     "hanzi": "世界",
@@ -5021,8 +4687,7 @@
       "py": "Shìjiè shàng yǒu hěn duō guójiā.",
       "en": "There are many countries in the world."
     },
-    "id": 335,
-    "pos": "Noun"
+    "id": 335
   },
   {
     "hanzi": "受",
@@ -5036,8 +4701,7 @@
       "py": "Tā shòu le shāng.",
       "en": "He was injured."
     },
-    "id": 336,
-    "pos": "Verb"
+    "id": 336
   },
   {
     "hanzi": "收",
@@ -5051,8 +4715,7 @@
       "py": "Wǒ shōu le hěn duō lǐwù.",
       "en": "I received many gifts."
     },
-    "id": 337,
-    "pos": "Verb"
+    "id": 337
   },
   {
     "hanzi": "瘦",
@@ -5066,8 +4729,7 @@
       "py": "Tā zuìjìn shòu le.",
       "en": "She has lost weight recently."
     },
-    "id": 338,
-    "pos": "Adjective"
+    "id": 338
   },
   {
     "hanzi": "受到",
@@ -5081,8 +4743,7 @@
       "py": "Tā shòudào le dàjiā de huānyíng.",
       "en": "He was welcomed by everyone."
     },
-    "id": 339,
-    "pos": "Verb"
+    "id": 339
   },
   {
     "hanzi": "收到",
@@ -5096,8 +4757,7 @@
       "py": "Wǒ shōudào le nǐ de yóujiàn.",
       "en": "I received your email."
     },
-    "id": 340,
-    "pos": "Verb"
+    "id": 340
   },
   {
     "hanzi": "树",
@@ -5111,8 +4771,7 @@
       "py": "Gōngyuán lǐ yǒu hěn duō shù.",
       "en": "There are many trees in the park."
     },
-    "id": 341,
-    "pos": "Noun"
+    "id": 341
   },
   {
     "hanzi": "刷",
@@ -5126,8 +4785,7 @@
       "py": "Zǎoshang yào shuā yá.",
       "en": "You need to brush your teeth in the morning."
     },
-    "id": 342,
-    "pos": "Verb"
+    "id": 342
   },
   {
     "hanzi": "双",
@@ -5141,8 +4799,7 @@
       "py": "Wǒ mǎi le yì shuāng xīn xié.",
       "en": "I bought a new pair of shoes."
     },
-    "id": 343,
-    "pos": "Measure Word"
+    "id": 343
   },
   {
     "hanzi": "水平",
@@ -5156,8 +4813,7 @@
       "py": "Tā de Hànyǔ shuǐpíng hěn gāo.",
       "en": "His Chinese level is very high."
     },
-    "id": 344,
-    "pos": "Noun"
+    "id": 344
   },
   {
     "hanzi": "叔叔",
@@ -5171,8 +4827,7 @@
       "py": "Wǒ shūshu shì yīshēng.",
       "en": "My uncle is a doctor."
     },
-    "id": 345,
-    "pos": "Noun"
+    "id": 345
   },
   {
     "hanzi": "数学",
@@ -5186,8 +4841,7 @@
       "py": "Shùxué shì wǒ zuì xǐhuan de kēmù.",
       "en": "Math is my favorite subject."
     },
-    "id": 346,
-    "pos": "Noun"
+    "id": 346
   },
   {
     "hanzi": "司机",
@@ -5201,8 +4855,7 @@
       "py": "Sījī kāichē hěn xiǎoxīn.",
       "en": "The driver drives very carefully."
     },
-    "id": 347,
-    "pos": "Noun"
+    "id": 347
   },
   {
     "hanzi": "四季",
@@ -5216,8 +4869,7 @@
       "py": "Zhōngguó yǒu sìjì.",
       "en": "China has four seasons."
     },
-    "id": 348,
-    "pos": "Noun"
+    "id": 348
   },
   {
     "hanzi": "太阳",
@@ -5231,8 +4883,7 @@
       "py": "Jīntiān tàiyáng hěn dà.",
       "en": "The sun is very strong today."
     },
-    "id": 349,
-    "pos": "Noun"
+    "id": 349
   },
   {
     "hanzi": "糖",
@@ -5246,8 +4897,7 @@
       "py": "Háizi xǐhuan chī táng.",
       "en": "Children like eating candy."
     },
-    "id": 350,
-    "pos": "Noun"
+    "id": 350
   },
   {
     "hanzi": "特别",
@@ -5261,8 +4911,7 @@
       "py": "Zhè dào cài tèbié hǎochī.",
       "en": "This dish is especially delicious."
     },
-    "id": 351,
-    "pos": "Adjective, Adverb"
+    "id": 351
   },
   {
     "hanzi": "甜",
@@ -5276,8 +4925,7 @@
       "py": "Zhège xīguā hěn tián.",
       "en": "This watermelon is very sweet."
     },
-    "id": 352,
-    "pos": "Adjective"
+    "id": 352
   },
   {
     "hanzi": "跳",
@@ -5291,8 +4939,7 @@
       "py": "Háizimen zài tiào shéng.",
       "en": "The children are jumping rope."
     },
-    "id": 353,
-    "pos": "Verb"
+    "id": 353
   },
   {
     "hanzi": "提高",
@@ -5306,8 +4953,7 @@
       "py": "Wǒ xiǎng tígāo Hànyǔ shuǐpíng.",
       "en": "I want to improve my Chinese level."
     },
-    "id": 354,
-    "pos": "Verb, Noun"
+    "id": 354
   },
   {
     "hanzi": "挺",
@@ -5321,8 +4967,7 @@
       "py": "Tā tǐng cōngmíng de.",
       "en": "She is quite smart."
     },
-    "id": 355,
-    "pos": "Adverb, Verb"
+    "id": 355
   },
   {
     "hanzi": "听说",
@@ -5336,8 +4981,7 @@
       "py": "Tīngshuō tā yào qù Běijīng le.",
       "en": "I heard that he is going to Beijing."
     },
-    "id": 356,
-    "pos": "Verb"
+    "id": 356
   },
   {
     "hanzi": "体育",
@@ -5351,8 +4995,7 @@
       "py": "Wǒ xǐhuan tǐyù kè.",
       "en": "I like physical education class."
     },
-    "id": 357,
-    "pos": "Noun"
+    "id": 357
   },
   {
     "hanzi": "体育馆",
@@ -5366,8 +5009,7 @@
       "py": "Wǒ zài tǐyùguǎn dǎ lánqiú.",
       "en": "I play basketball in the gymnasium."
     },
-    "id": 358,
-    "pos": "Noun"
+    "id": 358
   },
   {
     "hanzi": "同事",
@@ -5381,8 +5023,7 @@
       "py": "Wǒ hé tóngshì yìqǐ chī wǔfàn.",
       "en": "I have lunch with my colleagues."
     },
-    "id": 359,
-    "pos": "Noun"
+    "id": 359
   },
   {
     "hanzi": "同意",
@@ -5396,8 +5037,7 @@
       "py": "Wǒ tóngyì nǐ de yìjiàn.",
       "en": "I agree with your opinion."
     },
-    "id": 360,
-    "pos": "Verb"
+    "id": 360
   },
   {
     "hanzi": "头发",
@@ -5411,8 +5051,7 @@
       "py": "Tā de tóufa hěn cháng.",
       "en": "Her hair is very long."
     },
-    "id": 361,
-    "pos": "Noun"
+    "id": 361
   },
   {
     "hanzi": "腿",
@@ -5426,8 +5065,7 @@
       "py": "Tā de tuǐ hěn cháng.",
       "en": "Her legs are very long."
     },
-    "id": 362,
-    "pos": "Noun"
+    "id": 362
   },
   {
     "hanzi": "突然",
@@ -5441,8 +5079,7 @@
       "py": "Tiānqì tūrán biàn lěng le.",
       "en": "The weather suddenly turned cold."
     },
-    "id": 363,
-    "pos": "Adjective"
+    "id": 363
   },
   {
     "hanzi": "图书馆",
@@ -5456,8 +5093,7 @@
       "py": "Wǒ zài túshūguǎn xuéxí.",
       "en": "I study in the library."
     },
-    "id": 364,
-    "pos": "Noun"
+    "id": 364
   },
   {
     "hanzi": "外地",
@@ -5471,8 +5107,7 @@
       "py": "Tā shì cóng wàidì lái de.",
       "en": "He came from another place."
     },
-    "id": 365,
-    "pos": "Noun"
+    "id": 365
   },
   {
     "hanzi": "外卖",
@@ -5486,8 +5121,7 @@
       "py": "Jīntiān wǒ diǎn le wàimài.",
       "en": "I ordered takeout today."
     },
-    "id": 366,
-    "pos": "Verb, Noun"
+    "id": 366
   },
   {
     "hanzi": "外语",
@@ -5501,8 +5135,7 @@
       "py": "Tā huì shuō liǎng zhǒng wàiyǔ.",
       "en": "She can speak two foreign languages."
     },
-    "id": 367,
-    "pos": "Noun"
+    "id": 367
   },
   {
     "hanzi": "碗",
@@ -5516,8 +5149,7 @@
       "py": "Qǐng gěi wǒ yì wǎn mǐfàn.",
       "en": "Please give me a bowl of rice."
     },
-    "id": 368,
-    "pos": "Noun"
+    "id": 368
   },
   {
     "hanzi": "完成",
@@ -5531,8 +5163,7 @@
       "py": "Wǒ wánchéng le zuòyè.",
       "en": "I finished my homework."
     },
-    "id": 369,
-    "pos": "Verb"
+    "id": 369
   },
   {
     "hanzi": "晚点",
@@ -5546,8 +5177,7 @@
       "py": "Huǒchē wǎndiǎn le.",
       "en": "The train was late."
     },
-    "id": 370,
-    "pos": "Verb"
+    "id": 370
   },
   {
     "hanzi": "忘记",
@@ -5561,8 +5191,7 @@
       "py": "Wǒ wàngjì dài shū le.",
       "en": "I forgot to bring my book."
     },
-    "id": 371,
-    "pos": "Verb"
+    "id": 371
   },
   {
     "hanzi": "网球",
@@ -5576,8 +5205,7 @@
       "py": "Tā xǐhuan dǎ wǎngqiú.",
       "en": "He likes to play tennis."
     },
-    "id": 372,
-    "pos": "Noun"
+    "id": 372
   },
   {
     "hanzi": "网站",
@@ -5591,8 +5219,7 @@
       "py": "Zhège wǎngzhàn hěn yǒuyòng.",
       "en": "This website is very useful."
     },
-    "id": 373,
-    "pos": "Noun"
+    "id": 373
   },
   {
     "hanzi": "晚会",
@@ -5606,14 +5233,13 @@
       "py": "Xuéxiào yǒu yí gè wǎnhuì.",
       "en": "The school is having an evening party."
     },
-    "id": 374,
-    "pos": "Noun"
+    "id": 374
   },
   {
     "hanzi": "为",
     "pinyin": "wèi",
     "pinyin_sort": "wei",
-    "meaning": "for, for the sake of; because of",
+    "meaning": "for, because of, to",
     "version": "3.0",
     "level": 3,
     "example": {
@@ -5621,8 +5247,7 @@
       "py": "Bàba měitiān nǔlì gōngzuò, wèile ràng wǒmen shēnghuó de gèng hǎo.",
       "en": "Dad works hard every day to make our lives better."
     },
-    "id": 375,
-    "pos": "Preposition"
+    "id": 375
   },
   {
     "hanzi": "为了",
@@ -5636,8 +5261,7 @@
       "py": "Wèile jiànkāng, wǒ měitiān yùndòng.",
       "en": "In order to stay healthy, I exercise every day."
     },
-    "id": 376,
-    "pos": "Preposition"
+    "id": 376
   },
   {
     "hanzi": "卫生间",
@@ -5651,8 +5275,7 @@
       "py": "Wèishēngjiān zài nǎlǐ?",
       "en": "Where is the restroom?"
     },
-    "id": 377,
-    "pos": "Noun"
+    "id": 377
   },
   {
     "hanzi": "文化",
@@ -5666,8 +5289,7 @@
       "py": "Zhōngguó yǒu hěn fēngfù de wénhuà.",
       "en": "China has a very rich culture."
     },
-    "id": 378,
-    "pos": "Noun"
+    "id": 378
   },
   {
     "hanzi": "屋子",
@@ -5681,8 +5303,7 @@
       "py": "Zhège wūzi hěn dà.",
       "en": "This room is very big."
     },
-    "id": 379,
-    "pos": "Noun"
+    "id": 379
   },
   {
     "hanzi": "西",
@@ -5696,8 +5317,7 @@
       "py": "Tàiyáng cóng xī biān luò xiàqù.",
       "en": "The sun sets in the west."
     },
-    "id": 380,
-    "pos": "Noun"
+    "id": 380
   },
   {
     "hanzi": "喜爱",
@@ -5711,8 +5331,7 @@
       "py": "Tā xǐ'ài huà huàr.",
       "en": "She loves painting."
     },
-    "id": 381,
-    "pos": "Verb"
+    "id": 381
   },
   {
     "hanzi": "先",
@@ -5726,8 +5345,7 @@
       "py": "Nǐ xiān shuō, wǒ hòu shuō.",
       "en": "You speak first, then I will speak."
     },
-    "id": 382,
-    "pos": "Adverb"
+    "id": 382
   },
   {
     "hanzi": "像",
@@ -5741,8 +5359,7 @@
       "py": "Tā zhǎng de xiàng tā māma.",
       "en": "She looks like her mother."
     },
-    "id": 383,
-    "pos": "Verb, Adverb, Noun"
+    "id": 383
   },
   {
     "hanzi": "向",
@@ -5756,8 +5373,7 @@
       "py": "Qǐng xiàng yòu zhuǎn.",
       "en": "Please turn right."
     },
-    "id": 384,
-    "pos": "Verb, Preposition"
+    "id": 384
   },
   {
     "hanzi": "相机",
@@ -5771,8 +5387,7 @@
       "py": "Wǒ dài le xiàngjī qù lǚxíng.",
       "en": "I brought a camera on the trip."
     },
-    "id": 385,
-    "pos": "Noun"
+    "id": 385
   },
   {
     "hanzi": "香蕉",
@@ -5786,8 +5401,7 @@
       "py": "Tā měitiān chī yì gēn xiāngjiāo.",
       "en": "He eats one banana every day."
     },
-    "id": 386,
-    "pos": "Noun"
+    "id": 386
   },
   {
     "hanzi": "相信",
@@ -5801,8 +5415,7 @@
       "py": "Wǒ xiāngxìn nǐ shuō de huà.",
       "en": "I believe what you say."
     },
-    "id": 387,
-    "pos": "Verb"
+    "id": 387
   },
   {
     "hanzi": "箱子",
@@ -5816,8 +5429,7 @@
       "py": "Qǐng bāng wǒ bān zhège xiāngzi.",
       "en": "Please help me move this box."
     },
-    "id": 388,
-    "pos": "Noun"
+    "id": 388
   },
   {
     "hanzi": "小区",
@@ -5831,8 +5443,7 @@
       "py": "Wǒ zhù zài yí gè xīn xiǎoqū.",
       "en": "I live in a new residential community."
     },
-    "id": 389,
-    "pos": "Noun"
+    "id": 389
   },
   {
     "hanzi": "小心",
@@ -5846,8 +5457,7 @@
       "py": "Guò mǎlù yào xiǎoxīn.",
       "en": "Be careful when crossing the road."
     },
-    "id": 390,
-    "pos": "Adjective, Verb, Adverb"
+    "id": 390
   },
   {
     "hanzi": "校园",
@@ -5861,8 +5471,7 @@
       "py": "Xiàoyuán lǐ hěn ānjìng.",
       "en": "The campus is very quiet."
     },
-    "id": 391,
-    "pos": "Noun"
+    "id": 391
   },
   {
     "hanzi": "校长",
@@ -5876,8 +5485,7 @@
       "py": "Xiàozhǎng gěi wǒmen jiǎnghuà.",
       "en": "The principal spoke to us."
     },
-    "id": 392,
-    "pos": "Noun"
+    "id": 392
   },
   {
     "hanzi": "夏天",
@@ -5891,8 +5499,7 @@
       "py": "Xiàtiān tiānqì hěn rè.",
       "en": "The weather is very hot in summer."
     },
-    "id": 393,
-    "pos": "Noun"
+    "id": 393
   },
   {
     "hanzi": "西北",
@@ -5906,8 +5513,7 @@
       "py": "Xīnjiāng zài Zhōngguó xīběi bù.",
       "en": "Xinjiang is in the northwest of China."
     },
-    "id": 394,
-    "pos": "Noun"
+    "id": 394
   },
   {
     "hanzi": "鞋",
@@ -5921,8 +5527,7 @@
       "py": "Zhè shuāng xié hěn hǎokàn.",
       "en": "These shoes look very nice."
     },
-    "id": 395,
-    "pos": "Noun"
+    "id": 395
   },
   {
     "hanzi": "西方",
@@ -5936,8 +5541,7 @@
       "py": "Tā duì xīfāng wénhuà hěn gǎn xìngqù.",
       "en": "He is very interested in western culture."
     },
-    "id": 396,
-    "pos": "Noun"
+    "id": 396
   },
   {
     "hanzi": "西瓜",
@@ -5951,8 +5555,7 @@
       "py": "Xiàtiān wǒ ài chī xīguā.",
       "en": "I love eating watermelon in summer."
     },
-    "id": 397,
-    "pos": "Noun"
+    "id": 397
   },
   {
     "hanzi": "习惯",
@@ -5966,8 +5569,7 @@
       "py": "Wǒ xíguàn zǎo shuì zǎo qǐ.",
       "en": "I am used to going to bed early and getting up early."
     },
-    "id": 398,
-    "pos": "Verb, Noun"
+    "id": 398
   },
   {
     "hanzi": "信",
@@ -5981,8 +5583,7 @@
       "py": "Tā gěi wǒ xiě le yì fēng xìn.",
       "en": "He wrote me a letter."
     },
-    "id": 399,
-    "pos": "Verb, Noun"
+    "id": 399
   },
   {
     "hanzi": "西南",
@@ -5996,14 +5597,13 @@
       "py": "Yúnnán zài Zhōngguó xīnán bù.",
       "en": "Yunnan is in the southwest of China."
     },
-    "id": 400,
-    "pos": "Noun"
+    "id": 400
   },
   {
     "hanzi": "行",
     "pinyin": "xíng",
     "pinyin_sort": "xing",
-    "meaning": "to go, walk, travel; okay, capable",
+    "meaning": "to go; okay, permissible",
     "version": "3.0",
     "level": 3,
     "example": {
@@ -6011,8 +5611,7 @@
       "py": "Wǒmen míngtiān xiàwǔ sān diǎn jiànmiàn, xíng ma?",
       "en": "We meet tomorrow afternoon at three o'clock, is that okay?"
     },
-    "id": 401,
-    "pos": "Verb, Adjective"
+    "id": 401
   },
   {
     "hanzi": "行李",
@@ -6026,8 +5625,7 @@
       "py": "Wǒ de xíngli hěn zhòng.",
       "en": "My luggage is very heavy."
     },
-    "id": 402,
-    "pos": "Noun"
+    "id": 402
   },
   {
     "hanzi": "兴趣",
@@ -6041,8 +5639,7 @@
       "py": "Wǒ duì yīnyuè yǒu xìngqù.",
       "en": "I have an interest in music."
     },
-    "id": 403,
-    "pos": "Noun"
+    "id": 403
   },
   {
     "hanzi": "心里",
@@ -6056,8 +5653,7 @@
       "py": "Wǒ xīnlǐ hěn gāoxìng.",
       "en": "I am very happy in my heart."
     },
-    "id": 404,
-    "pos": "Noun"
+    "id": 404
   },
   {
     "hanzi": "新年",
@@ -6071,8 +5667,7 @@
       "py": "Xīnnián kuàilè!",
       "en": "Happy New Year!"
     },
-    "id": 405,
-    "pos": "Noun"
+    "id": 405
   },
   {
     "hanzi": "新闻",
@@ -6086,8 +5681,7 @@
       "py": "Wǒ měitiān kàn xīnwén.",
       "en": "I watch the news every day."
     },
-    "id": 406,
-    "pos": "Noun"
+    "id": 406
   },
   {
     "hanzi": "新鲜",
@@ -6101,8 +5695,7 @@
       "py": "Zhèlǐ de kōngqì hěn xīnxiān.",
       "en": "The air here is very fresh."
     },
-    "id": 407,
-    "pos": "Adjective"
+    "id": 407
   },
   {
     "hanzi": "信用卡",
@@ -6116,8 +5709,7 @@
       "py": "Wǒ yòng xìnyòngkǎ fùkuǎn.",
       "en": "I pay with a credit card."
     },
-    "id": 408,
-    "pos": "Noun"
+    "id": 408
   },
   {
     "hanzi": "休假",
@@ -6131,8 +5723,7 @@
       "py": "Tā xià zhōu xiūjià.",
       "en": "He is taking a holiday next week."
     },
-    "id": 409,
-    "pos": "Verb"
+    "id": 409
   },
   {
     "hanzi": "洗衣机",
@@ -6146,8 +5737,7 @@
       "py": "Xǐyījī huài le.",
       "en": "The washing machine is broken."
     },
-    "id": 410,
-    "pos": "Noun"
+    "id": 410
   },
   {
     "hanzi": "洗澡",
@@ -6161,8 +5751,7 @@
       "py": "Wǒ měitiān wǎnshang xǐzǎo.",
       "en": "I take a bath every night."
     },
-    "id": 411,
-    "pos": "Verb"
+    "id": 411
   },
   {
     "hanzi": "选",
@@ -6176,8 +5765,7 @@
       "py": "Qǐng xuǎn yí gè dá'àn.",
       "en": "Please choose one answer."
     },
-    "id": 412,
-    "pos": "Verb"
+    "id": 412
   },
   {
     "hanzi": "选择",
@@ -6191,8 +5779,7 @@
       "py": "Nǐ xuǎnzé nǎ gè?",
       "en": "Which one do you choose?"
     },
-    "id": 413,
-    "pos": "Verb"
+    "id": 413
   },
   {
     "hanzi": "学期",
@@ -6206,8 +5793,7 @@
       "py": "Zhège xuéqī wǒ xué le hěn duō.",
       "en": "I learned a lot this semester."
     },
-    "id": 414,
-    "pos": "Noun"
+    "id": 414
   },
   {
     "hanzi": "需要",
@@ -6221,8 +5807,7 @@
       "py": "Nǐ xūyào bāngzhù ma?",
       "en": "Do you need help?"
     },
-    "id": 415,
-    "pos": "Verb, Noun"
+    "id": 415
   },
   {
     "hanzi": "牙",
@@ -6236,8 +5821,7 @@
       "py": "Nǐ de yá zěnme le?",
       "en": "What happened to your tooth?"
     },
-    "id": 416,
-    "pos": "Noun"
+    "id": 416
   },
   {
     "hanzi": "养",
@@ -6251,8 +5835,7 @@
       "py": "Tā yǎng le yì zhī māo.",
       "en": "He keeps a cat."
     },
-    "id": 417,
-    "pos": "Verb"
+    "id": 417
   },
   {
     "hanzi": "羊",
@@ -6266,8 +5849,7 @@
       "py": "Nóngchǎng lǐ yǒu hěn duō yáng.",
       "en": "There are many sheep on the farm."
     },
-    "id": 418,
-    "pos": "Noun"
+    "id": 418
   },
   {
     "hanzi": "要求",
@@ -6281,8 +5863,7 @@
       "py": "Lǎoshī de yāoqiú hěn gāo.",
       "en": "The teacher's requirements are very high."
     },
-    "id": 419,
-    "pos": "Verb, Noun"
+    "id": 419
   },
   {
     "hanzi": "牙刷",
@@ -6296,8 +5877,7 @@
       "py": "Wǒ de yáshuā zài nǎlǐ?",
       "en": "Where is my toothbrush?"
     },
-    "id": 420,
-    "pos": "Noun"
+    "id": 420
   },
   {
     "hanzi": "页",
@@ -6311,8 +5891,7 @@
       "py": "Qǐng fān dào dì shí yè.",
       "en": "Please turn to page ten."
     },
-    "id": 421,
-    "pos": "Measure Word"
+    "id": 421
   },
   {
     "hanzi": "一般",
@@ -6326,8 +5905,7 @@
       "py": "Zhège cāntīng yìbān bān.",
       "en": "This restaurant is just average."
     },
-    "id": 422,
-    "pos": "Adjective, Adverb, Particle"
+    "id": 422
   },
   {
     "hanzi": "一边",
@@ -6341,8 +5919,7 @@
       "py": "Tā yìbiān tīng yīnyuè, yìbiān xuéxí.",
       "en": "He listens to music while studying."
     },
-    "id": 423,
-    "pos": "Adverb, Noun"
+    "id": 423
   },
   {
     "hanzi": "一定",
@@ -6356,8 +5933,7 @@
       "py": "Wǒ yídìng huì lái de.",
       "en": "I will definitely come."
     },
-    "id": 424,
-    "pos": "Adverb, Adjective"
+    "id": 424
   },
   {
     "hanzi": "一共",
@@ -6371,8 +5947,7 @@
       "py": "Yígòng duōshao qián?",
       "en": "How much is it altogether?"
     },
-    "id": 425,
-    "pos": "Adverb"
+    "id": 425
   },
   {
     "hanzi": "以后",
@@ -6386,8 +5961,7 @@
       "py": "Yǐhòu yǒu jīhuì zài jiànmiàn.",
       "en": "We will meet again when there is a chance later."
     },
-    "id": 426,
-    "pos": "Noun"
+    "id": 426
   },
   {
     "hanzi": "一块儿",
@@ -6401,8 +5975,7 @@
       "py": "Wǒmen yíkuàir qù ba.",
       "en": "Let's go together."
     },
-    "id": 427,
-    "pos": "Adverb, Noun"
+    "id": 427
   },
   {
     "hanzi": "应该",
@@ -6416,8 +5989,7 @@
       "py": "Nǐ yīnggāi duō xiūxi.",
       "en": "You should rest more."
     },
-    "id": 428,
-    "pos": "Verb"
+    "id": 428
   },
   {
     "hanzi": "影响",
@@ -6431,8 +6003,7 @@
       "py": "Tiānqì yǐngxiǎng le wǒmen de jìhuà.",
       "en": "The weather affected our plans."
     },
-    "id": 429,
-    "pos": "Verb, Noun"
+    "id": 429
   },
   {
     "hanzi": "银行",
@@ -6446,8 +6017,7 @@
       "py": "Wǒ qù yínháng qǔ qián.",
       "en": "I went to the bank to withdraw money."
     },
-    "id": 430,
-    "pos": "Noun"
+    "id": 430
   },
   {
     "hanzi": "银行卡",
@@ -6461,8 +6031,7 @@
       "py": "Wǒ yòng yínhángkǎ fù qián.",
       "en": "I pay with my bank card."
     },
-    "id": 431,
-    "pos": "Noun"
+    "id": 431
   },
   {
     "hanzi": "饮料",
@@ -6476,8 +6045,7 @@
       "py": "Nǐ xiǎng hē shénme yǐnliào?",
       "en": "What beverage would you like to drink?"
     },
-    "id": 432,
-    "pos": "Noun"
+    "id": 432
   },
   {
     "hanzi": "音乐",
@@ -6491,8 +6059,7 @@
       "py": "Wǒ hěn xǐhuan yīnyuè.",
       "en": "I really like music."
     },
-    "id": 433,
-    "pos": "Noun"
+    "id": 433
   },
   {
     "hanzi": "以前",
@@ -6506,8 +6073,7 @@
       "py": "Yǐqián wǒ bù xǐhuan chī shūcài.",
       "en": "Before, I didn't like eating vegetables."
     },
-    "id": 434,
-    "pos": "Noun"
+    "id": 434
   },
   {
     "hanzi": "以上",
@@ -6521,8 +6087,7 @@
       "py": "Wǔshí suì yǐshàng de rén qǐng zuò.",
       "en": "People over fifty years old, please sit."
     },
-    "id": 435,
-    "pos": "Noun"
+    "id": 435
   },
   {
     "hanzi": "以外",
@@ -6536,8 +6101,7 @@
       "py": "Chúle Zhōngwén yǐwài, wǒ hái xué Yīngyǔ.",
       "en": "Besides Chinese, I also study English."
     },
-    "id": 436,
-    "pos": "Noun"
+    "id": 436
   },
   {
     "hanzi": "以为",
@@ -6551,8 +6115,7 @@
       "py": "Wǒ yǐwéi nǐ bù lái le.",
       "en": "I thought you weren't coming."
     },
-    "id": 437,
-    "pos": "Verb"
+    "id": 437
   },
   {
     "hanzi": "以下",
@@ -6566,8 +6129,7 @@
       "py": "Shí suì yǐxià de háizi miǎnfèi.",
       "en": "Children under ten years old are free."
     },
-    "id": 438,
-    "pos": "Noun"
+    "id": 438
   },
   {
     "hanzi": "一样",
@@ -6581,8 +6143,7 @@
       "py": "Wǒmen liǎ yíyàng gāo.",
       "en": "The two of us are the same height."
     },
-    "id": 439,
-    "pos": "Particle, Adjective, Adverb"
+    "id": 439
   },
   {
     "hanzi": "一直",
@@ -6596,8 +6157,7 @@
       "py": "Tā yìzhí zài děng nǐ.",
       "en": "He has been waiting for you."
     },
-    "id": 440,
-    "pos": "Adverb"
+    "id": 440
   },
   {
     "hanzi": "用",
@@ -6611,8 +6171,7 @@
       "py": "Wǒ yòng kuàizi chī fàn.",
       "en": "I eat with chopsticks."
     },
-    "id": 441,
-    "pos": "Verb, Preposition"
+    "id": 441
   },
   {
     "hanzi": "又",
@@ -6626,8 +6185,7 @@
       "py": "Tā yòu chídào le.",
       "en": "He was late again."
     },
-    "id": 442,
-    "pos": "Adverb"
+    "id": 442
   },
   {
     "hanzi": "有关",
@@ -6641,8 +6199,7 @@
       "py": "Zhè jiàn shì yǔ nǐ yǒuguān.",
       "en": "This matter concerns you."
     },
-    "id": 443,
-    "pos": "Verb, Preposition"
+    "id": 443
   },
   {
     "hanzi": "邮件",
@@ -6656,8 +6213,7 @@
       "py": "Wǒ shōudào le yì fēng yóujiàn.",
       "en": "I received an email."
     },
-    "id": 444,
-    "pos": "Noun"
+    "id": 444
   },
   {
     "hanzi": "游客",
@@ -6671,8 +6227,7 @@
       "py": "Zhèlǐ yǒu hěn duō yóukè.",
       "en": "There are many tourists here."
     },
-    "id": 445,
-    "pos": "Noun"
+    "id": 445
   },
   {
     "hanzi": "有名",
@@ -6686,8 +6241,7 @@
       "py": "Zhè jiā cāntīng hěn yǒumíng.",
       "en": "This restaurant is very famous."
     },
-    "id": 446,
-    "pos": "Adjective"
+    "id": 446
   },
   {
     "hanzi": "游戏",
@@ -6701,8 +6255,7 @@
       "py": "Tā xǐhuan wán yóuxì.",
       "en": "He likes playing games."
     },
-    "id": 447,
-    "pos": "Noun"
+    "id": 447
   },
   {
     "hanzi": "邮箱",
@@ -6716,8 +6269,7 @@
       "py": "Qǐng gěi wǒ nǐ de yóuxiāng dìzhǐ.",
       "en": "Please give me your email address."
     },
-    "id": 448,
-    "pos": "Noun"
+    "id": 448
   },
   {
     "hanzi": "有用",
@@ -6731,8 +6283,7 @@
       "py": "Zhè běn cídiǎn hěn yǒuyòng.",
       "en": "This dictionary is very useful."
     },
-    "id": 449,
-    "pos": "Adjective, Verb"
+    "id": 449
   },
   {
     "hanzi": "员",
@@ -6746,8 +6297,7 @@
       "py": "Tā shì gōngsī de yì míng yuángōng.",
       "en": "He is an employee of the company."
     },
-    "id": 450,
-    "pos": "Suffix"
+    "id": 450
   },
   {
     "hanzi": "园",
@@ -6761,8 +6311,7 @@
       "py": "Gōngyuán lǐ de huā hěn měi.",
       "en": "The flowers in the park are very beautiful."
     },
-    "id": 451,
-    "pos": "Noun"
+    "id": 451
   },
   {
     "hanzi": "愿意",
@@ -6776,8 +6325,7 @@
       "py": "Wǒ yuànyì bāng nǐ.",
       "en": "I am willing to help you."
     },
-    "id": 452,
-    "pos": "Verb"
+    "id": 452
   },
   {
     "hanzi": "遇到",
@@ -6791,8 +6339,7 @@
       "py": "Wǒ zài jiē shàng yùdào le lǎo péngyou.",
       "en": "I ran into an old friend on the street."
     },
-    "id": 453,
-    "pos": "Verb"
+    "id": 453
   },
   {
     "hanzi": "越",
@@ -6806,8 +6353,7 @@
       "py": "Tiānqì yuè lái yuè lěng le.",
       "en": "The weather is getting colder and colder."
     },
-    "id": 454,
-    "pos": "Adverb"
+    "id": 454
   },
   {
     "hanzi": "月亮",
@@ -6821,8 +6367,7 @@
       "py": "Jīn wǎn yuèliang hěn yuán.",
       "en": "The moon is very round tonight."
     },
-    "id": 455,
-    "pos": "Noun"
+    "id": 455
   },
   {
     "hanzi": "遇见",
@@ -6836,8 +6381,7 @@
       "py": "Wǒ yùjiàn le tā de lǎoshī.",
       "en": "I ran into his teacher."
     },
-    "id": 456,
-    "pos": "Verb"
+    "id": 456
   },
   {
     "hanzi": "羽毛球",
@@ -6851,8 +6395,7 @@
       "py": "Wǒmen qù dǎ yǔmáoqiú ba.",
       "en": "Let's go play badminton."
     },
-    "id": 457,
-    "pos": "Noun"
+    "id": 457
   },
   {
     "hanzi": "运动会",
@@ -6866,8 +6409,7 @@
       "py": "Xuéxiào míngtiān yǒu yùndònghuì.",
       "en": "The school has a sports meet tomorrow."
     },
-    "id": 458,
-    "pos": "Noun"
+    "id": 458
   },
   {
     "hanzi": "运动员",
@@ -6881,8 +6423,7 @@
       "py": "Tā shì yì míng yùndòngyuán.",
       "en": "He is an athlete."
     },
-    "id": 459,
-    "pos": "Noun"
+    "id": 459
   },
   {
     "hanzi": "语言",
@@ -6896,8 +6437,7 @@
       "py": "Hànyǔ shì yì zhǒng zhòngyào de yǔyán.",
       "en": "Chinese is an important language."
     },
-    "id": 460,
-    "pos": "Noun"
+    "id": 460
   },
   {
     "hanzi": "雨衣",
@@ -6911,8 +6451,7 @@
       "py": "Jīntiān yào chuān yǔyī chūmén.",
       "en": "You need to wear a raincoat when going out today."
     },
-    "id": 461,
-    "pos": "Noun"
+    "id": 461
   },
   {
     "hanzi": "脏",
@@ -6926,8 +6465,7 @@
       "py": "Zhè jiàn yīfu zāng le.",
       "en": "This piece of clothing is dirty."
     },
-    "id": 462,
-    "pos": "Adjective"
+    "id": 462
   },
   {
     "hanzi": "咱们",
@@ -6941,8 +6479,7 @@
       "py": "Zánmen yìqǐ qù ba.",
       "en": "Let's go together."
     },
-    "id": 463,
-    "pos": "Pronoun"
+    "id": 463
   },
   {
     "hanzi": "怎么办",
@@ -6956,8 +6493,7 @@
       "py": "Shǒujī diū le, zěnme bàn?",
       "en": "My phone is lost, what should I do?"
     },
-    "id": 464,
-    "pos": "Pronoun, Verb"
+    "id": 464
   },
   {
     "hanzi": "怎样",
@@ -6971,8 +6507,7 @@
       "py": "Nǐ juéde zěnyàng?",
       "en": "How do you feel about it?"
     },
-    "id": 465,
-    "pos": "Pronoun"
+    "id": 465
   },
   {
     "hanzi": "站",
@@ -6986,8 +6521,7 @@
       "py": "Qǐng zài zhèlǐ zhàn yíxià.",
       "en": "Please stand here for a moment."
     },
-    "id": 466,
-    "pos": "Verb"
+    "id": 466
   },
   {
     "hanzi": "张",
@@ -7001,23 +6535,21 @@
       "py": "Wǒ mǎi le yì zhāng huǒchē piào.",
       "en": "I bought a train ticket."
     },
-    "id": 467,
-    "pos": "Verb, Measure Word"
+    "id": 467
   },
   {
     "hanzi": "长",
     "pinyin": "zhǎng",
     "pinyin_sort": "zhang",
-    "meaning": "to grow; elder, leader, senior",
+    "meaning": "to grow; suffix for head",
     "version": "3.0",
     "level": 3,
     "example": {
-      "zh": "一年没见，小男孩长高了不少。",
-      "py": "Yì nián méi jiàn, xiǎo nánhái zhǎng gāo le bù shǎo.",
-      "en": "Having not seen him for a year, the little boy has grown quite a bit taller."
+      "zh": "他的头发长得很快。",
+      "py": "Tā de tóufa zhǎng de hěn kuài.",
+      "en": "His hair grows very fast."
     },
-    "id": 468,
-    "pos": "Verb"
+    "id": 468
   },
   {
     "hanzi": "照",
@@ -7031,8 +6563,7 @@
       "py": "Tàiyáng zhào zài shēn shàng hěn nuǎnhuo.",
       "en": "The sun shining on you is very warm."
     },
-    "id": 469,
-    "pos": "Verb"
+    "id": 469
   },
   {
     "hanzi": "照顾",
@@ -7046,8 +6577,7 @@
       "py": "Māma zhàogù shēngbìng de háizi.",
       "en": "Mom takes care of the sick child."
     },
-    "id": 470,
-    "pos": "Verb"
+    "id": 470
   },
   {
     "hanzi": "着急",
@@ -7061,8 +6591,7 @@
       "py": "Bié zháojí, mànman shuō.",
       "en": "Don't be anxious, speak slowly."
     },
-    "id": 471,
-    "pos": "Adjective"
+    "id": 471
   },
   {
     "hanzi": "照片",
@@ -7076,8 +6605,7 @@
       "py": "Zhè zhāng zhàopiàn hěn hǎokàn.",
       "en": "This photo looks very nice."
     },
-    "id": 472,
-    "pos": "Noun"
+    "id": 472
   },
   {
     "hanzi": "照相",
@@ -7091,14 +6619,13 @@
       "py": "Wǒmen lái zhàoxiàng ba.",
       "en": "Let's take a picture."
     },
-    "id": 473,
-    "pos": "Verb"
+    "id": 473
   },
   {
     "hanzi": "只",
     "pinyin": "zhǐ",
     "pinyin_sort": "zhi",
-    "meaning": "only, merely, just",
+    "meaning": "only, merely",
     "version": "3.0",
     "level": 3,
     "example": {
@@ -7106,8 +6633,7 @@
       "py": "Wǒ zhǐ yǒu yí gè gēge, méiyǒu jiějie.",
       "en": "I only have one older brother; I do not have an older sister."
     },
-    "id": 474,
-    "pos": "Adverb"
+    "id": 474
   },
   {
     "hanzi": "纸",
@@ -7121,8 +6647,7 @@
       "py": "Qǐng gěi wǒ yì zhāng zhǐ.",
       "en": "Please give me a piece of paper."
     },
-    "id": 475,
-    "pos": "Noun"
+    "id": 475
   },
   {
     "hanzi": "直到",
@@ -7136,8 +6661,7 @@
       "py": "Tā xuéxí zhídào hěn wǎn.",
       "en": "He studied until very late."
     },
-    "id": 476,
-    "pos": "Verb"
+    "id": 476
   },
   {
     "hanzi": "只能",
@@ -7151,8 +6675,7 @@
       "py": "Wǒ zhǐ néng děng nǐ le.",
       "en": "I can only wait for you."
     },
-    "id": 477,
-    "pos": "Verb"
+    "id": 477
   },
   {
     "hanzi": "只是",
@@ -7166,8 +6689,7 @@
       "py": "Tā zhǐshì kāi gè wánxiào.",
       "en": "He was only joking."
     },
-    "id": 478,
-    "pos": "Adverb, Conjunction"
+    "id": 478
   },
   {
     "hanzi": "只要",
@@ -7181,8 +6703,7 @@
       "py": "Zhǐyào nǔlì, jiù huì chénggōng.",
       "en": "As long as you work hard, you will succeed."
     },
-    "id": 479,
-    "pos": "Conjunction"
+    "id": 479
   },
   {
     "hanzi": "只有",
@@ -7196,14 +6717,13 @@
       "py": "Zhǐyǒu nǐ néng bāng wǒ.",
       "en": "Only you can help me."
     },
-    "id": 480,
-    "pos": "Conjunction"
+    "id": 480
   },
   {
     "hanzi": "中",
     "pinyin": "zhōng",
     "pinyin_sort": "zhong",
-    "meaning": "middle; in, among; China",
+    "meaning": "middle",
     "version": "3.0",
     "level": 3,
     "example": {
@@ -7211,14 +6731,13 @@
       "py": "Wǒmen zhōngjiān yǒu sān gè rén shì lǎoshī.",
       "en": "Among us, three people are teachers."
     },
-    "id": 481,
-    "pos": "Noun"
+    "id": 481
   },
   {
     "hanzi": "种",
     "pinyin": "zhǒng",
     "pinyin_sort": "zhong",
-    "meaning": "kind, type, sort; seed",
+    "meaning": "measure word for kinds",
     "version": "3.0",
     "level": 3,
     "example": {
@@ -7226,8 +6745,7 @@
       "py": "Zhè jiā chāoshì lǐ yǒu xǔduō zhǒng xīnxiān de shuǐguǒ.",
       "en": "There are many kinds of fresh fruit in this supermarket."
     },
-    "id": 482,
-    "pos": "Noun, Measure Word"
+    "id": 482
   },
   {
     "hanzi": "中间",
@@ -7241,8 +6759,7 @@
       "py": "Zhuōzi zhōngjiān yǒu yì duǒ huā.",
       "en": "There is a flower in the middle of the table."
     },
-    "id": 483,
-    "pos": "Noun"
+    "id": 483
   },
   {
     "hanzi": "重要",
@@ -7256,8 +6773,7 @@
       "py": "Jiànkāng shì zuì zhòngyào de.",
       "en": "Health is the most important."
     },
-    "id": 484,
-    "pos": "Adjective"
+    "id": 484
   },
   {
     "hanzi": "终于",
@@ -7271,8 +6787,7 @@
       "py": "Tā zhōngyú huílái le.",
       "en": "He finally came back."
     },
-    "id": 485,
-    "pos": "Adverb"
+    "id": 485
   },
   {
     "hanzi": "周末",
@@ -7286,8 +6801,7 @@
       "py": "Zhōumò wǒ xiǎng chūqù wán.",
       "en": "I want to go out and have fun on the weekend."
     },
-    "id": 486,
-    "pos": "Noun"
+    "id": 486
   },
   {
     "hanzi": "主要",
@@ -7301,8 +6815,7 @@
       "py": "Zhè shì zhǔyào wèntí.",
       "en": "This is the main issue."
     },
-    "id": 487,
-    "pos": "Adjective"
+    "id": 487
   },
   {
     "hanzi": "注意",
@@ -7316,8 +6829,7 @@
       "py": "Guò mǎlù yào zhùyì ānquán.",
       "en": "Pay attention to safety when crossing the road."
     },
-    "id": 488,
-    "pos": "Verb"
+    "id": 488
   },
   {
     "hanzi": "住院",
@@ -7331,8 +6843,7 @@
       "py": "Tā zhùyuàn le sān tiān.",
       "en": "He was hospitalized for three days."
     },
-    "id": 489,
-    "pos": "Verb"
+    "id": 489
   },
   {
     "hanzi": "子",
@@ -7346,8 +6857,7 @@
       "py": "Zhuōzi shàng yǒu yì běn shū.",
       "en": "There is a book on the table."
     },
-    "id": 490,
-    "pos": "Measure Word"
+    "id": 490
   },
   {
     "hanzi": "字典",
@@ -7361,8 +6871,7 @@
       "py": "Wǒ mǎi le yì běn xīn zìdiǎn.",
       "en": "I bought a new dictionary."
     },
-    "id": 491,
-    "pos": "Noun"
+    "id": 491
   },
   {
     "hanzi": "自行车",
@@ -7376,8 +6885,7 @@
       "py": "Wǒ měitiān qí zìxíngchē shàngbān.",
       "en": "I ride a bicycle to work every day."
     },
-    "id": 492,
-    "pos": "Noun"
+    "id": 492
   },
   {
     "hanzi": "总",
@@ -7391,8 +6899,7 @@
       "py": "Tā zǒng shì chídào.",
       "en": "He is always late."
     },
-    "id": 493,
-    "pos": "Adverb, Verb, Adjective"
+    "id": 493
   },
   {
     "hanzi": "总是",
@@ -7406,8 +6913,7 @@
       "py": "Tā zǒngshì xiào zhe.",
       "en": "She is always smiling."
     },
-    "id": 494,
-    "pos": "Adverb"
+    "id": 494
   },
   {
     "hanzi": "嘴",
@@ -7421,8 +6927,7 @@
       "py": "Tā de zuǐ hěn dà.",
       "en": "He has a big mouth."
     },
-    "id": 495,
-    "pos": "Noun"
+    "id": 495
   },
   {
     "hanzi": "最好",
@@ -7436,8 +6941,7 @@
       "py": "Nǐ zuìhǎo zǎo diǎn lái.",
       "en": "You had better come early."
     },
-    "id": 496,
-    "pos": "Adverb"
+    "id": 496
   },
   {
     "hanzi": "最后",
@@ -7451,8 +6955,7 @@
       "py": "Zuìhòu tā yíng le.",
       "en": "In the end he won."
     },
-    "id": 497,
-    "pos": "Noun"
+    "id": 497
   },
   {
     "hanzi": "最近",
@@ -7466,8 +6969,7 @@
       "py": "Zuìjìn nǐ máng ma?",
       "en": "Have you been busy recently?"
     },
-    "id": 498,
-    "pos": "Noun"
+    "id": 498
   },
   {
     "hanzi": "做客",
@@ -7481,8 +6983,7 @@
       "py": "Wǒ qù péngyou jiā zuòkè.",
       "en": "I went to be a guest at my friend's home."
     },
-    "id": 499,
-    "pos": "Verb"
+    "id": 499
   },
   {
     "hanzi": "作业",
@@ -7496,7 +6997,6 @@
       "py": "Lǎoshī gěi le hěn duō zuòyè.",
       "en": "The teacher gave a lot of homework."
     },
-    "id": 500,
-    "pos": "Noun"
+    "id": 500
   }
 ]
