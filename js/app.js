@@ -951,31 +951,14 @@ const App = {
     const buildCardHtml = (w, versions, activeIdx) => {
       const isRem = DeckManager.isRemembered(w.hanzi);
 
-      // Check cross-curriculum levels (HSK 3.0 Band vs HSK 2.0 Level)
-      const hskInfo = DeckManager.getWordHskLevels(w.hanzi);
-      let levelBadgesHTML = '';
-      if (hskInfo) {
-        if (hskInfo.hsk3 && hskInfo.hsk2 && hskInfo.hsk3 !== hskInfo.hsk2) {
-          levelBadgesHTML = `
-            <span class="detail-level-badge level-badge-hsk3" title="HSK 3.0 (New Standard) Band ${hskInfo.hsk3}">HSK 3.0 · Band ${hskInfo.hsk3}</span>
-            <span class="detail-level-badge level-badge-hsk2" title="HSK 2.0 (Classic) Level ${hskInfo.hsk2}">HSK 2.0 · Level ${hskInfo.hsk2}</span>
-          `;
-        } else if (hskInfo.hsk3 && hskInfo.hsk2 && hskInfo.hsk3 === hskInfo.hsk2) {
-          levelBadgesHTML = `<span class="detail-level-badge level-badge-hsk3" title="HSK 3.0 & 2.0 Level ${hskInfo.hsk3}">HSK ${hskInfo.hsk3}</span>`;
-        } else if (hskInfo.hsk3) {
-          levelBadgesHTML = `<span class="detail-level-badge level-badge-hsk3" title="HSK 3.0 Band ${hskInfo.hsk3}">HSK 3.0 · Band ${hskInfo.hsk3}</span>`;
-        } else if (hskInfo.hsk2) {
-          levelBadgesHTML = `<span class="detail-level-badge level-badge-hsk2" title="HSK 2.0 Level ${hskInfo.hsk2}">HSK 2.0 · Level ${hskInfo.hsk2}</span>`;
-        }
-      } else if (w.level) {
-        levelBadgesHTML = `<span class="detail-level-badge">HSK ${w.level}</span>`;
-      }
+      // Clean, small, uniform HSK level pill
+      const wordLevel = w.level || (DeckManager.getWordHskLevels && (DeckManager.getWordHskLevels(w.hanzi)?.hsk3 || DeckManager.getWordHskLevels(w.hanzi)?.hsk2)) || 1;
 
       return `
         <div class="card-header-bar">
           <div class="card-header-meta">
             <span class="detail-index-pill">#${w.deckIndex || w.id}</span>
-            ${levelBadgesHTML}
+            <span class="detail-level-badge">HSK ${wordLevel}</span>
           </div>
           <div class="card-header-actions">
             <button class="btn-icon btn-card-add-custom" id="btn-card-add-custom" title="Add to Custom Deck">
@@ -1030,7 +1013,6 @@ const App = {
             <div class="polyphone-bar">
               <div class="polyphone-bar-header">
                 <span class="polyphone-label">Other Readings (${versions.length})</span>
-                <span class="polyphone-swipe-hint">Tap to switch</span>
               </div>
               <div class="polyphone-dots">
                 ${versions.map((v, idx) => `
@@ -1797,10 +1779,6 @@ const App = {
                       <div class="lone-english">${nextCard.meaning || 'Meaning'}</div>
                     `}
                   </div>
-                  <div class="tap-to-reveal-hint">
-                    ${Icons.eye(16, '#A39E93')}
-                    <span>Tap card or press Reveal to flip</span>
-                  </div>
                 </div>
               </div>
             </div>
@@ -1833,10 +1811,6 @@ const App = {
                   <span class="poly-badge">多音字 · ${versions.length} readings</span>
                 </div>
               ` : ''}
-              <div class="tap-to-reveal-hint">
-                ${Icons.eye(16, '#A39E93')}
-                <span>Tap card or press Reveal to flip</span>
-              </div>
             </div>
 
             <!-- Revealed Content -->
@@ -1882,11 +1856,6 @@ const App = {
                   `).join('')}
                 </div>
               ` : ''}
-
-              <div class="tap-to-hide-hint">
-                ${Icons.eyeOff(14, '#A39E93')}
-                <span>Press Hide below to flip back</span>
-              </div>
             </div>
           </div>
         </div>
@@ -2246,42 +2215,7 @@ const App = {
       `).join('');
     }
 
-    const syncStatus = (window.SyncEngine && SyncEngine.getStatus()) || {};
-    const isLinked = !!syncStatus.syncKey;
-
-    html += `
-      <!-- Cloud Sync & Backup Banner -->
-      <div class="deck-summary-card sync-banner-card" id="btn-decks-open-sync" style="cursor: pointer; margin-top: 18px; border: 1.5px dashed var(--border-color); background: var(--bg-secondary);">
-        <div class="deck-card-top">
-          <div class="deck-icon-badge" style="background: rgba(78, 122, 88, 0.12); color: #2F6A3D;">
-            ${Icons.cloud(22, '#2F6A3D')}
-          </div>
-          <div class="deck-details">
-            <h3 class="deck-name" style="font-size: 14.5px;">Cloud Sync & Backups</h3>
-            <span class="deck-meta">${isLinked ? `🟢 Connected (${syncStatus.syncKey})` : 'Sync decks across your Mac & iPhone'}</span>
-          </div>
-        </div>
-        <div class="deck-card-actions">
-          <button class="btn-sm" style="background: var(--sage); color: #FFF; border: none; border-radius: var(--radius-full); padding: 6px 14px; font-weight: 600; cursor: pointer;">
-            ${isLinked ? 'Manage' : 'Connect'}
-          </button>
-        </div>
-      </div>
-    `;
-
     wrap.innerHTML = html;
-
-    const syncCard = wrap.querySelector('#btn-decks-open-sync');
-    if (syncCard) {
-      syncCard.onclick = () => this.openCloudSyncModal();
-      const btn = syncCard.querySelector('button');
-      if (btn) {
-        btn.onclick = (e) => {
-          e.stopPropagation();
-          this.openCloudSyncModal();
-        };
-      }
-    }
 
     // Attach custom deck events
     wrap.querySelector('#btn-create-custom-deck').onclick = () => {
