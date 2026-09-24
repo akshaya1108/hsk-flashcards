@@ -1,0 +1,4 @@
+# Dependencies & temp
+data-raw/
+anki words/
+.DS_Store

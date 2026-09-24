@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBF9F5"/>
+      <stop offset="100%" stop-color="#EFE9DD"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FDFBF7"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#3A3834" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="512" height="512" rx="128" fill="url(#bg)"/>
+  
+  <!-- Back Card (Tilted) -->
+  <rect x="136" y="80" width="280" height="350" rx="32" fill="#E8E1D5" transform="rotate(8 276 255)"/>
+  
+  <!-- Front Card -->
+  <rect x="116" y="86" width="280" height="340" rx="32" fill="url(#cardGrad)" stroke="#E0D7C8" stroke-width="3" filter="url(#shadow)"/>
+  
+  <!-- Subtle Header Pill -->
+  <rect x="196" y="120" width="120" height="28" rx="14" fill="#E8F1EC"/>
+  <text x="256" y="139" font-family="-apple-system, sans-serif" font-size="13" font-weight="600" fill="#3D6A4D" text-anchor="middle">HSK DECK</text>
+  
+  <!-- Chinese Hanzi "学" (to learn / study) -->
+  <text x="256" y="275" font-family="'PingFang SC', 'Hiragino Sans GB', 'Songti SC', serif" font-size="108" font-weight="500" fill="#2E3830" text-anchor="middle">学</text>
+  
+  <!-- Pinyin -->
+  <text x="256" y="325" font-family="-apple-system, sans-serif" font-size="22" font-weight="500" fill="#7A877B" text-anchor="middle">xué</text>
+  
+  <!-- English Meaning Tag -->
+  <rect x="186" y="352" width="140" height="32" rx="16" fill="#F4EAE0"/>
+  <text x="256" y="373" font-family="-apple-system, sans-serif" font-size="15" font-weight="600" fill="#A85832" text-anchor="middle">to study</text>
+</svg>

@@ -1,0 +1,7502 @@
+[
+  {
+    "hanzi": "矮",
+    "pinyin": "ǎi",
+    "pinyin_sort": "ai",
+    "meaning": "short",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "那个孩子有点儿矮。",
+      "py": "Nàge háizi yǒudiǎnr ǎi.",
+      "en": "That child is a little short."
+    },
+    "id": 1,
+    "pos": "Adjective"
+  },
+  {
+    "hanzi": "爱人",
+    "pinyin": "àiren",
+    "pinyin_sort": "airen",
+    "meaning": "spouse",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "她是我的爱人。",
+      "py": "Tā shì wǒ de àirén.",
+      "en": "She is my spouse."
+    },
+    "id": 2,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "安静",
+    "pinyin": "ānjìng",
+    "pinyin_sort": "anjing",
+    "meaning": "quiet",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "请安静一点儿。",
+      "py": "Qǐng ānjìng yìdiǎnr.",
+      "en": "Please be a little quieter."
+    },
+    "id": 3,
+    "pos": "Adjective"
+  },
+  {
+    "hanzi": "安全",
+    "pinyin": "ānquán",
+    "pinyin_sort": "anquan",
+    "meaning": "safe",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "晚上一个人出去不安全。",
+      "py": "Wǎnshang yí gè rén chūqù bù ānquán.",
+      "en": "It is not safe to go out alone at night."
+    },
+    "id": 4,
+    "pos": "Adjective"
+  },
+  {
+    "hanzi": "阿姨",
+    "pinyin": "āyí",
+    "pinyin_sort": "ayi",
+    "meaning": "aunt",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我阿姨住在北京。",
+      "py": "Wǒ āyí zhù zài Běijīng.",
+      "en": "My aunt lives in Beijing."
+    },
+    "id": 5,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "把",
+    "pinyin": "bǎ",
+    "pinyin_sort": "ba",
+    "meaning": "measure word for objects with handles; particle for object-fronting",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "请把门打开。",
+      "py": "Qǐng bǎ mén dǎkāi.",
+      "en": "Please open the door."
+    },
+    "id": 6,
+    "pos": "Measure Word, Preposition"
+  },
+  {
+    "hanzi": "办",
+    "pinyin": "bàn",
+    "pinyin_sort": "ban",
+    "meaning": "to do, to handle",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我下午要办点儿事。",
+      "py": "Wǒ xiàwǔ yào bàn diǎnr shì.",
+      "en": "I have some things to handle this afternoon."
+    },
+    "id": 7,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "搬",
+    "pinyin": "bān",
+    "pinyin_sort": "ban",
+    "meaning": "to move, to carry",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我们明天搬桌子。",
+      "py": "Wǒmen míngtiān bān zhuōzi.",
+      "en": "We will move the table tomorrow."
+    },
+    "id": 8,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "办法",
+    "pinyin": "bànfǎ",
+    "pinyin_sort": "banfa",
+    "meaning": "way, solution",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这个办法很好。",
+      "py": "Zhège bànfǎ hěn hǎo.",
+      "en": "This method is very good."
+    },
+    "id": 9,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "办公室",
+    "pinyin": "bàngōngshì",
+    "pinyin_sort": "bangongshi",
+    "meaning": "office",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我爸爸在办公室工作。",
+      "py": "Wǒ bàba zài bàngōngshì gōngzuò.",
+      "en": "My dad works in an office."
+    },
+    "id": 10,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "帮助",
+    "pinyin": "bāngzhù",
+    "pinyin_sort": "bangzhu",
+    "meaning": "help",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "谢谢你的帮助。",
+      "py": "Xièxie nǐ de bāngzhù.",
+      "en": "Thank you for your help."
+    },
+    "id": 11,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "班级",
+    "pinyin": "bānjí",
+    "pinyin_sort": "banji",
+    "meaning": "class, grade",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我们班级有三十个人。",
+      "py": "Wǒmen bānjí yǒu sānshí gè rén.",
+      "en": "Our class has thirty people."
+    },
+    "id": 12,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "搬家",
+    "pinyin": "bānjiā",
+    "pinyin_sort": "banjia",
+    "meaning": "to move house",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我下个月要搬家。",
+      "py": "Wǒ xià gè yuè yào bānjiā.",
+      "en": "I will move house next month."
+    },
+    "id": 13,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "半天",
+    "pinyin": "bàntiān",
+    "pinyin_sort": "bantian",
+    "meaning": "half a day, a long time",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我等了你半天。",
+      "py": "Wǒ děng le nǐ bàntiān.",
+      "en": "I waited for you for a long time."
+    },
+    "id": 14,
+    "pos": "Numeral, Measure Word"
+  },
+  {
+    "hanzi": "饱",
+    "pinyin": "bǎo",
+    "pinyin_sort": "bao",
+    "meaning": "full",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我已经吃饱了。",
+      "py": "Wǒ yǐjīng chībǎo le.",
+      "en": "I am already full."
+    },
+    "id": 15,
+    "pos": "Adjective"
+  },
+  {
+    "hanzi": "报纸",
+    "pinyin": "bàozhǐ",
+    "pinyin_sort": "baozhi",
+    "meaning": "newspaper",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我每天看报纸。",
+      "py": "Wǒ měitiān kàn bàozhǐ.",
+      "en": "I read newspapers every day."
+    },
+    "id": 16,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "北",
+    "pinyin": "běi",
+    "pinyin_sort": "bei",
+    "meaning": "north",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "北京在中国北方。",
+      "py": "Běijīng zài Zhōngguó běifāng.",
+      "en": "Beijing is in northern China."
+    },
+    "id": 17,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "被",
+    "pinyin": "bèi",
+    "pinyin_sort": "bei",
+    "meaning": "by",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我的书被妹妹拿走了。",
+      "py": "Wǒ de shū bèi mèimei názǒu le.",
+      "en": "My book was taken away by my younger sister."
+    },
+    "id": 18,
+    "pos": "Preposition"
+  },
+  {
+    "hanzi": "北方",
+    "pinyin": "běifāng",
+    "pinyin_sort": "beifang",
+    "meaning": "north",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "中国北方冬天很冷。",
+      "py": "Zhōngguó běifāng dōngtiān hěn lěng.",
+      "en": "Winter in northern China is very cold."
+    },
+    "id": 19,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "变",
+    "pinyin": "biàn",
+    "pinyin_sort": "bian",
+    "meaning": "to change, to become",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "天气变冷了。",
+      "py": "Tiānqì biàn lěng le.",
+      "en": "The weather became cold."
+    },
+    "id": 20,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "遍",
+    "pinyin": "biàn",
+    "pinyin_sort": "bian",
+    "meaning": "measure word for actions",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这个字我写了很多遍。",
+      "py": "Zhège zì wǒ xiě le hěn duō biàn.",
+      "en": "I wrote this character many times."
+    },
+    "id": 21,
+    "pos": "Measure Word"
+  },
+  {
+    "hanzi": "变成",
+    "pinyin": "biànchéng",
+    "pinyin_sort": "biancheng",
+    "meaning": "to become, to turn into",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "水变成冰了。",
+      "py": "Shuǐ biànchéng bīng le.",
+      "en": "The water turned into ice."
+    },
+    "id": 22,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "变化",
+    "pinyin": "biànhuà",
+    "pinyin_sort": "bianhua",
+    "meaning": "to change; change",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这里变化很大。",
+      "py": "Zhèlǐ biànhuà hěn dà.",
+      "en": "There have been big changes here."
+    },
+    "id": 23,
+    "pos": "Verb, Noun"
+  },
+  {
+    "hanzi": "表演",
+    "pinyin": "biǎoyǎn",
+    "pinyin_sort": "biaoyan",
+    "meaning": "to perform, to act",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他们正在表演节目。",
+      "py": "Tāmen zhèngzài biǎoyǎn jiémù.",
+      "en": "They are performing a show."
+    },
+    "id": 24,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "别的",
+    "pinyin": "biéde",
+    "pinyin_sort": "biede",
+    "meaning": "other",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我想买别的颜色。",
+      "py": "Wǒ xiǎng mǎi bié de yánsè.",
+      "en": "I want to buy another color."
+    },
+    "id": 25,
+    "pos": "Pronoun"
+  },
+  {
+    "hanzi": "别人",
+    "pinyin": "biérén",
+    "pinyin_sort": "bieren",
+    "meaning": "other people",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "不要告诉别人。",
+      "py": "Bú yào gàosu biérén.",
+      "en": "Don’t tell other people."
+    },
+    "id": 26,
+    "pos": "Pronoun"
+  },
+  {
+    "hanzi": "笔记",
+    "pinyin": "bǐjì",
+    "pinyin_sort": "biji",
+    "meaning": "notes",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "请记一下笔记。",
+      "py": "Qǐng jì yíxià bǐjì.",
+      "en": "Please take some notes."
+    },
+    "id": 27,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "比较",
+    "pinyin": "bǐjiào",
+    "pinyin_sort": "bijiao",
+    "meaning": "to compare; quite, relatively; than",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这个问题比较难。",
+      "py": "Zhège wèntí bǐjiào nán.",
+      "en": "This question is relatively difficult."
+    },
+    "id": 28,
+    "pos": "Adverb, Verb, Noun"
+  },
+  {
+    "hanzi": "笔记本",
+    "pinyin": "bǐjìběn",
+    "pinyin_sort": "bijiben",
+    "meaning": "notebook",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我买了一个新笔记本。",
+      "py": "Wǒ mǎi le yí gè xīn bǐjìběn.",
+      "en": "I bought a new notebook."
+    },
+    "id": 29,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "冰",
+    "pinyin": "bīng",
+    "pinyin_sort": "bing",
+    "meaning": "ice; (to freeze)",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "水里有很多冰。",
+      "py": "Shuǐ lǐ yǒu hěn duō bīng.",
+      "en": "There is a lot of ice in the water."
+    },
+    "id": 30,
+    "pos": "Noun, Verb"
+  },
+  {
+    "hanzi": "冰激凌",
+    "pinyin": "bīngjīlíng",
+    "pinyin_sort": "bingjiling",
+    "meaning": "ice cream",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "夏天我喜欢吃冰激凌。",
+      "py": "Xiàtiān wǒ xǐhuan chī bīngjīlíng.",
+      "en": "In summer I like eating ice cream."
+    },
+    "id": 31,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "病人",
+    "pinyin": "bìngrén",
+    "pinyin_sort": "bingren",
+    "meaning": "patient",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "那个病人需要休息。",
+      "py": "Nàge bìngrén xūyào xiūxi.",
+      "en": "That patient needs rest."
+    },
+    "id": 32,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "宾馆",
+    "pinyin": "bīnguǎn",
+    "pinyin_sort": "binguan",
+    "meaning": "hotel",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我们住在宾馆。",
+      "py": "Wǒmen zhù zài bīnguǎn.",
+      "en": "We stay at a hotel."
+    },
+    "id": 33,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "冰箱",
+    "pinyin": "bīngxiāng",
+    "pinyin_sort": "bingxiang",
+    "meaning": "refrigerator",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "冰箱里有水果。",
+      "py": "Bīngxiāng lǐ yǒu shuǐguǒ.",
+      "en": "There is fruit in the refrigerator."
+    },
+    "id": 34,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "比如",
+    "pinyin": "bǐrú",
+    "pinyin_sort": "biru",
+    "meaning": "for example",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "比如说，我喜欢中国菜。",
+      "py": "Bǐrú shuō, wǒ xǐhuan Zhōngguó cài.",
+      "en": "For example, I like Chinese food."
+    },
+    "id": 35,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "比赛",
+    "pinyin": "bǐsài",
+    "pinyin_sort": "bisai",
+    "meaning": "to compete; game, match",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "今天有篮球比赛。",
+      "py": "Jīntiān yǒu lánqiú bǐsài.",
+      "en": "There is a basketball match today."
+    },
+    "id": 36,
+    "pos": "Verb, Noun"
+  },
+  {
+    "hanzi": "必须",
+    "pinyin": "bìxū",
+    "pinyin_sort": "bixu",
+    "meaning": "must",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "你必须认真学习。",
+      "py": "Nǐ bìxū rènzhēn xuéxí.",
+      "en": "You must study seriously."
+    },
+    "id": 37,
+    "pos": "Adverb"
+  },
+  {
+    "hanzi": "不但",
+    "pinyin": "búdàn",
+    "pinyin_sort": "budan",
+    "meaning": "not only",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他不但会说中文，还会说英语。",
+      "py": "Tā bùdàn huì shuō Zhōngwén, hái huì shuō Yīngyǔ.",
+      "en": "He can not only speak Chinese, but also English."
+    },
+    "id": 38,
+    "pos": "Conjunction"
+  },
+  {
+    "hanzi": "不见",
+    "pinyin": "bújiàn",
+    "pinyin_sort": "bujian",
+    "meaning": "to disappear, to not see",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我的手机不见了。",
+      "py": "Wǒ de shǒujī bújiàn le.",
+      "en": "My phone is missing."
+    },
+    "id": 39,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "不久",
+    "pinyin": "bùjiǔ",
+    "pinyin_sort": "bujiu",
+    "meaning": "soon, not long after",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我不久以后要去中国。",
+      "py": "Wǒ bùjiǔ yǐhòu yào qù Zhōngguó.",
+      "en": "I will go to China soon."
+    },
+    "id": 40,
+    "pos": "Adjective"
+  },
+  {
+    "hanzi": "不同",
+    "pinyin": "bù tóng",
+    "pinyin_sort": "butong",
+    "meaning": "different",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他们有不同的爱好。",
+      "py": "Tāmen yǒu bùtóng de àihào.",
+      "en": "They have different hobbies."
+    },
+    "id": 41,
+    "pos": "Adjective, Noun"
+  },
+  {
+    "hanzi": "不行",
+    "pinyin": "bùxíng",
+    "pinyin_sort": "buxing",
+    "meaning": "not allowed, won't do; not good",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这样做不行。",
+      "py": "Zhèyàng zuò bù xíng.",
+      "en": "Doing this is not okay."
+    },
+    "id": 42,
+    "pos": "Adjective"
+  },
+  {
+    "hanzi": "不用",
+    "pinyin": "búyòng",
+    "pinyin_sort": "buyong",
+    "meaning": "need not",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这个不用钱。",
+      "py": "Zhège búyòng qián.",
+      "en": "This does not cost money."
+    },
+    "id": 43,
+    "pos": "Adverb"
+  },
+  {
+    "hanzi": "才",
+    "pinyin": "cái",
+    "pinyin_sort": "cai",
+    "meaning": "just, only",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他昨天才回来。",
+      "py": "Tā zuótiān cái huílái.",
+      "en": "He only came back yesterday."
+    },
+    "id": 44,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "菜单",
+    "pinyin": "càidān",
+    "pinyin_sort": "caidan",
+    "meaning": "menu",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "请给我看看菜单。",
+      "py": "Qǐng gěi wǒ kànkan càidān.",
+      "en": "Please let me look at the menu."
+    },
+    "id": 45,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "参加",
+    "pinyin": "cānjiā",
+    "pinyin_sort": "canjia",
+    "meaning": "to join, to attend",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我想参加比赛。",
+      "py": "Wǒ xiǎng cānjiā bǐsài.",
+      "en": "I want to join the competition."
+    },
+    "id": 46,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "草",
+    "pinyin": "cǎo",
+    "pinyin_sort": "cao",
+    "meaning": "grass",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "公园里有很多草。",
+      "py": "Gōngyuán lǐ yǒu hěn duō cǎo.",
+      "en": "There is a lot of grass in the park."
+    },
+    "id": 47,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "草地",
+    "pinyin": "cǎodì",
+    "pinyin_sort": "caodi",
+    "meaning": "grassland",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "草地上有很多孩子。",
+      "py": "Cǎodì shàng yǒu hěn duō háizi.",
+      "en": "There are many children on the grass."
+    },
+    "id": 48,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "层",
+    "pinyin": "céng",
+    "pinyin_sort": "ceng",
+    "meaning": "measure word for layer, floor",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我们住在三层。",
+      "py": "Wǒmen zhù zài sān céng.",
+      "en": "We live on the third floor."
+    },
+    "id": 49,
+    "pos": "Measure Word"
+  },
+  {
+    "hanzi": "差",
+    "pinyin": "chà",
+    "pinyin_sort": "cha",
+    "meaning": "bad, poor; to lack",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他的中文说得有点儿差。",
+      "py": "Tā de Zhōngwén shuō de yǒudiǎnr chà.",
+      "en": "His Chinese is a little poor."
+    },
+    "id": 50,
+    "pos": "Adjective, Verb"
+  },
+  {
+    "hanzi": "查",
+    "pinyin": "chá",
+    "pinyin_sort": "cha",
+    "meaning": "to check",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我查了一下地图。",
+      "py": "Wǒ chá le yíxià dìtú.",
+      "en": "I checked the map."
+    },
+    "id": 51,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "差不多",
+    "pinyin": "chàbuduō",
+    "pinyin_sort": "chabuduo",
+    "meaning": "almost, similar; nearly",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这两个差不多一样。",
+      "py": "Zhè liǎng gè chàbuduō yíyàng.",
+      "en": "These two are almost the same."
+    },
+    "id": 52,
+    "pos": "Adjective, Adverb"
+  },
+  {
+    "hanzi": "尝",
+    "pinyin": "cháng",
+    "pinyin_sort": "chang",
+    "meaning": "to taste",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "你尝尝这个菜。",
+      "py": "Nǐ cháng chang zhège cài.",
+      "en": "Try tasting this dish."
+    },
+    "id": 53,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "常",
+    "pinyin": "cháng",
+    "pinyin_sort": "chang",
+    "meaning": "often, frequent",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他常来这里。",
+      "py": "Tā cháng lái zhèlǐ.",
+      "en": "He often comes here."
+    },
+    "id": 54,
+    "pos": "Adverb"
+  },
+  {
+    "hanzi": "常常",
+    "pinyin": "chángcháng",
+    "pinyin_sort": "changchang",
+    "meaning": "often",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我常常去图书馆。",
+      "py": "Wǒ chángcháng qù túshūguǎn.",
+      "en": "I often go to the library."
+    },
+    "id": 55,
+    "pos": "Adverb"
+  },
+  {
+    "hanzi": "常见",
+    "pinyin": "cháng jiàn",
+    "pinyin_sort": "changjian",
+    "meaning": "common",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "感冒是常见的病。",
+      "py": "Gǎnmào shì cháng jiàn de bìng.",
+      "en": "Colds are a common illness."
+    },
+    "id": 56,
+    "pos": "Adjective, Verb"
+  },
+  {
+    "hanzi": "常用",
+    "pinyin": "cháng yòng",
+    "pinyin_sort": "changyong",
+    "meaning": "commonly used",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这是常用的词。",
+      "py": "Zhè shì cháng yòng de cí.",
+      "en": "This is a commonly used word."
+    },
+    "id": 57,
+    "pos": "Adjective"
+  },
+  {
+    "hanzi": "成绩",
+    "pinyin": "chéngjì",
+    "pinyin_sort": "chengji",
+    "meaning": "score, grade, achievement",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "她的成绩很好。",
+      "py": "Tā de chéngjì hěn hǎo.",
+      "en": "Her grades are very good."
+    },
+    "id": 58,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "城市",
+    "pinyin": "chéngshì",
+    "pinyin_sort": "chengshi",
+    "meaning": "city",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "北京是一个大城市。",
+      "py": "Běijīng shì yí gè dà chéngshì.",
+      "en": "Beijing is a big city."
+    },
+    "id": 59,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "衬衫",
+    "pinyin": "chènshān",
+    "pinyin_sort": "chenshan",
+    "meaning": "shirt",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他穿了一件白衬衫。",
+      "py": "Tā chuān le yí jiàn bái chènshān.",
+      "en": "He wore a white shirt."
+    },
+    "id": 60,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "迟到",
+    "pinyin": "chídào",
+    "pinyin_sort": "chidao",
+    "meaning": "to be late",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他今天迟到了。",
+      "py": "Tā jīntiān chídào le.",
+      "en": "He was late today."
+    },
+    "id": 61,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "船",
+    "pinyin": "chuán",
+    "pinyin_sort": "chuan",
+    "meaning": "boat",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我们坐船去岛上。",
+      "py": "Wǒmen zuò chuán qù dǎo shàng.",
+      "en": "We took a boat to the island."
+    },
+    "id": 62,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "出发",
+    "pinyin": "chūfā",
+    "pinyin_sort": "chufa",
+    "meaning": "to set out, to leave",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我们八点出发。",
+      "py": "Wǒmen bā diǎn chūfā.",
+      "en": "We set out at eight o'clock."
+    },
+    "id": 63,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "除了",
+    "pinyin": "chúle",
+    "pinyin_sort": "chule",
+    "meaning": "except, besides",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "除了他，大家都来了。",
+      "py": "Chúle tā, dàjiā dōu lái le.",
+      "en": "Everyone came except him."
+    },
+    "id": 64,
+    "pos": "Preposition"
+  },
+  {
+    "hanzi": "春天",
+    "pinyin": "chūntiān",
+    "pinyin_sort": "chuntian",
+    "meaning": "spring",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "春天花开了。",
+      "py": "Chūntiān huā kāi le.",
+      "en": "Flowers bloom in spring."
+    },
+    "id": 65,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "出生",
+    "pinyin": "chūshēng",
+    "pinyin_sort": "chusheng",
+    "meaning": "to be born",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "她出生在上海。",
+      "py": "Tā chūshēng zài Shànghǎi.",
+      "en": "She was born in Shanghai."
+    },
+    "id": 66,
+    "pos": "Verb, Noun"
+  },
+  {
+    "hanzi": "出院",
+    "pinyin": "chūyuàn",
+    "pinyin_sort": "chuyuan",
+    "meaning": "to be discharged from hospital",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "爷爷今天出院了。",
+      "py": "Yéye jīntiān chūyuàn le.",
+      "en": "Grandpa was discharged from hospital today."
+    },
+    "id": 67,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "初中",
+    "pinyin": "chūzhōng",
+    "pinyin_sort": "chuzhong",
+    "meaning": "junior high school",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他在上初中。",
+      "py": "Tā zài shàng chūzhōng.",
+      "en": "He is in junior high school."
+    },
+    "id": 68,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "词典",
+    "pinyin": "cídiǎn",
+    "pinyin_sort": "cidian",
+    "meaning": "dictionary",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我查了词典。",
+      "py": "Wǒ chá le cídiǎn.",
+      "en": "I looked it up in the dictionary."
+    },
+    "id": 69,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "聪明",
+    "pinyin": "cōngmíng",
+    "pinyin_sort": "congming",
+    "meaning": "smart, clever",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这个孩子很聪明。",
+      "py": "Zhège háizi hěn cōngmíng.",
+      "en": "This child is very clever."
+    },
+    "id": 70,
+    "pos": "Adjective"
+  },
+  {
+    "hanzi": "大概",
+    "pinyin": "dàgài",
+    "pinyin_sort": "dagai",
+    "meaning": "general, rough; probably, approximately; (general idea)",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他大概六点到。",
+      "py": "Tā dàgài liù diǎn dào.",
+      "en": "He will probably arrive at six."
+    },
+    "id": 71,
+    "pos": "Adverb, Noun"
+  },
+  {
+    "hanzi": "带",
+    "pinyin": "dài",
+    "pinyin_sort": "dai",
+    "meaning": "to bring, to take; (belt)",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "请带上你的护照。",
+      "py": "Qǐng dài shàng nǐ de hùzhào.",
+      "en": "Please bring your passport."
+    },
+    "id": 72,
+    "pos": "Verb, Noun"
+  },
+  {
+    "hanzi": "蛋糕",
+    "pinyin": "dàngāo",
+    "pinyin_sort": "dangao",
+    "meaning": "cake",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这个蛋糕很甜。",
+      "py": "Zhège dàngāo hěn tián.",
+      "en": "This cake is very sweet."
+    },
+    "id": 73,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "当然",
+    "pinyin": "dāngrán",
+    "pinyin_sort": "dangran",
+    "meaning": "of course",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "当然，我愿意帮你。",
+      "py": "Dāngrán, wǒ yuànyì bāng nǐ.",
+      "en": "Of course, I am willing to help you."
+    },
+    "id": 74,
+    "pos": "Adverb"
+  },
+  {
+    "hanzi": "担心",
+    "pinyin": "dānxīn",
+    "pinyin_sort": "danxin",
+    "meaning": "to worry",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "妈妈很担心我。",
+      "py": "Māma hěn dānxīn wǒ.",
+      "en": "Mom worries about me a lot."
+    },
+    "id": 75,
+    "pos": "Verb, Noun"
+  },
+  {
+    "hanzi": "到处",
+    "pinyin": "dàochù",
+    "pinyin_sort": "daochu",
+    "meaning": "everywhere",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他到处找手机。",
+      "py": "Tā dàochù zhǎo shǒujī.",
+      "en": "He looked everywhere for his phone."
+    },
+    "id": 76,
+    "pos": "Adverb"
+  },
+  {
+    "hanzi": "大人",
+    "pinyin": "dàren",
+    "pinyin_sort": "daren",
+    "meaning": "adult",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "大人不能进去。",
+      "py": "Dàren bù néng jìnqù.",
+      "en": "Adults cannot enter."
+    },
+    "id": 77,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "打扫",
+    "pinyin": "dǎsǎo",
+    "pinyin_sort": "dasao",
+    "meaning": "to clean",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我打扫了房间。",
+      "py": "Wǒ dǎsǎo le fángjiān.",
+      "en": "I cleaned the room."
+    },
+    "id": 78,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "打算",
+    "pinyin": "dǎsuàn",
+    "pinyin_sort": "dasuan",
+    "meaning": "to plan, intend; plan",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "你打算去哪儿？",
+      "py": "Nǐ dǎsuàn qù nǎr?",
+      "en": "Where do you plan to go?"
+    },
+    "id": 79,
+    "pos": "Verb, Noun"
+  },
+  {
+    "hanzi": "大小",
+    "pinyin": "dàxiǎo",
+    "pinyin_sort": "daxiao",
+    "meaning": "size",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这件衣服大小合适。",
+      "py": "Zhè jiàn yīfu dàxiǎo héshì.",
+      "en": "This piece of clothing is the right size."
+    },
+    "id": 80,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "大熊猫",
+    "pinyin": "dàxióngmāo",
+    "pinyin_sort": "daxiongmao",
+    "meaning": "giant panda",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "大熊猫是中国的国宝。",
+      "py": "Dàxióngmāo shì Zhōngguó de guóbǎo.",
+      "en": "The giant panda is China's national treasure."
+    },
+    "id": 81,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "大衣",
+    "pinyin": "dàyī",
+    "pinyin_sort": "dayi",
+    "meaning": "coat",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "外面冷，穿上大衣吧。",
+      "py": "Wàimiàn lěng, chuān shàng dàyī ba.",
+      "en": "It's cold outside, put on your coat."
+    },
+    "id": 82,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "得",
+    "pinyin": "dé",
+    "pinyin_sort": "de",
+    "meaning": "to get, to obtain, to acquire, to win",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他在这次汉语比赛中得了第一名。",
+      "py": "Tā zài zhè cì hànyǔ bǐsài zhōng dé le dì-yī míng.",
+      "en": "He won first place in this Chinese competition."
+    },
+    "id": 83,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "得到",
+    "pinyin": "dédào",
+    "pinyin_sort": "dedao",
+    "meaning": "to get, to obtain",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我得到了一个机会。",
+      "py": "Wǒ dédào le yí gè jīhuì.",
+      "en": "I got an opportunity."
+    },
+    "id": 84,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "得分",
+    "pinyin": "défēn",
+    "pinyin_sort": "defen",
+    "meaning": "to score; score",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他想得分，但是最后的得分不高。",
+      "py": "Tā xiǎng défēn, dànshì zuìhòu de défēn bù gāo.",
+      "en": "He wanted to score, but his final score wasn't high."
+    },
+    "id": 85,
+    "pos": "Verb, Noun"
+  },
+  {
+    "hanzi": "的话",
+    "pinyin": "dehuà",
+    "pinyin_sort": "dehua",
+    "meaning": "particle used after a condition clause, if…",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "如果你有时间的话，来找我。",
+      "py": "Rúguǒ nǐ yǒu shíjiān dehuà, lái zhǎo wǒ.",
+      "en": "If you have time, come find me."
+    },
+    "id": 86,
+    "pos": "Particle"
+  },
+  {
+    "hanzi": "得",
+    "pinyin": "děi",
+    "pinyin_sort": "dei",
+    "meaning": "must, have to, need to",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "时间不早了，我得回家了。",
+      "py": "Shíjiān bù zǎo le, wǒ děi huí jiā le.",
+      "en": "It is getting late; I must go home."
+    },
+    "id": 87,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "灯",
+    "pinyin": "dēng",
+    "pinyin_sort": "deng",
+    "meaning": "lamp, light",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "请把灯打开。",
+      "py": "Qǐng bǎ dēng dǎkāi.",
+      "en": "Please turn on the light."
+    },
+    "id": 88,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "地",
+    "pinyin": "dì",
+    "pinyin_sort": "di",
+    "meaning": "ground, floor, earth, land; place",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "地上有很多水，走路请小心。",
+      "py": "Dì shàng yǒu hěnduō shuǐ, zǒulù qǐng xiǎoxīn.",
+      "en": "There is a lot of water on the ground; please be careful walking."
+    },
+    "id": 89,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "电",
+    "pinyin": "diàn",
+    "pinyin_sort": "dian",
+    "meaning": "electricity; (to give an electric shock)",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "家里没有电了。",
+      "py": "Jiā lǐ méiyǒu diàn le.",
+      "en": "The electricity at home went out."
+    },
+    "id": 90,
+    "pos": "Noun, Verb"
+  },
+  {
+    "hanzi": "电梯",
+    "pinyin": "diàntī",
+    "pinyin_sort": "dianti",
+    "meaning": "elevator",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我们坐电梯上楼。",
+      "py": "Wǒmen zuò diàntī shàng lóu.",
+      "en": "We took the elevator upstairs."
+    },
+    "id": 91,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "电子书",
+    "pinyin": "diànzǐshū",
+    "pinyin_sort": "dianzishu",
+    "meaning": "e-book",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我在手机上看电子书。",
+      "py": "Wǒ zài shǒujī shàng kàn diànzǐshū.",
+      "en": "I read e-books on my phone."
+    },
+    "id": 92,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "地点",
+    "pinyin": "dìdiǎn",
+    "pinyin_sort": "didian",
+    "meaning": "place, location",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "会议地点在三楼。",
+      "py": "Huìyì dìdiǎn zài sān lóu.",
+      "en": "The meeting location is on the third floor."
+    },
+    "id": 93,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "地方",
+    "pinyin": "dìfang",
+    "pinyin_sort": "difang",
+    "meaning": "place, space, room",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这个地方很漂亮，我想再去一次。",
+      "py": "Zhège dìfang hěn piàoliang, wǒ xiǎng zài qù yí cì.",
+      "en": "This place is very beautiful; I want to go again."
+    },
+    "id": 94,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "地图",
+    "pinyin": "dìtú",
+    "pinyin_sort": "ditu",
+    "meaning": "map",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我需要一张地图。",
+      "py": "Wǒ xūyào yì zhāng dìtú.",
+      "en": "I need a map."
+    },
+    "id": 95,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "丢",
+    "pinyin": "diū",
+    "pinyin_sort": "diu",
+    "meaning": "to lose, to throw away",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我把钱包丢了。",
+      "py": "Wǒ bǎ qiánbāo diū le.",
+      "en": "I lost my wallet."
+    },
+    "id": 96,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "东",
+    "pinyin": "dōng",
+    "pinyin_sort": "dong",
+    "meaning": "east",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "太阳从东边出来。",
+      "py": "Tàiyáng cóng dōng biān chūlái.",
+      "en": "The sun rises from the east."
+    },
+    "id": 97,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "东北",
+    "pinyin": "dōngběi",
+    "pinyin_sort": "dongbei",
+    "meaning": "northeast",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "哈尔滨在东北。",
+      "py": "Hā'ěrbīn zài dōngběi.",
+      "en": "Harbin is in the northeast."
+    },
+    "id": 98,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "懂得",
+    "pinyin": "dǒngde",
+    "pinyin_sort": "dongde",
+    "meaning": "to understand",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他懂得如何做。",
+      "py": "Tā dǒngde rúhé zuò.",
+      "en": "He knows how to do it."
+    },
+    "id": 99,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "东方",
+    "pinyin": "dōngfāng",
+    "pinyin_sort": "dongfang",
+    "meaning": "east",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他来自东方国家。",
+      "py": "Tā láizì dōngfāng guójiā.",
+      "en": "He comes from an eastern country."
+    },
+    "id": 100,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "东南",
+    "pinyin": "dōngnán",
+    "pinyin_sort": "dongnan",
+    "meaning": "southeast",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "上海在中国东南部。",
+      "py": "Shànghǎi zài Zhōngguó dōngnán bù.",
+      "en": "Shanghai is in the southeast of China."
+    },
+    "id": 101,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "冬天",
+    "pinyin": "dōngtiān",
+    "pinyin_sort": "dongtian",
+    "meaning": "winter",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "冬天北京很冷。",
+      "py": "Dōngtiān Běijīng hěn lěng.",
+      "en": "Beijing is very cold in winter."
+    },
+    "id": 102,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "动物",
+    "pinyin": "dòngwù",
+    "pinyin_sort": "dongwu",
+    "meaning": "animal",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "动物园里有很多动物。",
+      "py": "Dòngwùyuán lǐ yǒu hěn duō dòngwù.",
+      "en": "There are many animals in the zoo."
+    },
+    "id": 103,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "动物园",
+    "pinyin": "dòngwùyuán",
+    "pinyin_sort": "dongwuyuan",
+    "meaning": "zoo",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "周末我们去动物园。",
+      "py": "Zhōumò wǒmen qù dòngwùyuán.",
+      "en": "We go to the zoo on weekends."
+    },
+    "id": 104,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "段",
+    "pinyin": "duàn",
+    "pinyin_sort": "duan",
+    "meaning": "measure word of segment, paragraph",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "请读第一段。",
+      "py": "Qǐng dú dì yī duàn.",
+      "en": "Please read the first paragraph."
+    },
+    "id": 105,
+    "pos": "Measure Word"
+  },
+  {
+    "hanzi": "短",
+    "pinyin": "duǎn",
+    "pinyin_sort": "duan",
+    "meaning": "short",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这条裙子太短了。",
+      "py": "Zhè tiáo qúnzi tài duǎn le.",
+      "en": "This skirt is too short."
+    },
+    "id": 106,
+    "pos": "Adjective"
+  },
+  {
+    "hanzi": "短裤",
+    "pinyin": "duǎnkù",
+    "pinyin_sort": "duanku",
+    "meaning": "shorts",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "夏天我常穿短裤。",
+      "py": "Xiàtiān wǒ cháng chuān duǎnkù.",
+      "en": "I often wear shorts in summer."
+    },
+    "id": 107,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "锻炼",
+    "pinyin": "duànliàn",
+    "pinyin_sort": "duanlian",
+    "meaning": "to exercise",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "每天锻炼对身体好。",
+      "py": "Měitiān duànliàn duì shēntǐ hǎo.",
+      "en": "Exercising every day is good for your health."
+    },
+    "id": 108,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "对话",
+    "pinyin": "duìhuà",
+    "pinyin_sort": "duihua",
+    "meaning": "dialogue, conversation",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我们来做一个对话。",
+      "py": "Wǒmen lái zuò yí gè duìhuà.",
+      "en": "Let's have a dialogue."
+    },
+    "id": 109,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "饿",
+    "pinyin": "è",
+    "pinyin_sort": "e",
+    "meaning": "hungry",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我饿了，想吃东西。",
+      "py": "Wǒ è le, xiǎng chī dōngxi.",
+      "en": "I'm hungry and want to eat something."
+    },
+    "id": 110,
+    "pos": "Adjective"
+  },
+  {
+    "hanzi": "耳朵",
+    "pinyin": "ěrduo",
+    "pinyin_sort": "erduo",
+    "meaning": "ear",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "她的耳朵很小。",
+      "py": "Tā de ěrduo hěn xiǎo.",
+      "en": "Her ears are very small."
+    },
+    "id": 111,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "耳机",
+    "pinyin": "ěrjī",
+    "pinyin_sort": "erji",
+    "meaning": "earphone",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我用耳机听音乐。",
+      "py": "Wǒ yòng ěrjī tīng yīnyuè.",
+      "en": "I listen to music with earphones."
+    },
+    "id": 112,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "而且",
+    "pinyin": "érqiě",
+    "pinyin_sort": "erqie",
+    "meaning": "and, moreover",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他聪明，而且努力。",
+      "py": "Tā cōngmíng, érqiě nǔlì.",
+      "en": "He is smart and also hardworking."
+    },
+    "id": 113,
+    "pos": "Conjunction"
+  },
+  {
+    "hanzi": "发",
+    "pinyin": "fā",
+    "pinyin_sort": "fa",
+    "meaning": "to send, to issue",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我给你发一封邮件。",
+      "py": "Wǒ gěi nǐ fā yì fēng yóujiàn.",
+      "en": "I'll send you an email."
+    },
+    "id": 114,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "放",
+    "pinyin": "fàng",
+    "pinyin_sort": "fang",
+    "meaning": "to put, to place",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "请把书放在桌子上。",
+      "py": "Qǐng bǎ shū fàng zài zhuōzi shàng.",
+      "en": "Please put the book on the table."
+    },
+    "id": 115,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "方便",
+    "pinyin": "fāngbiàn",
+    "pinyin_sort": "fangbian",
+    "meaning": "convenient",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "坐地铁很方便。",
+      "py": "Zuò dìtiě hěn fāngbiàn.",
+      "en": "Taking the subway is very convenient."
+    },
+    "id": 116,
+    "pos": "Verb, Adjective, Noun"
+  },
+  {
+    "hanzi": "方便面",
+    "pinyin": "fāngbiànmiàn",
+    "pinyin_sort": "fangbianmian",
+    "meaning": "instant noodles",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我今天吃了方便面。",
+      "py": "Wǒ jīntiān chī le fāngbiànmiàn.",
+      "en": "I ate instant noodles today."
+    },
+    "id": 117,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "方法",
+    "pinyin": "fāngfǎ",
+    "pinyin_sort": "fangfa",
+    "meaning": "method",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这个方法很有用。",
+      "py": "Zhège fāngfǎ hěn yǒuyòng.",
+      "en": "This method is very useful."
+    },
+    "id": 118,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "放假",
+    "pinyin": "fàngjià",
+    "pinyin_sort": "fangjia",
+    "meaning": "to have a holiday",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "下周我们放假。",
+      "py": "Xià zhōu wǒmen fàngjià.",
+      "en": "We have a holiday next week."
+    },
+    "id": 119,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "方向",
+    "pinyin": "fāngxiàng",
+    "pinyin_sort": "fangxiang",
+    "meaning": "direction",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "你走错方向了。",
+      "py": "Nǐ zǒu cuò fāngxiàng le.",
+      "en": "You went in the wrong direction."
+    },
+    "id": 120,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "放心",
+    "pinyin": "fàngxīn",
+    "pinyin_sort": "fangxin",
+    "meaning": "to relax, to feel at ease",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "放心，我会帮你的。",
+      "py": "Fàngxīn, wǒ huì bāng nǐ de.",
+      "en": "Don't worry, I will help you."
+    },
+    "id": 121,
+    "pos": "Verb, Noun"
+  },
+  {
+    "hanzi": "放学",
+    "pinyin": "fàngxué",
+    "pinyin_sort": "fangxue",
+    "meaning": "school is over",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "放学后我去打球。",
+      "py": "Fàngxué hòu wǒ qù dǎ qiú.",
+      "en": "I play ball after school."
+    },
+    "id": 122,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "房子",
+    "pinyin": "fángzi",
+    "pinyin_sort": "fangzi",
+    "meaning": "house",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他们家的房子很大。",
+      "py": "Tāmen jiā de fángzi hěn dà.",
+      "en": "Their house is very big."
+    },
+    "id": 123,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "发烧",
+    "pinyin": "fāshāo",
+    "pinyin_sort": "fashao",
+    "meaning": "to have a fever",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "孩子发烧了。",
+      "py": "Háizi fāshāo le.",
+      "en": "The child has a fever."
+    },
+    "id": 124,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "发生",
+    "pinyin": "fāshēng",
+    "pinyin_sort": "fasheng",
+    "meaning": "to happen",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "昨天发生了什么？",
+      "py": "Zuótiān fāshēng le shénme?",
+      "en": "What happened yesterday?"
+    },
+    "id": 125,
+    "pos": "Verb, Noun"
+  },
+  {
+    "hanzi": "发现",
+    "pinyin": "fāxiàn",
+    "pinyin_sort": "faxian",
+    "meaning": "to find, to discover",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他发现了一个问题。",
+      "py": "Tā fāxiàn le yí gè wèntí.",
+      "en": "He discovered a problem."
+    },
+    "id": 126,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "发展",
+    "pinyin": "fāzhǎn",
+    "pinyin_sort": "fazhan",
+    "meaning": "to develop",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这个城市发展很快。",
+      "py": "Zhège chéngshì fāzhǎn hěn kuài.",
+      "en": "This city is developing very fast."
+    },
+    "id": 127,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "封",
+    "pinyin": "fēng",
+    "pinyin_sort": "feng",
+    "meaning": "measure word for letters; (to seal)",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我收到了一封信。",
+      "py": "Wǒ shōudào le yì fēng xìn.",
+      "en": "I received a letter."
+    },
+    "id": 128,
+    "pos": "Measure Word, Verb"
+  },
+  {
+    "hanzi": "风",
+    "pinyin": "fēng",
+    "pinyin_sort": "feng",
+    "meaning": "wind",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "今天风很大。",
+      "py": "Jīntiān fēng hěn dà.",
+      "en": "It is very windy today."
+    },
+    "id": 129,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "分开",
+    "pinyin": "fēnkāi",
+    "pinyin_sort": "fenkai",
+    "meaning": "to separate",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他们两个分开了。",
+      "py": "Tāmen liǎng gè fēnkāi le.",
+      "en": "The two of them separated."
+    },
+    "id": 130,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "附近",
+    "pinyin": "fùjìn",
+    "pinyin_sort": "fujin",
+    "meaning": "nearby",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我家附近有公园。",
+      "py": "Wǒ jiā fùjìn yǒu gōngyuán.",
+      "en": "There is a park near my home."
+    },
+    "id": 131,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "夫妻",
+    "pinyin": "fūqī",
+    "pinyin_sort": "fuqi",
+    "meaning": "husband and wife",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他们是一对幸福的夫妻。",
+      "py": "Tāmen shì yí duì xìngfú de fūqī.",
+      "en": "They are a happy couple."
+    },
+    "id": 132,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "服务",
+    "pinyin": "fúwù",
+    "pinyin_sort": "fuwu",
+    "meaning": "to serve",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这家餐厅的服务很好。",
+      "py": "Zhè jiā cāntīng de fúwù hěn hǎo.",
+      "en": "The service at this restaurant is very good."
+    },
+    "id": 133,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "复习",
+    "pinyin": "fùxí",
+    "pinyin_sort": "fuxi",
+    "meaning": "to review",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "考试前要复习。",
+      "py": "Kǎoshì qián yào fùxí.",
+      "en": "You need to review before the exam."
+    },
+    "id": 134,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "该",
+    "pinyin": "gāi",
+    "pinyin_sort": "gai",
+    "meaning": "should",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "你该睡觉了。",
+      "py": "Nǐ gāi shuìjiào le.",
+      "en": "You should go to sleep."
+    },
+    "id": 135,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "干",
+    "pinyin": "gàn",
+    "pinyin_sort": "gan",
+    "meaning": "to do, to work, to manage",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "周末你在家里干什么呢？",
+      "py": "Zhōumò nǐ zài jiālǐ gàn shénme ne?",
+      "en": "What are you doing at home over the weekend?"
+    },
+    "id": 136,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "感到",
+    "pinyin": "gǎndào",
+    "pinyin_sort": "gandao",
+    "meaning": "to feel",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我感到很高兴。",
+      "py": "Wǒ gǎndào hěn gāoxìng.",
+      "en": "I feel very happy."
+    },
+    "id": 137,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "刚",
+    "pinyin": "gāng",
+    "pinyin_sort": "gang",
+    "meaning": "just, just now",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他刚回来。",
+      "py": "Tā gāng huílái.",
+      "en": "He just came back."
+    },
+    "id": 138,
+    "pos": "Adverb"
+  },
+  {
+    "hanzi": "刚才",
+    "pinyin": "gāngcái",
+    "pinyin_sort": "gangcai",
+    "meaning": "just now",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "刚才他在这里。",
+      "py": "Gāngcái tā zài zhèlǐ.",
+      "en": "He was here just now."
+    },
+    "id": 139,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "刚刚",
+    "pinyin": "gānggāng",
+    "pinyin_sort": "ganggang",
+    "meaning": "just now, a moment ago",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他刚刚出门了。",
+      "py": "Tā gānggāng chūmén le.",
+      "en": "He just went out a moment ago."
+    },
+    "id": 140,
+    "pos": "Adverb"
+  },
+  {
+    "hanzi": "干净",
+    "pinyin": "gānjìng",
+    "pinyin_sort": "ganjing",
+    "meaning": "clean",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这个房间很干净。",
+      "py": "Zhège fángjiān hěn gānjìng.",
+      "en": "This room is very clean."
+    },
+    "id": 141,
+    "pos": "Adjective, Adverb"
+  },
+  {
+    "hanzi": "感冒",
+    "pinyin": "gǎnmào",
+    "pinyin_sort": "ganmao",
+    "meaning": "cold; to catch a cold",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我感冒了，头很痛。",
+      "py": "Wǒ gǎnmào le, tóu hěn tòng.",
+      "en": "I have a cold and a bad headache."
+    },
+    "id": 142,
+    "pos": "Noun, Verb"
+  },
+  {
+    "hanzi": "感兴趣",
+    "pinyin": "gǎn xìngqù",
+    "pinyin_sort": "ganxingqu",
+    "meaning": "to be interested in",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我对音乐感兴趣。",
+      "py": "Wǒ duì yīnyuè gǎn xìngqù.",
+      "en": "I am interested in music."
+    },
+    "id": 143,
+    "pos": "Adjective"
+  },
+  {
+    "hanzi": "高铁",
+    "pinyin": "gāotiě",
+    "pinyin_sort": "gaotie",
+    "meaning": "high-speed rail",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我坐高铁去上海。",
+      "py": "Wǒ zuò gāotiě qù Shànghǎi.",
+      "en": "I take the high-speed rail to Shanghai."
+    },
+    "id": 144,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "更",
+    "pinyin": "gèng",
+    "pinyin_sort": "geng",
+    "meaning": "more",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "今天比昨天更冷。",
+      "py": "Jīntiān bǐ zuótiān gèng lěng.",
+      "en": "Today is colder than yesterday."
+    },
+    "id": 145,
+    "pos": "Adverb"
+  },
+  {
+    "hanzi": "根据",
+    "pinyin": "gēnjù",
+    "pinyin_sort": "genju",
+    "meaning": "to base on; according to; (basis)",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "根据天气预报，明天下雨。",
+      "py": "Gēnjù tiānqì yùbào, míngtiān xià yǔ.",
+      "en": "According to the weather forecast, it will rain tomorrow."
+    },
+    "id": 146,
+    "pos": "Verb, Preposition, Noun"
+  },
+  {
+    "hanzi": "公斤",
+    "pinyin": "gōngjīn",
+    "pinyin_sort": "gongjin",
+    "meaning": "kilogram",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这个西瓜有五公斤。",
+      "py": "Zhège xīguā yǒu wǔ gōngjīn.",
+      "en": "This watermelon weighs five kilograms."
+    },
+    "id": 147,
+    "pos": "Measure Word"
+  },
+  {
+    "hanzi": "公园",
+    "pinyin": "gōngyuán",
+    "pinyin_sort": "gongyuan",
+    "meaning": "park",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我每天在公园散步。",
+      "py": "Wǒ měitiān zài gōngyuán sànbù.",
+      "en": "I walk in the park every day."
+    },
+    "id": 148,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "工作日",
+    "pinyin": "gōngzuòrì",
+    "pinyin_sort": "gongzuori",
+    "meaning": "workday",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "工作日我很忙。",
+      "py": "Gōngzuòrì wǒ hěn máng.",
+      "en": "I am very busy on workdays."
+    },
+    "id": 149,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "刮",
+    "pinyin": "guā",
+    "pinyin_sort": "gua",
+    "meaning": "to scrape, to blow",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "今天刮大风。",
+      "py": "Jīntiān guā dà fēng.",
+      "en": "There is a strong wind blowing today."
+    },
+    "id": 150,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "关",
+    "pinyin": "guān",
+    "pinyin_sort": "guan",
+    "meaning": "to close, to turn off; pass",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "请关门。",
+      "py": "Qǐng guān mén.",
+      "en": "Please close the door."
+    },
+    "id": 151,
+    "pos": "Verb, Noun"
+  },
+  {
+    "hanzi": "关机",
+    "pinyin": "guānjī",
+    "pinyin_sort": "guanji",
+    "meaning": "to turn off device",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "上课请关机。",
+      "py": "Shàngkè qǐng guānjī.",
+      "en": "Please turn off your devices during class."
+    },
+    "id": 152,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "关系",
+    "pinyin": "guānxì",
+    "pinyin_sort": "guanxi",
+    "meaning": "relationship; (to relate)",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他们的关系很好。",
+      "py": "Tāmen de guānxì hěn hǎo.",
+      "en": "Their relationship is very good."
+    },
+    "id": 153,
+    "pos": "Noun, Verb"
+  },
+  {
+    "hanzi": "关心",
+    "pinyin": "guānxīn",
+    "pinyin_sort": "guanxin",
+    "meaning": "to care about, to be concerned",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他很关心家人。",
+      "py": "Tā hěn guānxīn jiārén.",
+      "en": "He cares very much about his family."
+    },
+    "id": 154,
+    "pos": "Verb, Noun"
+  },
+  {
+    "hanzi": "关于",
+    "pinyin": "guānyú",
+    "pinyin_sort": "guanyu",
+    "meaning": "about, regarding",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这本书是关于历史的。",
+      "py": "Zhè běn shū shì guānyú lìshǐ de.",
+      "en": "This book is about history."
+    },
+    "id": 155,
+    "pos": "Preposition"
+  },
+  {
+    "hanzi": "关注",
+    "pinyin": "guānzhù",
+    "pinyin_sort": "guanzhu",
+    "meaning": "to pay attention to, to follow",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "很多人关注这个问题。",
+      "py": "Hěn duō rén guānzhù zhège wèntí.",
+      "en": "Many people pay attention to this issue."
+    },
+    "id": 156,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "国家",
+    "pinyin": "guójiā",
+    "pinyin_sort": "guojia",
+    "meaning": "country",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "中国是一个大国家。",
+      "py": "Zhōngguó shì yí gè dà guójiā.",
+      "en": "China is a large country."
+    },
+    "id": 157,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "过节",
+    "pinyin": "guòjié",
+    "pinyin_sort": "guojie",
+    "meaning": "to celebrate a festival",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我们一起过节吧。",
+      "py": "Wǒmen yìqǐ guòjié ba.",
+      "en": "Let's celebrate the festival together."
+    },
+    "id": 158,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "过去",
+    "pinyin": "guòqù",
+    "pinyin_sort": "guoqu",
+    "meaning": "past",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "过去这里是农村。",
+      "py": "Guòqù zhèlǐ shì nóngcūn.",
+      "en": "In the past, this place was a village."
+    },
+    "id": 159,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "故事",
+    "pinyin": "gùshi",
+    "pinyin_sort": "gushi",
+    "meaning": "story",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "妈妈给我讲故事。",
+      "py": "Māma gěi wǒ jiǎng gùshi.",
+      "en": "Mom tells me stories."
+    },
+    "id": 160,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "海",
+    "pinyin": "hǎi",
+    "pinyin_sort": "hai",
+    "meaning": "sea",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我喜欢在海边散步。",
+      "py": "Wǒ xǐhuan zài hǎi biān sànbù.",
+      "en": "I like to walk by the sea."
+    },
+    "id": 161,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "害怕",
+    "pinyin": "hàipà",
+    "pinyin_sort": "haipa",
+    "meaning": "to be afraid",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他害怕黑暗。",
+      "py": "Tā hàipà hēi'àn.",
+      "en": "He is afraid of the dark."
+    },
+    "id": 162,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "好多",
+    "pinyin": "hǎoduō",
+    "pinyin_sort": "haoduo",
+    "meaning": "many, a lot",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这里有好多人。",
+      "py": "Zhèlǐ yǒu hǎoduō rén.",
+      "en": "There are so many people here."
+    },
+    "id": 163,
+    "pos": "Numeral"
+  },
+  {
+    "hanzi": "好久",
+    "pinyin": "hǎojiǔ",
+    "pinyin_sort": "haojiu",
+    "meaning": "a long time",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "好久不见了。",
+      "py": "Hǎojiǔ bú jiàn le.",
+      "en": "Long time no see."
+    },
+    "id": 164,
+    "pos": "Adjective"
+  },
+  {
+    "hanzi": "号码",
+    "pinyin": "hàomǎ",
+    "pinyin_sort": "haoma",
+    "meaning": "number, code",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "请告诉我你的电话号码。",
+      "py": "Qǐng gàosu wǒ nǐ de diànhuà hàomǎ.",
+      "en": "Please tell me your phone number."
+    },
+    "id": 165,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "好像",
+    "pinyin": "hǎoxiàng",
+    "pinyin_sort": "haoxiang",
+    "meaning": "to seem, as if; perhaps",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "她好像不高兴。",
+      "py": "Tā hǎoxiàng bù gāoxìng.",
+      "en": "She seems unhappy."
+    },
+    "id": 166,
+    "pos": "Verb, Adverb"
+  },
+  {
+    "hanzi": "河",
+    "pinyin": "hé",
+    "pinyin_sort": "he",
+    "meaning": "river",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这条河很长。",
+      "py": "Zhè tiáo hé hěn cháng.",
+      "en": "This river is very long."
+    },
+    "id": 167,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "黑板",
+    "pinyin": "hēibǎn",
+    "pinyin_sort": "heiban",
+    "meaning": "blackboard",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "老师在黑板上写字。",
+      "py": "Lǎoshī zài hēibǎn shàng xiě zì.",
+      "en": "The teacher writes on the blackboard."
+    },
+    "id": 168,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "合适",
+    "pinyin": "héshì",
+    "pinyin_sort": "heshi",
+    "meaning": "suitable",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这双鞋很合适。",
+      "py": "Zhè shuāng xié hěn héshì.",
+      "en": "These shoes fit very well."
+    },
+    "id": 169,
+    "pos": "Adjective"
+  },
+  {
+    "hanzi": "红绿灯",
+    "pinyin": "hóng-lǜdēng",
+    "pinyin_sort": "hongludeng",
+    "meaning": "traffic light",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "过马路要看红绿灯。",
+      "py": "Guò mǎlù yào kàn hóng-lǜdēng.",
+      "en": "You must look at the traffic lights when crossing the road."
+    },
+    "id": 170,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "后来",
+    "pinyin": "hòulái",
+    "pinyin_sort": "houlai",
+    "meaning": "later, afterwards",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "后来他回家了。",
+      "py": "Hòulái tā huí jiā le.",
+      "en": "Afterwards he went home."
+    },
+    "id": 171,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "后年",
+    "pinyin": "hòunián",
+    "pinyin_sort": "hounian",
+    "meaning": "the year after next",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "后年我要毕业了。",
+      "py": "Hòunián wǒ yào bìyè le.",
+      "en": "I will graduate the year after next."
+    },
+    "id": 172,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "后天",
+    "pinyin": "hòutiān",
+    "pinyin_sort": "houtian",
+    "meaning": "the day after tomorrow",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "后天我们去旅行。",
+      "py": "Hòutiān wǒmen qù lǚxíng.",
+      "en": "We are going on a trip the day after tomorrow."
+    },
+    "id": 173,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "画家",
+    "pinyin": "huàjiā",
+    "pinyin_sort": "huajia",
+    "meaning": "painter, artist",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他是一位有名的画家。",
+      "py": "Tā shì yí wèi yǒumíng de huàjiā.",
+      "en": "He is a famous painter."
+    },
+    "id": 174,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "换",
+    "pinyin": "huàn",
+    "pinyin_sort": "huan",
+    "meaning": "to exchange, to change",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我想换一件衣服。",
+      "py": "Wǒ xiǎng huàn yí jiàn yīfu.",
+      "en": "I want to change my clothes."
+    },
+    "id": 175,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "还",
+    "pinyin": "huán",
+    "pinyin_sort": "huan",
+    "meaning": "to return, to give back, to repay",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我从图书馆借了一本书，明天要去还书。",
+      "py": "Wǒ cóng túshūguǎn jiè le yì běn shū, míngtiān yào qù huán shū.",
+      "en": "I borrowed a book from the library and need to return it tomorrow."
+    },
+    "id": 176,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "黄色",
+    "pinyin": "huángsè",
+    "pinyin_sort": "huangse",
+    "meaning": "yellow",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "她喜欢黄色。",
+      "py": "Tā xǐhuan huángsè.",
+      "en": "She likes yellow."
+    },
+    "id": 177,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "环境",
+    "pinyin": "huánjìng",
+    "pinyin_sort": "huanjing",
+    "meaning": "environment",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这里的环境很好。",
+      "py": "Zhèlǐ de huánjìng hěn hǎo.",
+      "en": "The environment here is very good."
+    },
+    "id": 178,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "欢迎",
+    "pinyin": "huānyíng",
+    "pinyin_sort": "huanying",
+    "meaning": "to welcome",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "欢迎来到北京！",
+      "py": "Huānyíng lái dào Běijīng!",
+      "en": "Welcome to Beijing!"
+    },
+    "id": 179,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "花园",
+    "pinyin": "huāyuán",
+    "pinyin_sort": "huayuan",
+    "meaning": "garden",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他家有一个花园。",
+      "py": "Tā jiā yǒu yí gè huāyuán.",
+      "en": "His home has a garden."
+    },
+    "id": 180,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "会",
+    "pinyin": "huì",
+    "pinyin_sort": "hui",
+    "meaning": "meeting",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "明天我们开会。",
+      "py": "Míngtiān wǒmen kāihuì.",
+      "en": "We have a meeting tomorrow."
+    },
+    "id": 181,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "回答",
+    "pinyin": "huídá",
+    "pinyin_sort": "huida",
+    "meaning": "to answer",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "请回答我的问题。",
+      "py": "Qǐng huídá wǒ de wèntí.",
+      "en": "Please answer my question."
+    },
+    "id": 182,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "会议",
+    "pinyin": "huìyì",
+    "pinyin_sort": "huiyi",
+    "meaning": "meeting",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "会议在九点开始。",
+      "py": "Huìyì zài jiǔ diǎn kāishǐ.",
+      "en": "The meeting starts at nine o'clock."
+    },
+    "id": 183,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "或",
+    "pinyin": "huò",
+    "pinyin_sort": "huo",
+    "meaning": "or; (perhaps, maybe)",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "你喝茶或咖啡？",
+      "py": "Nǐ hē chá huò kāfēi?",
+      "en": "Will you have tea or coffee?"
+    },
+    "id": 184,
+    "pos": "Conjunction, Adverb"
+  },
+  {
+    "hanzi": "或者",
+    "pinyin": "huòzhě",
+    "pinyin_sort": "huozhe",
+    "meaning": "or",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "你可以坐公共汽车或者地铁。",
+      "py": "Nǐ kěyǐ zuò gōnggòng qìchē huòzhě dìtiě.",
+      "en": "You can take the bus or the subway."
+    },
+    "id": 185,
+    "pos": "Conjunction"
+  },
+  {
+    "hanzi": "护照",
+    "pinyin": "hùzhào",
+    "pinyin_sort": "huzhao",
+    "meaning": "passport",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "出国要带护照。",
+      "py": "Chū guó yào dài hùzhào.",
+      "en": "You need to bring your passport when going abroad."
+    },
+    "id": 186,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "季",
+    "pinyin": "jì",
+    "pinyin_sort": "ji",
+    "meaning": "season",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "秋季天气很好。",
+      "py": "Qiū jì tiānqì hěn hǎo.",
+      "en": "The weather is very nice in autumn."
+    },
+    "id": 187,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "急",
+    "pinyin": "jí",
+    "pinyin_sort": "ji",
+    "meaning": "urgent; (to worry)",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "别急，慢慢来。",
+      "py": "Bié jí, mànman lái.",
+      "en": "Don't rush, take it easy."
+    },
+    "id": 188,
+    "pos": "Adjective, Verb"
+  },
+  {
+    "hanzi": "极",
+    "pinyin": "jí",
+    "pinyin_sort": "ji",
+    "meaning": "extremely",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "她极其聪明。",
+      "py": "Tā jíqí cōngmíng.",
+      "en": "She is extremely smart."
+    },
+    "id": 189,
+    "pos": "Adverb"
+  },
+  {
+    "hanzi": "记",
+    "pinyin": "jì",
+    "pinyin_sort": "ji",
+    "meaning": "to remember",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "请记住我的名字。",
+      "py": "Qǐng jìzhù wǒ de míngzì.",
+      "en": "Please remember my name."
+    },
+    "id": 190,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "鸡",
+    "pinyin": "jī",
+    "pinyin_sort": "ji",
+    "meaning": "chicken",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我不吃鸡。",
+      "py": "Wǒ bù chī jī.",
+      "en": "I don't eat chicken."
+    },
+    "id": 191,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "加",
+    "pinyin": "jiā",
+    "pinyin_sort": "jia",
+    "meaning": "to add",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "请给我加一碗饭。",
+      "py": "Qǐng gěi wǒ jiā yì wǎn fàn.",
+      "en": "Please give me another bowl of rice."
+    },
+    "id": 192,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "检查",
+    "pinyin": "jiǎnchá",
+    "pinyin_sort": "jiancha",
+    "meaning": "to check, to inspect",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "医生给我检查身体。",
+      "py": "Yīshēng gěi wǒ jiǎnchá shēntǐ.",
+      "en": "The doctor checked my body."
+    },
+    "id": 193,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "坚持",
+    "pinyin": "jiānchí",
+    "pinyin_sort": "jianchi",
+    "meaning": "to persist",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "你要坚持练习。",
+      "py": "Nǐ yào jiānchí liànxí.",
+      "en": "You must keep practicing."
+    },
+    "id": 194,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "简单",
+    "pinyin": "jiǎndān",
+    "pinyin_sort": "jiandan",
+    "meaning": "simple",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这道题很简单。",
+      "py": "Zhè dào tí hěn jiǎndān.",
+      "en": "This problem is very simple."
+    },
+    "id": 195,
+    "pos": "Adjective"
+  },
+  {
+    "hanzi": "讲",
+    "pinyin": "jiǎng",
+    "pinyin_sort": "jiang",
+    "meaning": "to speak, to talk",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "老师在讲课。",
+      "py": "Lǎoshī zài jiǎng kè.",
+      "en": "The teacher is giving a lecture."
+    },
+    "id": 196,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "健康",
+    "pinyin": "jiànkāng",
+    "pinyin_sort": "jiankang",
+    "meaning": "healthy",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "健康最重要。",
+      "py": "Jiànkāng zuì zhòngyào.",
+      "en": "Health is the most important."
+    },
+    "id": 197,
+    "pos": "Adjective"
+  },
+  {
+    "hanzi": "见面",
+    "pinyin": "jiànmiàn",
+    "pinyin_sort": "jianmian",
+    "meaning": "to meet",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我们明天见面。",
+      "py": "Wǒmen míngtiān jiànmiàn.",
+      "en": "We will meet tomorrow."
+    },
+    "id": 198,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "检票",
+    "pinyin": "jiǎnpiào",
+    "pinyin_sort": "jianpiao",
+    "meaning": "ticket checking",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "上车前要检票。",
+      "py": "Shàng chē qián yào jiǎnpiào.",
+      "en": "You need to have your ticket checked before boarding."
+    },
+    "id": 199,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "脚",
+    "pinyin": "jiǎo",
+    "pinyin_sort": "jiao",
+    "meaning": "foot",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我的脚很疼。",
+      "py": "Wǒ de jiǎo hěn téng.",
+      "en": "My foot hurts a lot."
+    },
+    "id": 200,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "角",
+    "pinyin": "jiǎo",
+    "pinyin_sort": "jiao",
+    "meaning": "measure word for fractions, angle, currency",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "一块钱等于十角。",
+      "py": "Yì kuài qián děngyú shí jiǎo.",
+      "en": "One yuan equals ten jiao."
+    },
+    "id": 201,
+    "pos": "Noun, Measure Word"
+  },
+  {
+    "hanzi": "假期",
+    "pinyin": "jiàqī",
+    "pinyin_sort": "jiaqi",
+    "meaning": "vacation",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "暑假是我最喜欢的假期。",
+      "py": "Shǔjià shì wǒ zuì xǐhuan de jiàqī.",
+      "en": "Summer vacation is my favorite holiday."
+    },
+    "id": 202,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "借",
+    "pinyin": "jiè",
+    "pinyin_sort": "jie",
+    "meaning": "to borrow",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我借了一本书。",
+      "py": "Wǒ jiè le yì běn shū.",
+      "en": "I borrowed a book."
+    },
+    "id": 203,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "接",
+    "pinyin": "jiē",
+    "pinyin_sort": "jie",
+    "meaning": "to pick up, to receive",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我去机场接你。",
+      "py": "Wǒ qù jīchǎng jiē nǐ.",
+      "en": "I will pick you up at the airport."
+    },
+    "id": 204,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "节",
+    "pinyin": "jié",
+    "pinyin_sort": "jie",
+    "meaning": "measure word for segments, sections, lessons; festival, joint; (to save, to control)",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "今天上三节课。",
+      "py": "Jīntiān shàng sān jié kè.",
+      "en": "We have three lessons today."
+    },
+    "id": 205,
+    "pos": "Measure Word, Noun, Verb"
+  },
+  {
+    "hanzi": "街",
+    "pinyin": "jiē",
+    "pinyin_sort": "jie",
+    "meaning": "street",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这条街很热闹。",
+      "py": "Zhè tiáo jiē hěn rènào.",
+      "en": "This street is very lively."
+    },
+    "id": 206,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "结婚",
+    "pinyin": "jiéhūn",
+    "pinyin_sort": "jiehun",
+    "meaning": "to marry",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他们去年结婚了。",
+      "py": "Tāmen qùnián jiéhūn le.",
+      "en": "They got married last year."
+    },
+    "id": 207,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "解决",
+    "pinyin": "jiějué",
+    "pinyin_sort": "jiejue",
+    "meaning": "to solve",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我们解决了这个问题。",
+      "py": "Wǒmen jiějué le zhège wèntí.",
+      "en": "We solved this problem."
+    },
+    "id": 208,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "姐妹",
+    "pinyin": "jiěmèi",
+    "pinyin_sort": "jiemei",
+    "meaning": "sister",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "她们是姐妹。",
+      "py": "Tāmen shì jiěmèi.",
+      "en": "They are sisters."
+    },
+    "id": 209,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "节目",
+    "pinyin": "jiémù",
+    "pinyin_sort": "jiemu",
+    "meaning": "program",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这个节目很好看。",
+      "py": "Zhège jiémù hěn hǎokàn.",
+      "en": "This program is very good."
+    },
+    "id": 210,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "节日",
+    "pinyin": "jiérì",
+    "pinyin_sort": "jieri",
+    "meaning": "festival",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "春节是中国的重要节日。",
+      "py": "Chūnjié shì Zhōngguó de zhòngyào jiérì.",
+      "en": "Spring Festival is an important Chinese holiday."
+    },
+    "id": 211,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "结束",
+    "pinyin": "jiéshù",
+    "pinyin_sort": "jieshu",
+    "meaning": "to end",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "电影结束了。",
+      "py": "Diànyǐng jiéshù le.",
+      "en": "The movie ended."
+    },
+    "id": 212,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "几乎",
+    "pinyin": "jīhū",
+    "pinyin_sort": "jihu",
+    "meaning": "almost",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他几乎每天锻炼。",
+      "py": "Tā jīhū měitiān duànliàn.",
+      "en": "He exercises almost every day."
+    },
+    "id": 213,
+    "pos": "Adverb"
+  },
+  {
+    "hanzi": "机会",
+    "pinyin": "jīhuì",
+    "pinyin_sort": "jihui",
+    "meaning": "opportunity",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这是一个好机会。",
+      "py": "Zhè shì yí gè hǎo jīhuì.",
+      "en": "This is a good opportunity."
+    },
+    "id": 214,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "季节",
+    "pinyin": "jìjié",
+    "pinyin_sort": "jijie",
+    "meaning": "season",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "你最喜欢哪个季节？",
+      "py": "Nǐ zuì xǐhuan nǎ gè jìjié?",
+      "en": "Which season do you like most?"
+    },
+    "id": 215,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "斤",
+    "pinyin": "jīn",
+    "pinyin_sort": "jin",
+    "meaning": "catty",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这条鱼有两斤。",
+      "py": "Zhè tiáo yú yǒu liǎng jīn.",
+      "en": "This fish weighs two catties."
+    },
+    "id": 216,
+    "pos": "Measure Word"
+  },
+  {
+    "hanzi": "经过",
+    "pinyin": "jīngguò",
+    "pinyin_sort": "jingguo",
+    "meaning": "to pass; process",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他经过了图书馆。",
+      "py": "Tā jīngguò le túshūguǎn.",
+      "en": "He passed by the library."
+    },
+    "id": 217,
+    "pos": "Verb, Noun"
+  },
+  {
+    "hanzi": "经理",
+    "pinyin": "jīnglǐ",
+    "pinyin_sort": "jingli",
+    "meaning": "manager",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他是我们的经理。",
+      "py": "Tā shì wǒmen de jīnglǐ.",
+      "en": "He is our manager."
+    },
+    "id": 218,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "久",
+    "pinyin": "jiǔ",
+    "pinyin_sort": "jiu",
+    "meaning": "long",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我等了很久。",
+      "py": "Wǒ děng le hěn jiǔ.",
+      "en": "I waited for a long time."
+    },
+    "id": 219,
+    "pos": "Adjective"
+  },
+  {
+    "hanzi": "旧",
+    "pinyin": "jiù",
+    "pinyin_sort": "jiu",
+    "meaning": "old",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这是一本旧书。",
+      "py": "Zhè shì yì běn jiù shū.",
+      "en": "This is an old book."
+    },
+    "id": 220,
+    "pos": "Adjective"
+  },
+  {
+    "hanzi": "酒",
+    "pinyin": "jiǔ",
+    "pinyin_sort": "jiu",
+    "meaning": "alcohol",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他不喝酒。",
+      "py": "Tā bù hē jiǔ.",
+      "en": "He doesn't drink alcohol."
+    },
+    "id": 221,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "句",
+    "pinyin": "jù",
+    "pinyin_sort": "ju",
+    "meaning": "measure word of sentence",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "请读第一句。",
+      "py": "Qǐng dú dì yī jù.",
+      "en": "Please read the first sentence."
+    },
+    "id": 222,
+    "pos": "Measure Word"
+  },
+  {
+    "hanzi": "决定",
+    "pinyin": "juédìng",
+    "pinyin_sort": "jueding",
+    "meaning": "to decide; decision",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我决定去北京。",
+      "py": "Wǒ juédìng qù Běijīng.",
+      "en": "I decided to go to Beijing."
+    },
+    "id": 223,
+    "pos": "Verb, Noun"
+  },
+  {
+    "hanzi": "句子",
+    "pinyin": "jùzi",
+    "pinyin_sort": "juzi",
+    "meaning": "sentence",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这个句子太长了。",
+      "py": "Zhège jùzi tài cháng le.",
+      "en": "This sentence is too long."
+    },
+    "id": 224,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "卡",
+    "pinyin": "kǎ",
+    "pinyin_sort": "ka",
+    "meaning": "card",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我用银行卡付钱。",
+      "py": "Wǒ yòng yínhángkǎ fù qián.",
+      "en": "I pay with my bank card."
+    },
+    "id": 225,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "开花",
+    "pinyin": "kāihuā",
+    "pinyin_sort": "kaihua",
+    "meaning": "to bloom",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "春天到了，很多花都开花了。",
+      "py": "Chūntiān dào le, hěnduō huā dōu kāihuā le.",
+      "en": "Spring has arrived, and many flowers have bloomed."
+    },
+    "id": 226,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "开会",
+    "pinyin": "kāihuì",
+    "pinyin_sort": "kaihui",
+    "meaning": "to have a meeting",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我们下午开会。",
+      "py": "Wǒmen xiàwǔ kāihuì.",
+      "en": "We have a meeting in the afternoon."
+    },
+    "id": 227,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "开机",
+    "pinyin": "kāijī",
+    "pinyin_sort": "kaiji",
+    "meaning": "to turn on device",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "请开机再试一次。",
+      "py": "Qǐng kāijī zài shì yí cì.",
+      "en": "Please turn on the device and try again."
+    },
+    "id": 228,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "开心",
+    "pinyin": "kāixīn",
+    "pinyin_sort": "kaixin",
+    "meaning": "happy",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "今天我很开心。",
+      "py": "Jīntiān wǒ hěn kāixīn.",
+      "en": "I am very happy today."
+    },
+    "id": 229,
+    "pos": "Adjective, Verb, Noun"
+  },
+  {
+    "hanzi": "看来",
+    "pinyin": "kànlái",
+    "pinyin_sort": "kanlai",
+    "meaning": "it seems, it appears",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "看来今天要下雨。",
+      "py": "Kànlái jīntiān yào xià yǔ.",
+      "en": "It looks like it will rain today."
+    },
+    "id": 230,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "刻",
+    "pinyin": "kè",
+    "pinyin_sort": "ke",
+    "meaning": "quarter; to carve",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "现在是三点一刻。",
+      "py": "Xiànzài shì sān diǎn yí kè.",
+      "en": "It is now a quarter past three."
+    },
+    "id": 231,
+    "pos": "Measure Word, Verb"
+  },
+  {
+    "hanzi": "可",
+    "pinyin": "kě",
+    "pinyin_sort": "ke",
+    "meaning": "but; (yet)",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他可聪明了。",
+      "py": "Tā kě cōngmíng le.",
+      "en": "He is really smart."
+    },
+    "id": 232,
+    "pos": "Conjunction, Adverb"
+  },
+  {
+    "hanzi": "渴",
+    "pinyin": "kě",
+    "pinyin_sort": "ke",
+    "meaning": "thirsty",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我很渴，想喝水。",
+      "py": "Wǒ hěn kě, xiǎng hē shuǐ.",
+      "en": "I am very thirsty and want to drink water."
+    },
+    "id": 233,
+    "pos": "Adjective"
+  },
+  {
+    "hanzi": "可爱",
+    "pinyin": "kě’ài",
+    "pinyin_sort": "keai",
+    "meaning": "lovely",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这只猫很可爱。",
+      "py": "Zhè zhī māo hěn kě'ài.",
+      "en": "This cat is very cute."
+    },
+    "id": 234,
+    "pos": "Adjective"
+  },
+  {
+    "hanzi": "课本",
+    "pinyin": "kèběn",
+    "pinyin_sort": "keben",
+    "meaning": "textbook",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "请打开课本第五页。",
+      "py": "Qǐng dǎkāi kèběn dì wǔ yè.",
+      "en": "Please open your textbook to page five."
+    },
+    "id": 235,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "客人",
+    "pinyin": "kèrén",
+    "pinyin_sort": "keren",
+    "meaning": "guest",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "家里来了客人。",
+      "py": "Jiā lǐ lái le kèrén.",
+      "en": "A guest came to our home."
+    },
+    "id": 236,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "可是",
+    "pinyin": "kěshì",
+    "pinyin_sort": "keshi",
+    "meaning": "but",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我想去，可是没有时间。",
+      "py": "Wǒ xiǎng qù, kěshì méiyǒu shíjiān.",
+      "en": "I want to go, but I have no time."
+    },
+    "id": 237,
+    "pos": "Conjunction"
+  },
+  {
+    "hanzi": "课文",
+    "pinyin": "kèwén",
+    "pinyin_sort": "kewen",
+    "meaning": "text",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "请读一下课文。",
+      "py": "Qǐng dú yíxià kèwén.",
+      "en": "Please read the text."
+    },
+    "id": 238,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "空调",
+    "pinyin": "kōngtiáo",
+    "pinyin_sort": "kongtiao",
+    "meaning": "air conditioner",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "夏天要开空调。",
+      "py": "Xiàtiān yào kāi kōngtiáo.",
+      "en": "You need to turn on the air conditioner in summer."
+    },
+    "id": 239,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "哭",
+    "pinyin": "kū",
+    "pinyin_sort": "ku",
+    "meaning": "to cry",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "孩子在哭。",
+      "py": "Háizi zài kū.",
+      "en": "The child is crying."
+    },
+    "id": 240,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "筷子",
+    "pinyin": "kuàizi",
+    "pinyin_sort": "kuaizi",
+    "meaning": "chopsticks",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我用筷子吃饭。",
+      "py": "Wǒ yòng kuàizi chī fàn.",
+      "en": "I eat with chopsticks."
+    },
+    "id": 241,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "矿泉水",
+    "pinyin": "kuàngquánshuǐ",
+    "pinyin_sort": "kuangquanshui",
+    "meaning": "mineral water",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "请给我一瓶矿泉水。",
+      "py": "Qǐng gěi wǒ yì píng kuàngquánshuǐ.",
+      "en": "Please give me a bottle of mineral water."
+    },
+    "id": 242,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "来自",
+    "pinyin": "láizì",
+    "pinyin_sort": "laizi",
+    "meaning": "to come from",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他来自法国。",
+      "py": "Tā láizì Fǎguó.",
+      "en": "He comes from France."
+    },
+    "id": 243,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "蓝",
+    "pinyin": "lán",
+    "pinyin_sort": "lan",
+    "meaning": "blue",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "天空是蓝色的。",
+      "py": "Tiānkōng shì lán sè de.",
+      "en": "The sky is blue."
+    },
+    "id": 244,
+    "pos": "Adjective"
+  },
+  {
+    "hanzi": "老",
+    "pinyin": "lǎo",
+    "pinyin_sort": "lao",
+    "meaning": "old, aged; prefix indicating seniority or endearment; (always, constantly)",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他是老朋友了。",
+      "py": "Tā shì lǎo péngyou le.",
+      "en": "He is an old friend."
+    },
+    "id": 245,
+    "pos": "Adjective, Adverb"
+  },
+  {
+    "hanzi": "老人",
+    "pinyin": "lǎorén",
+    "pinyin_sort": "laoren",
+    "meaning": "elderly person",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我们要尊重老人。",
+      "py": "Wǒmen yào zūnzhòng lǎorén.",
+      "en": "We should respect the elderly."
+    },
+    "id": 246,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "练",
+    "pinyin": "liàn",
+    "pinyin_sort": "lian",
+    "meaning": "to practice",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我每天练写字。",
+      "py": "Wǒ měitiān liàn xiě zì.",
+      "en": "I practice writing characters every day."
+    },
+    "id": 247,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "脸",
+    "pinyin": "liǎn",
+    "pinyin_sort": "lian",
+    "meaning": "face",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "她的脸很红。",
+      "py": "Tā de liǎn hěn hóng.",
+      "en": "Her face is very red."
+    },
+    "id": 248,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "辆",
+    "pinyin": "liàng",
+    "pinyin_sort": "liang",
+    "meaning": "measure word for vehicles",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我有一辆自行车。",
+      "py": "Wǒ yǒu yí liàng zìxíngchē.",
+      "en": "I have one bicycle."
+    },
+    "id": 249,
+    "pos": "Measure Word"
+  },
+  {
+    "hanzi": "凉快",
+    "pinyin": "liángkuai",
+    "pinyin_sort": "liangkuai",
+    "meaning": "cool",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "秋天天气凉快。",
+      "py": "Qiūtiān tiānqì liángkuai.",
+      "en": "The weather is cool in autumn."
+    },
+    "id": 250,
+    "pos": "Adjective"
+  },
+  {
+    "hanzi": "练习",
+    "pinyin": "liànxí",
+    "pinyin_sort": "lianxi",
+    "meaning": "to practice; exercise",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我们做练习题。",
+      "py": "Wǒmen zuò liànxí tí.",
+      "en": "We do practice exercises."
+    },
+    "id": 251,
+    "pos": "Verb, Noun"
+  },
+  {
+    "hanzi": "聊",
+    "pinyin": "liáo",
+    "pinyin_sort": "liao",
+    "meaning": "to chat",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我们聊了很久。",
+      "py": "Wǒmen liáo le hěn jiǔ.",
+      "en": "We chatted for a long time."
+    },
+    "id": 252,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "了解",
+    "pinyin": "liǎojiě",
+    "pinyin_sort": "liaojie",
+    "meaning": "to understand",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我了解他的情况。",
+      "py": "Wǒ liǎojiě tā de qíngkuàng.",
+      "en": "I understand his situation."
+    },
+    "id": 253,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "聊天儿",
+    "pinyin": "liáotiānr",
+    "pinyin_sort": "liaotianr",
+    "meaning": "to chat",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我们在网上聊天儿。",
+      "py": "Wǒmen zài wǎng shàng liáotiānr.",
+      "en": "We chatted online."
+    },
+    "id": 254,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "离开",
+    "pinyin": "líkāi",
+    "pinyin_sort": "likai",
+    "meaning": "to leave",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他明天离开北京。",
+      "py": "Tā míngtiān líkāi Běijīng.",
+      "en": "He is leaving Beijing tomorrow."
+    },
+    "id": 255,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "邻居",
+    "pinyin": "línjū",
+    "pinyin_sort": "linju",
+    "meaning": "neighbor",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我们的邻居很友好。",
+      "py": "Wǒmen de línjū hěn yǒuhǎo.",
+      "en": "Our neighbors are very friendly."
+    },
+    "id": 256,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "历史",
+    "pinyin": "lìshǐ",
+    "pinyin_sort": "lishi",
+    "meaning": "history",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我喜欢学历史。",
+      "py": "Wǒ xǐhuan xué lìshǐ.",
+      "en": "I like studying history."
+    },
+    "id": 257,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "留学",
+    "pinyin": "liúxué",
+    "pinyin_sort": "liuxue",
+    "meaning": "to study abroad",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "她去英国留学了。",
+      "py": "Tā qù Yīngguó liúxué le.",
+      "en": "She went to study abroad in the UK."
+    },
+    "id": 258,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "留学生",
+    "pinyin": "liúxuéshēng",
+    "pinyin_sort": "liuxuesheng",
+    "meaning": "overseas student",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他是一名留学生。",
+      "py": "Tā shì yì míng liúxuéshēng.",
+      "en": "He is an overseas student."
+    },
+    "id": 259,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "礼物",
+    "pinyin": "lǐwù",
+    "pinyin_sort": "liwu",
+    "meaning": "gift",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我给你买了礼物。",
+      "py": "Wǒ gěi nǐ mǎi le lǐwù.",
+      "en": "I bought you a gift."
+    },
+    "id": 260,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "楼梯",
+    "pinyin": "lóutī",
+    "pinyin_sort": "louti",
+    "meaning": "stairs",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "请走楼梯，不要坐电梯。",
+      "py": "Qǐng zǒu lóutī, bú yào zuò diàntī.",
+      "en": "Please use the stairs, not the elevator."
+    },
+    "id": 261,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "路边",
+    "pinyin": "lùbiān",
+    "pinyin_sort": "lubian",
+    "meaning": "roadside",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他在路边等我。",
+      "py": "Tā zài lùbiān děng wǒ.",
+      "en": "He is waiting for me by the roadside."
+    },
+    "id": 262,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "路口",
+    "pinyin": "lùkǒu",
+    "pinyin_sort": "lukou",
+    "meaning": "intersection",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "在路口左转。",
+      "py": "Zài lùkǒu zuǒ zhuǎn.",
+      "en": "Turn left at the intersection."
+    },
+    "id": 263,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "马",
+    "pinyin": "mǎ",
+    "pinyin_sort": "ma",
+    "meaning": "horse",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这匹马跑得很快。",
+      "py": "Zhè pǐ mǎ pǎo de hěn kuài.",
+      "en": "This horse runs very fast."
+    },
+    "id": 264,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "马路",
+    "pinyin": "mǎlù",
+    "pinyin_sort": "malu",
+    "meaning": "road",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "过马路要小心。",
+      "py": "Guò mǎlù yào xiǎoxīn.",
+      "en": "Be careful when crossing the road."
+    },
+    "id": 265,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "满意",
+    "pinyin": "mǎnyì",
+    "pinyin_sort": "manyi",
+    "meaning": "satisfied",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他对结果很满意。",
+      "py": "Tā duì jiéguǒ hěn mǎnyì.",
+      "en": "He is very satisfied with the result."
+    },
+    "id": 266,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "毛",
+    "pinyin": "máo",
+    "pinyin_sort": "mao",
+    "meaning": "measure word for money; (hair)",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这件东西卖五毛钱。",
+      "py": "Zhè jiàn dōngxi mài wǔ máo qián.",
+      "en": "This item costs fifty cents."
+    },
+    "id": 267,
+    "pos": "Noun, Measure Word"
+  },
+  {
+    "hanzi": "马上",
+    "pinyin": "mǎshàng",
+    "pinyin_sort": "mashang",
+    "meaning": "immediately",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我马上就来。",
+      "py": "Wǒ mǎshàng jiù lái.",
+      "en": "I'll be there right away."
+    },
+    "id": 268,
+    "pos": "Adverb"
+  },
+  {
+    "hanzi": "米",
+    "pinyin": "mǐ",
+    "pinyin_sort": "mi",
+    "meaning": "meter",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "操场有一百米长。",
+      "py": "Cāochǎng yǒu yì bǎi mǐ cháng.",
+      "en": "The playground is one hundred meters long."
+    },
+    "id": 269,
+    "pos": "Noun, Measure Word"
+  },
+  {
+    "hanzi": "面前",
+    "pinyin": "miànqián",
+    "pinyin_sort": "mianqian",
+    "meaning": "in front of",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "在大家面前说话。",
+      "py": "Zài dàjiā miànqián shuōhuà.",
+      "en": "Speak in front of everyone."
+    },
+    "id": 270,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "明白",
+    "pinyin": "míngbai",
+    "pinyin_sort": "mingbai",
+    "meaning": "to understand; clear",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我明白你的意思了。",
+      "py": "Wǒ míngbai nǐ de yìsi le.",
+      "en": "I understand what you mean."
+    },
+    "id": 271,
+    "pos": "Verb, Adjective, Noun"
+  },
+  {
+    "hanzi": "名单",
+    "pinyin": "míngdān",
+    "pinyin_sort": "mingdan",
+    "meaning": "name list",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "请看一下名单。",
+      "py": "Qǐng kàn yíxià míngdān.",
+      "en": "Please look at the name list."
+    },
+    "id": 272,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "名人",
+    "pinyin": "míngrén",
+    "pinyin_sort": "mingren",
+    "meaning": "famous person",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他是一位名人。",
+      "py": "Tā shì yí wèi míngrén.",
+      "en": "He is a famous person."
+    },
+    "id": 273,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "南",
+    "pinyin": "nán",
+    "pinyin_sort": "nan",
+    "meaning": "south",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他的家在南方。",
+      "py": "Tā de jiā zài nánfāng.",
+      "en": "His home is in the south."
+    },
+    "id": 274,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "难",
+    "pinyin": "nán",
+    "pinyin_sort": "nan",
+    "meaning": "difficult; (to make difficult)",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这道题很难。",
+      "py": "Zhè dào tí hěn nán.",
+      "en": "This problem is very difficult."
+    },
+    "id": 275,
+    "pos": "Adjective, Verb"
+  },
+  {
+    "hanzi": "南方",
+    "pinyin": "nánfāng",
+    "pinyin_sort": "nanfang",
+    "meaning": "south",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "南方冬天不冷。",
+      "py": "Nánfāng dōngtiān bù lěng.",
+      "en": "Winters are not cold in the south."
+    },
+    "id": 276,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "难过",
+    "pinyin": "nánguò",
+    "pinyin_sort": "nanguo",
+    "meaning": "sad",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "她难过地哭了。",
+      "py": "Tā nánguò de kū le.",
+      "en": "She cried sadly."
+    },
+    "id": 277,
+    "pos": "Adjective"
+  },
+  {
+    "hanzi": "难看",
+    "pinyin": "nánkàn",
+    "pinyin_sort": "nankan",
+    "meaning": "ugly",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这件衣服很难看。",
+      "py": "Zhè jiàn yīfu hěn nánkàn.",
+      "en": "This piece of clothing is very ugly."
+    },
+    "id": 278,
+    "pos": "Adjective"
+  },
+  {
+    "hanzi": "男人",
+    "pinyin": "nánrén",
+    "pinyin_sort": "nanren",
+    "meaning": "man",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "那个男人是我爸爸。",
+      "py": "Nàge nánrén shì wǒ bàba.",
+      "en": "That man is my father."
+    },
+    "id": 279,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "男生",
+    "pinyin": "nánshēng",
+    "pinyin_sort": "nansheng",
+    "meaning": "boy student",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "班里有二十个男生。",
+      "py": "Bān lǐ yǒu èrshí gè nánshēng.",
+      "en": "There are twenty boys in the class."
+    },
+    "id": 280,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "难题",
+    "pinyin": "nántí",
+    "pinyin_sort": "nanti",
+    "meaning": "difficult problem",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这是一道难题。",
+      "py": "Zhè shì yì dào nántí.",
+      "en": "This is a difficult problem."
+    },
+    "id": 281,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "难听",
+    "pinyin": "nántīng",
+    "pinyin_sort": "nanting",
+    "meaning": "unpleasant to hear",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这首歌很难听。",
+      "py": "Zhè shǒu gē hěn nántīng.",
+      "en": "This song is very unpleasant to hear."
+    },
+    "id": 282,
+    "pos": "Adjective"
+  },
+  {
+    "hanzi": "年级",
+    "pinyin": "niánjí",
+    "pinyin_sort": "nianji",
+    "meaning": "grade",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他在几年级？",
+      "py": "Tā zài jǐ niánjí?",
+      "en": "What grade is he in?"
+    },
+    "id": 283,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "年轻",
+    "pinyin": "niánqīng",
+    "pinyin_sort": "nianqing",
+    "meaning": "young",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "她看起来很年轻。",
+      "py": "Tā kàn qǐlái hěn niánqīng.",
+      "en": "She looks very young."
+    },
+    "id": 284,
+    "pos": "Adjective"
+  },
+  {
+    "hanzi": "牛",
+    "pinyin": "niú",
+    "pinyin_sort": "niu",
+    "meaning": "cow; (awesome)",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "农场里有很多牛。",
+      "py": "Nóngchǎng lǐ yǒu hěn duō niú.",
+      "en": "There are many cows on the farm."
+    },
+    "id": 285,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "努力",
+    "pinyin": "nǔlì",
+    "pinyin_sort": "nuli",
+    "meaning": "to work hard; hardworking",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "你要努力学习。",
+      "py": "Nǐ yào nǔlì xuéxí.",
+      "en": "You must study hard."
+    },
+    "id": 286,
+    "pos": "Adjective, Adverb, Noun"
+  },
+  {
+    "hanzi": "女人",
+    "pinyin": "nǚrén",
+    "pinyin_sort": "nuren",
+    "meaning": "woman",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "那个女人是我妈妈。",
+      "py": "Nàge nǚrén shì wǒ māma.",
+      "en": "That woman is my mother."
+    },
+    "id": 287,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "女生",
+    "pinyin": "nǚshēng",
+    "pinyin_sort": "nusheng",
+    "meaning": "girl student",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "班里有十五个女生。",
+      "py": "Bān lǐ yǒu shíwǔ gè nǚshēng.",
+      "en": "There are fifteen girls in the class."
+    },
+    "id": 288,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "怕",
+    "pinyin": "pà",
+    "pinyin_sort": "pa",
+    "meaning": "to fear; (perhaps)",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他怕考试。",
+      "py": "Tā pà kǎoshì.",
+      "en": "He is afraid of exams."
+    },
+    "id": 289,
+    "pos": "Verb, Adverb"
+  },
+  {
+    "hanzi": "爬",
+    "pinyin": "pá",
+    "pinyin_sort": "pa",
+    "meaning": "to climb",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他们爬上了山顶。",
+      "py": "Tāmen pá shàng le shān dǐng.",
+      "en": "They climbed to the top of the mountain."
+    },
+    "id": 290,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "拍照",
+    "pinyin": "pāizhào",
+    "pinyin_sort": "paizhao",
+    "meaning": "to take a photo",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我们在公园拍照。",
+      "py": "Wǒmen zài gōngyuán pāizhào.",
+      "en": "We took photos in the park."
+    },
+    "id": 291,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "胖",
+    "pinyin": "pàng",
+    "pinyin_sort": "pang",
+    "meaning": "fat",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他最近胖了。",
+      "py": "Tā zuìjìn pàng le.",
+      "en": "He has gained weight recently."
+    },
+    "id": 292,
+    "pos": "Adjective"
+  },
+  {
+    "hanzi": "盘子",
+    "pinyin": "pánzi",
+    "pinyin_sort": "panzi",
+    "meaning": "plate",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "盘子里有水果。",
+      "py": "Pánzi lǐ yǒu shuǐguǒ.",
+      "en": "There is fruit on the plate."
+    },
+    "id": 293,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "啤酒",
+    "pinyin": "píjiǔ",
+    "pinyin_sort": "pijiu",
+    "meaning": "beer",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他喜欢喝啤酒。",
+      "py": "Tā xǐhuan hē píjiǔ.",
+      "en": "He likes to drink beer."
+    },
+    "id": 294,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "平时",
+    "pinyin": "píngshí",
+    "pinyin_sort": "pingshi",
+    "meaning": "usually",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "平时我六点起床。",
+      "py": "Píngshí wǒ liù diǎn qǐchuáng.",
+      "en": "I usually get up at six."
+    },
+    "id": 295,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "瓶子",
+    "pinyin": "píngzi",
+    "pinyin_sort": "pingzi",
+    "meaning": "bottle",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "请把瓶子放好。",
+      "py": "Qǐng bǎ píngzi fàng hǎo.",
+      "en": "Please put the bottle away properly."
+    },
+    "id": 296,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "起",
+    "pinyin": "qǐ",
+    "pinyin_sort": "qi",
+    "meaning": "to rise, to get up; (measure word for events)",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "请大家站起来。",
+      "py": "Qǐng dàjiā zhàn qǐlái.",
+      "en": "Everyone please stand up."
+    },
+    "id": 297,
+    "pos": "Verb, Measure Word"
+  },
+  {
+    "hanzi": "骑",
+    "pinyin": "qí",
+    "pinyin_sort": "qi",
+    "meaning": "to ride",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他骑自行车上学。",
+      "py": "Tā qí zìxíngchē shàngxué.",
+      "en": "He rides a bicycle to school."
+    },
+    "id": 298,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "铅笔",
+    "pinyin": "qiānbǐ",
+    "pinyin_sort": "qianbi",
+    "meaning": "pencil",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我用铅笔写字。",
+      "py": "Wǒ yòng qiānbǐ xiě zì.",
+      "en": "I write with a pencil."
+    },
+    "id": 299,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "前年",
+    "pinyin": "qiánnián",
+    "pinyin_sort": "qiannian",
+    "meaning": "the year before last",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "前年我去了日本。",
+      "py": "Qiánnián wǒ qù le Rìběn.",
+      "en": "I went to Japan the year before last."
+    },
+    "id": 300,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "前天",
+    "pinyin": "qiántiān",
+    "pinyin_sort": "qiantian",
+    "meaning": "the day before yesterday",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "前天我们去看电影了。",
+      "py": "Qiántiān wǒmen qù kàn diànyǐng le.",
+      "en": "We went to see a movie the day before yesterday."
+    },
+    "id": 301,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "汽车",
+    "pinyin": "qìchē",
+    "pinyin_sort": "qiche",
+    "meaning": "car",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他有一辆汽车。",
+      "py": "Tā yǒu yí liàng qìchē.",
+      "en": "He has a car."
+    },
+    "id": 302,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "起飞",
+    "pinyin": "qǐfēi",
+    "pinyin_sort": "qifei",
+    "meaning": "to take off",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "飞机八点起飞。",
+      "py": "Fēijī bā diǎn qǐfēi.",
+      "en": "The plane takes off at eight."
+    },
+    "id": 303,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "奇怪",
+    "pinyin": "qíguài",
+    "pinyin_sort": "qiguai",
+    "meaning": "strange",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这件事很奇怪。",
+      "py": "Zhè jiàn shì hěn qíguài.",
+      "en": "This matter is very strange."
+    },
+    "id": 304,
+    "pos": "Adjective"
+  },
+  {
+    "hanzi": "清楚",
+    "pinyin": "qīngchu",
+    "pinyin_sort": "qingchu",
+    "meaning": "clear, obvious; to understand",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "请说清楚一点儿。",
+      "py": "Qǐng shuō qīngchu yìdiǎnr.",
+      "en": "Please speak a little more clearly."
+    },
+    "id": 305,
+    "pos": "Adjective, Verb"
+  },
+  {
+    "hanzi": "请假",
+    "pinyin": "qǐngjià",
+    "pinyin_sort": "qingjia",
+    "meaning": "to ask for leave",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他请假了三天。",
+      "py": "Tā qǐngjià le sān tiān.",
+      "en": "He asked for three days off."
+    },
+    "id": 306,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "请客",
+    "pinyin": "qǐngkè",
+    "pinyin_sort": "qingke",
+    "meaning": "to invite guests, to treat someone",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "今天我请客。",
+      "py": "Jīntiān wǒ qǐngkè.",
+      "en": "Today I am treating everyone."
+    },
+    "id": 307,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "其实",
+    "pinyin": "qíshí",
+    "pinyin_sort": "qishi",
+    "meaning": "actually",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "其实他很聪明。",
+      "py": "Qíshí tā hěn cōngmíng.",
+      "en": "Actually, he is very smart."
+    },
+    "id": 308,
+    "pos": "Adverb"
+  },
+  {
+    "hanzi": "其他",
+    "pinyin": "qítā",
+    "pinyin_sort": "qita",
+    "meaning": "other",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "其他同学都来了。",
+      "py": "Qítā tóngxué dōu lái le.",
+      "en": "The other classmates all came."
+    },
+    "id": 309,
+    "pos": "Pronoun"
+  },
+  {
+    "hanzi": "球场",
+    "pinyin": "qiúchǎng",
+    "pinyin_sort": "qiuchang",
+    "meaning": "sports field, court",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他们在球场打球。",
+      "py": "Tāmen zài qiúchǎng dǎ qiú.",
+      "en": "They play ball at the sports court."
+    },
+    "id": 310,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "秋天",
+    "pinyin": "qiūtiān",
+    "pinyin_sort": "qiutian",
+    "meaning": "autumn",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "秋天叶子变黄了。",
+      "py": "Qiūtiān yèzi biàn huáng le.",
+      "en": "Leaves turn yellow in autumn."
+    },
+    "id": 311,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "裙子",
+    "pinyin": "qúnzi",
+    "pinyin_sort": "qunzi",
+    "meaning": "skirt",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "她穿了一条红裙子。",
+      "py": "Tā chuān le yì tiáo hóng qúnzi.",
+      "en": "She wore a red skirt."
+    },
+    "id": 312,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "然后",
+    "pinyin": "ránhòu",
+    "pinyin_sort": "ranhou",
+    "meaning": "then, afterwards",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "先吃饭，然后做作业。",
+      "py": "Xiān chī fàn, ránhòu zuò zuòyè.",
+      "en": "Eat first, then do your homework."
+    },
+    "id": 313,
+    "pos": "Conjunction"
+  },
+  {
+    "hanzi": "认得",
+    "pinyin": "rènde",
+    "pinyin_sort": "rende",
+    "meaning": "to recognize, to know",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "你认得他吗？",
+      "py": "Nǐ rènde tā ma?",
+      "en": "Do you recognize him?"
+    },
+    "id": 314,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "认为",
+    "pinyin": "rènwéi",
+    "pinyin_sort": "renwei",
+    "meaning": "to think, to consider",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我认为这个方法好。",
+      "py": "Wǒ rènwéi zhège fāngfǎ hǎo.",
+      "en": "I think this method is good."
+    },
+    "id": 315,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "认真",
+    "pinyin": "rènzhēn",
+    "pinyin_sort": "renzhen",
+    "meaning": "serious, earnest",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "她学习很认真。",
+      "py": "Tā xuéxí hěn rènzhēn.",
+      "en": "She studies very seriously."
+    },
+    "id": 316,
+    "pos": "Adjective"
+  },
+  {
+    "hanzi": "热情",
+    "pinyin": "rèqíng",
+    "pinyin_sort": "reqing",
+    "meaning": "enthusiastic",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他非常热情。",
+      "py": "Tā fēicháng rèqíng.",
+      "en": "He is very enthusiastic."
+    },
+    "id": 317,
+    "pos": "Adjective"
+  },
+  {
+    "hanzi": "容易",
+    "pinyin": "róngyì",
+    "pinyin_sort": "rongyi",
+    "meaning": "easy",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这道题很容易。",
+      "py": "Zhè dào tí hěn róngyì.",
+      "en": "This problem is very easy."
+    },
+    "id": 318,
+    "pos": "Adjective"
+  },
+  {
+    "hanzi": "如果",
+    "pinyin": "rúguǒ",
+    "pinyin_sort": "ruguo",
+    "meaning": "if",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "如果你来，告诉我。",
+      "py": "Rúguǒ nǐ lái, gàosu wǒ.",
+      "en": "If you come, tell me."
+    },
+    "id": 319,
+    "pos": "Conjunction"
+  },
+  {
+    "hanzi": "伞",
+    "pinyin": "sǎn",
+    "pinyin_sort": "san",
+    "meaning": "umbrella",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "下雨了，带上伞吧。",
+      "py": "Xià yǔ le, dài shàng sǎn ba.",
+      "en": "It's raining, bring an umbrella."
+    },
+    "id": 320,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "扫",
+    "pinyin": "sǎo",
+    "pinyin_sort": "sao",
+    "meaning": "to sweep",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我来扫地。",
+      "py": "Wǒ lái sǎo dì.",
+      "en": "I will sweep the floor."
+    },
+    "id": 321,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "沙发",
+    "pinyin": "shāfā",
+    "pinyin_sort": "shafa",
+    "meaning": "sofa",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他坐在沙发上看电视。",
+      "py": "Tā zuò zài shāfā shàng kàn diànshì.",
+      "en": "He sits on the sofa watching TV."
+    },
+    "id": 322,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "山",
+    "pinyin": "shān",
+    "pinyin_sort": "shan",
+    "meaning": "mountain",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我们爬山去了。",
+      "py": "Wǒmen pá shān qù le.",
+      "en": "We went mountain climbing."
+    },
+    "id": 323,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "上衣",
+    "pinyin": "shàngyī",
+    "pinyin_sort": "shangyi",
+    "meaning": "jacket, top garment",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他穿了一件蓝色上衣。",
+      "py": "Tā chuān le yí jiàn lánsè shàngyī.",
+      "en": "He wore a blue jacket."
+    },
+    "id": 324,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "勺子",
+    "pinyin": "sháozi",
+    "pinyin_sort": "shaozi",
+    "meaning": "spoon",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "请给我一个勺子。",
+      "py": "Qǐng gěi wǒ yí gè sháozi.",
+      "en": "Please give me a spoon."
+    },
+    "id": 325,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "身边",
+    "pinyin": "shēnbiān",
+    "pinyin_sort": "shenbian",
+    "meaning": "by one's side",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "她一直在我身边。",
+      "py": "Tā yìzhí zài wǒ shēnbiān.",
+      "en": "She has always been by my side."
+    },
+    "id": 326,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "声",
+    "pinyin": "shēng",
+    "pinyin_sort": "sheng",
+    "meaning": "sound, voice; measure word for sounds",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他说了一声再见。",
+      "py": "Tā shuō le yì shēng zàijiàn.",
+      "en": "He said goodbye once."
+    },
+    "id": 327,
+    "pos": "Noun, Measure Word"
+  },
+  {
+    "hanzi": "身高",
+    "pinyin": "shēngāo",
+    "pinyin_sort": "shengao",
+    "meaning": "height",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他的身高是一米八。",
+      "py": "Tā de shēngāo shì yī mǐ bā.",
+      "en": "His height is 1.8 meters."
+    },
+    "id": 328,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "生活",
+    "pinyin": "shēnghuó",
+    "pinyin_sort": "shenghuo",
+    "meaning": "life; to live",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我喜欢现在的生活。",
+      "py": "Wǒ xǐhuan xiànzài de shēnghuó.",
+      "en": "I like my current life."
+    },
+    "id": 329,
+    "pos": "Verb, Noun"
+  },
+  {
+    "hanzi": "生气",
+    "pinyin": "shēngqì",
+    "pinyin_sort": "shengqi",
+    "meaning": "to get angry",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他因为这件事生气了。",
+      "py": "Tā yīnwèi zhè jiàn shì shēngqì le.",
+      "en": "He got angry because of this matter."
+    },
+    "id": 330,
+    "pos": "Adjective, Noun, Verb"
+  },
+  {
+    "hanzi": "声音",
+    "pinyin": "shēngyīn",
+    "pinyin_sort": "shengyin",
+    "meaning": "sound",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "她的声音很好听。",
+      "py": "Tā de shēngyīn hěn hǎotīng.",
+      "en": "Her voice is very pleasant."
+    },
+    "id": 331,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "室",
+    "pinyin": "shì",
+    "pinyin_sort": "shi",
+    "meaning": "room",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这是阅读室。",
+      "py": "Zhè shì yuèdú shì.",
+      "en": "This is the reading room."
+    },
+    "id": 332,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "市",
+    "pinyin": "shì",
+    "pinyin_sort": "shi",
+    "meaning": "city",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我在市中心工作。",
+      "py": "Wǒ zài shì zhōngxīn gōngzuò.",
+      "en": "I work in the city center."
+    },
+    "id": 333,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "试",
+    "pinyin": "shì",
+    "pinyin_sort": "shi",
+    "meaning": "to try",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "你试一试这件衣服。",
+      "py": "Nǐ shì yi shì zhè jiàn yīfu.",
+      "en": "Try on this piece of clothing."
+    },
+    "id": 334,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "世界",
+    "pinyin": "shìjiè",
+    "pinyin_sort": "shijie",
+    "meaning": "world",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "世界上有很多国家。",
+      "py": "Shìjiè shàng yǒu hěn duō guójiā.",
+      "en": "There are many countries in the world."
+    },
+    "id": 335,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "受",
+    "pinyin": "shòu",
+    "pinyin_sort": "shou",
+    "meaning": "to receive, to be affected",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他受了伤。",
+      "py": "Tā shòu le shāng.",
+      "en": "He was injured."
+    },
+    "id": 336,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "收",
+    "pinyin": "shōu",
+    "pinyin_sort": "shou",
+    "meaning": "to receive",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我收了很多礼物。",
+      "py": "Wǒ shōu le hěn duō lǐwù.",
+      "en": "I received many gifts."
+    },
+    "id": 337,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "瘦",
+    "pinyin": "shòu",
+    "pinyin_sort": "shou",
+    "meaning": "thin, slim",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "她最近瘦了。",
+      "py": "Tā zuìjìn shòu le.",
+      "en": "She has lost weight recently."
+    },
+    "id": 338,
+    "pos": "Adjective"
+  },
+  {
+    "hanzi": "受到",
+    "pinyin": "shòudào",
+    "pinyin_sort": "shoudao",
+    "meaning": "to receive, to be subjected to",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他受到了大家的欢迎。",
+      "py": "Tā shòudào le dàjiā de huānyíng.",
+      "en": "He was welcomed by everyone."
+    },
+    "id": 339,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "收到",
+    "pinyin": "shōudào",
+    "pinyin_sort": "shoudao",
+    "meaning": "to receive",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我收到了你的邮件。",
+      "py": "Wǒ shōudào le nǐ de yóujiàn.",
+      "en": "I received your email."
+    },
+    "id": 340,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "树",
+    "pinyin": "shù",
+    "pinyin_sort": "shu",
+    "meaning": "tree",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "公园里有很多树。",
+      "py": "Gōngyuán lǐ yǒu hěn duō shù.",
+      "en": "There are many trees in the park."
+    },
+    "id": 341,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "刷",
+    "pinyin": "shuā",
+    "pinyin_sort": "shua",
+    "meaning": "to brush, to scrub",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "早上要刷牙。",
+      "py": "Zǎoshang yào shuā yá.",
+      "en": "You need to brush your teeth in the morning."
+    },
+    "id": 342,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "双",
+    "pinyin": "shuāng",
+    "pinyin_sort": "shuang",
+    "meaning": "pair, measure word for pairs",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我买了一双新鞋。",
+      "py": "Wǒ mǎi le yì shuāng xīn xié.",
+      "en": "I bought a new pair of shoes."
+    },
+    "id": 343,
+    "pos": "Measure Word"
+  },
+  {
+    "hanzi": "水平",
+    "pinyin": "shuǐpíng",
+    "pinyin_sort": "shuiping",
+    "meaning": "level, standard",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他的汉语水平很高。",
+      "py": "Tā de Hànyǔ shuǐpíng hěn gāo.",
+      "en": "His Chinese level is very high."
+    },
+    "id": 344,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "叔叔",
+    "pinyin": "shūshu",
+    "pinyin_sort": "shushu",
+    "meaning": "uncle",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我叔叔是医生。",
+      "py": "Wǒ shūshu shì yīshēng.",
+      "en": "My uncle is a doctor."
+    },
+    "id": 345,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "数学",
+    "pinyin": "shùxué",
+    "pinyin_sort": "shuxue",
+    "meaning": "mathematics",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "数学是我最喜欢的科目。",
+      "py": "Shùxué shì wǒ zuì xǐhuan de kēmù.",
+      "en": "Math is my favorite subject."
+    },
+    "id": 346,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "司机",
+    "pinyin": "sījī",
+    "pinyin_sort": "siji",
+    "meaning": "driver",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "司机开车很小心。",
+      "py": "Sījī kāichē hěn xiǎoxīn.",
+      "en": "The driver drives very carefully."
+    },
+    "id": 347,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "四季",
+    "pinyin": "sìjì",
+    "pinyin_sort": "siji",
+    "meaning": "four seasons",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "中国有四季。",
+      "py": "Zhōngguó yǒu sìjì.",
+      "en": "China has four seasons."
+    },
+    "id": 348,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "太阳",
+    "pinyin": "tàiyáng",
+    "pinyin_sort": "taiyang",
+    "meaning": "sun",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "今天太阳很大。",
+      "py": "Jīntiān tàiyáng hěn dà.",
+      "en": "The sun is very strong today."
+    },
+    "id": 349,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "糖",
+    "pinyin": "táng",
+    "pinyin_sort": "tang",
+    "meaning": "candy, sugar",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "孩子喜欢吃糖。",
+      "py": "Háizi xǐhuan chī táng.",
+      "en": "Children like eating candy."
+    },
+    "id": 350,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "特别",
+    "pinyin": "tèbié",
+    "pinyin_sort": "tebie",
+    "meaning": "special; particularly",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这道菜特别好吃。",
+      "py": "Zhè dào cài tèbié hǎochī.",
+      "en": "This dish is especially delicious."
+    },
+    "id": 351,
+    "pos": "Adjective, Adverb"
+  },
+  {
+    "hanzi": "甜",
+    "pinyin": "tián",
+    "pinyin_sort": "tian",
+    "meaning": "sweet",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这个西瓜很甜。",
+      "py": "Zhège xīguā hěn tián.",
+      "en": "This watermelon is very sweet."
+    },
+    "id": 352,
+    "pos": "Adjective"
+  },
+  {
+    "hanzi": "跳",
+    "pinyin": "tiào",
+    "pinyin_sort": "tiao",
+    "meaning": "to jump",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "孩子们在跳绳。",
+      "py": "Háizimen zài tiào shéng.",
+      "en": "The children are jumping rope."
+    },
+    "id": 353,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "提高",
+    "pinyin": "tígāo",
+    "pinyin_sort": "tigao",
+    "meaning": "to raise, to improve",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我想提高汉语水平。",
+      "py": "Wǒ xiǎng tígāo Hànyǔ shuǐpíng.",
+      "en": "I want to improve my Chinese level."
+    },
+    "id": 354,
+    "pos": "Verb, Noun"
+  },
+  {
+    "hanzi": "挺",
+    "pinyin": "tǐng",
+    "pinyin_sort": "ting",
+    "meaning": "quite, rather; (to endure)",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "她挺聪明的。",
+      "py": "Tā tǐng cōngmíng de.",
+      "en": "She is quite smart."
+    },
+    "id": 355,
+    "pos": "Adverb, Verb"
+  },
+  {
+    "hanzi": "听说",
+    "pinyin": "tīngshuō",
+    "pinyin_sort": "tingshuo",
+    "meaning": "to hear said",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "听说他要去北京了。",
+      "py": "Tīngshuō tā yào qù Běijīng le.",
+      "en": "I heard that he is going to Beijing."
+    },
+    "id": 356,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "体育",
+    "pinyin": "tǐyù",
+    "pinyin_sort": "tiyu",
+    "meaning": "physical education",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我喜欢体育课。",
+      "py": "Wǒ xǐhuan tǐyù kè.",
+      "en": "I like physical education class."
+    },
+    "id": 357,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "体育馆",
+    "pinyin": "tǐyùguǎn",
+    "pinyin_sort": "tiyuguan",
+    "meaning": "gymnasium",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我在体育馆打篮球。",
+      "py": "Wǒ zài tǐyùguǎn dǎ lánqiú.",
+      "en": "I play basketball in the gymnasium."
+    },
+    "id": 358,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "同事",
+    "pinyin": "tóngshì",
+    "pinyin_sort": "tongshi",
+    "meaning": "colleague",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我和同事一起吃午饭。",
+      "py": "Wǒ hé tóngshì yìqǐ chī wǔfàn.",
+      "en": "I have lunch with my colleagues."
+    },
+    "id": 359,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "同意",
+    "pinyin": "tóngyì",
+    "pinyin_sort": "tongyi",
+    "meaning": "to agree",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我同意你的意见。",
+      "py": "Wǒ tóngyì nǐ de yìjiàn.",
+      "en": "I agree with your opinion."
+    },
+    "id": 360,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "头发",
+    "pinyin": "tóufa",
+    "pinyin_sort": "toufa",
+    "meaning": "hair",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "她的头发很长。",
+      "py": "Tā de tóufa hěn cháng.",
+      "en": "Her hair is very long."
+    },
+    "id": 361,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "腿",
+    "pinyin": "tuǐ",
+    "pinyin_sort": "tui",
+    "meaning": "leg",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "她的腿很长。",
+      "py": "Tā de tuǐ hěn cháng.",
+      "en": "Her legs are very long."
+    },
+    "id": 362,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "突然",
+    "pinyin": "tūrán",
+    "pinyin_sort": "turan",
+    "meaning": "sudden",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "天气突然变冷了。",
+      "py": "Tiānqì tūrán biàn lěng le.",
+      "en": "The weather suddenly turned cold."
+    },
+    "id": 363,
+    "pos": "Adjective"
+  },
+  {
+    "hanzi": "图书馆",
+    "pinyin": "túshūguǎn",
+    "pinyin_sort": "tushuguan",
+    "meaning": "library",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我在图书馆学习。",
+      "py": "Wǒ zài túshūguǎn xuéxí.",
+      "en": "I study in the library."
+    },
+    "id": 364,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "外地",
+    "pinyin": "wàidì",
+    "pinyin_sort": "waidi",
+    "meaning": "other place",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他是从外地来的。",
+      "py": "Tā shì cóng wàidì lái de.",
+      "en": "He came from another place."
+    },
+    "id": 365,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "外卖",
+    "pinyin": "wàimài",
+    "pinyin_sort": "waimai",
+    "meaning": "takeaway; to order takeout",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "今天我点了外卖。",
+      "py": "Jīntiān wǒ diǎn le wàimài.",
+      "en": "I ordered takeout today."
+    },
+    "id": 366,
+    "pos": "Verb, Noun"
+  },
+  {
+    "hanzi": "外语",
+    "pinyin": "wàiyǔ",
+    "pinyin_sort": "waiyu",
+    "meaning": "foreign language",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "她会说两种外语。",
+      "py": "Tā huì shuō liǎng zhǒng wàiyǔ.",
+      "en": "She can speak two foreign languages."
+    },
+    "id": 367,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "碗",
+    "pinyin": "wǎn",
+    "pinyin_sort": "wan",
+    "meaning": "bowl",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "请给我一碗米饭。",
+      "py": "Qǐng gěi wǒ yì wǎn mǐfàn.",
+      "en": "Please give me a bowl of rice."
+    },
+    "id": 368,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "完成",
+    "pinyin": "wánchéng",
+    "pinyin_sort": "wancheng",
+    "meaning": "to complete",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我完成了作业。",
+      "py": "Wǒ wánchéng le zuòyè.",
+      "en": "I finished my homework."
+    },
+    "id": 369,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "晚点",
+    "pinyin": "wǎndiǎn",
+    "pinyin_sort": "wandian",
+    "meaning": "to be late",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "火车晚点了。",
+      "py": "Huǒchē wǎndiǎn le.",
+      "en": "The train was late."
+    },
+    "id": 370,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "忘记",
+    "pinyin": "wàngjì",
+    "pinyin_sort": "wangji",
+    "meaning": "to forget",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我忘记带书了。",
+      "py": "Wǒ wàngjì dài shū le.",
+      "en": "I forgot to bring my book."
+    },
+    "id": 371,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "网球",
+    "pinyin": "wǎngqiú",
+    "pinyin_sort": "wangqiu",
+    "meaning": "tennis",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他喜欢打网球。",
+      "py": "Tā xǐhuan dǎ wǎngqiú.",
+      "en": "He likes to play tennis."
+    },
+    "id": 372,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "网站",
+    "pinyin": "wǎngzhàn",
+    "pinyin_sort": "wangzhan",
+    "meaning": "website",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这个网站很有用。",
+      "py": "Zhège wǎngzhàn hěn yǒuyòng.",
+      "en": "This website is very useful."
+    },
+    "id": 373,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "晚会",
+    "pinyin": "wǎnhuì",
+    "pinyin_sort": "wanhui",
+    "meaning": "evening party",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "学校有一个晚会。",
+      "py": "Xuéxiào yǒu yí gè wǎnhuì.",
+      "en": "The school is having an evening party."
+    },
+    "id": 374,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "为",
+    "pinyin": "wèi",
+    "pinyin_sort": "wei",
+    "meaning": "for, for the sake of; because of",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "爸爸每天努力工作，为了让我们生活得更好。",
+      "py": "Bàba měitiān nǔlì gōngzuò, wèile ràng wǒmen shēnghuó de gèng hǎo.",
+      "en": "Dad works hard every day to make our lives better."
+    },
+    "id": 375,
+    "pos": "Preposition"
+  },
+  {
+    "hanzi": "为了",
+    "pinyin": "wèile",
+    "pinyin_sort": "weile",
+    "meaning": "in order to",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "为了健康，我每天运动。",
+      "py": "Wèile jiànkāng, wǒ měitiān yùndòng.",
+      "en": "In order to stay healthy, I exercise every day."
+    },
+    "id": 376,
+    "pos": "Preposition"
+  },
+  {
+    "hanzi": "卫生间",
+    "pinyin": "wèishēngjiān",
+    "pinyin_sort": "weishengjian",
+    "meaning": "bathroom, restroom",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "卫生间在哪里？",
+      "py": "Wèishēngjiān zài nǎlǐ?",
+      "en": "Where is the restroom?"
+    },
+    "id": 377,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "文化",
+    "pinyin": "wénhuà",
+    "pinyin_sort": "wenhua",
+    "meaning": "culture",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "中国有很丰富的文化。",
+      "py": "Zhōngguó yǒu hěn fēngfù de wénhuà.",
+      "en": "China has a very rich culture."
+    },
+    "id": 378,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "屋子",
+    "pinyin": "wūzi",
+    "pinyin_sort": "wuzi",
+    "meaning": "room, house",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这个屋子很大。",
+      "py": "Zhège wūzi hěn dà.",
+      "en": "This room is very big."
+    },
+    "id": 379,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "西",
+    "pinyin": "xī",
+    "pinyin_sort": "xi",
+    "meaning": "west",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "太阳从西边落下去。",
+      "py": "Tàiyáng cóng xī biān luò xiàqù.",
+      "en": "The sun sets in the west."
+    },
+    "id": 380,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "喜爱",
+    "pinyin": "xǐ’ài",
+    "pinyin_sort": "xiai",
+    "meaning": "to like, to love",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "她喜爱画画儿。",
+      "py": "Tā xǐ'ài huà huàr.",
+      "en": "She loves painting."
+    },
+    "id": 381,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "先",
+    "pinyin": "xiān",
+    "pinyin_sort": "xian",
+    "meaning": "first, before",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "你先说，我后说。",
+      "py": "Nǐ xiān shuō, wǒ hòu shuō.",
+      "en": "You speak first, then I will speak."
+    },
+    "id": 382,
+    "pos": "Adverb"
+  },
+  {
+    "hanzi": "像",
+    "pinyin": "xiàng",
+    "pinyin_sort": "xiang",
+    "meaning": "to resemble, to be like; (as if, such as); (image, statue, portrait)",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "她长得像她妈妈。",
+      "py": "Tā zhǎng de xiàng tā māma.",
+      "en": "She looks like her mother."
+    },
+    "id": 383,
+    "pos": "Verb, Adverb, Noun"
+  },
+  {
+    "hanzi": "向",
+    "pinyin": "xiàng",
+    "pinyin_sort": "xiang",
+    "meaning": "to face, to turn toward; toward, to",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "请向右转。",
+      "py": "Qǐng xiàng yòu zhuǎn.",
+      "en": "Please turn right."
+    },
+    "id": 384,
+    "pos": "Verb, Preposition"
+  },
+  {
+    "hanzi": "相机",
+    "pinyin": "xiàngjī",
+    "pinyin_sort": "xiangji",
+    "meaning": "camera",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我带了相机去旅行。",
+      "py": "Wǒ dài le xiàngjī qù lǚxíng.",
+      "en": "I brought a camera on the trip."
+    },
+    "id": 385,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "香蕉",
+    "pinyin": "xiāngjiāo",
+    "pinyin_sort": "xiangjiao",
+    "meaning": "banana",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他每天吃一根香蕉。",
+      "py": "Tā měitiān chī yì gēn xiāngjiāo.",
+      "en": "He eats one banana every day."
+    },
+    "id": 386,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "相信",
+    "pinyin": "xiāngxìn",
+    "pinyin_sort": "xiangxin",
+    "meaning": "to believe",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我相信你说的话。",
+      "py": "Wǒ xiāngxìn nǐ shuō de huà.",
+      "en": "I believe what you say."
+    },
+    "id": 387,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "箱子",
+    "pinyin": "xiāngzi",
+    "pinyin_sort": "xiangzi",
+    "meaning": "box, case",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "请帮我搬这个箱子。",
+      "py": "Qǐng bāng wǒ bān zhège xiāngzi.",
+      "en": "Please help me move this box."
+    },
+    "id": 388,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "小区",
+    "pinyin": "xiǎoqū",
+    "pinyin_sort": "xiaoqu",
+    "meaning": "residential community",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我住在一个新小区。",
+      "py": "Wǒ zhù zài yí gè xīn xiǎoqū.",
+      "en": "I live in a new residential community."
+    },
+    "id": 389,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "小心",
+    "pinyin": "xiǎoxīn",
+    "pinyin_sort": "xiaoxin",
+    "meaning": "to be careful; careful",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "过马路要小心。",
+      "py": "Guò mǎlù yào xiǎoxīn.",
+      "en": "Be careful when crossing the road."
+    },
+    "id": 390,
+    "pos": "Adjective, Verb, Adverb"
+  },
+  {
+    "hanzi": "校园",
+    "pinyin": "xiàoyuán",
+    "pinyin_sort": "xiaoyuan",
+    "meaning": "campus",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "校园里很安静。",
+      "py": "Xiàoyuán lǐ hěn ānjìng.",
+      "en": "The campus is very quiet."
+    },
+    "id": 391,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "校长",
+    "pinyin": "xiàozhǎng",
+    "pinyin_sort": "xiaozhang",
+    "meaning": "principal, headmaster",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "校长给我们讲话。",
+      "py": "Xiàozhǎng gěi wǒmen jiǎnghuà.",
+      "en": "The principal spoke to us."
+    },
+    "id": 392,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "夏天",
+    "pinyin": "xiàtiān",
+    "pinyin_sort": "xiatian",
+    "meaning": "summer",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "夏天天气很热。",
+      "py": "Xiàtiān tiānqì hěn rè.",
+      "en": "The weather is very hot in summer."
+    },
+    "id": 393,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "西北",
+    "pinyin": "xīběi",
+    "pinyin_sort": "xibei",
+    "meaning": "northwest",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "新疆在中国西北部。",
+      "py": "Xīnjiāng zài Zhōngguó xīběi bù.",
+      "en": "Xinjiang is in the northwest of China."
+    },
+    "id": 394,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "鞋",
+    "pinyin": "xié",
+    "pinyin_sort": "xie",
+    "meaning": "shoe",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这双鞋很好看。",
+      "py": "Zhè shuāng xié hěn hǎokàn.",
+      "en": "These shoes look very nice."
+    },
+    "id": 395,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "西方",
+    "pinyin": "xīfāng",
+    "pinyin_sort": "xifang",
+    "meaning": "west",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他对西方文化很感兴趣。",
+      "py": "Tā duì xīfāng wénhuà hěn gǎn xìngqù.",
+      "en": "He is very interested in western culture."
+    },
+    "id": 396,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "西瓜",
+    "pinyin": "xīguā",
+    "pinyin_sort": "xigua",
+    "meaning": "watermelon",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "夏天我爱吃西瓜。",
+      "py": "Xiàtiān wǒ ài chī xīguā.",
+      "en": "I love eating watermelon in summer."
+    },
+    "id": 397,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "习惯",
+    "pinyin": "xíguàn",
+    "pinyin_sort": "xiguan",
+    "meaning": "to be used to; habit",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我习惯早睡早起。",
+      "py": "Wǒ xíguàn zǎo shuì zǎo qǐ.",
+      "en": "I am used to going to bed early and getting up early."
+    },
+    "id": 398,
+    "pos": "Verb, Noun"
+  },
+  {
+    "hanzi": "信",
+    "pinyin": "xìn",
+    "pinyin_sort": "xin",
+    "meaning": "to believe; letter",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他给我写了一封信。",
+      "py": "Tā gěi wǒ xiě le yì fēng xìn.",
+      "en": "He wrote me a letter."
+    },
+    "id": 399,
+    "pos": "Verb, Noun"
+  },
+  {
+    "hanzi": "西南",
+    "pinyin": "xīnán",
+    "pinyin_sort": "xinan",
+    "meaning": "southwest",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "云南在中国西南部。",
+      "py": "Yúnnán zài Zhōngguó xīnán bù.",
+      "en": "Yunnan is in the southwest of China."
+    },
+    "id": 400,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "行",
+    "pinyin": "xíng",
+    "pinyin_sort": "xing",
+    "meaning": "to go, walk, travel; okay, capable",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我们明天下午三点见面，行吗？",
+      "py": "Wǒmen míngtiān xiàwǔ sān diǎn jiànmiàn, xíng ma?",
+      "en": "We meet tomorrow afternoon at three o'clock, is that okay?"
+    },
+    "id": 401,
+    "pos": "Verb, Adjective"
+  },
+  {
+    "hanzi": "行李",
+    "pinyin": "xíngli",
+    "pinyin_sort": "xingli",
+    "meaning": "luggage",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我的行李很重。",
+      "py": "Wǒ de xíngli hěn zhòng.",
+      "en": "My luggage is very heavy."
+    },
+    "id": 402,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "兴趣",
+    "pinyin": "xìngqù",
+    "pinyin_sort": "xingqu",
+    "meaning": "interest",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我对音乐有兴趣。",
+      "py": "Wǒ duì yīnyuè yǒu xìngqù.",
+      "en": "I have an interest in music."
+    },
+    "id": 403,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "心里",
+    "pinyin": "xīnlǐ",
+    "pinyin_sort": "xinli",
+    "meaning": "heart, mind",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我心里很高兴。",
+      "py": "Wǒ xīnlǐ hěn gāoxìng.",
+      "en": "I am very happy in my heart."
+    },
+    "id": 404,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "新年",
+    "pinyin": "xīnnián",
+    "pinyin_sort": "xinnian",
+    "meaning": "New Year",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "新年快乐！",
+      "py": "Xīnnián kuàilè!",
+      "en": "Happy New Year!"
+    },
+    "id": 405,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "新闻",
+    "pinyin": "xīnwén",
+    "pinyin_sort": "xinwen",
+    "meaning": "news",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我每天看新闻。",
+      "py": "Wǒ měitiān kàn xīnwén.",
+      "en": "I watch the news every day."
+    },
+    "id": 406,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "新鲜",
+    "pinyin": "xīnxiān",
+    "pinyin_sort": "xinxian",
+    "meaning": "fresh",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这里的空气很新鲜。",
+      "py": "Zhèlǐ de kōngqì hěn xīnxiān.",
+      "en": "The air here is very fresh."
+    },
+    "id": 407,
+    "pos": "Adjective"
+  },
+  {
+    "hanzi": "信用卡",
+    "pinyin": "xìnyòngkǎ",
+    "pinyin_sort": "xinyongka",
+    "meaning": "credit card",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我用信用卡付款。",
+      "py": "Wǒ yòng xìnyòngkǎ fùkuǎn.",
+      "en": "I pay with a credit card."
+    },
+    "id": 408,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "休假",
+    "pinyin": "xiūjià",
+    "pinyin_sort": "xiujia",
+    "meaning": "to take a holiday",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他下周休假。",
+      "py": "Tā xià zhōu xiūjià.",
+      "en": "He is taking a holiday next week."
+    },
+    "id": 409,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "洗衣机",
+    "pinyin": "xǐyījī",
+    "pinyin_sort": "xiyiji",
+    "meaning": "washing machine",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "洗衣机坏了。",
+      "py": "Xǐyījī huài le.",
+      "en": "The washing machine is broken."
+    },
+    "id": 410,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "洗澡",
+    "pinyin": "xǐzǎo",
+    "pinyin_sort": "xizao",
+    "meaning": "to take a bath",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我每天晚上洗澡。",
+      "py": "Wǒ měitiān wǎnshang xǐzǎo.",
+      "en": "I take a bath every night."
+    },
+    "id": 411,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "选",
+    "pinyin": "xuǎn",
+    "pinyin_sort": "xuan",
+    "meaning": "to choose",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "请选一个答案。",
+      "py": "Qǐng xuǎn yí gè dá'àn.",
+      "en": "Please choose one answer."
+    },
+    "id": 412,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "选择",
+    "pinyin": "xuǎnzé",
+    "pinyin_sort": "xuanze",
+    "meaning": "to choose",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "你选择哪个？",
+      "py": "Nǐ xuǎnzé nǎ gè?",
+      "en": "Which one do you choose?"
+    },
+    "id": 413,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "学期",
+    "pinyin": "xuéqī",
+    "pinyin_sort": "xueqi",
+    "meaning": "semester",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这个学期我学了很多。",
+      "py": "Zhège xuéqī wǒ xué le hěn duō.",
+      "en": "I learned a lot this semester."
+    },
+    "id": 414,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "需要",
+    "pinyin": "xūyào",
+    "pinyin_sort": "xuyao",
+    "meaning": "to need; need",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "你需要帮助吗？",
+      "py": "Nǐ xūyào bāngzhù ma?",
+      "en": "Do you need help?"
+    },
+    "id": 415,
+    "pos": "Verb, Noun"
+  },
+  {
+    "hanzi": "牙",
+    "pinyin": "yá",
+    "pinyin_sort": "ya",
+    "meaning": "tooth",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "你的牙怎么了？",
+      "py": "Nǐ de yá zěnme le?",
+      "en": "What happened to your tooth?"
+    },
+    "id": 416,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "养",
+    "pinyin": "yǎng",
+    "pinyin_sort": "yang",
+    "meaning": "to raise, to keep",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他养了一只猫。",
+      "py": "Tā yǎng le yì zhī māo.",
+      "en": "He keeps a cat."
+    },
+    "id": 417,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "羊",
+    "pinyin": "yáng",
+    "pinyin_sort": "yang",
+    "meaning": "sheep",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "农场里有很多羊。",
+      "py": "Nóngchǎng lǐ yǒu hěn duō yáng.",
+      "en": "There are many sheep on the farm."
+    },
+    "id": 418,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "要求",
+    "pinyin": "yāoqiú",
+    "pinyin_sort": "yaoqiu",
+    "meaning": "to demand; requirement",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "老师的要求很高。",
+      "py": "Lǎoshī de yāoqiú hěn gāo.",
+      "en": "The teacher's requirements are very high."
+    },
+    "id": 419,
+    "pos": "Verb, Noun"
+  },
+  {
+    "hanzi": "牙刷",
+    "pinyin": "yáshuā",
+    "pinyin_sort": "yashua",
+    "meaning": "toothbrush",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我的牙刷在哪里？",
+      "py": "Wǒ de yáshuā zài nǎlǐ?",
+      "en": "Where is my toothbrush?"
+    },
+    "id": 420,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "页",
+    "pinyin": "yè",
+    "pinyin_sort": "ye",
+    "meaning": "measure word for page",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "请翻到第十页。",
+      "py": "Qǐng fān dào dì shí yè.",
+      "en": "Please turn to page ten."
+    },
+    "id": 421,
+    "pos": "Measure Word"
+  },
+  {
+    "hanzi": "一般",
+    "pinyin": "yìbān",
+    "pinyin_sort": "yiban",
+    "meaning": "general, ordinary",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这个餐厅一般般。",
+      "py": "Zhège cāntīng yìbān bān.",
+      "en": "This restaurant is just average."
+    },
+    "id": 422,
+    "pos": "Adjective, Adverb, Particle"
+  },
+  {
+    "hanzi": "一边",
+    "pinyin": "yìbiān",
+    "pinyin_sort": "yibian",
+    "meaning": "at the same time",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他一边听音乐，一边学习。",
+      "py": "Tā yìbiān tīng yīnyuè, yìbiān xuéxí.",
+      "en": "He listens to music while studying."
+    },
+    "id": 423,
+    "pos": "Adverb, Noun"
+  },
+  {
+    "hanzi": "一定",
+    "pinyin": "yídìng",
+    "pinyin_sort": "yiding",
+    "meaning": "certain; certainly",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我一定会来的。",
+      "py": "Wǒ yídìng huì lái de.",
+      "en": "I will definitely come."
+    },
+    "id": 424,
+    "pos": "Adverb, Adjective"
+  },
+  {
+    "hanzi": "一共",
+    "pinyin": "yígòng",
+    "pinyin_sort": "yigong",
+    "meaning": "altogether, in total",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "一共多少钱？",
+      "py": "Yígòng duōshao qián?",
+      "en": "How much is it altogether?"
+    },
+    "id": 425,
+    "pos": "Adverb"
+  },
+  {
+    "hanzi": "以后",
+    "pinyin": "yǐhòu",
+    "pinyin_sort": "yihou",
+    "meaning": "later, after",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "以后有机会再见面。",
+      "py": "Yǐhòu yǒu jīhuì zài jiànmiàn.",
+      "en": "We will meet again when there is a chance later."
+    },
+    "id": 426,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "一块儿",
+    "pinyin": "yíkuàir",
+    "pinyin_sort": "yikuair",
+    "meaning": "the same place; together",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我们一块儿去吧。",
+      "py": "Wǒmen yíkuàir qù ba.",
+      "en": "Let's go together."
+    },
+    "id": 427,
+    "pos": "Adverb, Noun"
+  },
+  {
+    "hanzi": "应该",
+    "pinyin": "yīnggāi",
+    "pinyin_sort": "yinggai",
+    "meaning": "should, ought to",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "你应该多休息。",
+      "py": "Nǐ yīnggāi duō xiūxi.",
+      "en": "You should rest more."
+    },
+    "id": 428,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "影响",
+    "pinyin": "yǐngxiǎng",
+    "pinyin_sort": "yingxiang",
+    "meaning": "to affect; influence",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "天气影响了我们的计划。",
+      "py": "Tiānqì yǐngxiǎng le wǒmen de jìhuà.",
+      "en": "The weather affected our plans."
+    },
+    "id": 429,
+    "pos": "Verb, Noun"
+  },
+  {
+    "hanzi": "银行",
+    "pinyin": "yínháng",
+    "pinyin_sort": "yinhang",
+    "meaning": "bank",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我去银行取钱。",
+      "py": "Wǒ qù yínháng qǔ qián.",
+      "en": "I went to the bank to withdraw money."
+    },
+    "id": 430,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "银行卡",
+    "pinyin": "yínhángkǎ",
+    "pinyin_sort": "yinhangka",
+    "meaning": "bank card",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我用银行卡付钱。",
+      "py": "Wǒ yòng yínhángkǎ fù qián.",
+      "en": "I pay with my bank card."
+    },
+    "id": 431,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "饮料",
+    "pinyin": "yǐnliào",
+    "pinyin_sort": "yinliao",
+    "meaning": "beverage",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "你想喝什么饮料？",
+      "py": "Nǐ xiǎng hē shénme yǐnliào?",
+      "en": "What beverage would you like to drink?"
+    },
+    "id": 432,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "音乐",
+    "pinyin": "yīnyuè",
+    "pinyin_sort": "yinyue",
+    "meaning": "music",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我很喜欢音乐。",
+      "py": "Wǒ hěn xǐhuan yīnyuè.",
+      "en": "I really like music."
+    },
+    "id": 433,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "以前",
+    "pinyin": "yǐqián",
+    "pinyin_sort": "yiqian",
+    "meaning": "before",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "以前我不喜欢吃蔬菜。",
+      "py": "Yǐqián wǒ bù xǐhuan chī shūcài.",
+      "en": "Before, I didn't like eating vegetables."
+    },
+    "id": 434,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "以上",
+    "pinyin": "yǐshàng",
+    "pinyin_sort": "yishang",
+    "meaning": "above, more than",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "五十岁以上的人请坐。",
+      "py": "Wǔshí suì yǐshàng de rén qǐng zuò.",
+      "en": "People over fifty years old, please sit."
+    },
+    "id": 435,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "以外",
+    "pinyin": "yǐwài",
+    "pinyin_sort": "yiwai",
+    "meaning": "except, besides",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "除了中文以外，我还学英语。",
+      "py": "Chúle Zhōngwén yǐwài, wǒ hái xué Yīngyǔ.",
+      "en": "Besides Chinese, I also study English."
+    },
+    "id": 436,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "以为",
+    "pinyin": "yǐwéi",
+    "pinyin_sort": "yiwei",
+    "meaning": "to think, to believe",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我以为你不来了。",
+      "py": "Wǒ yǐwéi nǐ bù lái le.",
+      "en": "I thought you weren't coming."
+    },
+    "id": 437,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "以下",
+    "pinyin": "yǐxià",
+    "pinyin_sort": "yixia",
+    "meaning": "below, less than",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "十岁以下的孩子免费。",
+      "py": "Shí suì yǐxià de háizi miǎnfèi.",
+      "en": "Children under ten years old are free."
+    },
+    "id": 438,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "一样",
+    "pinyin": "yíyàng",
+    "pinyin_sort": "yiyang",
+    "meaning": "same",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我们俩一样高。",
+      "py": "Wǒmen liǎ yíyàng gāo.",
+      "en": "The two of us are the same height."
+    },
+    "id": 439,
+    "pos": "Particle, Adjective, Adverb"
+  },
+  {
+    "hanzi": "一直",
+    "pinyin": "yìzhí",
+    "pinyin_sort": "yizhi",
+    "meaning": "always, straight",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他一直在等你。",
+      "py": "Tā yìzhí zài děng nǐ.",
+      "en": "He has been waiting for you."
+    },
+    "id": 440,
+    "pos": "Adverb"
+  },
+  {
+    "hanzi": "用",
+    "pinyin": "yòng",
+    "pinyin_sort": "yong",
+    "meaning": "to use",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我用筷子吃饭。",
+      "py": "Wǒ yòng kuàizi chī fàn.",
+      "en": "I eat with chopsticks."
+    },
+    "id": 441,
+    "pos": "Verb, Preposition"
+  },
+  {
+    "hanzi": "又",
+    "pinyin": "yòu",
+    "pinyin_sort": "you",
+    "meaning": "again, also",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他又迟到了。",
+      "py": "Tā yòu chídào le.",
+      "en": "He was late again."
+    },
+    "id": 442,
+    "pos": "Adverb"
+  },
+  {
+    "hanzi": "有关",
+    "pinyin": "yǒuguān",
+    "pinyin_sort": "youguan",
+    "meaning": "to have to do with; concerning",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这件事与你有关。",
+      "py": "Zhè jiàn shì yǔ nǐ yǒuguān.",
+      "en": "This matter concerns you."
+    },
+    "id": 443,
+    "pos": "Verb, Preposition"
+  },
+  {
+    "hanzi": "邮件",
+    "pinyin": "yóujiàn",
+    "pinyin_sort": "youjian",
+    "meaning": "mail",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我收到了一封邮件。",
+      "py": "Wǒ shōudào le yì fēng yóujiàn.",
+      "en": "I received an email."
+    },
+    "id": 444,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "游客",
+    "pinyin": "yóukè",
+    "pinyin_sort": "youke",
+    "meaning": "tourist",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这里有很多游客。",
+      "py": "Zhèlǐ yǒu hěn duō yóukè.",
+      "en": "There are many tourists here."
+    },
+    "id": 445,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "有名",
+    "pinyin": "yǒumíng",
+    "pinyin_sort": "youming",
+    "meaning": "famous",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这家餐厅很有名。",
+      "py": "Zhè jiā cāntīng hěn yǒumíng.",
+      "en": "This restaurant is very famous."
+    },
+    "id": 446,
+    "pos": "Adjective"
+  },
+  {
+    "hanzi": "游戏",
+    "pinyin": "yóuxì",
+    "pinyin_sort": "youxi",
+    "meaning": "game",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他喜欢玩游戏。",
+      "py": "Tā xǐhuan wán yóuxì.",
+      "en": "He likes playing games."
+    },
+    "id": 447,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "邮箱",
+    "pinyin": "yóuxiāng",
+    "pinyin_sort": "youxiang",
+    "meaning": "mailbox",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "请给我你的邮箱地址。",
+      "py": "Qǐng gěi wǒ nǐ de yóuxiāng dìzhǐ.",
+      "en": "Please give me your email address."
+    },
+    "id": 448,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "有用",
+    "pinyin": "yǒuyòng",
+    "pinyin_sort": "youyong",
+    "meaning": "useful",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这本词典很有用。",
+      "py": "Zhè běn cídiǎn hěn yǒuyòng.",
+      "en": "This dictionary is very useful."
+    },
+    "id": 449,
+    "pos": "Adjective, Verb"
+  },
+  {
+    "hanzi": "员",
+    "pinyin": "yuán",
+    "pinyin_sort": "yuan",
+    "meaning": "suffix for person with a certain job",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他是公司的一名员工。",
+      "py": "Tā shì gōngsī de yì míng yuángōng.",
+      "en": "He is an employee of the company."
+    },
+    "id": 450,
+    "pos": "Suffix"
+  },
+  {
+    "hanzi": "园",
+    "pinyin": "yuán",
+    "pinyin_sort": "yuan",
+    "meaning": "garden",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "公园里的花很美。",
+      "py": "Gōngyuán lǐ de huā hěn měi.",
+      "en": "The flowers in the park are very beautiful."
+    },
+    "id": 451,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "愿意",
+    "pinyin": "yuànyì",
+    "pinyin_sort": "yuanyi",
+    "meaning": "willing",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我愿意帮你。",
+      "py": "Wǒ yuànyì bāng nǐ.",
+      "en": "I am willing to help you."
+    },
+    "id": 452,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "遇到",
+    "pinyin": "yùdào",
+    "pinyin_sort": "yudao",
+    "meaning": "to encounter",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我在街上遇到了老朋友。",
+      "py": "Wǒ zài jiē shàng yùdào le lǎo péngyou.",
+      "en": "I ran into an old friend on the street."
+    },
+    "id": 453,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "越",
+    "pinyin": "yuè",
+    "pinyin_sort": "yue",
+    "meaning": "more, increasingly",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "天气越来越冷了。",
+      "py": "Tiānqì yuè lái yuè lěng le.",
+      "en": "The weather is getting colder and colder."
+    },
+    "id": 454,
+    "pos": "Adverb"
+  },
+  {
+    "hanzi": "月亮",
+    "pinyin": "yuèliang",
+    "pinyin_sort": "yueliang",
+    "meaning": "moon",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "今晚月亮很圆。",
+      "py": "Jīn wǎn yuèliang hěn yuán.",
+      "en": "The moon is very round tonight."
+    },
+    "id": 455,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "遇见",
+    "pinyin": "yùjiàn",
+    "pinyin_sort": "yujian",
+    "meaning": "to meet",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我遇见了他的老师。",
+      "py": "Wǒ yùjiàn le tā de lǎoshī.",
+      "en": "I ran into his teacher."
+    },
+    "id": 456,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "羽毛球",
+    "pinyin": "yǔmáoqiú",
+    "pinyin_sort": "yumaoqiu",
+    "meaning": "badminton",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我们去打羽毛球吧。",
+      "py": "Wǒmen qù dǎ yǔmáoqiú ba.",
+      "en": "Let's go play badminton."
+    },
+    "id": 457,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "运动会",
+    "pinyin": "yùndònghuì",
+    "pinyin_sort": "yundonghui",
+    "meaning": "sports meet",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "学校明天有运动会。",
+      "py": "Xuéxiào míngtiān yǒu yùndònghuì.",
+      "en": "The school has a sports meet tomorrow."
+    },
+    "id": 458,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "运动员",
+    "pinyin": "yùndòngyuán",
+    "pinyin_sort": "yundongyuan",
+    "meaning": "athlete",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他是一名运动员。",
+      "py": "Tā shì yì míng yùndòngyuán.",
+      "en": "He is an athlete."
+    },
+    "id": 459,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "语言",
+    "pinyin": "yǔyán",
+    "pinyin_sort": "yuyan",
+    "meaning": "language",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "汉语是一种重要的语言。",
+      "py": "Hànyǔ shì yì zhǒng zhòngyào de yǔyán.",
+      "en": "Chinese is an important language."
+    },
+    "id": 460,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "雨衣",
+    "pinyin": "yǔyī",
+    "pinyin_sort": "yuyi",
+    "meaning": "raincoat",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "今天要穿雨衣出门。",
+      "py": "Jīntiān yào chuān yǔyī chūmén.",
+      "en": "You need to wear a raincoat when going out today."
+    },
+    "id": 461,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "脏",
+    "pinyin": "zāng",
+    "pinyin_sort": "zang",
+    "meaning": "dirty",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这件衣服脏了。",
+      "py": "Zhè jiàn yīfu zāng le.",
+      "en": "This piece of clothing is dirty."
+    },
+    "id": 462,
+    "pos": "Adjective"
+  },
+  {
+    "hanzi": "咱们",
+    "pinyin": "zánmen",
+    "pinyin_sort": "zanmen",
+    "meaning": "we",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "咱们一起去吧。",
+      "py": "Zánmen yìqǐ qù ba.",
+      "en": "Let's go together."
+    },
+    "id": 463,
+    "pos": "Pronoun"
+  },
+  {
+    "hanzi": "怎么办",
+    "pinyin": "zěnme bàn",
+    "pinyin_sort": "zenmeban",
+    "meaning": "what to do",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "手机丢了，怎么办？",
+      "py": "Shǒujī diū le, zěnme bàn?",
+      "en": "My phone is lost, what should I do?"
+    },
+    "id": 464,
+    "pos": "Pronoun, Verb"
+  },
+  {
+    "hanzi": "怎样",
+    "pinyin": "zěnyàng",
+    "pinyin_sort": "zenyang",
+    "meaning": "how",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "你觉得怎样？",
+      "py": "Nǐ juéde zěnyàng?",
+      "en": "How do you feel about it?"
+    },
+    "id": 465,
+    "pos": "Pronoun"
+  },
+  {
+    "hanzi": "站",
+    "pinyin": "zhàn",
+    "pinyin_sort": "zhan",
+    "meaning": "to stand; station",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "请在这里站一下。",
+      "py": "Qǐng zài zhèlǐ zhàn yíxià.",
+      "en": "Please stand here for a moment."
+    },
+    "id": 466,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "张",
+    "pinyin": "zhāng",
+    "pinyin_sort": "zhang",
+    "meaning": "to open; measure word for flat objects",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我买了一张火车票。",
+      "py": "Wǒ mǎi le yì zhāng huǒchē piào.",
+      "en": "I bought a train ticket."
+    },
+    "id": 467,
+    "pos": "Verb, Measure Word"
+  },
+  {
+    "hanzi": "长",
+    "pinyin": "zhǎng",
+    "pinyin_sort": "zhang",
+    "meaning": "to grow; elder, leader, senior",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "一年没见，小男孩长高了不少。",
+      "py": "Yì nián méi jiàn, xiǎo nánhái zhǎng gāo le bù shǎo.",
+      "en": "Having not seen him for a year, the little boy has grown quite a bit taller."
+    },
+    "id": 468,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "照",
+    "pinyin": "zhào",
+    "pinyin_sort": "zhao",
+    "meaning": "to shine, to photograph",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "太阳照在身上很暖和。",
+      "py": "Tàiyáng zhào zài shēn shàng hěn nuǎnhuo.",
+      "en": "The sun shining on you is very warm."
+    },
+    "id": 469,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "照顾",
+    "pinyin": "zhàogù",
+    "pinyin_sort": "zhaogu",
+    "meaning": "to take care of",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "妈妈照顾生病的孩子。",
+      "py": "Māma zhàogù shēngbìng de háizi.",
+      "en": "Mom takes care of the sick child."
+    },
+    "id": 470,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "着急",
+    "pinyin": "zháojí",
+    "pinyin_sort": "zhaoji",
+    "meaning": "anxious",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "别着急，慢慢说。",
+      "py": "Bié zháojí, mànman shuō.",
+      "en": "Don't be anxious, speak slowly."
+    },
+    "id": 471,
+    "pos": "Adjective"
+  },
+  {
+    "hanzi": "照片",
+    "pinyin": "zhàopiàn",
+    "pinyin_sort": "zhaopian",
+    "meaning": "photo",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这张照片很好看。",
+      "py": "Zhè zhāng zhàopiàn hěn hǎokàn.",
+      "en": "This photo looks very nice."
+    },
+    "id": 472,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "照相",
+    "pinyin": "zhàoxiàng",
+    "pinyin_sort": "zhaoxiang",
+    "meaning": "to take a picture",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我们来照相吧。",
+      "py": "Wǒmen lái zhàoxiàng ba.",
+      "en": "Let's take a picture."
+    },
+    "id": 473,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "只",
+    "pinyin": "zhǐ",
+    "pinyin_sort": "zhi",
+    "meaning": "only, merely, just",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我只有一个哥哥，没有姐姐。",
+      "py": "Wǒ zhǐ yǒu yí gè gēge, méiyǒu jiějie.",
+      "en": "I only have one older brother; I do not have an older sister."
+    },
+    "id": 474,
+    "pos": "Adverb"
+  },
+  {
+    "hanzi": "纸",
+    "pinyin": "zhǐ",
+    "pinyin_sort": "zhi",
+    "meaning": "paper",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "请给我一张纸。",
+      "py": "Qǐng gěi wǒ yì zhāng zhǐ.",
+      "en": "Please give me a piece of paper."
+    },
+    "id": 475,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "直到",
+    "pinyin": "zhídào",
+    "pinyin_sort": "zhidao",
+    "meaning": "until",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他学习直到很晚。",
+      "py": "Tā xuéxí zhídào hěn wǎn.",
+      "en": "He studied until very late."
+    },
+    "id": 476,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "只能",
+    "pinyin": "zhǐ néng",
+    "pinyin_sort": "zhineng",
+    "meaning": "can only",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我只能等你了。",
+      "py": "Wǒ zhǐ néng děng nǐ le.",
+      "en": "I can only wait for you."
+    },
+    "id": 477,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "只是",
+    "pinyin": "zhǐshì",
+    "pinyin_sort": "zhishi",
+    "meaning": "only, merely; but",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他只是开个玩笑。",
+      "py": "Tā zhǐshì kāi gè wánxiào.",
+      "en": "He was only joking."
+    },
+    "id": 478,
+    "pos": "Adverb, Conjunction"
+  },
+  {
+    "hanzi": "只要",
+    "pinyin": "zhǐyào",
+    "pinyin_sort": "zhiyao",
+    "meaning": "as long as",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "只要努力，就会成功。",
+      "py": "Zhǐyào nǔlì, jiù huì chénggōng.",
+      "en": "As long as you work hard, you will succeed."
+    },
+    "id": 479,
+    "pos": "Conjunction"
+  },
+  {
+    "hanzi": "只有",
+    "pinyin": "zhǐyǒu",
+    "pinyin_sort": "zhiyou",
+    "meaning": "only if",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "只有你能帮我。",
+      "py": "Zhǐyǒu nǐ néng bāng wǒ.",
+      "en": "Only you can help me."
+    },
+    "id": 480,
+    "pos": "Conjunction"
+  },
+  {
+    "hanzi": "中",
+    "pinyin": "zhōng",
+    "pinyin_sort": "zhong",
+    "meaning": "middle; in, among; China",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我们中间有三个人是老师。",
+      "py": "Wǒmen zhōngjiān yǒu sān gè rén shì lǎoshī.",
+      "en": "Among us, three people are teachers."
+    },
+    "id": 481,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "种",
+    "pinyin": "zhǒng",
+    "pinyin_sort": "zhong",
+    "meaning": "kind, type, sort; seed",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这家超市里有许多种新鲜的水果。",
+      "py": "Zhè jiā chāoshì lǐ yǒu xǔduō zhǒng xīnxiān de shuǐguǒ.",
+      "en": "There are many kinds of fresh fruit in this supermarket."
+    },
+    "id": 482,
+    "pos": "Noun, Measure Word"
+  },
+  {
+    "hanzi": "中间",
+    "pinyin": "zhōngjiān",
+    "pinyin_sort": "zhongjian",
+    "meaning": "middle, between",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "桌子中间有一朵花。",
+      "py": "Zhuōzi zhōngjiān yǒu yì duǒ huā.",
+      "en": "There is a flower in the middle of the table."
+    },
+    "id": 483,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "重要",
+    "pinyin": "zhòngyào",
+    "pinyin_sort": "zhongyao",
+    "meaning": "important",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "健康是最重要的。",
+      "py": "Jiànkāng shì zuì zhòngyào de.",
+      "en": "Health is the most important."
+    },
+    "id": 484,
+    "pos": "Adjective"
+  },
+  {
+    "hanzi": "终于",
+    "pinyin": "zhōngyú",
+    "pinyin_sort": "zhongyu",
+    "meaning": "finally",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他终于回来了。",
+      "py": "Tā zhōngyú huílái le.",
+      "en": "He finally came back."
+    },
+    "id": 485,
+    "pos": "Adverb"
+  },
+  {
+    "hanzi": "周末",
+    "pinyin": "zhōumò",
+    "pinyin_sort": "zhoumo",
+    "meaning": "weekend",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "周末我想出去玩。",
+      "py": "Zhōumò wǒ xiǎng chūqù wán.",
+      "en": "I want to go out and have fun on the weekend."
+    },
+    "id": 486,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "主要",
+    "pinyin": "zhǔyào",
+    "pinyin_sort": "zhuyao",
+    "meaning": "main",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "这是主要问题。",
+      "py": "Zhè shì zhǔyào wèntí.",
+      "en": "This is the main issue."
+    },
+    "id": 487,
+    "pos": "Adjective"
+  },
+  {
+    "hanzi": "注意",
+    "pinyin": "zhùyì",
+    "pinyin_sort": "zhuyi",
+    "meaning": "to pay attention to",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "过马路要注意安全。",
+      "py": "Guò mǎlù yào zhùyì ānquán.",
+      "en": "Pay attention to safety when crossing the road."
+    },
+    "id": 488,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "住院",
+    "pinyin": "zhùyuàn",
+    "pinyin_sort": "zhuyuan",
+    "meaning": "to be hospitalized",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他住院了三天。",
+      "py": "Tā zhùyuàn le sān tiān.",
+      "en": "He was hospitalized for three days."
+    },
+    "id": 489,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "子",
+    "pinyin": "zi",
+    "pinyin_sort": "zi",
+    "meaning": "noun suffix",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "桌子上有一本书。",
+      "py": "Zhuōzi shàng yǒu yì běn shū.",
+      "en": "There is a book on the table."
+    },
+    "id": 490,
+    "pos": "Measure Word"
+  },
+  {
+    "hanzi": "字典",
+    "pinyin": "zìdiǎn",
+    "pinyin_sort": "zidian",
+    "meaning": "dictionary",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我买了一本新字典。",
+      "py": "Wǒ mǎi le yì běn xīn zìdiǎn.",
+      "en": "I bought a new dictionary."
+    },
+    "id": 491,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "自行车",
+    "pinyin": "zìxíngchē",
+    "pinyin_sort": "zixingche",
+    "meaning": "bicycle",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我每天骑自行车上班。",
+      "py": "Wǒ měitiān qí zìxíngchē shàngbān.",
+      "en": "I ride a bicycle to work every day."
+    },
+    "id": 492,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "总",
+    "pinyin": "zǒng",
+    "pinyin_sort": "zong",
+    "meaning": "always, invariably; (to sum up, to assemble; total, overall)",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他总是迟到。",
+      "py": "Tā zǒng shì chídào.",
+      "en": "He is always late."
+    },
+    "id": 493,
+    "pos": "Adverb, Verb, Adjective"
+  },
+  {
+    "hanzi": "总是",
+    "pinyin": "zǒngshì",
+    "pinyin_sort": "zongshi",
+    "meaning": "always",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "她总是笑着。",
+      "py": "Tā zǒngshì xiào zhe.",
+      "en": "She is always smiling."
+    },
+    "id": 494,
+    "pos": "Adverb"
+  },
+  {
+    "hanzi": "嘴",
+    "pinyin": "zuǐ",
+    "pinyin_sort": "zui",
+    "meaning": "mouth",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "他的嘴很大。",
+      "py": "Tā de zuǐ hěn dà.",
+      "en": "He has a big mouth."
+    },
+    "id": 495,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "最好",
+    "pinyin": "zuìhǎo",
+    "pinyin_sort": "zuihao",
+    "meaning": "best",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "你最好早点来。",
+      "py": "Nǐ zuìhǎo zǎo diǎn lái.",
+      "en": "You had better come early."
+    },
+    "id": 496,
+    "pos": "Adverb"
+  },
+  {
+    "hanzi": "最后",
+    "pinyin": "zuìhòu",
+    "pinyin_sort": "zuihou",
+    "meaning": "last, final",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "最后他赢了。",
+      "py": "Zuìhòu tā yíng le.",
+      "en": "In the end he won."
+    },
+    "id": 497,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "最近",
+    "pinyin": "zuìjìn",
+    "pinyin_sort": "zuijin",
+    "meaning": "recently",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "最近你忙吗？",
+      "py": "Zuìjìn nǐ máng ma?",
+      "en": "Have you been busy recently?"
+    },
+    "id": 498,
+    "pos": "Noun"
+  },
+  {
+    "hanzi": "做客",
+    "pinyin": "zuòkè",
+    "pinyin_sort": "zuoke",
+    "meaning": "to be a guest",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "我去朋友家做客。",
+      "py": "Wǒ qù péngyou jiā zuòkè.",
+      "en": "I went to be a guest at my friend's home."
+    },
+    "id": 499,
+    "pos": "Verb"
+  },
+  {
+    "hanzi": "作业",
+    "pinyin": "zuòyè",
+    "pinyin_sort": "zuoye",
+    "meaning": "homework",
+    "version": "3.0",
+    "level": 3,
+    "example": {
+      "zh": "老师给了很多作业。",
+      "py": "Lǎoshī gěi le hěn duō zuòyè.",
+      "en": "The teacher gave a lot of homework."
+    },
+    "id": 500,
+    "pos": "Noun"
+  }
+]
