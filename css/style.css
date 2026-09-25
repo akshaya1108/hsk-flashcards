@@ -69,11 +69,12 @@ html, body {
   -webkit-user-select: none;
   user-select: none;
   font-family: 'Manrope', -apple-system, BlinkMacSystemFont, "SF Pro Rounded", "SF Pro Display", sans-serif;
-  background-color: var(--bg-primary);
+  background-color: var(--bg-header);
   color: var(--text-main);
   line-height: 1.4;
   display: flex;
   justify-content: center;
+  transition: background-color 0.4s ease;
 }
 
 input, button, select, textarea {
@@ -98,6 +99,9 @@ input, button, select, textarea {
    HEADER & TOP BARS
    ======================================================== */
 .app-header {
+  position: sticky;
+  top: 0;
+  z-index: 30;
   padding-top: calc(var(--safe-top) + 12px);
   padding-left: 18px;
   padding-right: 18px;
@@ -462,8 +466,8 @@ input, button, select, textarea {
   padding-left: 18px;
   padding-right: 18px;
   padding-bottom: 12px;
-  background: var(--bg-primary);
-  border-bottom: 1px solid var(--border-color);
+  background: var(--bg-header);
+  border-bottom: none;
   flex-shrink: 0;
 }
 
@@ -2208,6 +2212,9 @@ input, button, select, textarea {
 }
 
 .page-modal-header {
+  position: sticky;
+  top: 0;
+  z-index: 30;
   display: flex;
   align-items: center;
   justify-content: center;

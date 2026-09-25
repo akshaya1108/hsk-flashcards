@@ -26,6 +26,25 @@ const App = {
       dismissed = true;
       splash.classList.add('splash-fade-out');
 
+      // Seamlessly transition status bar, html, and body background to warm yellow (#FBDF98)
+      try {
+        document.documentElement.style.backgroundColor = '#FBDF98';
+        document.body.style.backgroundColor = '#FBDF98';
+
+        const splashStyle = document.getElementById('splash-theme-style');
+        if (splashStyle) {
+          splashStyle.textContent = 'html, body { background-color: #FBDF98 !important; }';
+        }
+
+        document.querySelectorAll('meta[name="theme-color"]').forEach(m => m.remove());
+        const meta = document.createElement('meta');
+        meta.name = 'theme-color';
+        meta.content = '#FBDF98';
+        document.head.appendChild(meta);
+      } catch (e) {
+        console.warn('Error transitioning theme-color:', e);
+      }
+
       setTimeout(() => {
         splash.style.display = 'none';
         if (splash.parentNode) splash.parentNode.removeChild(splash);
