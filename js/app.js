@@ -1730,7 +1730,7 @@ const App = {
     const container = document.getElementById('flashcard-arena');
     if (!container) return;
 
-    const { card, index, total, isRevealed, isReviewRound, cardFace, batchNumber, incorrectCount, canGoPrev, canGoNext, previousAnswer } = data;
+    const { card, index, total, isRevealed, isReviewRound, cardFace, batchNumber, incorrectCount, canGoPrev, canGoNext, previousAnswer, isSessionInitialCard } = data;
     if (!card) return;
 
     const isRem = DeckManager.isRemembered(card.hanzi);
@@ -1830,6 +1830,27 @@ const App = {
               ${versions.length > 1 ? `
                 <div class="front-poly-indicator">
                   <span class="poly-badge">多音字 · ${versions.length} readings</span>
+                </div>
+              ` : ''}
+              ${isSessionInitialCard ? `
+                <div class="first-card-hints">
+                  <div class="hint-tap-row">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path>
+                    </svg>
+                    <span>Tap to reveal</span>
+                  </div>
+                  <div class="hint-swipe-row">
+                    <span class="hint-swipe-side hint-swipe-left">
+                      <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                      Swipe if incorrect
+                    </span>
+                    <span class="hint-separator">·</span>
+                    <span class="hint-swipe-side hint-swipe-right">
+                      Swipe if correct
+                      <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </span>
+                  </div>
                 </div>
               ` : ''}
             </div>

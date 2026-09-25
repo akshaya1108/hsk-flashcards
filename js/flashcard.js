@@ -30,7 +30,8 @@ const FlashcardEngine = {
     maxEncounteredIndex: 0,      // Furthest card index reached in current round
     cardAnswers: {},             // Map of cardKey -> boolean (latest swipe answer)
     isCardRevealed: false,
-    sessionComplete: false
+    sessionComplete: false,
+    isSessionInitialCard: false
   },
 
   // Gesture handling state
@@ -86,6 +87,7 @@ const FlashcardEngine = {
     this.state.sessionComplete = false;
     this.state.cardAnswers = {};
     this.state.maxEncounteredIndex = 0;
+    this.state.isSessionInitialCard = true;
 
     this.loadNextBatch();
     this.saveSessionToStorage();
@@ -250,6 +252,7 @@ const FlashcardEngine = {
 
   goToPrevCard() {
     if (!this.canGoPrev()) return;
+    this.state.isSessionInitialCard = false;
     this.state.currentIndex--;
     this.state.isCardRevealed = false;
     this.saveSessionToStorage();
@@ -258,6 +261,7 @@ const FlashcardEngine = {
 
   goToNextCard() {
     if (!this.canGoNext()) return;
+    this.state.isSessionInitialCard = false;
     this.state.currentIndex++;
     this.state.isCardRevealed = false;
     this.saveSessionToStorage();
@@ -278,6 +282,7 @@ const FlashcardEngine = {
     const card = this.getCurrentCard();
     if (!card) return;
 
+    this.state.isSessionInitialCard = false;
     const currentKey = this.getCardKey(card);
     this.state.cardAnswers[currentKey] = isCorrect;
 
@@ -402,7 +407,8 @@ const FlashcardEngine = {
       ...saved.state,
       maxEncounteredIndex: saved.state.maxEncounteredIndex !== undefined ? saved.state.maxEncounteredIndex : (saved.state.currentIndex || 0),
       cardAnswers: saved.state.cardAnswers || {},
-      isCardRevealed: false
+      isCardRevealed: false,
+      isSessionInitialCard: true
     };
 
     // Re-hydrate session cards from latest fresh database to purge any stale/old sentences
@@ -468,7 +474,8 @@ const FlashcardEngine = {
         incorrectCount: this.state.incorrectWords.length,
         canGoPrev: this.canGoPrev(),
         canGoNext: this.canGoNext(),
-        previousAnswer: previousAnswer
+        previousAnswer: previousAnswer,
+        isSessionInitialCard: !!this.state.isSessionInitialCard
       });
     }
   },

@@ -1193,6 +1193,76 @@ html, body {
   margin-top: auto;
 }
 
+/* Translucent Initial Card Guide Hints */
+.first-card-hints {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  margin-top: auto;
+  padding-bottom: 12px;
+  pointer-events: none;
+  user-select: none;
+  opacity: 0.72;
+  animation: deckFadeIn 0.25s ease-out;
+}
+
+.hint-tap-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11.5px;
+  font-weight: 500;
+  color: var(--text-light);
+  background: rgba(0, 0, 0, 0.04);
+  padding: 3px 10px;
+  border-radius: var(--radius-full);
+  letter-spacing: 0.1px;
+}
+
+[data-theme="dark"] .hint-tap-row {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.hint-swipe-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text-light);
+  white-space: nowrap;
+}
+
+.hint-swipe-side {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.hint-swipe-left {
+  color: #B5534D;
+  opacity: 0.88;
+}
+
+.hint-swipe-right {
+  color: #2D6A4F;
+  opacity: 0.88;
+}
+
+[data-theme="dark"] .hint-swipe-left {
+  color: #E27B75;
+}
+
+[data-theme="dark"] .hint-swipe-right {
+  color: #68B088;
+}
+
+.hint-separator {
+  opacity: 0.35;
+}
+
 .tap-to-hide-hint {
   display: flex;
   align-items: center;
