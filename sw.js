@@ -1,4 +1,4 @@
-const CACHE_NAME = 'hsk-flashcards-v56';
+const CACHE_NAME = 'hsk-flashcards-v57';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',

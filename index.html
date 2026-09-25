@@ -9,7 +9,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="学汉语">
-  <meta name="theme-color" content="#FBDF98">
+  <meta name="theme-color" content="#B5DDDC">
   
   <!-- Icons & Manifest -->
   <link rel="manifest" href="./manifest.json">
@@ -21,41 +21,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-  <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.getRegistrations().then(function(regs) {
-        for (var i = 0; i < regs.length; i++) {
-          regs[i].update();
-        }
-      });
-    }
-  </script>
-
   <!-- Critical Inline Splash Styles to guarantee zero flash of white on cold launch -->
   <style>
-    html, body {
-      background-color: #FBDF98 !important;
-    }
-    .ios-notch-bar {
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      width: 100vw;
-      height: max(env(safe-area-inset-top, 0px), 24px);
-      background-color: #FBDF98;
-      z-index: 1000000;
-      pointer-events: none;
-    }
     .app-splash {
       position: fixed;
-      top: max(env(safe-area-inset-top, 0px), 0px);
-      left: 0;
-      right: 0;
-      bottom: 0;
+      inset: 0;
       width: 100vw;
-      height: calc(100vh - max(env(safe-area-inset-top, 0px), 0px));
-      height: calc(100dvh - max(env(safe-area-inset-top, 0px), 0px));
+      height: 100vh;
+      height: 100dvh;
       background-color: #B5DDDC;
       z-index: 999999;
       display: flex;
@@ -75,12 +48,9 @@
   </style>
 
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="./css/style.css?v=56">
+  <link rel="stylesheet" href="./css/style.css?v=57">
 </head>
 <body>
-
-  <!-- Notch Bar to lock iOS status bar permanently in yellow -->
-  <div class="ios-notch-bar" aria-hidden="true"></div>
 
   <!-- App Intro / Loading Splash Screen (Shows for 3s on open/refresh) -->
   <div id="app-splash" class="app-splash" aria-hidden="true">
@@ -422,11 +392,11 @@
   </div>
 
   <!-- Scripts -->
-  <script src="./js/icons.js?v=56"></script>
-  <script src="./js/speech.js?v=56"></script>
-  <script src="./js/sync.js?v=56"></script>
-  <script src="./js/deck-manager.js?v=56"></script>
-  <script src="./js/flashcard.js?v=56"></script>
-  <script src="./js/app.js?v=56"></script>
+  <script src="./js/icons.js?v=57"></script>
+  <script src="./js/speech.js?v=57"></script>
+  <script src="./js/sync.js?v=57"></script>
+  <script src="./js/deck-manager.js?v=57"></script>
+  <script src="./js/flashcard.js?v=57"></script>
+  <script src="./js/app.js?v=57"></script>
 </body>
 </html>

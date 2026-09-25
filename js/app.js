@@ -16,38 +16,14 @@ const App = {
   ignoreNextClick: false,
   _toastTimer: null,
 
-  setThemeColor(color = '#FBDF98') {
-    try {
-      // Remove all existing theme-color meta tags to force WebKit mutation observer
-      document.querySelectorAll('meta[name="theme-color"]').forEach(m => m.remove());
-
-      // Create and append fresh meta tag
-      const meta = document.createElement('meta');
-      meta.name = 'theme-color';
-      meta.content = '#FBDF98';
-      document.head.appendChild(meta);
-
-      // Keep root element background in sync with yellow header
-      document.documentElement.style.backgroundColor = '#FBDF98';
-      if (document.body) document.body.style.backgroundColor = '#FBDF98';
-    } catch (e) {
-      console.warn('setThemeColor error:', e);
-    }
-  },
-
   initSplashScreen() {
     const splash = document.getElementById('app-splash');
     if (!splash) return;
-
-    // Maintain header yellow (#FBDF98) so iOS status bar is consistently yellow
-    this.setThemeColor('#FBDF98');
 
     let dismissed = false;
     const dismissSplash = () => {
       if (dismissed) return;
       dismissed = true;
-
-      this.setThemeColor('#FBDF98');
       splash.classList.add('splash-fade-out');
 
       setTimeout(() => {
@@ -227,7 +203,7 @@ const App = {
 
   registerServiceWorker() {
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('./sw.js?v=56').catch(err => {
+      navigator.serviceWorker.register('./sw.js?v=57').catch(err => {
         console.log('SW registration note:', err);
       });
     }
