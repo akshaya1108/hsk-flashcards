@@ -5,6 +5,7 @@
 const App = {
   activeTab: 'list', // 'list' | 'flashcard' | 'custom'
   selectedDeckId: 'all_words',
+  includePreviousLevels: false,
   currentDeckWords: [],
   filteredDeckWords: [],
   searchQuery: '',
@@ -17,6 +18,18 @@ const App = {
 
   async init() {
     try {
+      try {
+        const savedInc = localStorage.getItem('hsk_include_prev_levels');
+        if (savedInc !== null) {
+          this.includePreviousLevels = (savedInc === 'true');
+        }
+      } catch (e) {}
+
+      if (this.selectedDeckId && this.selectedDeckId.endsWith('_cum')) {
+        this.includePreviousLevels = true;
+        this.selectedDeckId = DeckManager.getBaseDeckId(this.selectedDeckId);
+      }
+
       this.bindEvents();
       this.bindAlphabetScrubberEvents();
       this.renderTabs();
@@ -206,8 +219,22 @@ const App = {
     const deckSelect = document.getElementById('deck-select');
     if (deckSelect) {
       deckSelect.addEventListener('change', async (e) => {
-        this.selectedDeckId = e.target.value;
+        this.selectedDeckId = DeckManager.getBaseDeckId(e.target.value);
+        this.renderDeckSelector();
         this.clearSearch(false);
+        await this.loadDeck(this.selectedDeckId);
+      });
+    }
+
+    // Cumulative level toggle in List View
+    const listCumulativeToggle = document.getElementById('list-cumulative-toggle');
+    if (listCumulativeToggle) {
+      listCumulativeToggle.addEventListener('change', async (e) => {
+        this.includePreviousLevels = e.target.checked;
+        try {
+          localStorage.setItem('hsk_include_prev_levels', this.includePreviousLevels ? 'true' : 'false');
+        } catch (err) {}
+        this.renderDeckSelector();
         await this.loadDeck(this.selectedDeckId);
       });
     }
@@ -329,8 +356,9 @@ const App = {
     if (tabCustom) tabCustom.innerHTML = `${Icons.star(22)}<span>Decks</span>`;
   },
 
-  renderDeckOptionsHTML(selectedId) {
-    const options = DeckManager.getAllDeckOptions();
+  renderDeckOptionsHTML(selectedId, includePreviousLevels = false) {
+    const options = DeckManager.getBaseDeckOptions();
+    const baseSelectedId = DeckManager.getBaseDeckId(selectedId);
     const groups = {};
     options.forEach(opt => {
       const grp = opt.group || 'Other';
@@ -338,25 +366,57 @@ const App = {
       groups[grp].push(opt);
     });
 
+    const isCumulative = Boolean(includePreviousLevels);
+
     return Object.keys(groups).map(grpName => {
       const opts = groups[grpName].map(opt => {
-        return `<option value="${opt.id}" ${opt.id === selectedId ? 'selected' : ''}>${opt.label}</option>`;
+        let label = opt.label;
+        if (isCumulative && DeckManager.isCumulativeEligible(opt.id)) {
+          const cumDef = DeckManager.DECK_DEFINITIONS.find(d => d.id === `${opt.id}_cum`);
+          if (cumDef) {
+            label = cumDef.label;
+          }
+        }
+        const isSelected = (opt.id === baseSelectedId);
+        return `<option value="${opt.id}" ${isSelected ? 'selected' : ''}>${label}</option>`;
       }).join('');
       return `<optgroup label="${grpName}">${opts}</optgroup>`;
     }).join('');
   },
 
+  updateListCumulativeToggleVisibility() {
+    const toggleWrap = document.getElementById('list-cumulative-toggle-wrap');
+    const toggleInput = document.getElementById('list-cumulative-toggle');
+    if (!toggleWrap || !toggleInput) return;
+
+    const baseId = DeckManager.getBaseDeckId(this.selectedDeckId);
+    const isEligible = DeckManager.isCumulativeEligible(baseId);
+    if (isEligible) {
+      toggleWrap.style.display = 'flex';
+      toggleInput.checked = Boolean(this.includePreviousLevels);
+    } else {
+      toggleWrap.style.display = 'none';
+    }
+  },
+
   renderDeckSelector() {
     const deckSelect = document.getElementById('deck-select');
     if (!deckSelect) return;
-    deckSelect.innerHTML = this.renderDeckOptionsHTML(this.selectedDeckId);
+    const baseId = DeckManager.getBaseDeckId(this.selectedDeckId);
+    deckSelect.innerHTML = this.renderDeckOptionsHTML(baseId, this.includePreviousLevels);
+    deckSelect.value = baseId;
+    this.updateListCumulativeToggleVisibility();
   },
 
   async loadDeck(deckId) {
+    const baseId = DeckManager.getBaseDeckId(deckId);
+    this.selectedDeckId = baseId;
+    const effectiveDeckId = DeckManager.getEffectiveDeckId(baseId, this.includePreviousLevels);
+
     this.clearSearch(false);
     this.showListLoading(true);
     this.renderLimit = 80;
-    this.currentDeckWords = await DeckManager.getDeckWords(deckId);
+    this.currentDeckWords = await DeckManager.getDeckWords(effectiveDeckId);
     this.showListLoading(false);
 
     // Update count badge
@@ -366,6 +426,7 @@ const App = {
     }
 
     this.filterAndRenderList();
+    this.updateListCumulativeToggleVisibility();
   },
 
   clearSearch(reRender = true) {
@@ -1538,9 +1599,12 @@ const App = {
 
     modal.querySelector('#btn-resume-session').onclick = async () => {
       modal.classList.remove('visible');
-      this.selectedDeckId = saved.config.deckId;
-      const mainSelect = document.getElementById('deck-select');
-      if (mainSelect) mainSelect.value = saved.config.deckId;
+      const baseId = DeckManager.getBaseDeckId(saved.config.deckId);
+      this.selectedDeckId = baseId;
+      if (saved.config.deckId && saved.config.deckId.endsWith('_cum')) {
+        this.includePreviousLevels = true;
+      }
+      this.renderDeckSelector();
 
       this.switchTab('flashcard');
       const container = document.getElementById('flashcard-arena');
@@ -1597,12 +1661,31 @@ const App = {
   },
 
   // --- Flashcard Study Setup Modal ---
-  openStudySetupModal() {
+  openStudySetupModal(preferredDeckId = null) {
     const modal = document.getElementById('study-setup-modal');
     if (!modal) return;
 
+    const initialBaseDeckId = DeckManager.getBaseDeckId(preferredDeckId || this.selectedDeckId);
+    let modalIncludePrevious = this.includePreviousLevels;
+
     const deckSelect = modal.querySelector('#setup-deck-select');
-    deckSelect.innerHTML = this.renderDeckOptionsHTML(this.selectedDeckId);
+    const toggleWrap = modal.querySelector('#setup-cumulative-toggle-wrap');
+    const toggleInput = modal.querySelector('#setup-cumulative-toggle');
+
+    const updateModalDeckDisplay = () => {
+      const currentVal = DeckManager.getBaseDeckId(deckSelect.value || initialBaseDeckId);
+      const isEligible = DeckManager.isCumulativeEligible(currentVal);
+      if (isEligible) {
+        if (toggleWrap) toggleWrap.style.display = 'flex';
+        if (toggleInput) toggleInput.checked = Boolean(modalIncludePrevious);
+      } else {
+        if (toggleWrap) toggleWrap.style.display = 'none';
+      }
+      deckSelect.innerHTML = this.renderDeckOptionsHTML(currentVal, modalIncludePrevious);
+      deckSelect.value = currentVal;
+    };
+
+    updateModalDeckDisplay();
 
     // Pre-populate range inputs based on current deck count
     const rangeStart = modal.querySelector('#range-start');
@@ -1610,8 +1693,9 @@ const App = {
     const rangeHint = modal.querySelector('#range-preview-hint');
 
     const updateDeckRangeDefaults = async () => {
-      const chosenDeck = deckSelect.value;
-      const words = await DeckManager.getDeckWords(chosenDeck);
+      const chosenDeck = DeckManager.getBaseDeckId(deckSelect.value);
+      const effectiveId = DeckManager.getEffectiveDeckId(chosenDeck, modalIncludePrevious);
+      const words = await DeckManager.getDeckWords(effectiveId);
       rangeEnd.placeholder = `${words.length} (End of deck)`;
       updateRangePreview();
     };
@@ -1626,8 +1710,17 @@ const App = {
     };
 
     deckSelect.onchange = () => {
+      updateModalDeckDisplay();
       updateDeckRangeDefaults();
     };
+
+    if (toggleInput) {
+      toggleInput.onchange = () => {
+        modalIncludePrevious = toggleInput.checked;
+        updateModalDeckDisplay();
+        updateDeckRangeDefaults();
+      };
+    }
 
     rangeStart.oninput = updateRangePreview;
     rangeEnd.oninput = updateRangePreview;
@@ -1656,10 +1749,20 @@ const App = {
     };
 
     modal.querySelector('#btn-launch-study').onclick = async () => {
-      const deckId = deckSelect.value;
-      this.selectedDeckId = deckId;
-      const mainSelect = document.getElementById('deck-select');
-      if (mainSelect) mainSelect.value = deckId;
+      const chosenBaseId = DeckManager.getBaseDeckId(deckSelect.value);
+      const isEligible = DeckManager.isCumulativeEligible(chosenBaseId);
+      const includePrev = isEligible ? Boolean(toggleInput && toggleInput.checked) : false;
+
+      if (isEligible) {
+        this.includePreviousLevels = includePrev;
+        try {
+          localStorage.setItem('hsk_include_prev_levels', this.includePreviousLevels ? 'true' : 'false');
+        } catch {}
+      }
+
+      const effectiveDeckId = DeckManager.getEffectiveDeckId(chosenBaseId, includePrev);
+      this.selectedDeckId = chosenBaseId;
+      this.renderDeckSelector();
 
       const sizeBtn = modal.querySelector('.btn-pill-size.active');
       let size = 25;
@@ -1678,7 +1781,7 @@ const App = {
 
       modal.classList.remove('visible');
       await this.startFlashcardSession({
-        deckId,
+        deckId: effectiveDeckId,
         subdeckSize: size,
         pullOrder,
         subdeckOrder,
@@ -1690,9 +1793,10 @@ const App = {
   },
 
   async startFlashcardSession(settings) {
-    this.selectedDeckId = settings.deckId;
+    const baseId = DeckManager.getBaseDeckId(settings.deckId);
+    this.selectedDeckId = baseId;
     const mainSelect = document.getElementById('deck-select');
-    if (mainSelect) mainSelect.value = settings.deckId;
+    if (mainSelect) mainSelect.value = baseId;
 
     this.switchTab('flashcard');
     const container = document.getElementById('flashcard-arena');
@@ -1711,7 +1815,7 @@ const App = {
       return;
     }
 
-    const deckDef = DeckManager.getAllDeckOptions().find(d => d.id === settings.deckId);
+    const deckDef = DeckManager.getDeckDef(settings.deckId);
     FlashcardEngine.init({
       ...settings,
       deckLabel: deckDef ? deckDef.label : 'Deck'
@@ -2296,7 +2400,7 @@ const App = {
         if (saved && saved.config && saved.config.deckId === deckId) {
           this.openResumeOrNewModal(saved);
         } else {
-          this.openStudySetupModal();
+          this.openStudySetupModal(deckId);
         }
       };
     });

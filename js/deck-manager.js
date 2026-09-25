@@ -15,7 +15,7 @@ const DeckManager = {
   async loadPolyphones() {
     if (this.polyphoneMap) return this.polyphoneMap;
     try {
-      const res = await fetch('./data/polyphones.json?v=43');
+      const res = await fetch('./data/polyphones.json?v=44');
       if (res.ok) {
         this.polyphoneMap = await res.json();
       }
@@ -31,7 +31,7 @@ const DeckManager = {
   async loadLevelIndex() {
     if (this.levelIndex) return this.levelIndex;
     try {
-      const res = await fetch('./data/hsk_level_index.json?v=43');
+      const res = await fetch('./data/hsk_level_index.json?v=44');
       if (res.ok) {
         this.levelIndex = await res.json();
       }
@@ -127,30 +127,30 @@ const DeckManager = {
     { id: 'all_words', label: 'All Words', version: '3.0', levels: [1, 2, 3, 4, 5, 6], group: 'Master Vocabulary', isMaster: true },
 
     // --- HSK 3.0 (New Standard) ---
-    { id: 'hsk3_1', label: 'HSK 3.0 - Band 1', version: '3.0', levels: [1], group: 'HSK 3.0 (New Standard)' },
-    { id: 'hsk3_2', label: 'HSK 3.0 - Band 2', version: '3.0', levels: [2], group: 'HSK 3.0 (New Standard)' },
-    { id: 'hsk3_2_cum', label: 'HSK 3.0 - Band 2 (including Bands 1-2)', version: '3.0', levels: [1, 2], group: 'HSK 3.0 (New Standard)' },
-    { id: 'hsk3_3', label: 'HSK 3.0 - Band 3', version: '3.0', levels: [3], group: 'HSK 3.0 (New Standard)' },
-    { id: 'hsk3_3_cum', label: 'HSK 3.0 - Band 3 (including Bands 1-3)', version: '3.0', levels: [1, 2, 3], group: 'HSK 3.0 (New Standard)' },
-    { id: 'hsk3_4', label: 'HSK 3.0 - Band 4', version: '3.0', levels: [4], group: 'HSK 3.0 (New Standard)' },
-    { id: 'hsk3_4_cum', label: 'HSK 3.0 - Band 4 (including Bands 1-4)', version: '3.0', levels: [1, 2, 3, 4], group: 'HSK 3.0 (New Standard)' },
-    { id: 'hsk3_5', label: 'HSK 3.0 - Band 5', version: '3.0', levels: [5], group: 'HSK 3.0 (New Standard)' },
-    { id: 'hsk3_5_cum', label: 'HSK 3.0 - Band 5 (including Bands 1-5)', version: '3.0', levels: [1, 2, 3, 4, 5], group: 'HSK 3.0 (New Standard)' },
-    { id: 'hsk3_6', label: 'HSK 3.0 - Band 6', version: '3.0', levels: [6], group: 'HSK 3.0 (New Standard)' },
-    { id: 'hsk3_6_cum', label: 'HSK 3.0 - Band 6 (including Bands 1-6)', version: '3.0', levels: [1, 2, 3, 4, 5, 6], group: 'HSK 3.0 (New Standard)' },
+    { id: 'hsk3_1', label: 'Band 1', version: '3.0', levels: [1], group: 'HSK 3.0 (New Standard)' },
+    { id: 'hsk3_2', label: 'Band 2', version: '3.0', levels: [2], group: 'HSK 3.0 (New Standard)' },
+    { id: 'hsk3_2_cum', label: 'Band 2 (including 1-2)', version: '3.0', levels: [1, 2], group: 'HSK 3.0 (New Standard)' },
+    { id: 'hsk3_3', label: 'Band 3', version: '3.0', levels: [3], group: 'HSK 3.0 (New Standard)' },
+    { id: 'hsk3_3_cum', label: 'Band 3 (including 1-3)', version: '3.0', levels: [1, 2, 3], group: 'HSK 3.0 (New Standard)' },
+    { id: 'hsk3_4', label: 'Band 4', version: '3.0', levels: [4], group: 'HSK 3.0 (New Standard)' },
+    { id: 'hsk3_4_cum', label: 'Band 4 (including 1-4)', version: '3.0', levels: [1, 2, 3, 4], group: 'HSK 3.0 (New Standard)' },
+    { id: 'hsk3_5', label: 'Band 5', version: '3.0', levels: [5], group: 'HSK 3.0 (New Standard)' },
+    { id: 'hsk3_5_cum', label: 'Band 5 (including 1-5)', version: '3.0', levels: [1, 2, 3, 4, 5], group: 'HSK 3.0 (New Standard)' },
+    { id: 'hsk3_6', label: 'Band 6', version: '3.0', levels: [6], group: 'HSK 3.0 (New Standard)' },
+    { id: 'hsk3_6_cum', label: 'Band 6 (including 1-6)', version: '3.0', levels: [1, 2, 3, 4, 5, 6], group: 'HSK 3.0 (New Standard)' },
 
     // --- HSK 2.0 (Classic) ---
-    { id: 'hsk2_1', label: 'HSK 2.0 - Level 1', version: '2.0', levels: [1], group: 'HSK 2.0 (Classic)' },
-    { id: 'hsk2_2', label: 'HSK 2.0 - Level 2', version: '2.0', levels: [2], group: 'HSK 2.0 (Classic)' },
-    { id: 'hsk2_2_cum', label: 'HSK 2.0 - Level 2 (including Levels 1-2)', version: '2.0', levels: [1, 2], group: 'HSK 2.0 (Classic)' },
-    { id: 'hsk2_3', label: 'HSK 2.0 - Level 3', version: '2.0', levels: [3], group: 'HSK 2.0 (Classic)' },
-    { id: 'hsk2_3_cum', label: 'HSK 2.0 - Level 3 (including Levels 1-3)', version: '2.0', levels: [1, 2, 3], group: 'HSK 2.0 (Classic)' },
-    { id: 'hsk2_4', label: 'HSK 2.0 - Level 4', version: '2.0', levels: [4], group: 'HSK 2.0 (Classic)' },
-    { id: 'hsk2_4_cum', label: 'HSK 2.0 - Level 4 (including Levels 1-4)', version: '2.0', levels: [1, 2, 3, 4], group: 'HSK 2.0 (Classic)' },
-    { id: 'hsk2_5', label: 'HSK 2.0 - Level 5', version: '2.0', levels: [5], group: 'HSK 2.0 (Classic)' },
-    { id: 'hsk2_5_cum', label: 'HSK 2.0 - Level 5 (including Levels 1-5)', version: '2.0', levels: [1, 2, 3, 4, 5], group: 'HSK 2.0 (Classic)' },
-    { id: 'hsk2_6', label: 'HSK 2.0 - Level 6', version: '2.0', levels: [6], group: 'HSK 2.0 (Classic)' },
-    { id: 'hsk2_6_cum', label: 'HSK 2.0 - Level 6 (including Levels 1-6)', version: '2.0', levels: [1, 2, 3, 4, 5, 6], group: 'HSK 2.0 (Classic)' },
+    { id: 'hsk2_1', label: 'Level 1', version: '2.0', levels: [1], group: 'HSK 2.0 (Classic)' },
+    { id: 'hsk2_2', label: 'Level 2', version: '2.0', levels: [2], group: 'HSK 2.0 (Classic)' },
+    { id: 'hsk2_2_cum', label: 'Level 2 (including 1-2)', version: '2.0', levels: [1, 2], group: 'HSK 2.0 (Classic)' },
+    { id: 'hsk2_3', label: 'Level 3', version: '2.0', levels: [3], group: 'HSK 2.0 (Classic)' },
+    { id: 'hsk2_3_cum', label: 'Level 3 (including 1-3)', version: '2.0', levels: [1, 2, 3], group: 'HSK 2.0 (Classic)' },
+    { id: 'hsk2_4', label: 'Level 4', version: '2.0', levels: [4], group: 'HSK 2.0 (Classic)' },
+    { id: 'hsk2_4_cum', label: 'Level 4 (including 1-4)', version: '2.0', levels: [1, 2, 3, 4], group: 'HSK 2.0 (Classic)' },
+    { id: 'hsk2_5', label: 'Level 5', version: '2.0', levels: [5], group: 'HSK 2.0 (Classic)' },
+    { id: 'hsk2_5_cum', label: 'Level 5 (including 1-5)', version: '2.0', levels: [1, 2, 3, 4, 5], group: 'HSK 2.0 (Classic)' },
+    { id: 'hsk2_6', label: 'Level 6', version: '2.0', levels: [6], group: 'HSK 2.0 (Classic)' },
+    { id: 'hsk2_6_cum', label: 'Level 6 (including 1-6)', version: '2.0', levels: [1, 2, 3, 4, 5, 6], group: 'HSK 2.0 (Classic)' },
 
     // --- Saved / Custom ---
     { id: 'remember', label: 'Bookmarked', isRemember: true, group: 'Custom & Saved' }
@@ -165,7 +165,7 @@ const DeckManager = {
 
     try {
       const filePrefix = version === '2.0' ? 'hsk2_' : 'hsk3_';
-      const response = await fetch(`./data/${filePrefix}${levelNum}.json?v=43`);
+      const response = await fetch(`./data/${filePrefix}${levelNum}.json?v=44`);
       if (!response.ok) {
         throw new Error(`Failed to load HSK ${version} Level/Band ${levelNum}`);
       }
@@ -188,7 +188,7 @@ const DeckManager = {
       .toLowerCase();
   },
 
-  // Get all deck options including user custom decks
+  // Get all deck options including user custom decks (returns all definitions including cumulative)
   getAllDeckOptions() {
     const list = [...this.DECK_DEFINITIONS];
     const customDecks = this.getCustomDecks();
@@ -202,6 +202,45 @@ const DeckManager = {
       });
     });
     return list;
+  },
+
+  // Base deck options for selectors (filters out cumulative options)
+  getBaseDeckOptions() {
+    return this.getAllDeckOptions().filter(d => !d.id.endsWith('_cum'));
+  },
+
+  // Look up deck definition by ID
+  getDeckDef(deckId) {
+    if (!deckId) return null;
+    return this.getAllDeckOptions().find(d => d.id === deckId) || null;
+  },
+
+  // Check if a deck supports "Include words from previous levels"
+  isCumulativeEligible(deckId) {
+    if (!deckId) return false;
+    const baseId = this.getBaseDeckId(deckId);
+    return ['hsk3_2', 'hsk3_3', 'hsk3_4', 'hsk3_5', 'hsk3_6', 'hsk2_2', 'hsk2_3', 'hsk2_4', 'hsk2_5', 'hsk2_6'].includes(baseId);
+  },
+
+  // Get base ID without '_cum'
+  getBaseDeckId(deckId) {
+    if (!deckId) return '';
+    return deckId.replace('_cum', '');
+  },
+
+  // Get cumulative deck ID for an eligible base ID
+  getCumulativeDeckId(deckId) {
+    if (!deckId) return '';
+    const baseId = this.getBaseDeckId(deckId);
+    return this.isCumulativeEligible(baseId) ? `${baseId}_cum` : baseId;
+  },
+
+  // Resolve deck ID taking toggle state into account
+  getEffectiveDeckId(baseId, includePreviousLevels) {
+    if (includePreviousLevels && this.isCumulativeEligible(baseId)) {
+      return this.getCumulativeDeckId(baseId);
+    }
+    return this.getBaseDeckId(baseId);
   },
 
   // Get words for any deck ID, sorted alphabetically and sequentially indexed

@@ -17,7 +17,7 @@
   <link rel="icon" type="image/png" href="./icons/icon-192.png">
   
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="./css/style.css?v=43">
+  <link rel="stylesheet" href="./css/style.css?v=44">
 </head>
 <body>
 
@@ -72,6 +72,17 @@
             </button>
           </div>
           <span class="count-pill" id="deck-count-badge">0 words</span>
+        </div>
+
+        <!-- Include Words from Previous Levels Toggle -->
+        <div class="cumulative-toggle-row" id="list-cumulative-toggle-wrap" style="display: none;">
+          <label class="toggle-container" for="list-cumulative-toggle">
+            <span class="toggle-label">Include words from previous levels</span>
+            <span class="toggle-switch">
+              <input type="checkbox" id="list-cumulative-toggle">
+              <span class="toggle-slider"></span>
+            </span>
+          </label>
         </div>
       </header>
 
@@ -154,6 +165,17 @@
                 </svg>
               </div>
             </div>
+          </div>
+
+          <!-- Include Words from Previous Levels Toggle -->
+          <div class="setup-group setup-toggle-group" id="setup-cumulative-toggle-wrap" style="display: none;">
+            <label class="toggle-container" for="setup-cumulative-toggle">
+              <span class="toggle-label">Include words from previous levels</span>
+              <span class="toggle-switch">
+                <input type="checkbox" id="setup-cumulative-toggle">
+                <span class="toggle-slider"></span>
+              </span>
+            </label>
           </div>
 
           <!-- Subdeck Word Count -->
@@ -332,11 +354,11 @@
   </div>
 
   <!-- Scripts -->
-  <script src="./js/icons.js?v=43"></script>
-  <script src="./js/speech.js?v=43"></script>
-  <script src="./js/sync.js?v=43"></script>
-  <script src="./js/deck-manager.js?v=43"></script>
-  <script src="./js/flashcard.js?v=43"></script>
-  <script src="./js/app.js?v=43"></script>
+  <script src="./js/icons.js?v=44"></script>
+  <script src="./js/speech.js?v=44"></script>
+  <script src="./js/sync.js?v=44"></script>
+  <script src="./js/deck-manager.js?v=44"></script>
+  <script src="./js/flashcard.js?v=44"></script>
+  <script src="./js/app.js?v=44"></script>
 </body>
 </html>
