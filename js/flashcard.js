@@ -252,6 +252,7 @@ const FlashcardEngine = {
 
   goToPrevCard() {
     if (!this.canGoPrev()) return;
+    this._lastTapTime = 0;
     this.state.isSessionInitialCard = false;
     this.state.currentIndex--;
     this.state.isCardRevealed = false;
@@ -261,6 +262,7 @@ const FlashcardEngine = {
 
   goToNextCard() {
     if (!this.canGoNext()) return;
+    this._lastTapTime = 0;
     this.state.isSessionInitialCard = false;
     this.state.currentIndex++;
     this.state.isCardRevealed = false;
@@ -282,6 +284,7 @@ const FlashcardEngine = {
     const card = this.getCurrentCard();
     if (!card) return;
 
+    this._lastTapTime = 0;
     this.state.isSessionInitialCard = false;
     const currentKey = this.getCardKey(card);
     this.state.cardAnswers[currentKey] = isCorrect;
@@ -572,16 +575,28 @@ const FlashcardEngine = {
       const deltaY = this.gesture.currentY - this.gesture.startY;
       const threshold = this.gesture.threshold;
 
-      // Check if it was a simple tap (very small movement)
+      // Check if it was a tap / double-tap (very small movement)
       if (Math.abs(deltaX) < 10 && Math.abs(deltaY) < 10) {
         this.resetCardPosition(cardElement);
-        // Only flip on tap when card is unrevealed.
-        // When revealed, it only flips back via the Hide button below.
-        if (!this.state.isCardRevealed) {
-          this.revealCard();
+        const now = Date.now();
+        const timeSinceLastTap = now - (this._lastTapTime || 0);
+        const distFromLastTap = Math.hypot(
+          this.gesture.currentX - (this._lastTapX || 0),
+          this.gesture.currentY - (this._lastTapY || 0)
+        );
+
+        if (timeSinceLastTap < 380 && distFromLastTap < 45) {
+          this._lastTapTime = 0;
+          this.toggleCardReveal();
+        } else {
+          this._lastTapTime = now;
+          this._lastTapX = this.gesture.currentX;
+          this._lastTapY = this.gesture.currentY;
         }
         return;
       }
+
+      this._lastTapTime = 0;
 
       if (deltaX > threshold) {
         // Swiped Right -> Correct

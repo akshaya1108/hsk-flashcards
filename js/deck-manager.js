@@ -15,7 +15,7 @@ const DeckManager = {
   async loadPolyphones() {
     if (this.polyphoneMap) return this.polyphoneMap;
     try {
-      const res = await fetch('./data/polyphones.json?v=44');
+      const res = await fetch('./data/polyphones.json?v=50');
       if (res.ok) {
         this.polyphoneMap = await res.json();
       }
@@ -31,7 +31,7 @@ const DeckManager = {
   async loadLevelIndex() {
     if (this.levelIndex) return this.levelIndex;
     try {
-      const res = await fetch('./data/hsk_level_index.json?v=44');
+      const res = await fetch('./data/hsk_level_index.json?v=50');
       if (res.ok) {
         this.levelIndex = await res.json();
       }
@@ -165,7 +165,7 @@ const DeckManager = {
 
     try {
       const filePrefix = version === '2.0' ? 'hsk2_' : 'hsk3_';
-      const response = await fetch(`./data/${filePrefix}${levelNum}.json?v=44`);
+      const response = await fetch(`./data/${filePrefix}${levelNum}.json?v=50`);
       if (!response.ok) {
         throw new Error(`Failed to load HSK ${version} Level/Band ${levelNum}`);
       }
@@ -254,6 +254,7 @@ const DeckManager = {
     // 1. Remember Deck
     if (deckId === 'remember') {
       const rememberList = this.getRememberWords();
+      await this.hydrateMissingPos(rememberList, 'remember');
       return this.sortAndIndexWords(rememberList);
     }
 
@@ -262,6 +263,7 @@ const DeckManager = {
       const customId = deckId.replace('custom_', '');
       const cd = this.getCustomDeck(customId);
       const words = cd ? (cd.words || []) : [];
+      await this.hydrateMissingPos(words, null, customId);
       return this.sortAndIndexWords(words);
     }
 
@@ -297,6 +299,46 @@ const DeckManager = {
 
     const combined = Array.from(map.values());
     return this.sortAndIndexWords(combined);
+  },
+
+  // Hydrate missing part-of-speech (pos) metadata for custom and bookmark decks
+  async hydrateMissingPos(words, storageKey = null, customDeckId = null) {
+    if (!words || !words.length) return;
+    const needsHydration = words.some(w => !w.pos);
+    if (!needsHydration) return;
+
+    const pool = await this.getGlobalSearchPool();
+    if (!pool || !pool.length) return;
+
+    let updated = false;
+    for (const w of words) {
+      if (!w.pos) {
+        const cleanPy = this.cleanPinyin(w.pinyin || '');
+        const match = pool.find(m => m.hanzi === w.hanzi && (cleanPy ? this.cleanPinyin(m.pinyin || '') === cleanPy : true)) ||
+                      pool.find(m => m.hanzi === w.hanzi);
+        if (match && match.pos) {
+          w.pos = match.pos;
+          updated = true;
+        }
+      }
+    }
+
+    if (updated) {
+      try {
+        if (storageKey === 'remember') {
+          localStorage.setItem('hsk_remember_deck', JSON.stringify(words));
+        } else if (customDeckId) {
+          const decks = this.getCustomDecks();
+          const target = decks.find(d => d.id === customDeckId);
+          if (target) {
+            target.words = words;
+            this.saveCustomDecks(decks);
+          }
+        }
+      } catch (e) {
+        console.warn('Could not persist hydrated POS:', e);
+      }
+    }
   },
 
   // Sort alphabetically by pinyin and assign sequential 1-based deckIndex
@@ -379,6 +421,13 @@ const DeckManager = {
       list.splice(idx, 1);
       isNowRemembered = false;
     } else {
+      let wordPos = word.pos || '';
+      if (!wordPos && this.globalSearchPool) {
+        const cleanPy = this.cleanPinyin(word.pinyin || '');
+        const match = this.globalSearchPool.find(m => m.hanzi === word.hanzi && (cleanPy ? this.cleanPinyin(m.pinyin || '') === cleanPy : true)) ||
+                      this.globalSearchPool.find(m => m.hanzi === word.hanzi);
+        if (match && match.pos) wordPos = match.pos;
+      }
       list.push({
         hanzi: word.hanzi,
         pinyin: word.pinyin,
@@ -386,7 +435,8 @@ const DeckManager = {
         level: word.level,
         version: word.version || '2.0',
         meaning: word.meaning,
-        example: word.example
+        example: word.example,
+        pos: wordPos
       });
       isNowRemembered = true;
     }
@@ -452,6 +502,13 @@ const DeckManager = {
     if (!deck) return false;
 
     if (!deck.words.some(w => w.hanzi === word.hanzi)) {
+      let wordPos = word.pos || '';
+      if (!wordPos && this.globalSearchPool) {
+        const cleanPy = this.cleanPinyin(word.pinyin || '');
+        const match = this.globalSearchPool.find(m => m.hanzi === word.hanzi && (cleanPy ? this.cleanPinyin(m.pinyin || '') === cleanPy : true)) ||
+                      this.globalSearchPool.find(m => m.hanzi === word.hanzi);
+        if (match && match.pos) wordPos = match.pos;
+      }
       deck.words.push({
         hanzi: word.hanzi,
         pinyin: word.pinyin,
@@ -459,7 +516,8 @@ const DeckManager = {
         level: word.level,
         version: word.version || '2.0',
         meaning: word.meaning,
-        example: word.example
+        example: word.example,
+        pos: wordPos
       });
       this.saveCustomDecks(decks);
       return true;

@@ -1,9 +1,11 @@
-const CACHE_NAME = 'hsk-flashcards-v44';
+const CACHE_NAME = 'hsk-flashcards-v55';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
   './manifest.json',
   './css/style.css',
+  './sun.svg',
+  './cloud.svg',
   './js/icons.js',
   './js/speech.js',
   './js/sync.js',
@@ -111,13 +113,13 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // Fallback for unversioned assets: Cache-first with background revalidation
+  // Fallback for unversioned assets (including Google Fonts): Cache-first with background revalidation
   event.respondWith(
     caches.match(event.request, { ignoreSearch: true }).then((cachedResponse) => {
       if (cachedResponse) {
         // Background revalidation
         fetch(event.request).then((networkResponse) => {
-          if (networkResponse && networkResponse.status === 200) {
+          if (networkResponse && (networkResponse.status === 200 || networkResponse.type === 'opaque')) {
             caches.open(CACHE_NAME).then((cache) => {
               cache.put(event.request, networkResponse);
             });
@@ -127,7 +129,7 @@ self.addEventListener('fetch', (event) => {
       }
 
       return fetch(event.request).then((networkResponse) => {
-        if (!networkResponse || networkResponse.status !== 200) {
+        if (!networkResponse || (networkResponse.status !== 200 && networkResponse.type !== 'opaque')) {
           return networkResponse;
         }
         const responseToCache = networkResponse.clone();

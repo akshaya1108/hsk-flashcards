@@ -9,17 +9,71 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="学汉语">
-  <meta name="theme-color" content="#F9F6F0">
+  <meta name="theme-color" content="#FBDF98">
   
   <!-- Icons & Manifest -->
   <link rel="manifest" href="./manifest.json">
   <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
   <link rel="icon" type="image/png" href="./icons/icon-192.png">
   
+  <!-- Google Fonts: Chiron GoRound TC & Manrope -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Critical Inline Splash Styles to guarantee zero flash of white on cold launch -->
+  <style>
+    html, body {
+      background-color: #FBDF98;
+    }
+    .app-splash {
+      position: fixed;
+      inset: 0;
+      width: 100vw;
+      height: 100vh;
+      height: 100dvh;
+      background-color: #B5DDDC;
+      z-index: 999999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      user-select: none;
+      -webkit-user-select: none;
+      opacity: 1;
+      transition: opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+      cursor: pointer;
+    }
+    .app-splash.splash-fade-out {
+      opacity: 0;
+      pointer-events: none;
+    }
+  </style>
+
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="./css/style.css?v=44">
+  <link rel="stylesheet" href="./css/style.css?v=55">
 </head>
 <body>
+
+  <!-- App Intro / Loading Splash Screen (Shows for 3s on open/refresh) -->
+  <div id="app-splash" class="app-splash" aria-hidden="true">
+    <div class="splash-sun">
+      <svg width="100%" height="100%" viewBox="0 0 347 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M173.5 2C268.255 2 345 77.2544 345 170C345 262.746 268.255 338 173.5 338C78.7445 338 2 262.746 2 170C2 77.2544 78.7445 2 173.5 2Z" fill="#FFB800" stroke="#FFC701" stroke-width="4"/>
+      </svg>
+    </div>
+
+    <div class="splash-center">
+      <h1 class="splash-title-zh">学汉语</h1>
+      <span class="splash-title-en">Learn Chinese</span>
+    </div>
+
+    <div class="splash-cloud">
+      <svg width="100%" height="100%" viewBox="0 0 477 273" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M171.161 0C215.623 6.23683e-05 252.371 32.0702 258.229 73.6943C270.988 66.6845 285.73 62.6827 301.435 62.6826C333.013 62.6826 360.701 78.8607 376.194 103.148C380.322 102.571 384.542 102.271 388.834 102.271C437.371 102.272 476.719 140.491 476.719 187.636C476.719 231.419 442.783 267.503 399.066 272.427V273H91.5215V272.927C90.3153 272.974 89.103 273 87.8848 273C39.3472 273 0 234.781 0 187.636C9.56953e-05 141.425 37.803 103.792 85.0098 102.318C83.873 96.8388 83.2764 91.1692 83.2764 85.3643C83.2764 38.219 122.624 0 171.161 0Z" fill="white"/>
+      </svg>
+    </div>
+  </div>
 
   <div id="app-container">
 
@@ -27,43 +81,16 @@
     <main class="tab-view active" id="view-list">
       <!-- Top Header (Present in Words List View) -->
       <header class="app-header" id="app-header">
-        <div class="header-top-row">
-          <div class="deck-select-wrap">
-            <select id="deck-select" class="deck-select" aria-label="Select Deck"></select>
-            <div class="select-arrow">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                <polyline points="6 9 12 15 18 9"></polyline>
-              </svg>
-            </div>
-          </div>
-
-          <div class="header-action-group">
-            <button class="btn-header-sync" id="btn-cloud-sync" title="Cloud Sync (Supabase)" aria-label="Cloud Sync">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
-              </svg>
-              <span class="sync-status-dot dot-unlinked" id="cloud-sync-dot"></span>
-            </button>
-
-            <button class="btn-study-launch" id="btn-start-study" title="Start Study Session">
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                <polygon points="5 3 19 12 5 21 5 3"></polygon>
-              </svg>
-              <span>Study</span>
-            </button>
-          </div>
-        </div>
-
-        <!-- Search Bar & Count Pill -->
-        <div class="header-bottom-row">
+        <!-- Row 1: Search Bar & Cloud Sync -->
+        <div class="header-search-row">
           <div class="search-bar-wrap">
             <div class="search-icon-svg">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
                 <circle cx="11" cy="11" r="8"></circle>
                 <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
               </svg>
             </div>
-            <input type="text" id="search-input" class="search-input" placeholder="Search Hanzi, pinyin, or English..." autocomplete="off" autocapitalize="off" spellcheck="false">
+            <input type="text" id="search-input" class="search-input" placeholder="Search..." autocomplete="off" autocapitalize="off" spellcheck="false">
             <button class="search-clear-btn" id="btn-search-clear" aria-label="Clear search" style="display: none;">
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                 <line x1="18" y1="6" x2="6" y2="18"></line>
@@ -71,13 +98,32 @@
               </svg>
             </button>
           </div>
-          <span class="count-pill" id="deck-count-badge">0 words</span>
+
+          <button class="btn-header-sync" id="btn-cloud-sync" title="Cloud Sync" aria-label="Cloud Sync">
+            <svg width="21" height="15" viewBox="0 0 27 19" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M7.03019 16.9372C3.97594 16.9372 1.5 14.5539 1.5 11.6136C1.5 8.67459 3.97594 6.29127 7.03019 6.29127C7.49688 4.1989 9.16056 2.49127 11.3942 1.81084C13.6267 1.13159 16.092 1.58165 17.859 2.99834C19.626 4.41146 20.4264 6.56915 19.9609 8.66152H21.1365C23.4082 8.66152 25.25 10.514 25.25 12.8011C25.25 15.0895 23.4082 16.942 21.1353 16.942H7.03019"></path>
+            </svg>
+            <span class="sync-status-dot dot-unlinked" id="cloud-sync-dot"></span>
+          </button>
         </div>
 
-        <!-- Include Words from Previous Levels Toggle -->
+        <!-- Row 2: Deck Selector & Word Count Badge -->
+        <div class="header-deck-row">
+          <div class="deck-select-wrap">
+            <select id="deck-select" class="deck-select" aria-label="Select Deck"></select>
+            <div class="select-arrow">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </div>
+          </div>
+          <span class="deck-count-text" id="deck-count-badge">0 words</span>
+        </div>
+
+        <!-- Row 3: Include Words from Previous Levels Toggle -->
         <div class="cumulative-toggle-row" id="list-cumulative-toggle-wrap" style="display: none;">
           <label class="toggle-container" for="list-cumulative-toggle">
-            <span class="toggle-label">Include words from previous levels</span>
+            <span class="toggle-label">include words from previous levels</span>
             <span class="toggle-switch">
               <input type="checkbox" id="list-cumulative-toggle">
               <span class="toggle-slider"></span>
@@ -115,8 +161,9 @@
 
     <!-- Bottom Navigation Bar -->
     <nav class="bottom-nav">
-      <button class="tab-btn active" data-tab="list" aria-label="Vocabulary List"></button>
-      <button class="tab-btn" data-tab="custom" aria-label="Custom Decks"></button>
+      <button class="tab-btn active" data-tab="list" aria-label="Words"></button>
+      <button class="tab-btn" data-tab="study" aria-label="Study"></button>
+      <button class="tab-btn" data-tab="custom" aria-label="Decks"></button>
     </nav>
 
     <!-- Modal 1: Word Detail Card Modal (Floating Proper Card Deck) -->
@@ -140,25 +187,19 @@
       </div>
     </div>
 
-    <!-- Modal 2: Flashcard Setup Configuration Sheet -->
-    <div class="modal-overlay" id="study-setup-modal" role="dialog" aria-modal="true">
-      <div class="modal-sheet">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h3 style="font-size: 18px; font-weight: 700;">Study Session Setup</h3>
-            <button class="btn-icon" id="btn-modal-setup-close" title="Close">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <line x1="18" y1="6" x2="6" y2="18"></line>
-                <line x1="6" y1="6" x2="18" y2="18"></line>
-              </svg>
-            </button>
-          </div>
+    <!-- Modal 2: Flashcard Setup Configuration Page (Full-screen view) -->
+    <div class="modal-overlay page-modal" id="study-setup-modal" role="dialog" aria-modal="true">
+      <div class="page-sheet">
+        <header class="page-modal-header">
+          <h3 class="page-modal-title">Study Session Setup</h3>
+        </header>
 
+        <div class="page-modal-content">
           <!-- Main Deck to Study -->
           <div class="setup-group">
             <label class="setup-label">Main Deck to Study</label>
-            <div class="deck-select-wrap" style="width: 100%;">
-              <select id="setup-deck-select" class="deck-select" style="width: 100%;"></select>
+            <div class="setup-deck-wrap">
+              <select id="setup-deck-select" class="setup-deck-select" style="width: 100%;"></select>
               <div class="select-arrow">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                   <polyline points="6 9 12 15 18 9"></polyline>
@@ -192,33 +233,34 @@
             <input type="number" id="custom-size-input" class="custom-size-input" placeholder="Enter word count (e.g. 30)" style="display: none;" min="1" max="500">
           </div>
 
-          <!-- Deck Pull Order -->
-          <div class="setup-group">
-            <label class="setup-label">Pull from Main Deck</label>
-            <div class="segmented-control">
-              <label class="segment-option">
-                <input type="radio" name="pull-order" value="alphabetical" checked>
-                <span>Alphabetical</span>
-              </label>
-              <label class="segment-option">
-                <input type="radio" name="pull-order" value="random">
-                <span>Random</span>
-              </label>
+          <!-- Dual Row: Deck Pull Order & Within Subdeck -->
+          <div class="setup-row-dual">
+            <div class="setup-group flex-1">
+              <label class="setup-label">Pull from Deck</label>
+              <div class="segmented-control">
+                <label class="segment-option">
+                  <input type="radio" name="pull-order" value="alphabetical" checked>
+                  <span>A-Z</span>
+                </label>
+                <label class="segment-option">
+                  <input type="radio" name="pull-order" value="random">
+                  <span>Random</span>
+                </label>
+              </div>
             </div>
-          </div>
 
-          <!-- Subdeck Presentation Order -->
-          <div class="setup-group">
-            <label class="setup-label">Within Subdeck</label>
-            <div class="segmented-control">
-              <label class="segment-option">
-                <input type="radio" name="subdeck-order" value="random" checked>
-                <span>Randomized</span>
-              </label>
-              <label class="segment-option">
-                <input type="radio" name="subdeck-order" value="alphabetical">
-                <span>Alphabetical</span>
-              </label>
+            <div class="setup-group flex-1">
+              <label class="setup-label">Within Subdeck</label>
+              <div class="segmented-control">
+                <label class="segment-option">
+                  <input type="radio" name="subdeck-order" value="random" checked>
+                  <span>Shuffle</span>
+                </label>
+                <label class="segment-option">
+                  <input type="radio" name="subdeck-order" value="alphabetical">
+                  <span>A-Z</span>
+                </label>
+              </div>
             </div>
           </div>
 
@@ -239,15 +281,15 @@
 
           <!-- Advanced Range Filter -->
           <div class="setup-group">
-            <label class="setup-label">Advanced Setting: Range Filter</label>
+            <label class="setup-label">Card Range (Optional)</label>
             <div class="range-box">
               <div class="range-inputs-row">
                 <div class="range-field">
-                  <label for="range-start">Start Card #</label>
+                  <label for="range-start">From #</label>
                   <input type="number" id="range-start" value="1" min="1">
                 </div>
                 <div class="range-field">
-                  <label for="range-end">End Card # (optional)</label>
+                  <label for="range-end">To #</label>
                   <input type="number" id="range-end" placeholder="End of deck" min="1">
                 </div>
               </div>
@@ -257,13 +299,12 @@
             </div>
           </div>
 
-          <button class="btn-primary" id="btn-launch-study" style="margin-top: 10px;">
+          <button class="btn-primary" id="btn-launch-study">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
               <polygon points="5 3 19 12 5 21 5 3"></polygon>
             </svg>
             <span>Start Flashcards</span>
           </button>
-
         </div>
       </div>
     </div>
@@ -332,8 +373,8 @@
       <div class="modal-card sync-dialog-card">
         <div class="sync-modal-header">
           <div class="sync-modal-title">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--sage)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+            <svg width="22" height="16" viewBox="0 0 27 19" fill="none" stroke="var(--sage)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M7.03019 16.9372C3.97594 16.9372 1.5 14.5539 1.5 11.6136C1.5 8.67459 3.97594 6.29127 7.03019 6.29127C7.49688 4.1989 9.16056 2.49127 11.3942 1.81084C13.6267 1.13159 16.092 1.58165 17.859 2.99834C19.626 4.41146 20.4264 6.56915 19.9609 8.66152H21.1365C23.4082 8.66152 25.25 10.514 25.25 12.8011C25.25 15.0895 23.4082 16.942 21.1353 16.942H7.03019"></path>
             </svg>
             <h3>Cloud Sync</h3>
           </div>
@@ -354,11 +395,11 @@
   </div>
 
   <!-- Scripts -->
-  <script src="./js/icons.js?v=44"></script>
-  <script src="./js/speech.js?v=44"></script>
-  <script src="./js/sync.js?v=44"></script>
-  <script src="./js/deck-manager.js?v=44"></script>
-  <script src="./js/flashcard.js?v=44"></script>
-  <script src="./js/app.js?v=44"></script>
+  <script src="./js/icons.js?v=55"></script>
+  <script src="./js/speech.js?v=55"></script>
+  <script src="./js/sync.js?v=55"></script>
+  <script src="./js/deck-manager.js?v=55"></script>
+  <script src="./js/flashcard.js?v=55"></script>
+  <script src="./js/app.js?v=55"></script>
 </body>
 </html>

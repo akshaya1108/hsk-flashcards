@@ -1,4 +1,5 @@
 # Dependencies & temp
 data-raw/
 anki words/
+backups/
 .DS_Store

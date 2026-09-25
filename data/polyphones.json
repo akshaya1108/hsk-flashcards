@@ -13,7 +13,8 @@
           "py": "Xiànzài jǐ diǎn?",
           "en": "What time is it now?"
         },
-        "id": 33
+        "id": 33,
+        "pos": "Verb, Noun, Measure Word"
       },
       {
         "hanzi": "点",
@@ -27,7 +28,8 @@
           "py": "Wǒmen bā diǎn jiàn.",
           "en": "Let's meet at eight o'clock."
         },
-        "id": 35
+        "id": 35,
+        "pos": "Verb, Noun, Measure Word"
       }
     ],
     "还": [
@@ -43,7 +45,8 @@
           "py": "Yǐjīng shí diǎn le, tā hái zài gōngzuò.",
           "en": "It is already ten o'clock, but he is still working."
         },
-        "id": 67
+        "id": 67,
+        "pos": "Adverb"
       },
       {
         "hanzi": "还",
@@ -57,7 +60,8 @@
           "py": "Wǒ cóng túshūguǎn jiè le yì běn shū, míngtiān yào qù huán shū.",
           "en": "I borrowed a book from the library and need to return it tomorrow."
         },
-        "id": 176
+        "id": 176,
+        "pos": "Verb"
       }
     ],
     "好": [
@@ -73,7 +77,8 @@
           "py": "Nǐ hǎo, hěn gāoxìng rènshi nǐ!",
           "en": "Hello, nice to meet you!"
         },
-        "id": 72
+        "id": 72,
+        "pos": "Adjective"
       },
       {
         "hanzi": "好",
@@ -87,7 +92,8 @@
           "py": "zhè dào tí yǒu xiē nán ， bù hǎo zuò 。",
           "en": "This question is a bit difficult and not easy to answer."
         },
-        "id": 469
+        "id": 469,
+        "pos": "Verb"
       }
     ],
     "会": [
@@ -103,7 +109,8 @@
           "py": "Nǐ huì shuō Yīngyǔ ma?",
           "en": "Can you speak English?"
         },
-        "id": 81
+        "id": 81,
+        "pos": "Noun"
       },
       {
         "hanzi": "会",
@@ -117,7 +124,8 @@
           "py": "Míngtiān wǒmen kāihuì.",
           "en": "We have a meeting tomorrow."
         },
-        "id": 181
+        "id": 181,
+        "pos": "Noun"
       }
     ],
     "看": [
@@ -133,7 +141,8 @@
           "py": "Wǒ xǐhuan zài jiālǐ kàn shū.",
           "en": "I like reading books at home."
         },
-        "id": 99
+        "id": 99,
+        "pos": "Verb"
       },
       {
         "hanzi": "看",
@@ -147,7 +156,8 @@
           "py": "Māma shēngbìng le, mèimei zài jiā kān tā.",
           "en": "Mom is sick; my younger sister is at home looking after her."
         },
-        "id": 657
+        "id": 657,
+        "pos": "Verb"
       }
     ],
     "两": [
@@ -163,7 +173,8 @@
           "py": "Wǒ yǒu liǎng gè jiějie.",
           "en": "I have two older sisters."
         },
-        "id": 111
+        "id": 111,
+        "pos": "Measure Word"
       },
       {
         "hanzi": "两",
@@ -177,7 +188,8 @@
           "py": "tā yǒu liǎng gè gē gē 。",
           "en": "He has two older brothers."
         },
-        "id": 462
+        "id": 462,
+        "pos": "Measure Word"
       }
     ],
     "喂": [
@@ -193,7 +205,8 @@
           "py": "Wéi, qǐngwèn nǐ shì shéi?",
           "en": "Hello, may I ask who you are?"
         },
-        "id": 218
+        "id": 218,
+        "pos": "Verb"
       },
       {
         "hanzi": "喂",
@@ -207,7 +220,8 @@
           "py": "tā gěi yáng wèi liǎo yī xiē cǎo liào 。",
           "en": "He fed the sheep some hay."
         },
-        "id": 1181
+        "id": 1181,
+        "pos": "Verb"
       }
     ],
     "只": [
@@ -223,7 +237,8 @@
           "py": "Shù shàng yǒu yì zhī xiǎoniǎo.",
           "en": "There is a little bird in the tree."
         },
-        "id": 287
+        "id": 287,
+        "pos": "Measure Word"
       },
       {
         "hanzi": "只",
@@ -237,7 +252,8 @@
           "py": "Wǒ zhǐ yǒu yí gè gēge, méiyǒu jiějie.",
           "en": "I only have one older brother; I do not have an older sister."
         },
-        "id": 474
+        "id": 474,
+        "pos": "Adverb"
       }
     ],
     "啊": [
@@ -253,7 +269,8 @@
           "py": "Ā, nǐ lái le!",
           "en": "Ah, you came!"
         },
-        "id": 1
+        "id": 1,
+        "pos": "Particle"
       },
       {
         "hanzi": "啊",
@@ -267,7 +284,8 @@
           "py": "nǐ lái liǎo ā ！",
           "en": "You've arrived!"
         },
-        "id": 1
+        "id": 1,
+        "pos": "Interjection"
       }
     ],
     "别": [
@@ -283,7 +301,8 @@
           "py": "Bié shuōhuà.",
           "en": "Don't talk."
         },
-        "id": 11
+        "id": 11,
+        "pos": "Verb"
       },
       {
         "hanzi": "别",
@@ -297,7 +316,8 @@
           "py": "zhè jiàn shì nǐ bié guǎn liǎo 。",
           "en": "You don't need to worry about this."
         },
-        "id": 57
+        "id": 57,
+        "pos": "Verb"
       }
     ],
     "长": [
@@ -313,7 +333,8 @@
           "py": "Zhè tiáo lù hěn cháng, wǒmen zuò chūzūchē qù ba.",
           "en": "This road is very long; let's go by taxi."
         },
-        "id": 14
+        "id": 14,
+        "pos": "Adjective"
       },
       {
         "hanzi": "长",
@@ -327,7 +348,8 @@
           "py": "Tā de tóufa zhǎng de hěn kuài.",
           "en": "His hair grows very fast."
         },
-        "id": 468
+        "id": 468,
+        "pos": "Verb"
       }
     ],
     "地": [
@@ -343,7 +365,8 @@
           "py": "Mèimei gāoxìng de xiào le.",
           "en": "Younger sister smiled happily."
         },
-        "id": 32
+        "id": 32,
+        "pos": "Particle"
       },
       {
         "hanzi": "地",
@@ -357,7 +380,8 @@
           "py": "Dì shàng yǒu hěnduō shuǐ, zǒulù qǐng xiǎoxīn.",
           "en": "There is a lot of water on the ground; please be careful walking."
         },
-        "id": 89
+        "id": 89,
+        "pos": "Noun"
       }
     ],
     "得": [
@@ -373,7 +397,8 @@
           "py": "Tā shuō hànyǔ shuō de hěn hǎo.",
           "en": "He speaks Chinese very well."
         },
-        "id": 33
+        "id": 33,
+        "pos": "Particle"
       },
       {
         "hanzi": "得",
@@ -387,7 +412,8 @@
           "py": "Tā zài zhè cì hànyǔ bǐsài zhōng dé le dì-yī míng.",
           "en": "He won first place in this Chinese competition."
         },
-        "id": 83
+        "id": 83,
+        "pos": "Verb"
       },
       {
         "hanzi": "得",
@@ -401,7 +427,8 @@
           "py": "Shíjiān bù zǎo le, wǒ děi huí jiā le.",
           "en": "It is getting late; I must go home."
         },
-        "id": 87
+        "id": 87,
+        "pos": "Verb"
       }
     ],
     "等": [
@@ -417,7 +444,8 @@
           "py": "Qǐng děng wǒ yíxià.",
           "en": "Please wait for me a moment."
         },
-        "id": 34
+        "id": 34,
+        "pos": "Particle, Noun, Measure Word"
       },
       {
         "hanzi": "等",
@@ -431,7 +459,8 @@
           "py": "qǐng zài zhè lǐ děng yī xià 。",
           "en": "Please wait here."
         },
-        "id": 145
+        "id": 145,
+        "pos": "Particle, Noun, Measure Word"
       }
     ],
     "过": [
@@ -447,7 +476,8 @@
           "py": "Guò mǎlù de shíhou yào kàn chē, zhùyì ānquán.",
           "en": "When crossing the street, watch for cars and pay attention to safety."
         },
-        "id": 47
+        "id": 47,
+        "pos": "Verb"
       },
       {
         "hanzi": "过",
@@ -461,7 +491,8 @@
           "py": "Wǒ qùguo Zhōngguó, chīguo Běijīng kǎoyā.",
           "en": "I have been to China and eaten Peking duck."
         },
-        "id": 48
+        "id": 48,
+        "pos": "Particle"
       }
     ],
     "过去": [
@@ -477,7 +508,8 @@
           "py": "Guòqù wǒ zhù zài Shànghǎi.",
           "en": "In the past I lived in Shanghai."
         },
-        "id": 51
+        "id": 51,
+        "pos": "Noun"
       },
       {
         "hanzi": "过去",
@@ -491,7 +523,8 @@
           "py": "Guòqù zhèlǐ shì nóngcūn.",
           "en": "In the past, this place was a village."
         },
-        "id": 159
+        "id": 159,
+        "pos": "Noun"
       }
     ],
     "花": [
@@ -507,7 +540,8 @@
           "py": "Wǒ huā le hěn duō qián.",
           "en": "I spent a lot of money."
         },
-        "id": 58
+        "id": 58,
+        "pos": "Noun, Adjective"
       },
       {
         "hanzi": "花",
@@ -521,7 +555,8 @@
           "py": "Zhuōzi shàng yǒu hěn duō huā.",
           "en": "There are many flowers on the table."
         },
-        "id": 59
+        "id": 59,
+        "pos": "Noun, Adjective"
       }
     ],
     "头": [
@@ -537,7 +572,8 @@
           "py": "Wǒ de tóu yǒudiǎnr téng.",
           "en": "My head hurts a little."
         },
-        "id": 145
+        "id": 145,
+        "pos": "Noun"
       },
       {
         "hanzi": "头",
@@ -551,7 +587,8 @@
           "py": "tā tái qǐ tóu ， kàn liǎo kàn tiān shàng de xīng xīng 。",
           "en": "He looked up at the stars in the sky."
         },
-        "id": 1147
+        "id": 1147,
+        "pos": "Suffix"
       }
     ],
     "站": [
@@ -567,7 +604,8 @@
           "py": "Qǐng zhàn qǐlái.",
           "en": "Please stand up."
         },
-        "id": 186
+        "id": 186,
+        "pos": "Verb"
       },
       {
         "hanzi": "站",
@@ -581,7 +619,8 @@
           "py": "Qǐng zài zhèlǐ zhàn yíxià.",
           "en": "Please stand here for a moment."
         },
-        "id": 466
+        "id": 466,
+        "pos": "Verb"
       }
     ],
     "着": [
@@ -597,7 +636,8 @@
           "py": "Mén kāi zhe, qǐng jìn ba.",
           "en": "The door is open; please come in."
         },
-        "id": 188
+        "id": 188,
+        "pos": "Particle"
       },
       {
         "hanzi": "着",
@@ -611,7 +651,8 @@
           "py": "Zuótiān wǎnshang wǒ hē le kāfēi, hěn wǎn cái shuìzháo.",
           "en": "I drank coffee last night and fell asleep very late."
         },
-        "id": 923
+        "id": 923,
+        "pos": "Verb"
       }
     ],
     "才": [
@@ -627,7 +668,8 @@
           "py": "Tā zuótiān cái huílái.",
           "en": "He only came back yesterday."
         },
-        "id": 44
+        "id": 44,
+        "pos": "Noun"
       },
       {
         "hanzi": "才",
@@ -641,7 +683,8 @@
           "py": "tā cái lái liǎo liǎng tiān 。",
           "en": "He's only been here for two days."
         },
-        "id": 83
+        "id": 83,
+        "pos": "Noun"
       }
     ],
     "地方": [
@@ -657,7 +700,8 @@
           "py": "Zhège dìfang hěn piàoliang, wǒ xiǎng zài qù yí cì.",
           "en": "This place is very beautiful; I want to go again."
         },
-        "id": 94
+        "id": 94,
+        "pos": "Noun"
       },
       {
         "hanzi": "地方",
@@ -671,7 +715,8 @@
           "py": "Zhège dìfāng céngjīng huāngfèi duō nián, rújīn bèi gǎizào chéng gōnggòng yìshù kōngjiān.",
           "en": "This place was abandoned for many years and has now been transformed into a public art space."
         },
-        "id": 303
+        "id": 303,
+        "pos": "Noun"
       }
     ],
     "干": [
@@ -687,7 +732,8 @@
           "py": "Nǐ zài gàn shénme?",
           "en": "What are you doing?"
         },
-        "id": 136
+        "id": 136,
+        "pos": "Verb"
       },
       {
         "hanzi": "干",
@@ -701,7 +747,8 @@
           "py": "tā měi tiān nǔ lì gān huó 。",
           "en": "He works hard every day."
         },
-        "id": 220
+        "id": 220,
+        "pos": "Adjective"
       }
     ],
     "为": [
@@ -717,7 +764,8 @@
           "py": "Bàba měitiān nǔlì gōngzuò, wèile ràng wǒmen shēnghuó de gèng hǎo.",
           "en": "Dad works hard every day to make our lives better."
         },
-        "id": 375
+        "id": 375,
+        "pos": "Preposition"
       },
       {
         "hanzi": "为",
@@ -731,7 +779,8 @@
           "py": "tā wéi gōng sī zuò chū liǎo gòng xiàn 。",
           "en": "He made contributions to the company."
         },
-        "id": 770
+        "id": 770,
+        "pos": "Verb"
       },
       {
         "hanzi": "为",
@@ -745,7 +794,8 @@
           "py": "tā wéi zhè gè gōng yì xiàng mù gòng xiàn liǎo hěn duō shí jiān 。",
           "en": "He dedicated a lot of time to this charity project."
         },
-        "id": 1180
+        "id": 1180,
+        "pos": "Verb"
       }
     ],
     "行": [
@@ -761,7 +811,8 @@
           "py": "Wǒmen míngtiān xiàwǔ sān diǎn jiànmiàn, xíng ma?",
           "en": "We meet tomorrow afternoon at three o'clock, is that okay?"
         },
-        "id": 401
+        "id": 401,
+        "pos": "Verb, Adjective"
       },
       {
         "hanzi": "行",
@@ -775,7 +826,8 @@
           "py": "tā zài yín xíng gōng zuò ， zhè gè xíng yè dài yù hěn hǎo 。",
           "en": "He works in a bank, an industry with good pay."
         },
-        "id": 464
+        "id": 464,
+        "pos": "Noun"
       }
     ],
     "中": [
@@ -791,7 +843,8 @@
           "py": "Wǒmen zhōngjiān yǒu sān gè rén shì lǎoshī.",
           "en": "Among us, three people are teachers."
         },
-        "id": 481
+        "id": 481,
+        "pos": "Noun"
       },
       {
         "hanzi": "中",
@@ -805,7 +858,8 @@
           "py": "Zhè zhī jiàn zhènghǎo zhòng le bǎxīn, yíngdé le quánchǎng zhǎngshēng.",
           "en": "This arrow hit the bullseye exactly and won applause from the whole audience."
         },
-        "id": 1722
+        "id": 1722,
+        "pos": "Verb"
       }
     ],
     "种": [
@@ -821,7 +875,8 @@
           "py": "Zhè jiā chāoshì lǐ yǒu xǔduō zhǒng xīnxiān de shuǐguǒ.",
           "en": "There are many kinds of fresh fruit in this supermarket."
         },
-        "id": 482
+        "id": 482,
+        "pos": "Noun, Measure Word"
       },
       {
         "hanzi": "种",
@@ -835,7 +890,8 @@
           "py": "Yéye zài yuànzi lǐ zhòng le hěnduō piàoliang de huā.",
           "en": "Grandpa planted many beautiful flowers in the yard."
         },
-        "id": 957
+        "id": 957,
+        "pos": "Verb"
       }
     ],
     "背": [
@@ -851,7 +907,8 @@
           "py": "tā bèi zhuó yī gè dà shū bāo 。",
           "en": "He was carrying a large backpack."
         },
-        "id": 21
+        "id": 21,
+        "pos": "Verb"
       },
       {
         "hanzi": "背",
@@ -865,7 +922,8 @@
           "py": "tā bǎ kè běn bèi zài shēn shàng 。",
           "en": "He carried his textbooks on his back."
         },
-        "id": 36
+        "id": 36,
+        "pos": "Noun, Verb"
       }
     ],
     "重": [
@@ -881,7 +939,8 @@
           "py": "Lǎoshī ràng wǒmen bǎ zhè piān zuòyè chóngxīn zuò yí biàn.",
           "en": "The teacher asked us to do this homework assignment once again."
         },
-        "id": 86
+        "id": 86,
+        "pos": "Adverb"
       },
       {
         "hanzi": "重",
@@ -895,7 +954,8 @@
           "py": "zhè gè wèn tí hěn zhòng yào 。",
           "en": "This is a very important question."
         },
-        "id": 958
+        "id": 958,
+        "pos": "Adjective"
       }
     ],
     "待": [
@@ -911,7 +971,8 @@
           "py": "tā zài jiā dài liǎo yī zhōu 。",
           "en": "He stayed at home for a week."
         },
-        "id": 118
+        "id": 118,
+        "pos": "Verb"
       },
       {
         "hanzi": "待",
@@ -925,7 +986,8 @@
           "py": "Yóuyú hángbān yánwù, chéngkè bèi yāoqiú dài zài hòujīqū děnghòu jìnyí bù tōngzhī.",
           "en": "Because the flight was delayed, passengers were asked to stay in the waiting area for further notice."
         },
-        "id": 245
+        "id": 245,
+        "pos": "Verb"
       }
     ],
     "当": [
@@ -941,7 +1003,8 @@
           "py": "dāng lǎo shī shì tā de mèng xiǎng 。",
           "en": "Being a teacher was his dream."
         },
-        "id": 123
+        "id": 123,
+        "pos": "Verb"
       },
       {
         "hanzi": "当",
@@ -955,7 +1018,8 @@
           "py": "dāng tā shuō wán ， dà jiā dū gǔ qǐ zhǎng lái 。",
           "en": "When he finished speaking, everyone applauded."
         },
-        "id": 231
+        "id": 231,
+        "pos": "Verb"
       }
     ],
     "倒": [
@@ -971,7 +1035,8 @@
           "py": "tā bǎ shuǐ dǎo jìn bēi zǐ lǐ 。",
           "en": "He poured the water into the cup."
         },
-        "id": 126
+        "id": 126,
+        "pos": "Verb"
       },
       {
         "hanzi": "倒",
@@ -985,7 +1050,8 @@
           "py": "tā bù xiǎo xīn bǎ shuǐ bēi dǎo liǎo 。",
           "en": "He accidentally spilled the water glass."
         },
-        "id": 243
+        "id": 243,
+        "pos": "Verb"
       }
     ],
     "空": [
@@ -1001,7 +1067,8 @@
           "py": "Jīntiān tiānqì hěn hǎo, lánlán de tiānkōng shàng méiyǒu yì duǒ yún.",
           "en": "The weather is great today; there is not a single cloud in the blue sky."
         },
-        "id": 436
+        "id": 436,
+        "pos": "Adjective, Noun"
       },
       {
         "hanzi": "空",
@@ -1015,7 +1082,8 @@
           "py": "tiān kōng hěn lán 。",
           "en": "The sky is very blue."
         },
-        "id": 437
+        "id": 437,
+        "pos": "Noun"
       }
     ],
     "量": [
@@ -1031,7 +1099,8 @@
           "py": "Yīshēng gěi bìngrén liáng le tǐwēn, fāxiàn tā fāshāo le.",
           "en": "The doctor measured the patient's temperature and found that he had a fever."
         },
-        "id": 465
+        "id": 465,
+        "pos": "Verb"
       },
       {
         "hanzi": "量",
@@ -1045,7 +1114,8 @@
           "py": "zhè píng shuǐ de liáng shì wǔ bǎi háo shēng 。",
           "en": "The volume of this bottle of water is 500 milliliters."
         },
-        "id": 700
+        "id": 700,
+        "pos": "Noun"
       }
     ],
     "落": [
@@ -1061,7 +1131,8 @@
           "py": "Qiūtiān dào le, shùyè mànman de luò le xiàlai.",
           "en": "Autumn has arrived, and leaves slowly fell down."
         },
-        "id": 491
+        "id": 491,
+        "pos": "Verb"
       },
       {
         "hanzi": "落",
@@ -1075,7 +1146,8 @@
           "py": "Tā chūmén tài jí, bǎ yàoshi là zài bàngōngshì le.",
           "en": "He left his keys in the office because he went out in too much of a hurry."
         },
-        "id": 812
+        "id": 812,
+        "pos": "Verb"
       }
     ],
     "省": [
@@ -1091,7 +1163,8 @@
           "py": "chū mén zuò gōng jiāo kě yǐ shěng qián 。",
           "en": "Taking the bus can save you money."
         },
-        "id": 646
+        "id": 646,
+        "pos": "Verb"
       },
       {
         "hanzi": "省",
@@ -1105,7 +1178,8 @@
           "py": "tā zài gōng zuò zhōng zhù yì jié shěng shí jiān hé zī yuán 。",
           "en": "He is mindful of saving time and resources in his work."
         },
-        "id": 980
+        "id": 980,
+        "pos": "Verb"
       }
     ],
     "数": [
@@ -1121,7 +1195,8 @@
           "py": "Tā de shùxué chéngjì fēicháng hǎo, jīngcháng kǎo yībǎi fēn.",
           "en": "His math grades are very good; he often scores 100 points."
         },
-        "id": 687
+        "id": 687,
+        "pos": "Noun"
       },
       {
         "hanzi": "数",
@@ -1135,7 +1210,8 @@
           "py": "zhè dào tí de shù mù fēi cháng dà ， xū yào zī xì jì suàn 。",
           "en": "The number of problems is very large and requires careful calculation."
         },
-        "id": 1055
+        "id": 1055,
+        "pos": "Verb"
       }
     ],
     "转": [
@@ -1151,7 +1227,8 @@
           "py": "qǐng zài lù kǒu xiàng zuǒ zhuǎn 。",
           "en": "Please turn left at the intersection."
         },
-        "id": 966
+        "id": 966,
+        "pos": "Verb"
       },
       {
         "hanzi": "转",
@@ -1165,7 +1242,8 @@
           "py": "Fēngshàn yìzhí zài zhuàn, fángjiān lǐ de kōngqì zhōngyú liúdòng qǐlai.",
           "en": "The fan kept turning, and the air in the room finally began to move."
         },
-        "id": 1745
+        "id": 1745,
+        "pos": "Verb"
       }
     ],
     "冲": [
@@ -1181,7 +1259,8 @@
           "py": "shuǐ chōng zǒu liǎo lù shàng de ní tǔ 。",
           "en": "The water washed away the mud on the road."
         },
-        "id": 158
+        "id": 158,
+        "pos": "Verb"
       },
       {
         "hanzi": "冲",
@@ -1195,7 +1274,8 @@
           "py": "Tā chòng wǒ xiào le xiào, sìhū shì zài ànshì huìyì yǐjīng jiéshù.",
           "en": "He smiled at me, as if hinting that the meeting was already over."
         },
-        "id": 174
+        "id": 174,
+        "pos": "Preposition, Adverb"
       }
     ],
     "处": [
@@ -1211,7 +1291,8 @@
           "py": "zhè gè wèn tí hěn nán chǔ 。",
           "en": "This is a difficult problem to solve."
         },
-        "id": 171
+        "id": 171,
+        "pos": "Verb"
       },
       {
         "hanzi": "处",
@@ -1225,7 +1306,8 @@
           "py": "tā bèi ān pái zài yī gè tè shū de chǔ 。",
           "en": "He was assigned to a special department."
         },
-        "id": 172
+        "id": 172,
+        "pos": "Noun"
       }
     ],
     "调": [
@@ -1241,7 +1323,8 @@
           "py": "lǎo shī diào zhěng liǎo kè chéng de ān pái 。",
           "en": "The teacher adjusted the course schedule."
         },
-        "id": 275
+        "id": 275,
+        "pos": "Verb, Noun"
       },
       {
         "hanzi": "调",
@@ -1255,7 +1338,8 @@
           "py": "tā mén duì zhè dào tí mù jìn xíng liǎo yī cì tǎo lùn hé diào zhěng 。",
           "en": "They discussed and adjusted the question."
         },
-        "id": 1119
+        "id": 1119,
+        "pos": "Verb"
       }
     ],
     "划": [
@@ -1271,7 +1355,8 @@
           "py": "tā zài dì tú shàng huá chū liǎo lù xiàn 。",
           "en": "He drew the route on the map."
         },
-        "id": 488
+        "id": 488,
+        "pos": "Verb"
       },
       {
         "hanzi": "划",
@@ -1285,7 +1370,8 @@
           "py": "Chuánfū yònglì huá zhe xiǎochuán, bǎ yóukè sòng dào duì'àn de cūnzhuāng.",
           "en": "The boatman rowed the small boat with effort, taking the tourists to the village on the opposite bank."
         },
-        "id": 559
+        "id": 559,
+        "pos": "Verb"
       }
     ],
     "系": [
@@ -1301,7 +1387,8 @@
           "py": "tā bāng hái zǐ xì hǎo liǎo ān quán dài 。",
           "en": "He helped the child fasten his seatbelt."
         },
-        "id": 522
+        "id": 522,
+        "pos": "Verb"
       },
       {
         "hanzi": "系",
@@ -1315,7 +1402,8 @@
           "py": "tā bǎ liǎng gè xì tǒng lián jiē liǎo qǐ lái 。",
           "en": "He connected the two systems."
         },
-        "id": 1222
+        "id": 1222,
+        "pos": "Noun"
       }
     ],
     "结": [
@@ -1331,7 +1419,8 @@
           "py": "qiū tiān dào liǎo ， shù yè kāi shǐ jié guǒ liǎo 。",
           "en": "Autumn has arrived, and the leaves are beginning to bear fruit."
         },
-        "id": 572
+        "id": 572,
+        "pos": "Verb"
       },
       {
         "hanzi": "结",
@@ -1345,7 +1434,8 @@
           "py": "Zhè kē píngguǒ shù qùnián méiyǒu kāihuā, jīnnián què jiē le bù shǎo guǒzi.",
           "en": "This apple tree did not blossom last year, but this year it has borne quite a lot of fruit."
         },
-        "id": 662
+        "id": 662,
+        "pos": "Verb"
       }
     ],
     "扇": [
@@ -1361,7 +1451,8 @@
           "py": "tā yòng shàn zǐ shàn liǎo shàn fēng ， gǎn jué liáng kuài duō liǎo 。",
           "en": "She fanned herself with a fan and felt much cooler."
         },
-        "id": 948
+        "id": 948,
+        "pos": "Verb"
       },
       {
         "hanzi": "扇",
@@ -1375,7 +1466,8 @@
           "py": "Zhè shàn chuānghu cháo nán, qīngchén yángguāng néng zhíjiē zhào jìnlai.",
           "en": "This window faces south, so morning sunlight can shine directly in."
         },
-        "id": 1138
+        "id": 1138,
+        "pos": "Noun, Measure Word"
       }
     ],
     "炸": [
@@ -1391,7 +1483,8 @@
           "py": "chú shī bǎ jī tuǐ fàng jìn yóu guō lǐ zhà 。",
           "en": "The chef put the chicken legs into the oil to fry."
         },
-        "id": 1460
+        "id": 1460,
+        "pos": "Verb"
       },
       {
         "hanzi": "炸",
@@ -1405,7 +1498,8 @@
           "py": "Tūrán chuán lái de jùxiǎng, ràng dàjiā yǐwéi fùjìn yǒu dōngxi zhà le.",
           "en": "The sudden loud noise made everyone think that something nearby had exploded."
         },
-        "id": 1657
+        "id": 1657,
+        "pos": "Verb"
       }
     ],
     "卷": [
@@ -1421,7 +1515,8 @@
           "py": "Tā bǎ hǎibào juǎn qǐlái, fàng jìn zhǐtǒng lǐ dài zǒu.",
           "en": "She rolled up the poster and put it into a paper tube to take away."
         },
-        "id": 744
+        "id": 744,
+        "pos": "Verb, Measure Word"
       },
       {
         "hanzi": "卷",
@@ -1435,7 +1530,8 @@
           "py": "Zhè tào xiǎoshuō yí gòng yǒu sān juàn, nèiróng wéirào tóng yí gè jiāzú zhǎnkāi.",
           "en": "This set of novels has three volumes in total, with the content centred on the same family."
         },
-        "id": 745
+        "id": 745,
+        "pos": "Noun"
       }
     ],
     "散": [
@@ -1451,7 +1547,8 @@
           "py": "Tā bǎ língqián sǎn zài zhuō shàng, zǐxì shǔ le yí biàn.",
           "en": "He scattered the small change on the table and counted it carefully."
         },
-        "id": 1128
+        "id": 1128,
+        "pos": "Adjective"
       },
       {
         "hanzi": "散",
@@ -1465,7 +1562,8 @@
           "py": "Huìyì jiéshù hòu, rénqún hěn kuài sàn le, guǎngchǎng huīfù le píngjìng.",
           "en": "After the meeting ended, the crowd quickly dispersed and the square became calm again."
         },
-        "id": 1129
+        "id": 1129,
+        "pos": "Verb"
       }
     ],
     "吐": [
@@ -1481,7 +1579,8 @@
           "py": "Zài gōnggòng chǎngsuǒ suídì tǔ kǒushuǐ jì bù wèishēng, yě hěn bù lǐmào.",
           "en": "Spitting in public places is both unhygienic and very impolite."
         },
-        "id": 1328
+        "id": 1328,
+        "pos": "Verb"
       },
       {
         "hanzi": "吐",
@@ -1495,7 +1594,8 @@
           "py": "Tā yùnchē hěn yánzhòng, gāng xià chē jiù tù le.",
           "en": "He gets carsick badly and vomited as soon as he got out of the car."
         },
-        "id": 1329
+        "id": 1329,
+        "pos": "Verb"
       }
     ]
   },
@@ -1513,7 +1613,8 @@
           "py": "Wǒ xǐhuan zài jiālǐ kàn shū.",
           "en": "I like reading books at home."
         },
-        "id": 50
+        "id": 50,
+        "pos": "Verb"
       },
       {
         "hanzi": "看",
@@ -1527,7 +1628,8 @@
           "py": "Māma shēngbìng le, mèimei zài jiā kān tā.",
           "en": "Mom is sick; my younger sister is at home looking after her."
         },
-        "id": 564
+        "id": 564,
+        "pos": "Verb"
       }
     ],
     "长": [
@@ -1543,7 +1645,8 @@
           "py": "Zhè tiáo lù hěn cháng, wǒmen zuò chūzūchē qù ba.",
           "en": "This road is very long; let's go by taxi."
         },
-        "id": 8
+        "id": 8,
+        "pos": "Adjective"
       },
       {
         "hanzi": "长",
@@ -1557,7 +1660,8 @@
           "py": "Tā de tóufa zhǎng de hěn kuài.",
           "en": "His hair grows very fast."
         },
-        "id": 284
+        "id": 284,
+        "pos": "Verb"
       }
     ],
     "地": [
@@ -1573,7 +1677,8 @@
           "py": "Mèimei gāoxìng de xiào le.",
           "en": "Younger sister smiled happily."
         },
-        "id": 20
+        "id": 20,
+        "pos": "Particle"
       },
       {
         "hanzi": "地",
@@ -1587,7 +1692,8 @@
           "py": "Dì shàng yǒu hěnduō shuǐ, zǒulù qǐng xiǎoxīn.",
           "en": "There is a lot of water on the ground; please be careful walking."
         },
-        "id": 54
+        "id": 54,
+        "pos": "Noun"
       }
     ],
     "得": [
@@ -1603,7 +1709,8 @@
           "py": "Tā shuō hànyǔ shuō de hěn hǎo.",
           "en": "He speaks Chinese very well."
         },
-        "id": 21
+        "id": 21,
+        "pos": "Particle"
       },
       {
         "hanzi": "得",
@@ -1617,7 +1724,8 @@
           "py": "Tā zài zhè cì hànyǔ bǐsài zhōng dé le dì-yī míng.",
           "en": "He won first place in this Chinese competition."
         },
-        "id": 50
+        "id": 50,
+        "pos": "Verb"
       },
       {
         "hanzi": "得",
@@ -1631,7 +1739,8 @@
           "py": "Shíjiān bù zǎo le, wǒ děi huí jiā le.",
           "en": "It is getting late; I must go home."
         },
-        "id": 51
+        "id": 51,
+        "pos": "Verb"
       }
     ],
     "过": [
@@ -1647,7 +1756,8 @@
           "py": "Guò mǎlù de shíhou yào kàn chē, zhùyì ānquán.",
           "en": "When crossing the street, watch for cars and pay attention to safety."
         },
-        "id": 36
+        "id": 36,
+        "pos": "Verb"
       },
       {
         "hanzi": "过",
@@ -1661,7 +1771,8 @@
           "py": "Wǒ qùguo Zhōngguó, chīguo Běijīng kǎoyā.",
           "en": "I have been to China and eaten Peking duck."
         },
-        "id": 37
+        "id": 37,
+        "pos": "Particle"
       }
     ],
     "还": [
@@ -1677,7 +1788,8 @@
           "py": "Yǐjīng shí diǎn le, tā hái zài gōngzuò.",
           "en": "It is already ten o'clock, but he is still working."
         },
-        "id": 38
+        "id": 38,
+        "pos": "Adverb"
       },
       {
         "hanzi": "还",
@@ -1691,7 +1803,8 @@
           "py": "Wǒ cóng túshūguǎn jiè le yì běn shū, míngtiān yào qù huán shū.",
           "en": "I borrowed a book from the library and need to return it tomorrow."
         },
-        "id": 103
+        "id": 103,
+        "pos": "Verb"
       }
     ],
     "只": [
@@ -1707,7 +1820,8 @@
           "py": "Shù shàng yǒu yì zhī xiǎoniǎo.",
           "en": "There is a little bird in the tree."
         },
-        "id": 145
+        "id": 145,
+        "pos": "Measure Word"
       },
       {
         "hanzi": "只",
@@ -1721,7 +1835,8 @@
           "py": "Wǒ zhǐ yǒu yí gè gēge, méiyǒu jiějie.",
           "en": "I only have one older brother; I do not have an older sister."
         },
-        "id": 289
+        "id": 289,
+        "pos": "Adverb"
       }
     ],
     "行": [
@@ -1737,7 +1852,8 @@
           "py": "Wǒmen míngtiān xiàwǔ sān diǎn jiànmiàn, xíng ma?",
           "en": "We meet tomorrow afternoon at three o'clock, is that okay?"
         },
-        "id": 247
+        "id": 247,
+        "pos": "Verb, Adjective"
       },
       {
         "hanzi": "行",
@@ -1751,7 +1867,8 @@
           "py": "tā zài yín xíng gōng zuò ， zhè gè xíng yè dài yù hěn hǎo 。",
           "en": "He works in a bank, an industry with good pay."
         },
-        "id": 399
+        "id": 399,
+        "pos": "Noun"
       }
     ],
     "当": [
@@ -1767,7 +1884,8 @@
           "py": "dāng lǎo shī shì tā de mèng xiǎng 。",
           "en": "Being a teacher was his dream."
         },
-        "id": 67
+        "id": 67,
+        "pos": "Verb"
       },
       {
         "hanzi": "当",
@@ -1781,7 +1899,8 @@
           "py": "dāng tā shuō wán ， dà jiā dū gǔ qǐ zhǎng lái 。",
           "en": "When he finished speaking, everyone applauded."
         },
-        "id": 185
+        "id": 185,
+        "pos": "Verb"
       }
     ],
     "倒": [
@@ -1797,7 +1916,8 @@
           "py": "tā bǎ shuǐ dǎo jìn bēi zǐ lǐ 。",
           "en": "He poured the water into the cup."
         },
-        "id": 70
+        "id": 70,
+        "pos": "Verb"
       },
       {
         "hanzi": "倒",
@@ -1811,7 +1931,8 @@
           "py": "tā bù xiǎo xīn bǎ shuǐ bēi dǎo liǎo 。",
           "en": "He accidentally spilled the water glass."
         },
-        "id": 194
+        "id": 194,
+        "pos": "Verb"
       }
     ],
     "空": [
@@ -1827,7 +1948,8 @@
           "py": "Jīntiān tiānqì hěn hǎo, lánlán de tiānkōng shàng méiyǒu yì duǒ yún.",
           "en": "The weather is great today; there is not a single cloud in the blue sky."
         },
-        "id": 252
+        "id": 252,
+        "pos": "Adjective, Noun"
       },
       {
         "hanzi": "空",
@@ -1841,7 +1963,8 @@
           "py": "tiān kōng hěn lán 。",
           "en": "The sky is very blue."
         },
-        "id": 253
+        "id": 253,
+        "pos": "Noun"
       }
     ],
     "量": [
@@ -1857,7 +1980,8 @@
           "py": "Yīshēng gěi bìngrén liáng le tǐwēn, fāxiàn tā fāshāo le.",
           "en": "The doctor measured the patient's temperature and found that he had a fever."
         },
-        "id": 274
+        "id": 274,
+        "pos": "Verb"
       },
       {
         "hanzi": "量",
@@ -1871,7 +1995,8 @@
           "py": "zhè píng shuǐ de liáng shì wǔ bǎi háo shēng 。",
           "en": "The volume of this bottle of water is 500 milliliters."
         },
-        "id": 607
+        "id": 607,
+        "pos": "Noun"
       }
     ],
     "数": [
@@ -1887,7 +2012,8 @@
           "py": "Tā de shùxué chéngjì fēicháng hǎo, jīngcháng kǎo yībǎi fēn.",
           "en": "His math grades are very good; he often scores 100 points."
         },
-        "id": 401
+        "id": 401,
+        "pos": "Noun"
       },
       {
         "hanzi": "数",
@@ -1901,7 +2027,8 @@
           "py": "zhè dào tí de shù mù fēi cháng dà ， xū yào zī xì jì suàn 。",
           "en": "The number of problems is very large and requires careful calculation."
         },
-        "id": 898
+        "id": 898,
+        "pos": "Verb"
       }
     ],
     "重": [
@@ -1917,7 +2044,8 @@
           "py": "zhè gè wèn tí hěn zhòng yào 。",
           "en": "This is a very important question."
         },
-        "id": 574
+        "id": 574,
+        "pos": "Adjective"
       },
       {
         "hanzi": "重",
@@ -1931,7 +2059,8 @@
           "py": "Lǎoshī ràng wǒmen bǎ zhè piān zuòyè chóngxīn zuò yí biàn.",
           "en": "The teacher asked us to do this homework assignment once again."
         },
-        "id": 126
+        "id": 126,
+        "pos": "Adverb"
       }
     ],
     "转": [
@@ -1947,7 +2076,8 @@
           "py": "qǐng zài lù kǒu xiàng zuǒ zhuǎn 。",
           "en": "Please turn left at the intersection."
         },
-        "id": 581
+        "id": 581,
+        "pos": "Verb"
       },
       {
         "hanzi": "转",
@@ -1961,7 +2091,8 @@
           "py": "Fēngshàn yìzhí zài zhuàn, fángjiān lǐ de kōngqì zhōngyú liúdòng qǐlai.",
           "en": "The fan kept turning, and the air in the room finally began to move."
         },
-        "id": 2420
+        "id": 2420,
+        "pos": "Verb"
       }
     ],
     "处": [
@@ -1977,7 +2108,8 @@
           "py": "tā bèi ān pái zài yī gè tè shū de chǔ 。",
           "en": "He was assigned to a special department."
         },
-        "id": 136
+        "id": 136,
+        "pos": "Noun"
       },
       {
         "hanzi": "处",
@@ -1991,7 +2123,8 @@
           "py": "zhè gè wèn tí hěn nán chǔ 。",
           "en": "This is a difficult problem to solve."
         },
-        "id": 137
+        "id": 137,
+        "pos": "Verb"
       }
     ],
     "调": [
@@ -2007,7 +2140,8 @@
           "py": "lǎo shī diào zhěng liǎo kè chéng de ān pái 。",
           "en": "The teacher adjusted the course schedule."
         },
-        "id": 219
+        "id": 219,
+        "pos": "Verb, Noun"
       },
       {
         "hanzi": "调",
@@ -2021,7 +2155,8 @@
           "py": "tā mén duì zhè dào tí mù jìn xíng liǎo yī cì tǎo lùn hé diào zhěng 。",
           "en": "They discussed and adjusted the question."
         },
-        "id": 951
+        "id": 951,
+        "pos": "Verb"
       }
     ],
     "系": [
@@ -2037,7 +2172,8 @@
           "py": "tā bāng hái zǐ xì hǎo liǎo ān quán dài 。",
           "en": "He helped the child fasten his seatbelt."
         },
-        "id": 448
+        "id": 448,
+        "pos": "Verb"
       },
       {
         "hanzi": "系",
@@ -2051,7 +2187,8 @@
           "py": "tā bǎ liǎng gè xì tǒng lián jiē liǎo qǐ lái 。",
           "en": "He connected the two systems."
         },
-        "id": 1032
+        "id": 1032,
+        "pos": "Noun"
       }
     ],
     "卷": [
@@ -2067,7 +2204,8 @@
           "py": "Tā bǎ hǎibào juǎn qǐlái, fàng jìn zhǐtǒng lǐ dài zǒu.",
           "en": "She rolled up the poster and put it into a paper tube to take away."
         },
-        "id": 543
+        "id": 543,
+        "pos": "Verb, Measure Word"
       },
       {
         "hanzi": "卷",
@@ -2081,7 +2219,8 @@
           "py": "Zhè tào xiǎoshuō yí gòng yǒu sān juàn, nèiróng wéirào tóng yí gè jiāzú zhǎnkāi.",
           "en": "This set of novels has three volumes in total, with the content centred on the same family."
         },
-        "id": 1032
+        "id": 1032,
+        "pos": "Noun"
       }
     ],
     "吐": [
@@ -2097,7 +2236,8 @@
           "py": "Zài gōnggòng chǎngsuǒ suídì tǔ kǒushuǐ jì bù wèishēng, yě hěn bù lǐmào.",
           "en": "Spitting in public places is both unhygienic and very impolite."
         },
-        "id": 974
+        "id": 974,
+        "pos": "Verb"
       },
       {
         "hanzi": "吐",
@@ -2111,7 +2251,8 @@
           "py": "Tā yùnchē hěn yánzhòng, gāng xià chē jiù tù le.",
           "en": "He gets carsick badly and vomited as soon as he got out of the car."
         },
-        "id": 1821
+        "id": 1821,
+        "pos": "Verb"
       }
     ],
     "散": [
@@ -2127,7 +2268,8 @@
           "py": "Tā bǎ língqián sǎn zài zhuō shàng, zǐxì shǔ le yí biàn.",
           "en": "He scattered the small change on the table and counted it carefully."
         },
-        "id": 1562
+        "id": 1562,
+        "pos": "Adjective"
       },
       {
         "hanzi": "散",
@@ -2141,7 +2283,8 @@
           "py": "Huìyì jiéshù hòu, rénqún hěn kuài sàn le, guǎngchǎng huīfù le píngjìng.",
           "en": "After the meeting ended, the crowd quickly dispersed and the square became calm again."
         },
-        "id": 1563
+        "id": 1563,
+        "pos": "Verb"
       }
     ]
   }

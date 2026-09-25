@@ -16,9 +16,8 @@ const Icons = {
   },
 
   cards(size = 20, color = 'currentColor') {
-    return `<svg width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="${color}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <rect x="2" y="7" width="16" height="14" rx="3" ry="3"></rect>
-      <path d="M6 3h12a3 3 0 0 1 3 3v12"></path>
+    return `<svg width="${size}" height="${size}" viewBox="0 0 27 25" fill="none" stroke="${color}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M17.3194 1H18.6806C19.0416 1 19.3878 1.14247 19.643 1.39608C19.8983 1.64969 20.0417 1.99365 20.0417 2.3523V7.08537M24.1252 3.70461C24.4845 3.85607 24.833 3.99806 25.1705 4.13059C25.5028 4.27067 25.7655 4.53614 25.9008 4.8686C26.0361 5.20107 26.0329 5.57331 25.892 5.90346L22.764 13.1707M1.80765 5.32332L11.5236 1.119C11.6839 1.05073 11.8564 1.01504 12.0308 1.01404C12.2052 1.01303 12.3781 1.04673 12.5392 1.11315C12.7003 1.17957 12.8464 1.27737 12.9689 1.40077C13.0913 1.52417 13.1877 1.67068 13.2522 1.83167L19.9546 17.9268C20.0939 18.2532 20.0986 18.6208 19.9678 18.9507C19.8369 19.2805 19.5809 19.546 19.2549 19.6902L9.54038 23.8945C9.37998 23.963 9.2074 23.9989 9.03282 24C8.85824 24.0011 8.68521 23.9674 8.52394 23.901C8.36267 23.8346 8.21644 23.7367 8.09388 23.6132C7.97131 23.4897 7.87491 23.343 7.81035 23.1819L1.10802 7.08537C0.96871 6.75899 0.963972 6.39132 1.09483 6.06151C1.22568 5.7317 1.48166 5.46748 1.80765 5.32332Z"></path>
     </svg>`;
   },
 
@@ -69,8 +68,8 @@ const Icons = {
     return `<svg width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="${color}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <path d="M15 6v12"></path>
       <path d="M19 14l-4 4-4-4"></path>
-      <text x="3" y="10" font-family="-apple-system, sans-serif" font-size="9" font-weight="700" fill="${color}" stroke="none">A</text>
-      <text x="3" y="19" font-family="-apple-system, sans-serif" font-size="9" font-weight="700" fill="${color}" stroke="none">Z</text>
+      <text x="3" y="10" font-family="'Manrope', -apple-system, sans-serif" font-size="9" font-weight="700" fill="${color}" stroke="none">A</text>
+      <text x="3" y="19" font-family="'Manrope', -apple-system, sans-serif" font-size="9" font-weight="700" fill="${color}" stroke="none">Z</text>
     </svg>`;
   },
 
@@ -181,15 +180,19 @@ const Icons = {
   },
 
   cloud(size = 20, color = 'currentColor') {
-    return `<svg width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="${color}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+    const w = size;
+    const h = Math.round(size * (19 / 27));
+    return `<svg width="${w}" height="${h}" viewBox="0 0 27 19" fill="none" stroke="${color}" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M7.03019 16.9372C3.97594 16.9372 1.5 14.5539 1.5 11.6136C1.5 8.67459 3.97594 6.29127 7.03019 6.29127C7.49688 4.1989 9.16056 2.49127 11.3942 1.81084C13.6267 1.13159 16.092 1.58165 17.859 2.99834C19.626 4.41146 20.4264 6.56915 19.9609 8.66152H21.1365C23.4082 8.66152 25.25 10.514 25.25 12.8011C25.25 15.0895 23.4082 16.942 21.1353 16.942H7.03019" />
     </svg>`;
   },
 
   cloudCheck(size = 20, color = 'currentColor') {
-    return `<svg width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="${color}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
-      <polyline points="9 14 11 16 15 12" stroke-width="2.5"></polyline>
+    const w = size;
+    const h = Math.round(size * (19 / 27));
+    return `<svg width="${w}" height="${h}" viewBox="0 0 27 19" fill="none" stroke="${color}" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M7.03019 16.9372C3.97594 16.9372 1.5 14.5539 1.5 11.6136C1.5 8.67459 3.97594 6.29127 7.03019 6.29127C7.49688 4.1989 9.16056 2.49127 11.3942 1.81084C13.6267 1.13159 16.092 1.58165 17.859 2.99834C19.626 4.41146 20.4264 6.56915 19.9609 8.66152H21.1365C23.4082 8.66152 25.25 10.514 25.25 12.8011C25.25 15.0895 23.4082 16.942 21.1353 16.942H7.03019" />
+      <polyline points="10 10.5 13 13.5 18 8.5" stroke-width="2.5"></polyline>
     </svg>`;
   },
 

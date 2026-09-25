@@ -16,8 +16,56 @@ const App = {
   ignoreNextClick: false,
   _toastTimer: null,
 
+  setThemeColor(color = '#FBDF98') {
+    try {
+      // Remove all existing theme-color meta tags to force WebKit mutation observer
+      document.querySelectorAll('meta[name="theme-color"]').forEach(m => m.remove());
+
+      // Create and append fresh meta tag
+      const meta = document.createElement('meta');
+      meta.name = 'theme-color';
+      meta.content = '#FBDF98';
+      document.head.appendChild(meta);
+
+      // Keep root element background in sync with yellow header
+      document.documentElement.style.backgroundColor = '#FBDF98';
+      if (document.body) document.body.style.backgroundColor = '#FBDF98';
+    } catch (e) {
+      console.warn('setThemeColor error:', e);
+    }
+  },
+
+  initSplashScreen() {
+    const splash = document.getElementById('app-splash');
+    if (!splash) return;
+
+    // Maintain header yellow (#FBDF98) so iOS status bar is consistently yellow
+    this.setThemeColor('#FBDF98');
+
+    let dismissed = false;
+    const dismissSplash = () => {
+      if (dismissed) return;
+      dismissed = true;
+
+      this.setThemeColor('#FBDF98');
+      splash.classList.add('splash-fade-out');
+
+      setTimeout(() => {
+        splash.style.display = 'none';
+        if (splash.parentNode) splash.parentNode.removeChild(splash);
+      }, 550);
+    };
+
+    // Show for 3 seconds, then smoothly fade out
+    setTimeout(dismissSplash, 3000);
+
+    // Also allow tapping anywhere to dismiss early
+    splash.addEventListener('click', dismissSplash);
+  },
+
   async init() {
     try {
+      this.initSplashScreen();
       try {
         const savedInc = localStorage.getItem('hsk_include_prev_levels');
         if (savedInc !== null) {
@@ -34,6 +82,11 @@ const App = {
       this.bindAlphabetScrubberEvents();
       this.renderTabs();
       this.renderDeckSelector();
+      if (document.fonts && document.fonts.ready) {
+        document.fonts.ready.then(() => {
+          this.adjustDeckSelectWidth();
+        });
+      }
       if (window.SyncEngine) {
         SyncEngine.init();
         SyncEngine.onStatusChange((statusData) => this.updateCloudSyncStatus(statusData));
@@ -203,12 +256,20 @@ const App = {
       lastTouchEnd = now;
     }, { passive: false });
 
-    // Tab switching & Words Home Button
+    // Tab switching & Words Home Button & Study Button
     document.querySelectorAll('.tab-btn').forEach(btn => {
       btn.addEventListener('click', (e) => {
         const tab = btn.dataset.tab;
+        const setupModal = document.getElementById('study-setup-modal');
+        const isSetupOpen = setupModal && setupModal.classList.contains('visible');
+        if (isSetupOpen) {
+          if (tab === 'study') return;
+          setupModal.classList.remove('visible');
+        }
         if (tab === 'list') {
           this.handleWordsHomeClick();
+        } else if (tab === 'study') {
+          this.onStudyButtonPressed();
         } else {
           this.switchTab(tab);
         }
@@ -307,6 +368,10 @@ const App = {
         }
       });
     }
+
+    window.addEventListener('resize', () => {
+      this.adjustDeckSelectWidth();
+    });
   },
 
   switchTab(tab) {
@@ -322,7 +387,9 @@ const App = {
     }
 
     document.querySelectorAll('.tab-btn').forEach(btn => {
-      btn.classList.toggle('active', btn.dataset.tab === tab);
+      const bTab = btn.dataset.tab;
+      const isActive = bTab === tab || (bTab === 'study' && tab === 'flashcard');
+      btn.classList.toggle('active', isActive);
     });
 
     document.querySelectorAll('.tab-view').forEach(view => {
@@ -350,13 +417,15 @@ const App = {
 
   renderTabs() {
     const tabList = document.querySelector('.tab-btn[data-tab="list"]');
+    const tabStudy = document.querySelector('.tab-btn[data-tab="study"]');
     const tabCustom = document.querySelector('.tab-btn[data-tab="custom"]');
 
     if (tabList) tabList.innerHTML = `${Icons.list(22)}<span>Words</span>`;
+    if (tabStudy) tabStudy.innerHTML = `${Icons.cards(22)}<span>Study</span>`;
     if (tabCustom) tabCustom.innerHTML = `${Icons.star(22)}<span>Decks</span>`;
   },
 
-  renderDeckOptionsHTML(selectedId, includePreviousLevels = false) {
+  renderDeckOptionsHTML(selectedId) {
     const options = DeckManager.getBaseDeckOptions();
     const baseSelectedId = DeckManager.getBaseDeckId(selectedId);
     const groups = {};
@@ -366,19 +435,10 @@ const App = {
       groups[grp].push(opt);
     });
 
-    const isCumulative = Boolean(includePreviousLevels);
-
     return Object.keys(groups).map(grpName => {
       const opts = groups[grpName].map(opt => {
-        let label = opt.label;
-        if (isCumulative && DeckManager.isCumulativeEligible(opt.id)) {
-          const cumDef = DeckManager.DECK_DEFINITIONS.find(d => d.id === `${opt.id}_cum`);
-          if (cumDef) {
-            label = cumDef.label;
-          }
-        }
         const isSelected = (opt.id === baseSelectedId);
-        return `<option value="${opt.id}" ${isSelected ? 'selected' : ''}>${label}</option>`;
+        return `<option value="${opt.id}" ${isSelected ? 'selected' : ''}>${opt.label}</option>`;
       }).join('');
       return `<optgroup label="${grpName}">${opts}</optgroup>`;
     }).join('');
@@ -399,6 +459,20 @@ const App = {
     }
   },
 
+  adjustDeckSelectWidth() {
+    const select = document.getElementById('deck-select');
+    if (!select || !select.options || select.selectedIndex < 0) return;
+    const selectedOption = select.options[select.selectedIndex];
+    const selectedText = selectedOption ? selectedOption.text : '';
+    if (!selectedText) return;
+
+    const canvas = this._selectMeasureCanvas || (this._selectMeasureCanvas = document.createElement('canvas'));
+    const ctx = canvas.getContext('2d');
+    ctx.font = '800 20px Manrope, -apple-system, sans-serif';
+    const textWidth = Math.ceil(ctx.measureText(selectedText.toUpperCase()).width);
+    select.style.width = `${textWidth + 20}px`;
+  },
+
   renderDeckSelector() {
     const deckSelect = document.getElementById('deck-select');
     if (!deckSelect) return;
@@ -406,6 +480,7 @@ const App = {
     deckSelect.innerHTML = this.renderDeckOptionsHTML(baseId, this.includePreviousLevels);
     deckSelect.value = baseId;
     this.updateListCumulativeToggleVisibility();
+    this.adjustDeckSelectWidth();
   },
 
   async loadDeck(deckId) {
@@ -427,6 +502,7 @@ const App = {
 
     this.filterAndRenderList();
     this.updateListCumulativeToggleVisibility();
+    this.adjustDeckSelectWidth();
   },
 
   clearSearch(reRender = true) {
@@ -449,6 +525,11 @@ const App = {
     if (this.activeTab !== 'list') {
       this.switchTab('list');
     }
+
+    // Ensure tab buttons visually reflect the list tab
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.dataset.tab === 'list');
+    });
 
     // 2. Close any open modal
     document.querySelectorAll('.modal-overlay.visible').forEach(m => m.classList.remove('visible'));
@@ -600,7 +681,7 @@ const App = {
           <div class="word-card-bottom-row">
             ${w.level ? `<span class="word-level-pill">HSK ${w.level}</span>` : ''}
             <button class="btn-card-action btn-speak" data-hanzi="${w.hanzi}" title="Listen" aria-label="Listen">
-              ${Icons.speaker(16, '#4E7A58')}
+              ${Icons.speaker(16, '#52A1B1')}
             </button>
             <button class="btn-card-action btn-remember ${isRem ? 'active' : ''}" data-hanzi="${w.hanzi}" title="Bookmark" aria-label="Bookmark">
               ${remIcon}
@@ -1011,6 +1092,12 @@ const App = {
 
     const buildCardHtml = (w, versions, activeIdx) => {
       const isRem = DeckManager.isRemembered(w.hanzi);
+      if (!w.pos && DeckManager.globalSearchPool) {
+        const cleanPy = DeckManager.cleanPinyin(w.pinyin || '');
+        const match = DeckManager.globalSearchPool.find(m => m.hanzi === w.hanzi && (cleanPy ? DeckManager.cleanPinyin(m.pinyin || '') === cleanPy : true)) ||
+                      DeckManager.globalSearchPool.find(m => m.hanzi === w.hanzi);
+        if (match && match.pos) w.pos = match.pos;
+      }
 
       // Compact, uniform curriculum level badges (e.g. 3.0 4级 and 2.0 6级)
       const hskInfo = DeckManager.getWordHskLevels(w.hanzi);
@@ -1056,7 +1143,7 @@ const App = {
             <div class="card-pinyin-block">
               <span class="card-pinyin-text">${w.pinyin}</span>
               <button class="btn-speaker-round" id="btn-detail-speak" title="Listen" aria-label="Listen">
-                ${Icons.speaker(17, '#4E7A58')}
+                ${Icons.speaker(17, '#52A1B1')}
               </button>
             </div>
           </div>
@@ -1073,7 +1160,7 @@ const App = {
               <div class="example-top">
                 <label class="card-ex-label">Example Sentence</label>
                 <button class="btn-icon-tiny" id="btn-example-speak" title="Listen Sentence">
-                  ${Icons.speaker(14, '#4E7A58')}
+                  ${Icons.speaker(14, '#52A1B1')}
                 </button>
               </div>
               <div class="card-example-card">
@@ -1519,7 +1606,7 @@ const App = {
         return `
           <button class="popover-deck-item ${inDeck ? 'in-deck' : ''}" data-deck-id="${cd.id}">
             <span>${cd.name}</span>
-            ${inDeck ? Icons.check(14, '#4E7A58') : ''}
+            ${inDeck ? Icons.check(14, '#52A1B1') : ''}
           </button>
         `;
       }).join('');
@@ -1527,7 +1614,7 @@ const App = {
 
     itemsHtml += `
       <button class="popover-create-btn" id="btn-popover-create-deck">
-        ${Icons.plus(14, '#4E7A58')}
+        ${Icons.plus(14, '#52A1B1')}
         <span>Create New Deck</span>
       </button>
     `;
@@ -1579,7 +1666,15 @@ const App = {
 
     const titleEl = modal.querySelector('#resume-deck-title');
     const progEl = modal.querySelector('#resume-deck-progress');
-    if (titleEl) titleEl.textContent = saved.config.deckLabel || 'Previous Deck';
+    let displayDeckLabel = saved.config.deckLabel || 'Previous Deck';
+    if (saved.config.deckId && saved.config.deckId.endsWith('_cum')) {
+      const baseDef = DeckManager.getDeckDef(DeckManager.getBaseDeckId(saved.config.deckId));
+      if (baseDef) {
+        displayDeckLabel = `${baseDef.label} (including previous levels)`;
+        saved.config.deckLabel = displayDeckLabel;
+      }
+    }
+    if (titleEl) titleEl.textContent = displayDeckLabel;
     if (progEl) {
       const batchNum = (saved.state.currentBatchIndex || 0) + 1;
       const cardNum = Math.min((saved.state.currentIndex || 0) + 1, (saved.state.currentSubdeck || []).length);
@@ -1681,7 +1776,7 @@ const App = {
       } else {
         if (toggleWrap) toggleWrap.style.display = 'none';
       }
-      deckSelect.innerHTML = this.renderDeckOptionsHTML(currentVal, modalIncludePrevious);
+      deckSelect.innerHTML = this.renderDeckOptionsHTML(currentVal);
       deckSelect.value = currentVal;
     };
 
@@ -1743,10 +1838,20 @@ const App = {
 
     updateRangePreview();
     modal.classList.add('visible');
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.dataset.tab === 'study');
+    });
 
-    modal.querySelector('#btn-modal-setup-close').onclick = () => {
-      modal.classList.remove('visible');
-    };
+    const closeBtn = modal.querySelector('#btn-modal-setup-close');
+    if (closeBtn) {
+      closeBtn.onclick = () => {
+        modal.classList.remove('visible');
+        const restoreTab = this.activeTab === 'flashcard' ? 'list' : this.activeTab;
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+          btn.classList.toggle('active', btn.dataset.tab === restoreTab);
+        });
+      };
+    }
 
     modal.querySelector('#btn-launch-study').onclick = async () => {
       const chosenBaseId = DeckManager.getBaseDeckId(deckSelect.value);
@@ -1816,9 +1921,16 @@ const App = {
     }
 
     const deckDef = DeckManager.getDeckDef(settings.deckId);
+    let label = deckDef ? deckDef.label : 'Deck';
+    if (settings.deckId && settings.deckId.endsWith('_cum')) {
+      const baseDef = DeckManager.getDeckDef(DeckManager.getBaseDeckId(settings.deckId));
+      if (baseDef) {
+        label = `${baseDef.label} (including previous levels)`;
+      }
+    }
     FlashcardEngine.init({
       ...settings,
-      deckLabel: deckDef ? deckDef.label : 'Deck'
+      deckLabel: label
     }, {
       onCardChange: (data) => this.renderFlashcardScreen(data),
       onRoundComplete: (data) => this.renderRoundReviewScreen(data),
@@ -1844,6 +1956,12 @@ const App = {
     let activeVersionIdx = versions.findIndex(v => (v.pinyin || '').toLowerCase() === (card.pinyin || '').toLowerCase());
     if (activeVersionIdx < 0) activeVersionIdx = 0;
     let activeCard = versions[activeVersionIdx] || card;
+    if (!activeCard.pos && DeckManager.globalSearchPool) {
+      const cleanPy = DeckManager.cleanPinyin(activeCard.pinyin || '');
+      const match = DeckManager.globalSearchPool.find(m => m.hanzi === activeCard.hanzi && (cleanPy ? DeckManager.cleanPinyin(m.pinyin || '') === cleanPy : true)) ||
+                    DeckManager.globalSearchPool.find(m => m.hanzi === activeCard.hanzi);
+      if (match && match.pos) activeCard.pos = match.pos;
+    }
     const nextCard = FlashcardEngine.getNextCard();
 
     container.innerHTML = `
@@ -1880,7 +1998,7 @@ const App = {
             <span class="card-nav-slash">/</span>
             <span class="card-nav-total">${total}</span>
             ${previousAnswer === true ? `
-              <span class="card-status-chip chip-correct" title="Latest swipe: Correct">${Icons.check(11, '#2D6A4F')} Correct</span>
+              <span class="card-status-chip chip-correct" title="Latest swipe: Correct">${Icons.check(11, '#52A1B1')} Correct</span>
             ` : previousAnswer === false ? `
               <span class="card-status-chip chip-review" title="Latest swipe: Review">${Icons.cross(11, '#D9534F')} Review</span>
             ` : ''}
@@ -1912,7 +2030,7 @@ const App = {
           <div class="flashcard ${isRevealed ? 'revealed' : ''}" id="active-study-card">
             <!-- Swipe badges -->
             <div class="swipe-badge swipe-badge-right">
-              ${Icons.check(22, '#2D6A4F')}
+              ${Icons.check(22, '#52A1B1')}
               <span>CORRECT</span>
             </div>
           <div class="swipe-badge swipe-badge-left">
@@ -1942,7 +2060,7 @@ const App = {
                     <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                       <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"></path>
                     </svg>
-                    <span>Tap to reveal</span>
+                    <span>Double tap to flip</span>
                   </div>
                   <div class="hint-swipe-row">
                     <span class="hint-swipe-side hint-swipe-left">
@@ -1968,7 +2086,7 @@ const App = {
                   <div class="revealed-pinyin-row">
                     <span class="revealed-pinyin-text">${activeCard.pinyin}</span>
                     <button class="btn-speaker-round" id="btn-card-audio" title="Listen" aria-label="Listen">
-                      ${Icons.speaker(17, '#4E7A58')}
+                      ${Icons.speaker(17, '#52A1B1')}
                     </button>
                   </div>
                 </div>
@@ -1982,7 +2100,7 @@ const App = {
               <div class="revealed-example-box" style="${activeCard.example ? '' : 'display: none;'}">
                 <div class="example-top">
                   <label>EXAMPLE</label>
-                  <button class="btn-icon-tiny" id="btn-card-ex-audio">${Icons.speaker(14, '#5C715E')}</button>
+                  <button class="btn-icon-tiny" id="btn-card-ex-audio">${Icons.speaker(14, '#52A1B1')}</button>
                 </div>
                 <div class="example-sentences-wrap">
                   <p class="ex-zh">${activeCard.example ? activeCard.example.zh : ''}</p>
@@ -2020,7 +2138,7 @@ const App = {
         </button>
 
         <button class="btn-action btn-action-correct" id="btn-action-correct" title="Mark correct (Swipe Right)">
-          ${Icons.check(24, '#4E7A58')}
+          ${Icons.check(24, '#52A1B1')}
         </button>
       </div>
     `;
@@ -2134,6 +2252,12 @@ const App = {
 
         activeVersionIdx = targetIdx;
         activeCard = versions[activeVersionIdx];
+        if (!activeCard.pos && DeckManager.globalSearchPool) {
+          const cleanPy = DeckManager.cleanPinyin(activeCard.pinyin || '');
+          const match = DeckManager.globalSearchPool.find(m => m.hanzi === activeCard.hanzi && (cleanPy ? DeckManager.cleanPinyin(m.pinyin || '') === cleanPy : true)) ||
+                        DeckManager.globalSearchPool.find(m => m.hanzi === activeCard.hanzi);
+          if (match && match.pos) activeCard.pos = match.pos;
+        }
 
         // Update active class on buttons
         cardEl.querySelectorAll('.fc-poly-dot-btn').forEach((b, i) => {
@@ -2345,10 +2469,7 @@ const App = {
             <h3 class="deck-name">Bookmarked</h3>
             <span class="deck-meta">${rememberWords.length} words saved</span>
           </div>
-        </div>
-        <div class="deck-card-actions">
-          <button class="btn-sm btn-study-deck" data-deck-id="remember">Study</button>
-          <button class="btn-sm btn-view-deck" data-deck-id="remember">View List</button>
+          <div class="deck-card-arrow">${Icons.chevronRight(18, '#8FA8AD')}</div>
         </div>
       </div>
 
@@ -2369,16 +2490,13 @@ const App = {
       html += customDecks.map(cd => `
         <div class="deck-summary-card" data-deck-id="custom_${cd.id}">
           <div class="deck-card-top">
-            <div class="deck-icon-badge custom-badge">${Icons.cards(20, '#4A6B82')}</div>
+            <div class="deck-icon-badge custom-badge">${Icons.cards(20, '#52A1B1')}</div>
             <div class="deck-details">
               <h3 class="deck-name">${cd.name}</h3>
               <span class="deck-meta">${(cd.words || []).length} words</span>
             </div>
             <button class="btn-icon-tiny btn-delete-deck" data-deck-id="${cd.id}" title="Delete Deck">${Icons.trash(16, '#A39E93')}</button>
-          </div>
-          <div class="deck-card-actions">
-            <button class="btn-sm btn-study-deck" data-deck-id="custom_${cd.id}">Study</button>
-            <button class="btn-sm btn-view-deck" data-deck-id="custom_${cd.id}">View List</button>
+            <div class="deck-card-arrow">${Icons.chevronRight(18, '#8FA8AD')}</div>
           </div>
         </div>
       `).join('');
@@ -2391,20 +2509,6 @@ const App = {
       this.promptCreateCustomDeck();
     };
 
-    wrap.querySelectorAll('.btn-study-deck').forEach(btn => {
-      btn.onclick = () => {
-        const deckId = btn.dataset.deckId;
-        this.selectedDeckId = deckId;
-        this.renderDeckSelector();
-        const saved = FlashcardEngine.getSavedSession();
-        if (saved && saved.config && saved.config.deckId === deckId) {
-          this.openResumeOrNewModal(saved);
-        } else {
-          this.openStudySetupModal(deckId);
-        }
-      };
-    });
-
     const openDeckInList = (deckId) => {
       this.clearSearch(false);
       this.selectedDeckId = deckId;
@@ -2416,14 +2520,6 @@ const App = {
       cardEl.onclick = (e) => {
         if (e.target.closest('button')) return;
         const deckId = cardEl.dataset.deckId;
-        if (deckId) openDeckInList(deckId);
-      };
-    });
-
-    wrap.querySelectorAll('.btn-view-deck').forEach(btn => {
-      btn.onclick = async (e) => {
-        e.stopPropagation();
-        const deckId = btn.dataset.deckId;
         if (deckId) openDeckInList(deckId);
       };
     });
@@ -2502,19 +2598,19 @@ const App = {
     const isLinked = !!statusData.syncKey;
 
     let badgeClass = 'badge-unlinked';
-    let badgeText = 'Not Connected';
+    let badgeHTML = '<span class="badge-dot dot-gray"></span> Not Connected';
     if (statusData.status === 'synced') {
       badgeClass = 'badge-synced';
-      badgeText = '🟢 Synced with Cloud';
+      badgeHTML = '<span class="badge-dot dot-green"></span> Synced with Cloud';
     } else if (statusData.status === 'syncing') {
       badgeClass = 'badge-syncing';
-      badgeText = '🟡 Syncing with Cloud...';
+      badgeHTML = '<span class="badge-dot dot-yellow"></span> Syncing with Cloud...';
     } else if (statusData.status === 'offline') {
       badgeClass = 'badge-offline';
-      badgeText = '⚪ Offline';
+      badgeHTML = '<span class="badge-dot dot-gray"></span> Offline';
     } else if (statusData.status === 'error') {
       badgeClass = 'badge-error';
-      badgeText = '🔴 Connection Error';
+      badgeHTML = '<span class="badge-dot dot-red"></span> Connection Error';
     }
 
     let timeText = 'Never';
@@ -2528,7 +2624,7 @@ const App = {
     if (isLinked) {
       container.innerHTML = `
         <div class="sync-status-badge-wrap">
-          <span class="sync-status-badge ${badgeClass}">${badgeText}</span>
+          <span class="sync-status-badge ${badgeClass}">${badgeHTML}</span>
           <span style="font-size: 11.5px; color: var(--text-muted);">Last sync: ${timeText}</span>
         </div>
 
@@ -2625,7 +2721,7 @@ const App = {
 
     container.innerHTML = `
       <div class="sync-status-badge-wrap">
-        <span class="sync-status-badge badge-unlinked">⚪ Not Connected</span>
+        <span class="sync-status-badge badge-unlinked"><span class="badge-dot dot-gray"></span> Not Connected</span>
         ${isSwitching ? `<button class="btn-sync-secondary" id="btn-cancel-switch" style="padding: 2px 8px; font-size: 11px;">Cancel</button>` : ''}
       </div>
 
