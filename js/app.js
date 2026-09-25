@@ -227,7 +227,7 @@ const App = {
 
   registerServiceWorker() {
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('./sw.js').catch(err => {
+      navigator.serviceWorker.register('./sw.js?v=56').catch(err => {
         console.log('SW registration note:', err);
       });
     }

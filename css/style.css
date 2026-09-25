@@ -3231,12 +3231,27 @@ input, button, select, textarea {
 /* ==========================================================================
    App Intro / Splash Loading Screen
    ========================================================================== */
+.ios-notch-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  height: max(env(safe-area-inset-top, 0px), 24px);
+  background-color: var(--bg-header);
+  z-index: 1000000;
+  pointer-events: none;
+}
+
 .app-splash {
   position: fixed;
-  inset: 0;
+  top: max(env(safe-area-inset-top, 0px), 0px);
+  left: 0;
+  right: 0;
+  bottom: 0;
   width: 100vw;
-  height: 100vh;
-  height: 100dvh;
+  height: calc(100vh - max(env(safe-area-inset-top, 0px), 0px));
+  height: calc(100dvh - max(env(safe-area-inset-top, 0px), 0px));
   background-color: #B5DDDC;
   z-index: 999999;
   display: flex;
@@ -3257,7 +3272,7 @@ input, button, select, textarea {
 
 .splash-sun {
   position: absolute;
-  top: calc(env(safe-area-inset-top, 20px) + 16px);
+  top: 16px;
   left: clamp(-50px, -10vw, -20px);
   width: clamp(240px, 64vw, 360px);
   height: clamp(240px, 64vw, 360px);

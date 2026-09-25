@@ -1,4 +1,4 @@
-const CACHE_NAME = 'hsk-flashcards-v55';
+const CACHE_NAME = 'hsk-flashcards-v56';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
@@ -40,10 +40,11 @@ const ASSETS_TO_CACHE = [
 ];
 
 self.addEventListener('install', (event) => {
+  self.skipWaiting();
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
       return cache.addAll(ASSETS_TO_CACHE);
-    }).then(() => self.skipWaiting())
+    })
   );
 });
 
@@ -67,9 +68,9 @@ self.addEventListener('fetch', (event) => {
   // 1. Navigation requests (App Shell HTML): Network-first, fallback to cached index.html
   if (isNavigate) {
     event.respondWith(
-      fetch(event.request)
+      fetch(event.request, { cache: 'reload' })
         .then((networkResponse) => {
-          if (networkResponse && networkResponse.status === 200) {
+          if (networkResponse && networkResponse.ok) {
             const clone = networkResponse.clone();
             caches.open(CACHE_NAME).then((cache) => cache.put('./index.html', clone));
           }
